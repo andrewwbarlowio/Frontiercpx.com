@@ -1,29 +1,29 @@
-# Frontier CP website replica plan
+# Frontier CP website structure replica
 
-Status: IN PROGRESS — 9 November 2026.
-Branch: build/bain-structure-replica. Production main must not be merged or promoted without Andy's review.
+Status: STRUCTURAL DRAFT BUILT; visual fidelity acceptance pending.
+Branch: build/bain-structure-replica. Draft PR: https://github.com/andrewwbarlowio/Frontiercpx.com/pull/1
 
-## Goal
-Reproduce the current Bain Capital corporate site's page hierarchy, section order, image geometry and responsive interactions using Frontier placeholder branding and neutral content. All form submissions are demonstration-only. Rewrite copy, replace imagery and connect services later.
+## Goal and boundary
+Match the Bain corporate page hierarchy, section order, image geometry and responsive controls with replaceable placeholders. Core reference map: docs/reference/bain-capital-site-structure.md. Exact parity must be demonstrated, not assumed.
 
-## Scope
-Core corporate pages: home, about, sustainability overview and its five topic pages, careers, people directory and profile template, news archive and article template, locations, ventures, crypto and six legal pages. External business sites and specialist healthcare/technology microsites are tracked destinations, not full separate-site rebuilds. Historical articles and every employee profile are represented by templates and demonstration records.
+Included: home, about, sustainability and five topics, careers, people directory/profile template, news archive/article template, locations, ventures, crypto and six legal pages. Search/destination placeholders bring the local route count to 24. External business websites, specialist sector microsites and complete historical archives are outside this corporate-site phase.
 
-## Delivery sequence
-- [x] Save reference hierarchy.
-- [x] Create isolated branch and this plan.
-- [ ] Inspect reference desktop geometry and menus.
-- [ ] Capture all scoped page structures and local anchors.
-- [ ] Implement matching shared shell and placeholder image slots.
-- [ ] Implement core landing/detail templates.
-- [ ] Implement local navigation, tabs, search, filters and demonstration forms.
-- [ ] Produce Vercel preview from this branch.
-- [ ] Check desktop and narrow layouts, links, form isolation and console errors.
-- [ ] Record differences and remaining work honestly.
-- [ ] Andy reviews preview; production release requires approval.
+## Checklist
+- [x] Save reference hierarchy and create isolated branch.
+- [x] Inspect desktop reference and capture scoped page structures.
+- [x] Build all scoped routes and local image slots.
+- [x] Implement desktop/mobile navigation and local demonstration interactions.
+- [x] Produce successful initial Vercel branch deployment.
+- [x] Check all local routes and representative desktop/mobile behaviour.
+- [x] Record verification limits and known differences in docs/verification.md.
+- [ ] Complete side-by-side comparison for every template at desktop/mobile sizes.
+- [ ] Refine typography and original motion behaviour to acceptance.
+- [ ] Verify final Vercel preview in an authorized session.
+- [ ] Andy accepts structure.
+- [ ] Replace copy and imagery; wire requested integrations in a later phase.
+- [ ] Andy approves production replacement; then merge/promote.
 
-## Acceptance
-Each route renders directly and on refresh. Section order and page-specific layouts follow reference. Image slots preserve intended aspect/cropping. Desktop and mobile navigation work with keyboard access. Forms never transmit or store entered information. No copied investor portal or real claims about Frontier's AUM, offices, staff or transactions. No tracker, remote submission, live login or reference-site navigation remains. Search/directory/archive use local demonstration records. Reduced motion and visible focus are supported. Placeholder content is editable independently of styling.
+## Acceptance criteria
+Direct routes and refresh work; menu anchors reach the right sections; placeholders preserve layout slots; forms never send or store entries; demo states are labelled; keyboard focus/reduced motion are supported; no copied investor login or claims about Frontier's assets, offices or transactions; production remains the coming soon page until approved.
 
-## Verification record
-To be updated with tested routes, widths, interactions, preview deployment, and known gaps. Exact pixel parity must not be claimed without side-by-side visual evidence. No backend or production publishing is in this phase.
+This checklist deliberately remains open where exact visual or deployed verification has not been completed.
