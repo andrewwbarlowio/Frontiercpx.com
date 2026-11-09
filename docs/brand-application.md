@@ -8,7 +8,7 @@ Source: Frontier-Brand-System-v1.zip and Frontier-Capital-Partners-Brand-Book-v1
 
 - Navy #0D233D, tint #193853, white #FFFFFF and paper #F4F6F8.
 - Canonical broad radial gradient centred at 50% / 12%, easing to navy at 80%.
-- Navy logo on white headers; white logo on navy footer. Narrow phones use the supplied bull with the accessible company name, rather than squeezing the full wordmark.
+- White transparent PNG logo on gradient headers; white vector logo on navy footer. The homepage header and hero use the same viewport-aligned gradient so the background continues through navigation. Navigation utilities, hamburger and mobile close controls are white. Narrow phones use the supplied bull with the accessible company name, rather than squeezing the full wordmark.
 - Arial / Helvetica / sans-serif for live type. The outlined serif lettering remains exclusive to the approved logo. No new premium font selection is implied.
 - White homepage headline on navy; approved “Cross the frontier. Funding your ambition.” pairing and working descriptor. Other editorial content remains editable placeholders.
 - Navigation, search, mobile menu, business selector, directory/archive filters, notices, map and footers share the Frontier palette.
