@@ -1,40 +1,27 @@
-# Structural draft verification
+# Verification — development pass 2
 
-Date: 9 November 2026. Status: REVIEWABLE STRUCTURAL DRAFT, not exact-parity acceptance.
+Date: 9 November 2026. Status: ready for structural review; exact pixel and motion parity remain unaccepted.
 
-## Delivered
-- 22 corporate reference routes plus local search and destination placeholders (24 routes).
-- Page-specific section markup and local responsive layout styles.
-- Neutral Frontier preview branding and authored SVG image placeholders.
-- Local desktop/mobile navigation, search dialog, platform and sustainability tabs, directory name filtering, grid/list view and demonstration pagination.
-- Archive category controls and native form submission interception.
-- Local media-placeholder dialogs and a non-persistent consent UI.
-- CSP blocks network connections, frames, objects and form submissions. No reference executable scripts or analytics are loaded.
-- Draft PR only; production main has not been merged or promoted.
+## Automated build checks
 
-## Checks completed
-- JavaScript syntax check passed (node --check).
-- Static asset and route-link validation: no missing local assets or broken route targets; no outbound anchor destinations.
-- All 24 routes opened directly in the browser against the local static preview. All had the expected title, no broken loaded images and no horizontal overflow at the 1363px desktop viewport.
-- Desktop About dropdown opened and exposed its section links.
-- Search for “people” returned the local People route and navigation succeeded.
-- People search for “Partner 02” returned one demonstration record.
-- Credit platform tab acquired active state and made its corresponding panel visible.
-- Home rendered in a 390px-wide iframe; mobile menu opened and displayed all six primary sections. Fixed empty animation container and inherited mobile menu height issues found during QA.
-- Local app checks produced no application JavaScript errors in the inspected browser log; browser-extension/sign-in errors unrelated to the application were excluded.
-- Initial Vercel branch deployment reported success through the GitHub commit status and Vercel bot comment.
+`node scripts/build.mjs` succeeds: 114 generated routes, 80 unique fictional profiles, 12 unique fictional articles and 23 demo office records. Checks cover 9,887 local link references and 2,683 asset references; no missing targets, outbound href/src requests or connected form actions. JavaScript syntax passes. These checks run during every Vercel build.
 
-## Verification limits and remaining fidelity work
-- The Vercel preview is protected. The connected Vercel account cannot access this newly created project, so cloud-deployed pages were not visually tested. Local QA used the same generated HTML/assets, with subsequent fixes committed to the preview branch.
-- Desktop typography uses locally available fallback fonts; licensed reference typefaces are not bundled.
-- The five-category platform has local positioning/tab behaviour rather than the original scroll-driven choreography. Hero advances manually. Exact motion and pixel parity have not been accepted.
-- The world map, videos and editorial images are placeholders. Map business filtering has no real map dataset.
-- Core templates represent employee/article details; this does not replicate every historical record. Directory filters/search use demonstration records. Full archive pagination/backend search await integration.
-- Mobile QA covered homepage and menu, not every route at every breakpoint. Accessibility received keyboard/focus implementation, not a complete independent audit.
-- Separate business websites, healthcare/technology microsite subtrees, portal authentication, live recruitment and report downloads remain labelled destination placeholders.
+## Browser checks
 
-## Next acceptance pass
-Compare every template side by side at desktop and mobile sizes, refine the platform/hero motion, confirm deployment in the owner's signed-in Vercel session, and review page-specific spacing. Replace neutral branding, copy and assets only after structure is accepted. Keep this PR unmerged until Andy approves the production replacement.
+- All 24 representative corporate, detail, legal and utility templates opened directly at desktop width: no horizontal overflow or broken loaded images.
+- All 24 templates checked at 390px and 768px container widths (48 checks); all passed after repairing Ventures/Crypto banner overflow.
+- Desktop menus, full-screen search and unique profile results work. Search, overlays and galleries include focus handling and Escape support.
+- Directory combined filters, empty results, grid/list, URL state and pagination checked. Page 2 starts at record 41; London/Credit produces four matching profiles, with a distinct working detail page.
+- News category/business/year filtering, unique article navigation and load-more checked. Load-more expands nine listed cards to eleven, plus the featured item.
+- Locations pin selection, Credit filtering (five pins), Europe tab (six cards) and View on map checked.
+- Platform category selection, gallery next-image and slide counter checked. Native anchor tab targets repaired across platform and region tabs.
+- Disconnected investor form accepts valid demo inputs and displays “nothing has been sent or saved”; no service integration exists.
+- No application JavaScript errors observed in inspected browser logs. This is functional QA, not an independent accessibility audit.
 
-## Follow-up assessment
-The subsequent full-section review found substantial layout defects missed by the route-load checks above. See docs/replica-gap-assessment.md for measured differences, verified repairs and the remaining failing acceptance criteria. Route success must not be treated as visual completeness. The draft remains unaccepted.
+## Limits
+
+Vercel preview protection prevents anonymous cloud-page visual verification, and the connected Vercel account cannot access this new project. Browser checks used the same generated build locally. Deployment status is checked separately through GitHub's Vercel integration.
+
+Open-source serif substitution, neutral image/video placeholders and locally implemented animation differ from the reference. Original proprietary typography and exact scroll choreography are not reproduced. External business/microsite trees and portal services remain destination placeholders. Demo records preserve layout density and interactions; they are not a migration of Bain's employee/history database.
+
+Earlier defects in docs/replica-gap-assessment.md are historical evidence. See docs/development-pass-2.md for the implemented follow-up; structural review is still required before production approval.

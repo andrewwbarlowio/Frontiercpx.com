@@ -1,0 +1,975 @@
+{
+  "people": [
+    {
+      "slug": "example-partner-01",
+      "name": "Example Partner 01",
+      "title": "Partner",
+      "business": "Tech Opportunities",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-02",
+      "name": "Example Partner 02",
+      "title": "Partner",
+      "business": "Ventures",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-03",
+      "name": "Example Partner 03",
+      "title": "Principal",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-04",
+      "name": "Example Partner 04",
+      "title": "Vice President, Compliance",
+      "business": "Corporate",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-05",
+      "name": "Example Partner 05",
+      "title": "Head of Compensation & Benefits",
+      "business": "Corporate",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-06",
+      "name": "Example Partner 06",
+      "title": "Partner",
+      "business": "Credit",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-07",
+      "name": "Example Partner 07",
+      "title": "Managing Director",
+      "business": "Credit",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-08",
+      "name": "Example Partner 08",
+      "title": "Managing Director",
+      "business": "Private Equity",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-09",
+      "name": "Example Partner 09",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-10",
+      "name": "Example Partner 10",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-11",
+      "name": "Example Partner 11",
+      "title": "Principal",
+      "business": "Crypto",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-12",
+      "name": "Example Partner 12",
+      "title": "Head of Communications & Public Affairs",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-13",
+      "name": "Example Partner 13",
+      "title": "Vice President",
+      "business": "Real Estate, Special Situations",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-14",
+      "name": "Example Partner 14",
+      "title": "Managing Director",
+      "business": "Insurance",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-15",
+      "name": "Example Partner 15",
+      "title": "Head of Partner Services",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-16",
+      "name": "Example Partner 16",
+      "title": "Vice President",
+      "business": "Life Sciences",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-17",
+      "name": "Example Partner 17",
+      "title": "Executive Vice President",
+      "business": "Real Estate, Special Situations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-18",
+      "name": "Example Partner 18",
+      "title": "Analyst",
+      "business": "Real Estate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-19",
+      "name": "Example Partner 19",
+      "title": "Co-Chairman",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-20",
+      "name": "Example Partner 20",
+      "title": "Managing Director",
+      "business": "Private Equity",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-21",
+      "name": "Example Partner 21",
+      "title": "Vice President, Treasury",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-22",
+      "name": "Example Partner 22",
+      "title": "Vice President, Sustainability & Impact",
+      "business": "Corporate",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-23",
+      "name": "Example Partner 23",
+      "title": "Managing Director, Investor Relations Strategy & Execution",
+      "business": "Investor Relations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-24",
+      "name": "Example Partner 24",
+      "title": "Partner",
+      "business": "Tech Opportunities",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-25",
+      "name": "Example Partner 25",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-26",
+      "name": "Example Partner 26",
+      "title": "Managing Director",
+      "business": "Special Situations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-27",
+      "name": "Example Partner 27",
+      "title": "Partner",
+      "business": "Special Situations",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-28",
+      "name": "Example Partner 28",
+      "title": "Head of CLO Fund Finance",
+      "business": "Credit",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-29",
+      "name": "Example Partner 29",
+      "title": "Director, Product Specialist",
+      "business": "Investor Relations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-30",
+      "name": "Example Partner 30",
+      "title": "Vice President",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-31",
+      "name": "Example Partner 31",
+      "title": "Director",
+      "business": "Investor Relations",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-32",
+      "name": "Example Partner 32",
+      "title": "Senior Advisory Partner",
+      "business": "Corporate",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-33",
+      "name": "Example Partner 33",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-34",
+      "name": "Example Partner 34",
+      "title": "Managing Director",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-35",
+      "name": "Example Partner 35",
+      "title": "Partner",
+      "business": "Investor Relations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-36",
+      "name": "Example Partner 36",
+      "title": "Associate General Counsel",
+      "business": "Real Estate, Special Situations",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-37",
+      "name": "Example Partner 37",
+      "title": "Principal",
+      "business": "Insurance",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-38",
+      "name": "Example Partner 38",
+      "title": "Partner",
+      "business": "Special Situations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-39",
+      "name": "Example Partner 39",
+      "title": "Senior Advisory Partner",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-40",
+      "name": "Example Partner 40",
+      "title": "Partner",
+      "business": "Investor Relations",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-41",
+      "name": "Example Partner 41",
+      "title": "Partner",
+      "business": "Tech Opportunities",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-42",
+      "name": "Example Partner 42",
+      "title": "Partner",
+      "business": "Ventures",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-43",
+      "name": "Example Partner 43",
+      "title": "Principal",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-44",
+      "name": "Example Partner 44",
+      "title": "Vice President, Compliance",
+      "business": "Corporate",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-45",
+      "name": "Example Partner 45",
+      "title": "Head of Compensation & Benefits",
+      "business": "Corporate",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-46",
+      "name": "Example Partner 46",
+      "title": "Partner",
+      "business": "Credit",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-47",
+      "name": "Example Partner 47",
+      "title": "Managing Director",
+      "business": "Credit",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-48",
+      "name": "Example Partner 48",
+      "title": "Managing Director",
+      "business": "Private Equity",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-49",
+      "name": "Example Partner 49",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-50",
+      "name": "Example Partner 50",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-51",
+      "name": "Example Partner 51",
+      "title": "Principal",
+      "business": "Crypto",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-52",
+      "name": "Example Partner 52",
+      "title": "Head of Communications & Public Affairs",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-53",
+      "name": "Example Partner 53",
+      "title": "Vice President",
+      "business": "Real Estate, Special Situations",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-54",
+      "name": "Example Partner 54",
+      "title": "Managing Director",
+      "business": "Insurance",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-55",
+      "name": "Example Partner 55",
+      "title": "Head of Partner Services",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-56",
+      "name": "Example Partner 56",
+      "title": "Vice President",
+      "business": "Life Sciences",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-57",
+      "name": "Example Partner 57",
+      "title": "Executive Vice President",
+      "business": "Real Estate, Special Situations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-58",
+      "name": "Example Partner 58",
+      "title": "Analyst",
+      "business": "Real Estate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-59",
+      "name": "Example Partner 59",
+      "title": "Co-Chairman",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-60",
+      "name": "Example Partner 60",
+      "title": "Managing Director",
+      "business": "Private Equity",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-61",
+      "name": "Example Partner 61",
+      "title": "Vice President, Treasury",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-62",
+      "name": "Example Partner 62",
+      "title": "Vice President, Sustainability & Impact",
+      "business": "Corporate",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-63",
+      "name": "Example Partner 63",
+      "title": "Managing Director, Investor Relations Strategy & Execution",
+      "business": "Investor Relations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-64",
+      "name": "Example Partner 64",
+      "title": "Partner",
+      "business": "Tech Opportunities",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-65",
+      "name": "Example Partner 65",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-66",
+      "name": "Example Partner 66",
+      "title": "Managing Director",
+      "business": "Special Situations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-67",
+      "name": "Example Partner 67",
+      "title": "Partner",
+      "business": "Special Situations",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-68",
+      "name": "Example Partner 68",
+      "title": "Head of CLO Fund Finance",
+      "business": "Credit",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-69",
+      "name": "Example Partner 69",
+      "title": "Director, Product Specialist",
+      "business": "Investor Relations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-70",
+      "name": "Example Partner 70",
+      "title": "Vice President",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-71",
+      "name": "Example Partner 71",
+      "title": "Director",
+      "business": "Investor Relations",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-72",
+      "name": "Example Partner 72",
+      "title": "Senior Advisory Partner",
+      "business": "Corporate",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-73",
+      "name": "Example Partner 73",
+      "title": "Partner",
+      "business": "Private Equity",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-74",
+      "name": "Example Partner 74",
+      "title": "Managing Director",
+      "business": "Private Equity",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-75",
+      "name": "Example Partner 75",
+      "title": "Partner",
+      "business": "Investor Relations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-76",
+      "name": "Example Partner 76",
+      "title": "Associate General Counsel",
+      "business": "Real Estate, Special Situations",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-77",
+      "name": "Example Partner 77",
+      "title": "Principal",
+      "business": "Insurance",
+      "location": "London"
+    },
+    {
+      "slug": "example-partner-78",
+      "name": "Example Partner 78",
+      "title": "Partner",
+      "business": "Special Situations",
+      "location": "Boston"
+    },
+    {
+      "slug": "example-partner-79",
+      "name": "Example Partner 79",
+      "title": "Senior Advisory Partner",
+      "business": "Corporate",
+      "location": "Singapore"
+    },
+    {
+      "slug": "example-partner-80",
+      "name": "Example Partner 80",
+      "title": "Partner",
+      "business": "Investor Relations",
+      "location": "London"
+    }
+  ],
+  "news": [
+    {
+      "slug": "placeholder-article-01",
+      "title": "A new perspective on funding business ambition",
+      "category": "press-releases",
+      "business": "Credit",
+      "year": "2026",
+      "date": "9 November 2026"
+    },
+    {
+      "slug": "placeholder-article-02",
+      "title": "Building stronger partnerships for long-term growth",
+      "category": "in-the-news",
+      "business": "Private Equity",
+      "year": "2025",
+      "date": "8 November 2025"
+    },
+    {
+      "slug": "placeholder-article-03",
+      "title": "Unlocking opportunity across changing markets",
+      "category": "insights",
+      "business": "Real Estate",
+      "year": "2024",
+      "date": "7 November 2024"
+    },
+    {
+      "slug": "placeholder-article-04",
+      "title": "Connecting expertise with the right capital",
+      "category": "press-releases",
+      "business": "Ventures",
+      "year": "2026",
+      "date": "6 November 2026"
+    },
+    {
+      "slug": "placeholder-article-05",
+      "title": "Supporting the next stage of business development",
+      "category": "in-the-news",
+      "business": "Credit",
+      "year": "2025",
+      "date": "5 November 2025"
+    },
+    {
+      "slug": "placeholder-article-06",
+      "title": "How leadership creates lasting value",
+      "category": "insights",
+      "business": "Private Equity",
+      "year": "2024",
+      "date": "4 November 2024"
+    },
+    {
+      "slug": "placeholder-article-07",
+      "title": "The changing landscape of business finance",
+      "category": "press-releases",
+      "business": "Real Estate",
+      "year": "2026",
+      "date": "3 November 2026"
+    },
+    {
+      "slug": "placeholder-article-08",
+      "title": "Turning complex challenges into practical solutions",
+      "category": "in-the-news",
+      "business": "Ventures",
+      "year": "2025",
+      "date": "2 November 2025"
+    },
+    {
+      "slug": "placeholder-article-09",
+      "title": "The role of relationships in successful transactions",
+      "category": "insights",
+      "business": "Credit",
+      "year": "2024",
+      "date": "1 November 2024"
+    },
+    {
+      "slug": "placeholder-article-10",
+      "title": "Finding opportunity through sector expertise",
+      "category": "press-releases",
+      "business": "Private Equity",
+      "year": "2026",
+      "date": "9 November 2026"
+    },
+    {
+      "slug": "placeholder-article-11",
+      "title": "A practical approach to sustainable growth",
+      "category": "in-the-news",
+      "business": "Real Estate",
+      "year": "2025",
+      "date": "8 November 2025"
+    },
+    {
+      "slug": "placeholder-article-12",
+      "title": "Creating a stronger platform for the future",
+      "category": "insights",
+      "business": "Ventures",
+      "year": "2024",
+      "date": "7 November 2024"
+    }
+  ],
+  "offices": [
+    {
+      "id": "office-1",
+      "city": "Boston",
+      "region": "Americas",
+      "lon": -71.06,
+      "lat": 42.36,
+      "businesses": [
+        "Credit",
+        "Ventures"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-2",
+      "city": "Chicago",
+      "region": "Americas",
+      "lon": -87.63,
+      "lat": 41.88,
+      "businesses": [
+        "Private Equity",
+        "Special Situations"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-3",
+      "city": "New York",
+      "region": "Americas",
+      "lon": -74,
+      "lat": 40.71,
+      "businesses": [
+        "Real Estate",
+        "Insurance"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-4",
+      "city": "New York Broadway",
+      "region": "Americas",
+      "lon": -73.99,
+      "lat": 40.73,
+      "businesses": [
+        "Ventures",
+        "Life Sciences"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-5",
+      "city": "Palo Alto",
+      "region": "Americas",
+      "lon": -122.14,
+      "lat": 37.44,
+      "businesses": [
+        "Special Situations",
+        "Tech Opportunities"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-6",
+      "city": "San Francisco",
+      "region": "Americas",
+      "lon": -122.42,
+      "lat": 37.77,
+      "businesses": [
+        "Insurance",
+        "Crypto"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-7",
+      "city": "Abu Dhabi",
+      "region": "Asia",
+      "lon": 54.38,
+      "lat": 24.45,
+      "businesses": [
+        "Life Sciences",
+        "Double Impact"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-8",
+      "city": "Hong Kong",
+      "region": "Asia",
+      "lon": 114.17,
+      "lat": 22.32,
+      "businesses": [
+        "Tech Opportunities",
+        "Credit"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-9",
+      "city": "Mauritius",
+      "region": "Asia",
+      "lon": 57.55,
+      "lat": -20.16,
+      "businesses": [
+        "Crypto",
+        "Private Equity"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-10",
+      "city": "Melbourne",
+      "region": "Asia",
+      "lon": 144.96,
+      "lat": -37.81,
+      "businesses": [
+        "Double Impact",
+        "Real Estate"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-11",
+      "city": "Mumbai",
+      "region": "Asia",
+      "lon": 72.88,
+      "lat": 19.08,
+      "businesses": [
+        "Credit",
+        "Ventures"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-12",
+      "city": "Osaka",
+      "region": "Asia",
+      "lon": 135.5,
+      "lat": 34.69,
+      "businesses": [
+        "Private Equity",
+        "Special Situations"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-13",
+      "city": "Seoul",
+      "region": "Asia",
+      "lon": 126.98,
+      "lat": 37.57,
+      "businesses": [
+        "Real Estate",
+        "Insurance"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-14",
+      "city": "Shanghai",
+      "region": "Asia",
+      "lon": 121.47,
+      "lat": 31.23,
+      "businesses": [
+        "Ventures",
+        "Life Sciences"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-15",
+      "city": "Singapore",
+      "region": "Asia",
+      "lon": 103.82,
+      "lat": 1.35,
+      "businesses": [
+        "Special Situations",
+        "Tech Opportunities"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-16",
+      "city": "Sydney",
+      "region": "Asia",
+      "lon": 151.21,
+      "lat": -33.87,
+      "businesses": [
+        "Insurance",
+        "Crypto"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-17",
+      "city": "Tokyo",
+      "region": "Asia",
+      "lon": 139.69,
+      "lat": 35.68,
+      "businesses": [
+        "Life Sciences",
+        "Double Impact"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-18",
+      "city": "Dublin",
+      "region": "Europe",
+      "lon": -6.26,
+      "lat": 53.35,
+      "businesses": [
+        "Tech Opportunities",
+        "Credit"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-19",
+      "city": "Lisbon",
+      "region": "Europe",
+      "lon": -9.14,
+      "lat": 38.72,
+      "businesses": [
+        "Crypto",
+        "Private Equity"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-20",
+      "city": "London",
+      "region": "Europe",
+      "lon": -0.12,
+      "lat": 51.51,
+      "businesses": [
+        "Double Impact",
+        "Real Estate"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-21",
+      "city": "Luxembourg",
+      "region": "Europe",
+      "lon": 6.13,
+      "lat": 49.61,
+      "businesses": [
+        "Credit",
+        "Ventures"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-22",
+      "city": "Madrid",
+      "region": "Europe",
+      "lon": -3.7,
+      "lat": 40.42,
+      "businesses": [
+        "Private Equity",
+        "Special Situations"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    },
+    {
+      "id": "office-23",
+      "city": "Munich",
+      "region": "Europe",
+      "lon": 11.58,
+      "lat": 48.14,
+      "businesses": [
+        "Real Estate",
+        "Insurance"
+      ],
+      "address": "Office address placeholder",
+      "phone": "Contact details to be supplied"
+    }
+  ],
+  "businesses": [
+    "Credit",
+    "Private Equity",
+    "Real Estate",
+    "Ventures",
+    "Special Situations",
+    "Insurance",
+    "Life Sciences",
+    "Tech Opportunities",
+    "Crypto",
+    "Double Impact"
+  ]
+}

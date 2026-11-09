@@ -39,3 +39,7 @@ The protected Vercel preview remains inaccessible to this connection. The assess
 
 ## Scope of fixes here
 Only the high-impact stacked-slide and invisible-background defects were corrected in this audit. This is not a claim that the wider parity work is finished. The live coming soon page remains untouched.
+
+
+## Follow-up implementation
+The second development pass addresses this assessment. See development-pass-2.md and verification.md for current implementation, checks and remaining limits. The failing assessment above records the earlier snapshot, not the current build.
