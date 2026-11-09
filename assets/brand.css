@@ -41,3 +41,6 @@ em{color:inherit!important}.cry-ven-banner-section,.cry-ven-about-section{backgr
 .preview-mobile-menu-header{background:transparent!important;color:#fff!important}.preview-mobile-menu-header .preview-overlay-close{color:#fff!important}
 .site-header .dropdown-menu{background:var(--frontier-paper)!important}.site-header .dropdown-menu a,.site-header .dropdown-menu button{color:var(--frontier-navy)!important}
 @media(max-width:359px){.site-header .main-logo img,.preview-mobile-menu-header .main-logo img{content:url('/assets/brand/bull-white.svg')}}
+/* Homepage image exploration: generated illustrations, ready for later replacement. */
+.path-frontpage .our-people-section{background-image:url('/assets/images/home/team.webp')!important;background-position:center 45%!important}.path-frontpage .our-people-section::before{background:linear-gradient(90deg,#0d233de8 0%,#0d233da6 48%,#0d233d33 100%)}
+.path-frontpage .investment-spotlight-slider .slide-single:nth-child(1) img{object-position:48% center}.path-frontpage .investment-spotlight-slider .slide-single:nth-child(2) img{object-position:48% center}.path-frontpage .investment-spotlight-slider .slide-single:nth-child(3) img{object-position:58% center}
