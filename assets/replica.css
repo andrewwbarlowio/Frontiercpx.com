@@ -33,3 +33,22 @@
 .contact-section{height:calc(100vh - 40px);min-height:700px;overflow:hidden}.contact-section .contact-map-box{position:relative;height:calc(100vh - 100px);min-height:640px}.contact-section .contact-tab-col{position:static!important}.contact-section .tab-content{position:absolute!important;top:0;left:calc(50% - 50vw);width:100vw;height:100%!important;min-height:0!important;z-index:0}.contact-section .tab-content>.tab-pane{height:100%;overflow:auto}.contact-section #tabmap{overflow:hidden}.contact-section .map-svg-wrap{position:absolute!important;inset:0;width:100%!important;height:100%!important;min-height:0}.contact-section .preview-world{height:100%;aspect-ratio:auto}.contact-section .contact-row{pointer-events:none}.contact-section .contact-row button,.contact-section .contact-row a,.contact-section .contact-row .dropdown-menu{pointer-events:auto}.contact-section .tab-pane:not(#tabmap){padding:175px max(24px,4.6vw) 20px}.contact-section .tab-pane:not(#tabmap) article{margin:0}
 @media(max-width:991px){.contact-section{height:720px;min-height:720px}.contact-section .contact-map-box{height:660px;min-height:660px}.contact-section .tab-pane:not(#tabmap){padding-top:190px}.contact-section .preview-world{height:auto;aspect-ratio:900/520;margin-top:180px}.contact-section .preview-map-callout{bottom:auto;top:calc(100% + 20px);background:#fff;left:24px}.contact-section .map-svg-wrap{overflow:visible}}
 .preview-mobile-utilities{display:none}.preview-local-sites-title{margin-top:35px!important}@media(max-width:991px){.preview-mobile-utilities{display:flex;flex-direction:column;gap:15px;padding:30px 0 0}.preview-mobile-utilities a,.preview-mobile-utilities button{font:14px Inter,sans-serif;color:#174467;background:none;border:0;text-align:left;padding:0}}
+
+/* Full mobile navigation matches the corporate reference's scrollable hierarchy. */
+.preview-mobile-menu{padding:0!important;background:#1b2c44;color:#fff;display:flex;flex-direction:column;overflow:hidden!important;z-index:1200}
+.preview-mobile-menu-header{height:64px;min-height:64px;display:flex;align-items:center;justify-content:space-between;padding:10px 27px;background:#fff;color:var(--ink);gap:20px}
+.preview-mobile-menu-header .main-logo,.preview-mobile-menu-header .main-logo img{width:220px!important;max-width:100%;height:auto!important;margin:0!important}
+.preview-mobile-menu-header .main-logo{max-width:calc(100% - 52px)!important}
+.preview-mobile-menu-header .preview-overlay-close{position:static;padding:0;width:32px;height:40px;font:300 38px/1 Inter,sans-serif;letter-spacing:0;color:var(--ink);flex:none}
+.preview-mobile-menu-content{overflow-y:auto;overscroll-behavior:contain;flex:1;min-height:0;padding:42px 30px calc(32px + env(safe-area-inset-bottom));scrollbar-color:#0c1c2b #1b2c44;scrollbar-width:thin}
+.preview-mobile-menu-group{margin:0 0 34px}
+.preview-mobile-menu-group h2,.preview-mobile-search-card h2{font:600 18px/1.35 Inter,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:#6894c0;margin:0 0 14px}
+.preview-mobile-menu-group a{display:block;color:#fff!important;font:400 28px/1.35 Inter,sans-serif;text-decoration:none;padding:0;margin:0 0 1px;overflow-wrap:break-word}
+.preview-mobile-local{margin-bottom:50px}.preview-mobile-local a{font-size:22px;margin-top:20px}
+.preview-mobile-search-card{margin:43px -27px 38px;padding:40px 27px;background:#fff;border-bottom:10px solid #007c9e;color:var(--ink)}
+.preview-mobile-search-card h2{color:#aaa;margin:0 0 23px}
+.preview-mobile-search-card button{display:block;width:100%;background:none;border:0;border-radius:0;color:var(--ink);padding:0;text-align:left;font:400 28px/1.25 var(--serif)}
+.preview-mobile-search-card button::after{content:'_';display:inline}
+.preview-mobile-investors{margin-bottom:0}.preview-mobile-investors a{font-size:22px}
+@media(min-width:600px){.preview-mobile-menu-header{height:80px;min-height:80px;padding:14px 40px}.preview-mobile-menu-content{padding:44px 40px}.preview-mobile-menu-group a{font-size:34px}.preview-mobile-search-card{margin-left:-34px;margin-right:-34px;padding:40px 34px}}
+@media(prefers-reduced-motion:reduce){.preview-mobile-menu *{scroll-behavior:auto!important}}
