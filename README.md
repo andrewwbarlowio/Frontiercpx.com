@@ -16,3 +16,7 @@ Forms are demonstrators only. CSP blocks submissions, network connections and em
 Inter and Libre Caslon Display are bundled under their included SIL Open Font Licenses. Libre Caslon Display substitutes for the reference proprietary serif. The world map uses public-domain Natural Earth boundaries (assets/world-LICENSE.txt). Photography/video slots use authored neutral placeholders.
 
 See docs/build-plan.md, docs/verification.md and docs/development-pass-2.md for scope, evidence and remaining differences. Separate business sites, authentication, recruitment, report downloads and historical archive migration remain labelled placeholders.
+
+## Website branding
+
+The saved Frontier Capital Partners Brand System v1 is applied through assets/brand.css and the supplied vector artwork in assets/logo.svg and assets/brand/. Live typography uses Arial/Helvetica. See docs/brand-application.md for asset provenance, colour mappings, scope and review limits.

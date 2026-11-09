@@ -1,0 +1,2 @@
+:root { --frontier-navy:#0D233D; --frontier-tint:#193853; --frontier-white:#FFFFFF; --frontier-paper:#F4F6F8; --frontier-text:#0D233D; --frontier-muted:#536477; --frontier-background:radial-gradient(ellipse at 50% 12%,#193853 0%,#0D233D 80%); --font-body:Arial,Helvetica,sans-serif; }
+.frontier-signature-background {background:var(--frontier-background);}

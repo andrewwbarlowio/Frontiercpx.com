@@ -31,3 +31,7 @@ Earlier defects in docs/replica-gap-assessment.md are historical evidence. See d
 Replaced the simplified accordion hamburger with a full-screen navy menu following the supplied mobile screenshots: corporate links, local sites, all ten businesses in reference order, white search card and investor placeholder. A fixed white logo/close bar stays visible while the content scrolls independently. Background is inert and scroll-locked; focus is trapped, Escape/close restore the trigger, and resize to desktop dismisses the menu.
 
 Browser checked at 320px, 390px and 768px container widths with no menu horizontal overflow; all 18 navigation links present. Search-card handoff returns the distinct Partner 07 result. Escape restores focus, unlocks scrolling and removes background inert state. Tested both home and About templates. Shared desktop navigation remains in place. This pass addresses the screenshot discrepancy, not acceptance of every site animation or pixel.
+
+## Frontier brand pass
+
+See brand-application.md. Approved vector logo, navy/tint radial gradient, white/paper palette and Arial system typography applied across generated pages. All 24 desktop templates and 48 phone/tablet template checks passed. Verified branded mobile menu/search. Full local build checks now cover 9,999 link references and 3,023 assets. Production remains unchanged.
