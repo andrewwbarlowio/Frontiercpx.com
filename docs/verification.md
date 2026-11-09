@@ -35,3 +35,6 @@ Date: 9 November 2026. Status: REVIEWABLE STRUCTURAL DRAFT, not exact-parity acc
 
 ## Next acceptance pass
 Compare every template side by side at desktop and mobile sizes, refine the platform/hero motion, confirm deployment in the owner's signed-in Vercel session, and review page-specific spacing. Replace neutral branding, copy and assets only after structure is accepted. Keep this PR unmerged until Andy approves the production replacement.
+
+## Follow-up assessment
+The subsequent full-section review found substantial layout defects missed by the route-load checks above. See docs/replica-gap-assessment.md for measured differences, verified repairs and the remaining failing acceptance criteria. Route success must not be treated as visual completeness. The draft remains unaccepted.
