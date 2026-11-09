@@ -1,0 +1,133 @@
+.video-banner-caption-text, .spotlight-slide, .scroll { opacity: 1!important; }
+.intro-section-txt { opacity: 1!important; visibility: visible!important; }
+.visibility-hidden, .map-svg, .map-svg-mobile, .intro-section .read-more-link, .intro-section-txt, .news-detail-section .news-date, .news-detail-left, .news-detail-right, .portfolio-detail-content > .row > .detail-content-left, .portfolio-detail-content > .row > .detail-content-right, .portfolio-video-wrap, .contact-note, .see-all-location-link, .news-listing-section .featured-news, .news-listing-wrap .news-box-wrap, .portfolio-grid .grid-item, .portfolio-caption, .portfolio-search, .guiding-principles-block .guiding-principles-note, .guiding-principles-block .guiding-principles-icons-wrap .guiding-principles-icon-block, .page-title, .section-title, .small-section-title, .strategy-left-block, .strategy-right-block .strategy-block, .gradient-section-slants-content-wrap .container > img, .gradient-section-slants-content-wrap h3, .esg-list .esg-item, .reveal-fade, .sitemap-bottom-wrap, .sitemap-top-wrap { opacity: 1!important; visibility: visible!important; }
+.search__form { display: none; }
+.d-none { display: block!important; }
+.gradient-section-slants-content { color: #1CA6DF; }
+.fp-fixed { background-color: #1C2156; }
+.portfolio-detail-banner.fp-auto-height { padding-bottom: 0 !important; }
+.more-menu-section .container { position: relative; z-index: 1; }
+.intro-section .read-more-link, .intro-section .read-more-link i { left: 0; }
+.map-svg-wrap, .map-svg-mobile-wrap { flex-direction: column;align-items: center;justify-content: center; }
+.gradient-section-slants-content .fp-bg { top: 0; bottom: 0; width: 100%; position: absolute; }
+button.navbar-toggler.d-none { display: none !important; }
+.more-menu-slants { display: none; }
+#smooth-wrapper{
+    position: static !important;
+}
+#smooth-wrapper #smooth-content{
+    transform: none !important;
+}
+.stagger-anim{
+    opacity: 1!important;
+    visibility: visible!important;
+}
+.banner-slider-wrap .tanagram-anim-col
+{
+    display: none!important;
+}
+.banner-slide .d-none{
+    display: none!important;
+}
+.bottom-header{
+    background-color: #fff!important;
+}
+.integrated-platform-section{
+    background-color: #152d48!important;
+}
+.platform-anim-circle .nav-tabs,
+.platform-anim-circle .nav-tabs .nav-item,
+.platform-circle-col,
+.platform-anim-wrap .platform-content-col,
+.platform-anim-circle .nav-tabs .nav-link,
+.platform-content-wrap>.content-text
+{
+
+    position: static;
+    border-radius: 0!important;
+    transform: none!important;
+}
+.platform-circle-col{
+    margin-left: 0;
+
+}
+.platform-anim-circle .nav-tabs .nav-item{
+    margin-bottom: 20px;
+}
+body .platform-anim-circle .nav-tabs .nav-link.active{
+    color: #fff;
+}
+body .platform-anim-circle .nav-tabs .nav-link{
+    height: auto;
+    width: auto;
+}
+.platform-anim-circle .animation-circle{
+    display: none;
+}
+.platform-anim-circle{
+    height: auto;
+    width: auto;
+}
+.platform-anim-wrap .platform-content-col{
+    margin-left: 0;
+    opacity: 1;
+}
+.platform-tab-row{
+margin-top: 40px;
+}
+.section.our-advantages-section{
+    background-color: #ABCAE9;
+}
+.section.spotlight-section,
+.section.our-people-section
+{
+    background-color: #152D48;
+}
+.investment-spotlight-slider{
+    display: flex;
+    flex-wrap: wrap;
+}
+.investment-spotlight-slider .slide-single{
+    width:50%;
+    margin-bottom: 20px;
+}
+.news-items-slider .news-item{
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.section.contact-section.home-page-contact-section,
+.contact-section+.site-footer
+{
+    background-color: #1e5e94!important;
+}
+/* body{
+    display: none!important;
+} */
+ .team-review-slide:not(.slick-current){
+    opacity: 1!important;
+    visibility: visible!important;
+ }
+ .team-review-slide:not(.slick-current) .review-title-wrap{
+    margin-left: 0;
+ }
+ .team-review-slide,
+ .image-gallary-slider .image-slide
+ {
+    margin-bottom: 40px;
+ }
+ .image-gallary-section
+{
+    background-color: #fefcf5;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .more-menu-section .widget-title { color: #1C2156; }
+}
+@media only screen and (max-width: 767px) {
+    .map-svg-wrap, .map-svg-mobile-wrap { top: 60px; }
+}
+
+
+

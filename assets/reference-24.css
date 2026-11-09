@@ -1,0 +1,611 @@
+body.crypto-venture {
+  background: #fefcf5;
+}
+
+.theme-crypto-venture .section-wrapper section.cry-ven-banner-section {
+  padding-top: 180px;
+  padding-bottom: 0;
+}
+
+.theme-crypto-venture .cry-ven-banner-section .section-title {
+  font-size: 90px;
+}
+
+.theme-crypto-venture .cry-ven-banner-section .title-wrap {
+  margin-bottom: 100px;
+}
+
+.theme-crypto-venture .cry-ven-banner-section .banner-caption-text {
+  padding-right: 42%;
+}
+
+.theme-crypto-venture .banner-caption-text em {
+  color: var(--colorRed);
+}
+
+.theme-crypto-venture .banner-image-col {
+  margin-right: calc((100vw - 1430px + 15px) / -2);
+  width: calc((25% + 30% + (100vw - 1430px + 15px) / 2));
+  margin-left: -30%;
+  padding-right: 0;
+  margin-top: -20px;
+}
+
+.theme-crypto-venture .banner-image-col .image-wrap,
+.theme-crypto-venture .banner-image-col .image-wrap img {
+  width: 100%;
+}
+
+.theme-crypto-venture .about-grid-row .about-grid-title {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--secondaryFont);
+  margin-bottom: 20px;
+}
+
+.theme-crypto-venture .about-grid-row .content-text,
+.theme-crypto-venture .simple-content-col .content-text {
+  font-size: 22px;
+}
+
+.theme-crypto-venture .about-grid-col {
+  margin-bottom: 40px;
+}
+
+.theme-crypto-venture .simple-content-col .btn-wrap {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.theme-crypto-venture .advantage-single {
+  margin-bottom: 40px;
+}
+
+.theme-crypto-venture .advantage-single .advantage-title {
+  font-size: 26px;
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* counter section */
+.theme-crypto-venture .counter-banner-section .banner-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.theme-crypto-venture .parallax-bg {
+  position: absolute;
+  height: 110%;
+  top: -5%;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.theme-crypto-venture .banner-bg.bg-parallax .bg-overlay img {
+  position: absolute;
+  width: 100%;
+  height: 140%;
+  max-height: 140%;
+  /* bottom: 0; */
+  object-fit: cover;
+}
+
+.theme-crypto-venture .counter-banner-section .parallax-bg {
+  background-position: top;
+}
+
+.theme-crypto-venture .counter-banner-section {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 800px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-crypto-venture .counter-banner-section .bg-overlay {
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.theme-crypto-venture .counter-banner-section .counter-banner-content {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-crypto-venture .counter-banner-section .container,
+.theme-crypto-venture .counter-banner-content {
+  height: 100%;
+}
+
+.theme-crypto-venture .banner-counter-row {
+  max-width: 40%;
+  margin-top: auto;
+
+}
+
+.theme-crypto-venture .banner-counter-col {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.theme-crypto-venture .banner-counter-col .count-no {
+  font-weight: 300;
+  font-family: var(--primaryFont);
+  font-size: 100px;
+  color: var(--colorBlueBG);
+}
+
+.theme-crypto-venture .banner-counter-col .count-title {
+  color: #fff;
+}
+
+.theme-crypto-venture .count-no sub,
+.theme-crypto-venture .count-no sup {
+  font-size: 70%;
+}
+
+.theme-crypto-venture .count-no sub {
+  bottom: 0;
+}
+
+.theme-crypto-venture .count-no sup {
+  vertical-align: super;
+  top: 0.2em;
+}
+
+.theme-crypto-venture .parallax-bg::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+  opacity: 0.4;
+}
+
+
+
+.theme-crypto-venture .cry-ven-contact-section {
+  background-color: #1e5e94;
+  color: #fff;
+  height: 110vh;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-crypto-venture .cry-ven-contact-section .container,
+.theme-crypto-venture .cry-ven-contact-section .contact-wrapper {
+  height: 100%;
+}
+
+.theme-crypto-venture .cry-ven-contact-section .contact-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-crypto-venture .contact-content-col,
+.theme-crypto-venture .contact-wrapper .section-title {
+  z-index: 1;
+  position: relative;
+}
+
+.theme-crypto-venture .contact-wrapper .contact-content-wrap {
+  margin-top: auto;
+}
+
+.theme-crypto-venture .contact-content-wrap .content-text {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.theme-crypto-venture .contact-content-wrap .content-text a {
+  color: var(--colorLightBlue);
+  text-decoration: underline;
+}
+
+.theme-crypto-venture .contact-content-wrap .content-text a:hover {
+  text-decoration: none;
+}
+
+.theme-crypto-venture .map-svg-wrap {
+  position: absolute;
+  width: 100%;
+  height: 140%;
+  top: -20%;
+  left: 0;
+  /* z-index: 0; */
+  /* pointer-events: none; */
+}
+
+.theme-crypto-venture .map-svg-wrap #chartdiv {
+  height: 100%;
+  width: 100%
+}
+
+.theme-crypto-venture .map-address {
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.theme-crypto-venture .map-address,
+.theme-crypto-venture .map-address a {
+  color: var(--primaryColor);
+}
+
+.theme-crypto-venture .map-address a:hover,
+.theme-crypto-venture .map-address a:focus {
+  color: var(--colorSecondary);
+}
+
+.theme-crypto-venture .btn-blue {
+  padding-right: 30px;
+  position: relative;
+  text-align: left;
+}
+
+
+.theme-crypto-venture .btn-blue:not(.btn-outline) {
+
+  color: var(--primaryColor);
+}
+
+.theme-crypto-venture .btn-blue:not(.btn-outline):hover {
+  color: #fff;
+}
+
+.theme-crypto-venture .btn-blue .arrow-icon {
+  background-image: url("/assets/image-placeholder.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 14px;
+  width: 8px;
+  background-size: contain;
+}
+
+.theme-crypto-venture .btn-blue:not(.btn-outline) .arrow-icon {
+  background-image: url("/assets/image-placeholder.svg");
+}
+
+.theme-crypto-venture .btn-blue:hover .arrow-icon {
+  background-image: url("/assets/image-placeholder.svg");
+}
+
+.theme-crypto-venture .site-footer {
+  background-color: #1e5e94 !important;
+  color: #abcae9 !important;
+  padding-top: 0;
+  z-index: 4;
+}
+
+/* venture css */
+.theme-crypto-venture .site-venture .cry-ven-banner-section .banner-caption-text {
+  padding-right: 35%;
+}
+
+.theme-crypto-venture .site-venture .banner-image-col {
+  margin-right: calc((100vw - 1430px + 15px) / -2);
+  width: calc((33.33% + 14% + (100vw - 1430px + 15px) / 2));
+  margin-left: -14%;
+  padding-right: 0;
+  margin-top: -100px;
+}
+
+/* venture css End*/
+
+.crypto-venture .site-color-div {
+  display: none;
+}
+
+.crypto-venture .location-address-wrap .business-list-wrap {
+  display: none;
+}
+
+.cry-ven-contact-section .contact-content-main {
+  height: 100%;
+}
+
+.cry-ven-contact-section .contact-content-main {
+  position: relative;
+}
+
+.chart-legends-btn {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 2;
+}
+
+.chart-legends-btn button {
+  background-image: url("/assets/image-placeholder.svg");
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  padding-left: 20px;
+  color: #fff;
+  display: block;
+  background-position: center left;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  background-size: 15px;
+  margin-bottom: 8px;
+}
+
+.chart-legends-btn button#lengend-all-bu-btn {
+  background-image: url("/assets/image-placeholder.svg");
+}
+
+.chart-legends-btn button.legend-hide {
+  opacity: 0.5;
+}
+
+.cry-ven-contact-section .map-svg-wrap .am5-html-container {
+  z-index: 3;
+}
+
+@media(min-width:768px) {
+  .theme-crypto-venture .section-wrapper:not(.site-venture) .cry-ven-banner-section .row {
+    flex-wrap: nowrap;
+  }
+}
+
+@media(min-width:1200px) {
+  .theme-crypto-venture .row.about-grid-row {
+    margin: 0 -30px;
+  }
+
+  .theme-crypto-venture .about-grid-row .about-grid-col {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+
+
+@media(max-width:1600px) {
+  .theme-crypto-venture .cry-ven-banner-section .title-wrap {
+    margin-bottom: 50px;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .section-title {
+    font-size: 84px;
+  }
+
+  .theme-crypto-venture .banner-image-col {
+    margin-right: -4rem;
+    width: calc(25% + 4rem + 30%);
+  }
+
+  .theme-crypto-venture .section-wrapper section.cry-ven-banner-section {
+    padding-top: 160px;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .banner-caption-text {
+    padding-right: 48%;
+  }
+
+  .theme-crypto-venture .banner-counter-col .count-no {
+    font-size: 90px;
+  }
+
+  .theme-crypto-venture .about-grid-row .about-grid-title,
+  .theme-crypto-venture .advantage-single .advantage-title {
+    font-size: 24px;
+  }
+
+  .theme-crypto-venture .site-venture .banner-image-col {
+    margin-right: -4rem;
+    width: calc(33.33% + 4rem + 14%);
+  }
+
+  .theme-crypto-venture .site-venture .cry-ven-banner-section .banner-caption-text {
+    padding-right: 32%;
+  }
+
+}
+
+@media(max-width:1400px) {
+  .theme-crypto-venture .cry-ven-banner-section .section-title {
+    font-size: 70px;
+  }
+
+  .theme-crypto-venture .banner-counter-col .count-no {
+    font-size: 75px;
+  }
+
+  .theme-crypto-venture .about-grid-row .about-grid-title,
+  .theme-crypto-venture .advantage-single .advantage-title {
+    font-size: 22px;
+  }
+
+  .theme-crypto-venture .contact-content-wrap .content-text,
+  .theme-crypto-venture .simple-content-col .content-text {
+    font-size: 20px;
+  }
+
+  .theme-crypto-venture .site-venture .cry-ven-banner-section .banner-caption-text {
+    padding-right: 28%;
+  }
+
+  .theme-crypto-venture .map-address {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:1199px) {
+  .theme-crypto-venture .banner-counter-row {
+    max-width: 70%;
+  }
+
+  .theme-crypto-venture .cry-ven-contact-section {
+    height: 100vh;
+  }
+
+  .theme-crypto-venture .section-wrapper:not(.site-venture) .banner-image-col {
+    margin-top: 30px;
+    width: calc(30% + 4rem + 36%);
+    margin-left: -36%;
+  }
+
+}
+
+@media(max-width:1024px) {
+
+  .map-svg-wrap::before,
+  .map-svg-wrap::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 38%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+  }
+}
+
+@media(max-width:991px) {
+
+  .theme-crypto-venture .h3,
+  .theme-crypto-venture h3 {
+    font-size: 36px;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .section-title {
+    font-size: 50px;
+  }
+
+  .theme-crypto-venture .section-wrapper section.cry-ven-banner-section {
+    padding-top: 100px;
+  }
+
+  .theme-crypto-venture .site-venture .cry-ven-banner-section .section-title {
+    font-size: 60px;
+  }
+
+  .theme-crypto-venture .site-venture .banner-image-col {
+    margin-top: -70px;
+  }
+
+}
+
+@media(max-width:767px) {
+  .theme-crypto-venture .cry-ven-banner-section .row {
+    /* flex-direction: column-reverse; */
+  }
+
+  .theme-crypto-venture .banner-image-col,
+  .theme-crypto-venture .section-wrapper:not(.site-venture) .banner-image-col,
+  .theme-crypto-venture .site-venture .banner-image-col {
+    width: calc(100% + 25px);
+    max-width: calc(100% + 25px);
+    margin-left: 0;
+    margin-right: -25px;
+    margin-top: 0;
+  }
+
+  .theme-crypto-venture .banner-image-col .image-wrap {
+    padding-left: 10%;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .section-title {
+    font-size: 36px;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .title-wrap {
+    margin-bottom: 30px;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .banner-caption-text {
+    padding-right: 0;
+  }
+
+  .theme-crypto-venture .cry-ven-banner-section .banner-caption {
+    font-size: 26px;
+  }
+
+  .theme-crypto-venture .about-grid-row .about-grid-title,
+  .theme-crypto-venture .advantage-single .advantage-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .theme-crypto-venture .advantage-single {
+    margin-bottom: 30px;
+  }
+
+  .theme-crypto-venture .banner-counter-col .count-no {
+    font-size: 40px;
+  }
+
+  .theme-crypto-venture .banner-counter-row {
+    max-width: 100%;
+  }
+
+  .theme-crypto-venture .contact-content-wrap .content-text {
+    font-size: 18px;
+  }
+
+  .theme-crypto-venture .cry-ven-contact-section {
+    min-height: 500px;
+  }
+
+  /* .map-svg-wrap
+  {
+      width: 150%;
+      height: 140%;
+      top: -30%;
+      left: -20%;
+  } */
+
+  .theme-crypto-venture .map-address {
+    font-size: 14px;
+  }
+
+  .theme-crypto-venture .btn-blue {
+    padding-right: 28px;
+  }
+
+  .theme-crypto-venture .btn-blue .arrow-icon {
+    right: 14px;
+  }
+
+  .chart-legends-btn {
+    top: 60px;
+    right: auto;
+    left: 0;
+  }
+
+  .chart-legends-btn button {
+    font-size: 16px;
+  }
+}
