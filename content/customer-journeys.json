@@ -103,8 +103,31 @@
             "Customer payment releases cash to repay or recycle."
           ]
         ],
-        "question": "What happens if the customer pays later? Model that delay alongside repayments and existing obligations before deciding on a facility."
-      }
+        "question": "What happens if the customer pays later? Model that delay alongside repayments and existing obligations before deciding on a facility.",
+        "output": {
+          "title": "Working-capital outline",
+          "fields": [
+            [
+              "Purpose",
+              "What the funds cover in the trading cycle."
+            ],
+            [
+              "Cash timing",
+              "When suppliers are paid and customer cash is expected."
+            ],
+            [
+              "Repayment",
+              "The source and timing of cash available for obligations."
+            ],
+            [
+              "Open assumption",
+              "How a payment delay changes the gap and headroom."
+            ]
+          ]
+        }
+      },
+      "openingRoutes": false,
+      "enquiryFields": []
     },
     {
       "slug": "real-estate",
@@ -208,35 +231,58 @@
             "Test timing, net proceeds and the amount needed to clear the facility."
           ]
         ],
-        "question": "What if the programme slips? Test contingency, interest, slower sales and refinancing assumptions. Further funding or an extension cannot be assumed."
-      }
+        "question": "What if the programme slips? Test contingency, interest, slower sales and refinancing assumptions. Further funding or an extension cannot be assumed.",
+        "output": {
+          "title": "Property project summary",
+          "fields": [
+            [
+              "Project stage",
+              "Acquisition, development or refinance and the status of key permissions."
+            ],
+            [
+              "Costs and equity",
+              "Broad costs, own contribution and costs requiring early payment."
+            ],
+            [
+              "Programme",
+              "Build stages, monitoring dependencies and proposed drawdowns."
+            ],
+            [
+              "Exit",
+              "Sale or refinancing assumptions, timing and contingency questions."
+            ]
+          ]
+        }
+      },
+      "openingRoutes": false,
+      "enquiryFields": []
     },
     {
       "slug": "private-equity",
       "route": "/solutions/growth-and-ownership-capital",
       "title": "Growth and ownership capital",
-      "headline": "A capital partner for your next stage of growth.",
-      "intro": "Explore the capital behind a growth plan, acquisition or ownership transition, with the implications for shareholders and the business made clear.",
-      "cta": "Discuss your growth or ownership plans",
+      "headline": "Fund the growth. Shape the ownership.",
+      "intro": "Put capital into the business, create shareholder liquidity or support a management transaction. Start with where the proceeds should go and what ownership should look like afterwards.",
+      "cta": "Discuss your shareholder decision",
       "goal": "Raise equity or change ownership",
       "uses": [
         [
           "growth",
-          "Back a growth plan",
-          "Consider capital for expansion or acquisitions where the business can support an equity investment case.",
-          "Explore this requirement"
+          "Capital into the business",
+          "Set out the expansion or acquisition plan and what new investment should enable.",
+          "Discuss growth investment"
         ],
         [
           "ownership",
-          "Plan an ownership transition",
-          "Distinguish money invested into the company from liquidity for a selling shareholder.",
-          "Explore this requirement"
+          "Liquidity for shareholders",
+          "Separate a shareholder sale from capital available to fund the company’s next plans.",
+          "Discuss shareholder liquidity"
         ],
         [
           "management",
-          "Support a management transaction",
-          "Frame a buyout or acquisition around management, funding needs and the required shareholder alignment.",
-          "Explore this requirement"
+          "A management or ownership transaction",
+          "Frame the buyout, acquisition or succession objective around management and shareholder alignment.",
+          "Discuss an ownership transaction"
         ]
       ],
       "fit": [
@@ -246,7 +292,7 @@
       ],
       "notFit": "A pre-revenue startup usually needs a stage-led venture conversation. A short cash-flow gap may be better explored through borrowing than a change in ownership.",
       "alternative": "ventures",
-      "mechanics": "Equity brings an investor into the ownership of the business. Majority and minority structures can differ substantially. Valuation matters alongside governance, incentives, follow-on capital and expectations about a future exit.",
+      "mechanics": "Distinguish newly issued equity, where proceeds go into the company, from shares sold by existing owners. A transaction can combine both. The business may receive a different amount from the headline deal value; ownership, governance, incentives and expectations about a later exit need to be considered together.",
       "tradeoffs": [
         [
           "Valuation and dilution",
@@ -266,9 +312,9 @@
         ]
       ],
       "prepare": [
-        "Growth or ownership objective and intended use of proceeds",
-        "Current ownership, management and a high-level financial picture",
-        "Broad capital requirement, timing and existing advisers"
+        "The intended split between company investment and shareholder proceeds",
+        "Current ownership, management involvement and the decisions shareholders can support",
+        "Capital purpose, timetable, financial picture and existing advisers"
       ],
       "faqs": [
         [
@@ -292,37 +338,79 @@
       "preparationHeading": "Outline the business and its owners",
       "questionsHeading": "Questions for the ownership decision",
       "enquiryHeading": "Discuss the ownership objective",
-      "enquiryIntro": "Start with growth or ownership objective and intended use of proceeds. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
-      "primaryCta": "Discuss your growth or ownership plans",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "enquiryIntro": "Explain the shareholder decision, where proceeds should go and the timetable.",
+      "primaryCta": "Discuss your shareholder decision",
+      "fitIntro": "An ownership event needs a credible business case and shareholders who can agree what should change. Investor fit and the full terms matter alongside the amount.",
+      "valueIntro": "We help frame the use of proceeds, shareholder priorities and information needed for a relevant capital conversation. Separately agreed advisory work can support the investment proposition and ownership scenarios; any provider approach requires your go-ahead.",
+      "openingRoutes": true,
+      "example": {
+        "title": "Put ownership and governance in the same discussion.",
+        "intro": "Illustrative shareholder discussion guide. Assume an established business considering outside investment; no valuation, return or investor commitment is implied.",
+        "steps": [
+          [
+            "Follow the proceeds",
+            "Identify what goes into the company and what goes to selling shareholders."
+          ],
+          [
+            "Examine decisions",
+            "Record board representation, reserved matters and other proposed consent rights."
+          ],
+          [
+            "Look beyond completion",
+            "Discuss incentives, follow-on capital, shareholder alignment and future liquidity."
+          ]
+        ],
+        "question": "A minority shareholding can still carry material rights. Review the full proposed terms with appropriate advisers before deciding.",
+        "output": {
+          "title": "Shareholder decision outline",
+          "fields": [
+            [
+              "Use of proceeds",
+              "Company investment versus shareholder liquidity."
+            ],
+            [
+              "Ownership",
+              "Who invests, sells or remains involved."
+            ],
+            [
+              "Governance",
+              "Decisions, consents and management incentives to review."
+            ],
+            [
+              "Unresolved points",
+              "Alignment and future capital or exit questions."
+            ]
+          ]
+        }
+      },
+      "enquiryFields": []
     },
     {
       "slug": "ventures",
       "route": "/solutions/venture-funding",
       "title": "Venture funding",
       "headline": "Fund the milestone that moves you forward.",
-      "intro": "Start with the evidence, the next milestone and the investors whose stage and mandate could fit your round.",
+      "intro": "Connect the next evidence point to the round, runway and investor profile it needs. Validation and commercial scaling require different funding cases.",
       "cta": "Discuss your next funding round",
       "goal": "Fund a scalable company",
       "uses": [
         [
           "validation",
-          "Prove the proposition",
-          "Connect early technical or customer evidence to the capital needed for the next validation milestone.",
-          "Explore this requirement"
+          "Validate the proposition",
+          "Define what still needs proving, the test or customer evidence sought and the cost to reach that point.",
+          "Discuss validation capital"
         ],
         [
           "round",
-          "Build a funding round",
-          "Set out the stage, traction, use of proceeds and any existing lead or investor commitments.",
-          "Explore this requirement"
+          "Prepare the funding round",
+          "Align the milestone, investor proposition, use of proceeds and existing round status.",
+          "Discuss round preparation"
         ],
         [
           "scale",
-          "Extend runway or scale",
-          "Link the capital requirement to growth economics, cash burn and the next evidence point.",
-          "Explore this requirement"
+          "Scale from commercial evidence",
+          "Show how capital supports delivery or growth, with unit economics, cash burn and later funding in view.",
+          "Discuss scaling capital"
         ]
       ],
       "fit": [
@@ -352,9 +440,9 @@
         ]
       ],
       "prepare": [
-        "Company stage, commercial model and relevant evidence",
-        "The next milestone and capital it requires",
-        "Round status, broad runway and intended timetable"
+        "Stage, customer or technical evidence and what remains unproven",
+        "The milestone, costed use of proceeds and runway to reach it",
+        "Current round status, existing investor discussions and future capital needs"
       ],
       "faqs": [
         [
@@ -378,18 +466,60 @@
       "preparationHeading": "Set out the next evidence point",
       "questionsHeading": "Questions before the round",
       "enquiryHeading": "Talk through the next funding round",
-      "enquiryIntro": "Start with company stage, commercial model and relevant evidence. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
+      "enquiryIntro": "Outline the company stage, next milestone, round status and runway.",
       "primaryCta": "Discuss your next funding round",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "fitIntro": "A venture case connects risk, evidence and a scalable opportunity. The round needs a defined milestone and realistic runway; stage, sector, geography and investor mandate must fit the actual company.",
+      "valueIntro": "We help turn the stage, milestone and use of proceeds into a coherent capital requirement. Advisory support for forecasts, investor materials or ownership scenarios is scoped separately. A relevant investor approach depends on mandate and your agreement, not an assumed list of available investors.",
+      "openingRoutes": true,
+      "example": {
+        "title": "A round-readiness check before the investor conversation.",
+        "intro": "Illustrative investment-summary structure for a company planning its next round. No investor access, valuation uplift or completed raise is claimed.",
+        "steps": [
+          [
+            "Evidence and stage",
+            "Separate what is already demonstrated from the validation still required."
+          ],
+          [
+            "Milestone and resources",
+            "Connect the costed work plan, use of proceeds and expected runway."
+          ],
+          [
+            "Round and ownership",
+            "Record round status, ownership questions and dependencies before an investor approach."
+          ]
+        ],
+        "question": "Current provider mandates and willingness to assess the company must be checked individually. No investor coverage is asserted by this example.",
+        "output": {
+          "title": "Investment-summary checklist",
+          "fields": [
+            [
+              "Evidence",
+              "What is demonstrated and what the round still needs to validate."
+            ],
+            [
+              "Milestone",
+              "The work, resources and use of proceeds."
+            ],
+            [
+              "Runway",
+              "Cash requirements, contingency and later rounds."
+            ],
+            [
+              "Investor questions",
+              "Stage/mandate fit, round status and ownership implications."
+            ]
+          ]
+        }
+      },
+      "enquiryFields": []
     },
     {
       "slug": "special-situations",
       "route": "/solutions/complex-funding",
       "title": "Complex funding",
-      "headline": "A clear first step when the situation is complex.",
-      "intro": "Explain what has changed, the business position and the real deadline. A candid assessment starts with the situation before the funding structure.",
-      "cta": "Discuss a complex requirement",
+      "headline": "Start with the requirement and the real deadline.",
+      "intro": "A maturing facility, a complex transaction or a change in trading: set out what must happen, by when and which decisions or consents stand in the way.",
+      "cta": "Discuss the requirement and deadline",
       "goal": "Discuss a complex requirement",
       "uses": [
         [
@@ -438,9 +568,9 @@
         ]
       ],
       "prepare": [
-        "What has changed and the actual deadline",
-        "A broad financial position, obligations and proposed plan",
-        "Who is involved and what decisions or consents are needed"
+        "What changed, what must happen next and any real deadline",
+        "A broad description of the plan, repayment or exit and existing obligations",
+        "The stakeholders, advisers and consents involved"
       ],
       "faqs": [
         [
@@ -464,37 +594,86 @@
       "preparationHeading": "Outline the situation without confidential detail",
       "questionsHeading": "Questions when time matters",
       "enquiryHeading": "Discuss the situation and timing",
-      "enquiryIntro": "Start with what has changed and the actual deadline. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
-      "primaryCta": "Discuss a complex requirement",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "enquiryIntro": "Explain what must happen, the real deadline and the decision-makers involved. Include a date in your direct email if it matters.",
+      "primaryCta": "Discuss the requirement and deadline",
+      "fitIntro": "The first discussion separates the funding objective from the underlying issue. A viable plan, current information and the real deadline help establish whether a capital conversation is useful.",
+      "valueIntro": "We first clarify what changed, the funding purpose, the available information and the critical decisions. Then we establish whether preparation, a provider discussion or specialist input is the appropriate next step. This is triage of the requirement, not a promise of immediate funding.",
+      "enquiryFields": [
+        {
+          "name": "deadline",
+          "label": "Important deadline (optional)",
+          "type": "date",
+          "hint": "For the disconnected form preview only. Include the date and what it relates to in your direct email."
+        }
+      ],
+      "example": {
+        "title": "Map the deadline before discussing a structure.",
+        "intro": "Illustrative situation brief. Assume an existing facility is approaching maturity; no refinancing, extension or outcome is promised.",
+        "steps": [
+          [
+            "State the requirement",
+            "Describe the capital purpose, maturity and what needs to change."
+          ],
+          [
+            "Identify dependencies",
+            "Record the information, lender or shareholder consent and specialist input needed."
+          ],
+          [
+            "Trace the critical path",
+            "Work back from the real deadline and flag decisions that cannot be assumed."
+          ]
+        ],
+        "question": "Where viability, enforcement or director duties are at issue, appropriately qualified restructuring, insolvency or legal advisers should lead that work. Funding introductions do not replace it.",
+        "output": {
+          "title": "Situation and dependency brief",
+          "fields": [
+            [
+              "Requirement",
+              "The event, capital purpose and actual deadline."
+            ],
+            [
+              "Plan",
+              "The proposed response and why it addresses the underlying issue."
+            ],
+            [
+              "Dependencies",
+              "Information, consents and specialist advice needed."
+            ],
+            [
+              "Next action",
+              "What must be resolved before an approach."
+            ]
+          ]
+        }
+      },
+      "openingRoutes": false
     },
     {
       "slug": "life-sciences",
       "route": "/sectors/life-sciences",
       "title": "Life sciences funding",
       "headline": "Capital around your next scientific milestone.",
-      "intro": "Discovery, development and commercial scale bring different funding needs. Connect your next milestone to the evidence, runway and operating plan behind it.",
+      "intro": "Connect the scientific or commercial milestone to its evidence, budget and runway. Discovery, development, commercial scale and laboratory investment need different capital conversations.",
       "cta": "Discuss your next milestone",
       "goal": "Fund science and commercial scale",
       "uses": [
         [
           "development",
-          "Progress discovery or development",
-          "Define the technical milestone, evidence and resources needed to reach it.",
-          "Explore this requirement"
+          "Discovery or development milestone",
+          "Frame the next technical evidence point, remaining uncertainty and resources required.",
+          "Discuss a development milestone"
         ],
         [
           "commercial",
-          "Prepare commercial scale",
-          "Connect demand, delivery and regulatory dependencies with a practical capital plan.",
-          "Explore this requirement"
+          "Commercial scale",
+          "Connect market evidence, delivery capacity and relevant approval dependencies to the capital plan.",
+          "Discuss commercial scale"
         ],
         [
           "equipment",
-          "Expand laboratory capability",
-          "Distinguish premises and equipment investment in an operating business from science-led risk capital.",
-          "Explore this requirement"
+          "Laboratory capability",
+          "Separate an operating laboratory’s equipment investment from science-led development risk.",
+          "Explore equipment funding"
         ]
       ],
       "fit": [
@@ -524,9 +703,9 @@
         ]
       ],
       "prepare": [
-        "Subsector, stage and non-confidential milestone",
-        "Resources, timing and broad runway",
-        "Commercial model and the evidence available for later review"
+        "Subsector, current stage and the non-confidential milestone",
+        "Evidence already available, resources needed and the broad budget",
+        "Timing, runway, later capital needs and relevant specialist dependencies"
       ],
       "faqs": [
         [
@@ -550,47 +729,89 @@
       "preparationHeading": "Prepare the development outline",
       "questionsHeading": "Questions at the development stage",
       "enquiryHeading": "Discuss the milestone and funding need",
-      "enquiryIntro": "Start with subsector, stage and non-confidential milestone. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
+      "enquiryIntro": "Describe the non-confidential milestone, current stage, broad budget and runway.",
       "primaryCta": "Discuss your next milestone",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "fitIntro": "Begin with the existing activity, stage and capital purpose. Any relevant subsector expertise and provider appetite must be checked for that requirement; this page does not claim blanket life-sciences coverage.",
+      "valueIntro": "We help organise a non-confidential milestone outline and distinguish scientific development capital from operating or equipment investment. Scientific, technical and regulatory judgments require appropriately qualified specialists; we do not validate research outcomes.",
+      "openingRoutes": true,
+      "example": {
+        "title": "A milestone brief without disclosing the research.",
+        "intro": "Illustrative non-confidential milestone summary. Assume a development business preparing its next evidence point; no scientific result, approval or funding is assumed.",
+        "steps": [
+          [
+            "Define the evidence point",
+            "Explain what is known and what the next stage should establish, without patient data or unpublished research."
+          ],
+          [
+            "Cost the work",
+            "Outline the broad budget, resources and dependencies requiring specialist review."
+          ],
+          [
+            "Connect timing and runway",
+            "Show the programme, contingency questions and when later capital may be needed."
+          ]
+        ],
+        "question": "An operating laboratory buying equipment should follow the equipment route. Development uncertainty should not be presented as evidence of debt repayment capacity.",
+        "output": {
+          "title": "Non-confidential milestone brief",
+          "fields": [
+            [
+              "Evidence",
+              "Existing evidence and the next scientific or commercial point."
+            ],
+            [
+              "Budget",
+              "Broad resources and development cost categories."
+            ],
+            [
+              "Dependencies",
+              "Technical, commercial and approval questions for specialist review."
+            ],
+            [
+              "Runway",
+              "Programme, contingency and future capital needs."
+            ]
+          ]
+        }
+      },
+      "enquiryFields": []
     },
     {
       "slug": "tech-opportunities",
       "route": "/solutions/technology-funding",
       "title": "Technology and equipment funding",
-      "headline": "Fund your next business capability.",
-      "intro": "Are you buying technology for your business, or raising capital for a technology company? Start with that distinction, then connect the investment to a commercial outcome.",
-      "cta": "Discuss your technology requirement",
+      "headline": "Put the next capability into productive use.",
+      "intro": "Equipment, automation or a business technology investment: separate the purchase, installation and adoption costs, then match the funding conversation to when the capability becomes useful.",
+      "cta": "Discuss your equipment investment",
       "goal": "Buy equipment or technology",
       "uses": [
         [
           "adoption",
-          "Invest in equipment or automation",
-          "Set out the equipment, supplier, delivery programme and operational benefit behind the investment.",
-          "Explore this requirement"
+          "Equipment and automation",
+          "Define the asset, supplier, delivery and commissioning requirements.",
+          "Discuss equipment funding"
         ],
         [
           "digital",
-          "Fund a digital investment",
-          "Separate software, implementation and service costs; eligible expenditure depends on the actual finance route.",
-          "Explore this requirement"
+          "Software and implementation",
+          "Separate licences, integration, training and ongoing service costs; eligibility depends on the actual facility.",
+          "Discuss implementation costs"
         ],
         [
           "company-capital",
-          "Raise capital for a technology company",
-          "Use a stage-led growth or venture conversation, with traction, runway and the next milestone in view.",
-          "Explore this requirement"
+          "Raising capital for a technology company?",
+          "Company fundraising belongs with stage, traction, ownership and runway—not an equipment purchase assessment.",
+          "Explore company fundraising"
         ]
       ],
       "fit": [
-        "A defined investment or company funding requirement",
-        "Commercial evidence and a practical implementation or growth plan",
-        "A clear distinction between buying capability and raising business capital"
+        "An operating business with a defined purchase or capability investment",
+        "A cost breakdown, implementation timetable and credible commercial case",
+        "A view of eligible costs, repayment and operating obligations"
       ],
       "notFit": "A technology label does not establish eligibility. Software, services and integration costs may be treated differently from equipment; an untested investment needs a credible business case.",
       "alternative": "ventures",
-      "mechanics": "Buying technology and funding a technology company are different capital cases. Equipment may support asset finance; software and implementation need their own scope assessment. A growing technology company needs a route matched to its model, stage and risk.",
+      "mechanics": "Asset and equipment finance is shaped by the asset, eligible expenditure, deposit, term and end-of-term obligations. Software, implementation and ongoing services may need different treatment. Match funding and repayment to delivery, installation and adoption rather than assuming the supplier quote is fully financeable.",
       "tradeoffs": [
         [
           "Eligible expenditure",
@@ -610,9 +831,9 @@
         ]
       ],
       "prepare": [
-        "Whether you are buying technology or funding a technology company",
-        "The investment or milestone, expected cost and timing",
-        "The commercial case and available evidence"
+        "The asset or capability, supplier quote and cost categories",
+        "Delivery, installation, training and expected productive-use dates",
+        "Commercial assumptions, existing obligations and repayment source"
       ],
       "faqs": [
         [
@@ -636,37 +857,79 @@
       "preparationHeading": "Separate purchase and implementation costs",
       "questionsHeading": "Questions before investing in capability",
       "enquiryHeading": "Discuss the equipment investment",
-      "enquiryIntro": "Start with whether you are buying technology or funding a technology company. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
-      "primaryCta": "Discuss your technology requirement",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "enquiryIntro": "Outline the purchase, installation timetable and costs you need to fund.",
+      "primaryCta": "Discuss your equipment investment",
+      "fitIntro": "The primary route here is investment by an operating business. A technology company raising growth or venture capital should use the separate company-funding routes.",
+      "valueIntro": "We help separate the expenditure, implementation dependencies and repayment case so the provider conversation reflects the actual purchase. Financial modelling or application preparation can be commissioned separately; expected capacity or savings remain assumptions to test.",
+      "openingRoutes": true,
+      "example": {
+        "title": "Break down the cost before scheduling the funding.",
+        "intro": "Illustrative expenditure and implementation outline for an operating business installing new equipment. No funding eligibility, productivity gain or savings are assumed.",
+        "steps": [
+          [
+            "Quote and procurement",
+            "Separate equipment, deposit, software, installation and training. Confirm which costs a provider can consider."
+          ],
+          [
+            "Delivery and installation",
+            "Map supplier dates, site preparation, integration and commissioning dependencies."
+          ],
+          [
+            "Adoption and operation",
+            "Allow for training, maintenance and the time before the capability contributes to cash generation."
+          ]
+        ],
+        "question": "Test delayed installation and slower adoption against repayments. A proposed improvement in capacity is a business-case assumption, not a financed outcome.",
+        "output": {
+          "title": "Expenditure and implementation outline",
+          "fields": [
+            [
+              "Purchase",
+              "Supplier quote, equipment and any deposit."
+            ],
+            [
+              "Implementation",
+              "Site work, installation, software integration and training as separate lines."
+            ],
+            [
+              "Operating costs",
+              "Maintenance, licences and services distinguished from capital costs."
+            ],
+            [
+              "Timeline",
+              "Order, delivery, commissioning and productive use; test delay assumptions."
+            ]
+          ]
+        }
+      },
+      "enquiryFields": []
     },
     {
       "slug": "double-impact",
       "route": "/solutions/sustainability-and-impact",
       "title": "Sustainability and impact funding",
-      "headline": "Fund progress with a clear commercial case.",
-      "intro": "A cleaner operation and an impact-led business can both need capital. Understand the commercial plan, the intended outcome and the structure that may fit each.",
+      "headline": "Fund the investment behind the intended impact.",
+      "intro": "Choose the commercial requirement first: improving an operating business or growing a business built around an environmental or social purpose. Then define the intended outcome and the evidence behind it.",
       "cta": "Discuss your investment or impact plan",
       "goal": "Fund sustainability or impact",
       "uses": [
         [
           "operations",
-          "Invest in cleaner operations",
-          "Frame energy efficiency or cleaner equipment around costs, delivery and realistic savings.",
-          "Explore this requirement"
+          "Improve your operations",
+          "Cost an efficiency or cleaner-equipment investment alongside installation and delivery assumptions.",
+          "Discuss operational investment"
         ],
         [
           "business",
-          "Scale an impact-led business",
-          "Explain the growth model alongside an intentional social or environmental outcome.",
-          "Explore this requirement"
+          "Grow an impact-led business",
+          "Connect the growth model, capital requirement and intended environmental or social outcome.",
+          "Discuss impact-led growth"
         ],
         [
           "measure",
-          "Fund a measurable improvement",
-          "Establish the starting point and how the intended change could be evidenced.",
-          "Explore this requirement"
+          "Define the evidence",
+          "Identify the baseline, measurement method and what the investment could reasonably change.",
+          "Discuss the measurement case"
         ]
       ],
       "fit": [
@@ -696,9 +959,9 @@
         ]
       ],
       "prepare": [
-        "Whether the need is an operational investment or business growth",
-        "The costed plan and intended social or environmental outcome",
-        "Timing, commercial case and any evidence already available"
+        "Operational investment or business-growth purpose and the costed plan",
+        "The baseline and intended environmental or social outcome",
+        "Delivery assumptions, measurement method and commercial evidence"
       ],
       "faqs": [
         [
@@ -722,38 +985,80 @@
       "preparationHeading": "Outline costs, assumptions and intended outcomes",
       "questionsHeading": "Questions behind the impact objective",
       "enquiryHeading": "Discuss the investment and its outcomes",
-      "enquiryIntro": "Start with whether the need is an operational investment or business growth. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
+      "enquiryIntro": "Explain the operational investment or business-growth need and how the intended outcome could be evidenced.",
       "primaryCta": "Discuss your investment or impact plan",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "fitIntro": "A funding case still needs commercial evidence. State the intended outcome, how it could be measured and what assumptions affect it; a sustainability label does not establish eligibility or price.",
+      "valueIntro": "We help connect the commercial investment case to a specific intended outcome and a proportionate evidence plan. Equipment, business borrowing and equity remain different routes. Grant availability or grant support is separate and is not promised here.",
+      "openingRoutes": true,
+      "example": {
+        "title": "Separate the business case from the outcome claim.",
+        "intro": "Illustrative measurement plan for a proposed equipment improvement. No achieved savings, emissions reduction or impact result is claimed.",
+        "steps": [
+          [
+            "Record the baseline",
+            "Define the current activity and a consistent measurement boundary before installation."
+          ],
+          [
+            "Cost and test the investment",
+            "Separate purchase and implementation costs; test operating and delivery assumptions."
+          ],
+          [
+            "Plan the comparison",
+            "Agree the data source, review period and adjustments needed before comparing outcomes."
+          ]
+        ],
+        "question": "Funding alone does not demonstrate impact. Any later claim needs evidence of what changed, against the baseline and relevant assumptions.",
+        "output": {
+          "title": "Commercial and outcome evidence plan",
+          "fields": [
+            [
+              "Commercial case",
+              "Investment cost, delivery and operating assumptions."
+            ],
+            [
+              "Baseline",
+              "Starting activity, boundaries and data source."
+            ],
+            [
+              "Intended outcome",
+              "The environmental or social change the project is designed to support."
+            ],
+            [
+              "Measurement",
+              "Comparison period, responsible owner and assumptions to test."
+            ]
+          ]
+        }
+      },
+      "enquiryFields": []
     },
     {
       "slug": "insurance",
       "route": "/sectors/insurance-capital",
       "title": "Insurance sector capital",
-      "headline": "Start with the business behind the insurance requirement.",
-      "intro": "Capital for an insurance-sector business is a different requirement from insurance cover or underwriting capacity. Clarify the entity, objective and specialist scope first.",
-      "cta": "Explore an insurance-sector requirement",
+      "headline": "Capital for the business behind the insurance.",
+      "intro": "For brokers, MGAs, insurtechs and risk carriers: frame the capital purpose around the entity, commercial model and transaction. Business funding is distinct from insurance cover or underwriting capacity.",
+      "cta": "Discuss your insurance-sector capital need",
       "goal": "Insurance sector capital",
-      "scopeNote": "Specialist service scope is being confirmed in this preview. This is a business-capital concept, not an insurance policy or underwriting-capacity service.",
+      "scopeNote": "Business-capital requirements for brokers, MGAs, insurtechs and risk carriers. The relevant specialist support and provider fit are established for each engagement; this is not a policy, claims or underwriting-capacity service.",
       "uses": [
         [
           "transaction",
-          "Consider a business transaction",
-          "Explain an acquisition, succession or ownership requirement in an insurance-sector company.",
-          "Explore this requirement"
+          "Acquisition or ownership change",
+          "Describe the broker, MGA, insurtech or risk-carrier transaction and the shareholder objective.",
+          "Discuss the transaction"
         ],
         [
           "growth",
-          "Frame a growth requirement",
-          "Identify the capital purpose, entity type and commercial model.",
-          "Explore this requirement"
+          "Growth in the operating business",
+          "Explain what the business capital would fund and how the commercial model supports the case.",
+          "Discuss the growth requirement"
         ],
         [
           "specialist",
-          "Identify the specialist dependency",
-          "Distinguish a broker, MGA, insurtech or risk carrier and the expertise the requirement involves.",
-          "Explore this requirement"
+          "Entity-specific capital requirement",
+          "Identify the entity type, activity, jurisdiction and specialist dependencies before a provider approach.",
+          "Discuss the specialist requirement"
         ]
       ],
       "fit": [
@@ -783,14 +1088,14 @@
         ]
       ],
       "prepare": [
-        "Entity type, activity and jurisdiction",
-        "The capital or transaction purpose",
-        "Broad timing and relevant specialist advisers"
+        "Broker, MGA, insurtech or risk carrier; activity and jurisdiction",
+        "Capital purpose, transaction stage and ownership objective where relevant",
+        "Commercial evidence, broad timing and existing specialist advisers"
       ],
       "faqs": [
         [
           "Can I buy insurance cover here?",
-          "No. This preview page describes a potential business-capital journey, not insurance policies or claims services."
+          "No. This page covers business-capital requirements, not insurance policies or claims services."
         ],
         [
           "Is underwriting capacity the same as growth capital?",
@@ -798,49 +1103,91 @@
         ],
         [
           "Is this service available for every insurance entity?",
-          "No scope should be assumed. The actual entity, activity and specialist capability must be confirmed first."
+          "The retained scope includes brokers, MGAs, insurtechs and risk carriers. Relevant expertise, activity, jurisdiction and provider criteria still need to fit the individual requirement."
         ]
       ],
       "fitHeading": "Capital for the insurance business",
       "usesHeading": "Which business requirement needs capital?",
-      "structureHeading": "Capital for the insurance business",
+      "structureHeading": "The entity shapes the capital case",
       "commitmentsHeading": "Entity and specialist dependencies",
       "valueHeading": "Frame the insurance business requirement",
       "preparationHeading": "Describe the entity and capital purpose",
       "questionsHeading": "Questions on insurance sector capital",
       "enquiryHeading": "Discuss the specialist capital requirement",
-      "enquiryIntro": "Start with entity type, activity and jurisdiction. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
-      "primaryCta": "Explore an insurance-sector requirement",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "enquiryIntro": "Tell us the entity type, capital purpose and timing, with any relevant specialist dependencies.",
+      "primaryCta": "Discuss your insurance-sector capital need",
+      "fitIntro": "Keep the existing insurance-business scope precise: broker, MGA, insurtech or risk carrier. The type of entity and capital purpose determine the expertise, dependencies and assessment required.",
+      "valueIntro": "We help define the business-capital requirement and organise entity-specific preparation. A broker acquisition, an insurtech growth round and a risk carrier’s capital question need different assessments; relevant specialist input and provider appetite must be established before an approach.",
+      "example": {
+        "title": "Prepare for the entity, not just the sector label.",
+        "intro": "Illustrative insurance-business preparation guide, within the retained entity scope. No provider mandate, policy service or underwriting capacity is asserted.",
+        "steps": [
+          [
+            "Broker or MGA",
+            "State the commercial model, transaction or growth purpose and ownership context."
+          ],
+          [
+            "Insurtech",
+            "Explain the product, customers, business stage and the milestone the capital should support."
+          ],
+          [
+            "Risk carrier",
+            "Describe the capital purpose and identify the specialist governance and regulatory questions for qualified review."
+          ]
+        ],
+        "question": "Capital for a business does not mean insurance cover, claims support or underwriting capacity. Those requirements must not be inferred from this page.",
+        "output": {
+          "title": "Insurance-business capital outline",
+          "fields": [
+            [
+              "Entity",
+              "Broker, MGA, insurtech or risk carrier and jurisdiction."
+            ],
+            [
+              "Purpose",
+              "Business capital, acquisition or ownership event."
+            ],
+            [
+              "Evidence",
+              "Commercial model and information appropriate to the entity."
+            ],
+            [
+              "Specialist input",
+              "Governance, regulatory and transaction dependencies requiring review."
+            ]
+          ]
+        }
+      },
+      "openingRoutes": false,
+      "enquiryFields": []
     },
     {
       "slug": "crypto",
       "route": "/sectors/digital-infrastructure",
       "title": "Digital Asset Business Funding",
-      "headline": "Lead with the business behind the technology.",
-      "intro": "For a digital-asset or blockchain business, a capital conversation starts with the activity, customers, jurisdiction and use of funds.",
-      "cta": "Explore a business-capital requirement",
-      "goal": "Digital infrastructure funding",
-      "scopeNote": "Specialist activity and jurisdiction coverage is being confirmed in this preview. This is not a retail crypto investment, token offer or trading service.",
+      "headline": "Fund the operating business behind the digital assets.",
+      "intro": "For blockchain and digital-asset businesses, begin with what the company does, where it operates and what the capital must achieve. Technology is context; the operating model is the funding case.",
+      "cta": "Discuss your digital-asset business",
+      "goal": "Digital Asset Business Funding",
+      "scopeNote": "Operating-company capital for blockchain and digital-asset businesses. This is not a token sale, retail crypto investment, trading service or physical data-centre, telecoms or cloud-infrastructure offering.",
       "uses": [
         [
           "infrastructure",
-          "Build commercial infrastructure",
-          "Explain the users, revenues and operational need behind the infrastructure investment.",
-          "Explore this requirement"
+          "Develop the blockchain business",
+          "Explain the company’s commercial technology, users and revenue model. This is not funding for physical data centres or telecoms.",
+          "Discuss the business requirement"
         ],
         [
           "scale",
-          "Scale an operating business",
-          "Connect commercial evidence to the people, systems and capital needed for growth.",
-          "Explore this requirement"
+          "Scale an operating company",
+          "Connect customers and operating evidence to the people and systems needed for growth.",
+          "Discuss operating-company growth"
         ],
         [
           "milestone",
-          "Fund a defined milestone",
-          "Describe the next business milestone, the resources it needs and the relevant dependencies.",
-          "Explore this requirement"
+          "Reach a business milestone",
+          "Describe the next commercial or delivery milestone, resources and operating dependencies.",
+          "Discuss the next milestone"
         ]
       ],
       "fit": [
@@ -870,9 +1217,9 @@
         ]
       ],
       "prepare": [
-        "Plain-language activity and jurisdiction",
-        "Commercial model, stage and use of funds",
-        "Milestone, broad amount and intended timetable"
+        "Plain-language operating activity and company jurisdiction",
+        "Customers, revenues or other commercial evidence appropriate to the stage",
+        "Use of funds, next business milestone and broad timing"
       ],
       "faqs": [
         [
@@ -896,10 +1243,65 @@
       "preparationHeading": "Outline activity, jurisdiction and revenues",
       "questionsHeading": "Questions about the operating business",
       "enquiryHeading": "Discuss the digital asset business",
-      "enquiryIntro": "Start with plain-language activity and jurisdiction. Keep the first email non-confidential; we will agree any detailed information exchange before proceeding.",
-      "primaryCta": "Explore a business-capital requirement",
-      "fitIntro": "Use these discussion points to frame the requirement. Provider assessment determines suitability, availability and terms.",
-      "valueIntro": "We help organise the requirement, clarify the information needed and coordinate a relevant funding conversation. The scope of any preparation or advisory work is agreed separately."
+      "enquiryIntro": "Describe the operating activity, company jurisdiction and capital purpose. Do not send wallet, identity or account information.",
+      "primaryCta": "Discuss your digital-asset business",
+      "fitIntro": "Describe the operating company in plain language. Activity, jurisdiction, governance and commercial evidence matter separately; no blanket provider appetite is implied by the blockchain label.",
+      "valueIntro": "We help organise the business activity, capital purpose and operating evidence for a relevant assessment. The route depends on the actual company and providers willing to consider it. Specialist legal, regulatory and security questions need appropriate qualified review.",
+      "enquiryFields": [
+        {
+          "name": "activity",
+          "label": "Business activity (optional)",
+          "type": "text",
+          "hint": "Describe the company, not a wallet or trading account. Use sample information in this disconnected preview."
+        },
+        {
+          "name": "jurisdiction",
+          "label": "Company jurisdiction (optional)",
+          "type": "text",
+          "hint": "Where the company operates or is incorporated. Do not enter identity documents or account credentials."
+        }
+      ],
+      "example": {
+        "title": "A business-capital brief, without connecting an account.",
+        "intro": "Illustrative initial requirement summary for a blockchain or digital-asset operating company. No token issue, investor commitment or provider eligibility is assumed.",
+        "steps": [
+          [
+            "Activity and jurisdiction",
+            "Explain the company’s service, customers and where the activity takes place."
+          ],
+          [
+            "Commercial evidence",
+            "Separate established revenue or usage from assumptions about future adoption."
+          ],
+          [
+            "Capital and dependencies",
+            "Define use of funds, milestone and the specialist operating questions for later review."
+          ]
+        ],
+        "question": "No wallet connection, private key, account access or identity-document upload is needed for an initial discussion. Keep the outline non-confidential.",
+        "output": {
+          "title": "Operating-company requirement outline",
+          "fields": [
+            [
+              "Activity",
+              "The business service, customers and company jurisdiction."
+            ],
+            [
+              "Evidence",
+              "Revenue, adoption or delivery evidence relevant to its stage."
+            ],
+            [
+              "Capital",
+              "Use of funds and business milestone."
+            ],
+            [
+              "Boundaries",
+              "No retail tokens, trading, physical infrastructure or account access."
+            ]
+          ]
+        }
+      },
+      "openingRoutes": false
     }
   ]
 }

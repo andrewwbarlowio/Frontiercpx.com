@@ -1,0 +1,1 @@
+{"fundingRoutes":10,"labelledDecisionAids":10,"illustrativeBriefStructures":10,"stablePurposeAnchors":30,"earlyChoicePages":5,"missingContentRejections":4,"specialistScope":"pass","repetitionAudit":"pass"}
