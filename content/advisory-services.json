@@ -2,7 +2,7 @@
   {
     "slug": "capital-strategy",
     "route": "/services/capital-strategy",
-    "title": "Capital Strategy and Funding Advisory",
+    "title": "Capital Strategy",
     "intro": "Growth, acquisition or a change in ownership: compare the funding routes, sequence the decisions and understand what each option asks of you.",
     "audience": "Owners, boards and finance teams weighing a growth plan, acquisition, refinancing or ownership decision.",
     "trigger": "You know what the business wants to achieve, but need to decide how much capital, which structure and in what order.",
@@ -97,7 +97,7 @@
   {
     "slug": "funding-readiness",
     "route": "/services/funding-readiness",
-    "title": "Funding Readiness and Application Preparation",
+    "title": "Funding Readiness",
     "intro": "Turn the business plan, numbers and supporting evidence into a coherent case before the lender or investor starts asking questions.",
     "audience": "Owners and management teams preparing an initial application, a refinancing or an investor conversation.",
     "trigger": "The funding requirement is emerging, but the information is incomplete, inconsistent or spread across several documents.",
@@ -199,7 +199,7 @@
   {
     "slug": "financial-modelling",
     "route": "/services/financial-modelling",
-    "title": "Financial Modelling and Commercial Analysis",
+    "title": "Financial Modelling",
     "intro": "See where the plan needs cash—and what changes when assumptions move.",
     "audience": "Owners, finance directors and management teams assessing a project, funding round, acquisition or working-capital need.",
     "trigger": "The commercial plan is taking shape, but the cash requirement, repayment capacity or downside case needs testing.",
@@ -295,7 +295,7 @@
   {
     "slug": "debt-advisory",
     "route": "/services/debt-advisory",
-    "title": "Debt Advisory and Capital Sourcing",
+    "title": "Debt & Capital Sourcing",
     "intro": "Define the requirement, prepare a lender case and compare the commitments behind any offers—before deciding which facility fits.",
     "audience": "Established businesses, property sponsors and finance teams considering borrowing, refinancing or asset-backed funding.",
     "trigger": "You need more than a headline rate: a view of repayment capacity, security, provider fit and execution dependencies.",
@@ -391,7 +391,7 @@
   {
     "slug": "equity-advisory",
     "route": "/services/equity-advisory",
-    "title": "Equity and Strategic Capital Advisory",
+    "title": "Equity & Strategic Capital",
     "intro": "Prepare the investment proposition, test dilution scenarios and align the round with the milestone and shareholder decisions ahead.",
     "audience": "Founders, boards and shareholders preparing venture, growth or strategic equity conversations.",
     "trigger": "You are planning a raise or ownership change and need the proposition, financial case and shareholder expectations to line up.",
@@ -485,7 +485,7 @@
   {
     "slug": "transaction-support",
     "route": "/services/transaction-support",
-    "title": "Due Diligence and Transaction Management",
+    "title": "Due Diligence & Transactions",
     "intro": "Bring the information, advisers and open questions into one coordinated process, from diligence requests to completion milestones.",
     "audience": "Owners, finance teams and transaction leads managing a capital raise, acquisition, property transaction or complex funding process.",
     "trigger": "A transaction has several moving parts, but information requests, adviser actions and completion conditions need a single working view.",
@@ -581,7 +581,7 @@
   {
     "slug": "ongoing-advisory",
     "route": "/services/ongoing-advisory",
-    "title": "Ongoing Capital and Business Advisory",
+    "title": "Ongoing Business Support",
     "intro": "Review facilities, refresh forecasts and prepare for the next funding decision as trading, investment and ownership plans evolve.",
     "audience": "Owners, boards and finance teams wanting periodic support with capital planning after a funding event or through a changing business plan.",
     "trigger": "The business has moved on since the last funding decision and you need to understand the effect on headroom, maturity or future capital needs.",
