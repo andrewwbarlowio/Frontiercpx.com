@@ -19,14 +19,14 @@
  }
  for(const form of document.querySelectorAll('.enquiry-form')){
   const method=form.elements['contact-method'],phone=form.elements.phone,phoneField=form.querySelector('[data-phone-field]'),topic=form.elements.topic,status=form.querySelector('.form-status'),errors=form.querySelector('.form-errors'),errorList=errors.querySelector('ul');
-  const purpose=new URLSearchParams(location.search).get('purpose');if(purpose&&[...topic.options].some(x=>x.value===purpose))topic.value=purpose;
-  const note=text('p','','enquiry-context-note');note.hidden=true;topic.closest('.form-field').after(note);
+  const purpose=new URLSearchParams(location.search).get('purpose');if(topic&&purpose&&[...topic.options].some(x=>x.value===purpose))topic.value=purpose;
+  const note=text('p','','enquiry-context-note');note.hidden=true;if(topic)topic.closest('.form-field').after(note);
   const companyLabel=form.querySelector('label[for="company"]'),hint=form.querySelector('#requirement-hint');
-  function context(){for(const field of form.querySelectorAll('[data-specialist-topic]')){const show=field.dataset.specialistTopic===topic.value;field.hidden=!show;for(const input of field.querySelectorAll('input')){input.disabled=!show;if(!show){input.value='';input.setCustomValidity('');clearField(input);}}}const adviser=topic.value==='adviser';companyLabel.textContent=(adviser?'Your firm or business':'Business name')+(form.elements.company.required?'':' (optional)');const topicOptions=topic.closest('details');if(topicOptions&&topic.value!=='not-sure')topicOptions.open=true;hint.textContent=adviser?'A non-confidential client requirement. Do not enter the client’s personal details or financial documents.':'A brief, non-confidential summary. Amount and timing can be approximate.';note.hidden=!adviser;note.textContent=adviser?'Use your own contact details as the referrer. Client authority, contact ownership and any introducer arrangements need to be agreed before an approach.':'';}
+  function context(){if(!topic)return;for(const field of form.querySelectorAll('[data-specialist-topic]')){const show=field.dataset.specialistTopic===topic.value;field.hidden=!show;for(const input of field.querySelectorAll('input')){input.disabled=!show;if(!show){input.value='';input.setCustomValidity('');clearField(input);}}}const adviser=topic.value==='adviser';companyLabel.textContent=(adviser?'Your firm or business':'Business name')+(form.elements.company.required?'':' (optional)');const topicOptions=topic.closest('details');if(topicOptions&&topic.value!=='not-sure')topicOptions.open=true;hint.textContent=adviser?'A non-confidential client requirement. Do not enter the client’s personal details or financial documents.':'A brief, non-confidential summary. Amount and timing can be approximate.';note.hidden=!adviser;note.textContent=adviser?'Use your own contact details as the referrer. Client authority, contact ownership and any introducer arrangements need to be agreed before an approach.':'';}
   function clearField(input){input.removeAttribute('aria-invalid');input.removeAttribute('aria-errormessage');const errorId=input.id+'-error';document.getElementById(errorId)?.remove();const described=(input.getAttribute('aria-describedby')||'').split(/\s+/).filter(x=>x&&x!==errorId);if(described.length)input.setAttribute('aria-describedby',described.join(' '));else input.removeAttribute('aria-describedby');errorList.querySelector('a[href="#'+input.id+'"]')?.closest('li').remove();if(!errorList.children.length)errors.hidden=true;}
   function resetErrors(){for(const input of form.querySelectorAll('input,textarea')){input.setCustomValidity('');clearField(input);}errorList.replaceChildren();errors.hidden=true;}
-  function phoneState(){const needed=method.value==='callback';phoneField.hidden=!needed;phone.disabled=!needed;phone.required=needed;if(!needed){phone.setCustomValidity('');clearField(phone);}}
-  topic.addEventListener('change',context);form.addEventListener('frontier-context-restored',context);method.addEventListener('change',phoneState);context();phoneState();form.querySelector('button[type="submit"]').disabled=false;
+  function phoneState(){if(!method)return;const needed=method.value==='callback';phoneField.hidden=!needed;phone.disabled=!needed;phone.required=needed;if(!needed){phone.setCustomValidity('');clearField(phone);}}
+  topic?.addEventListener('change',context);form.addEventListener('frontier-context-restored',context);method?.addEventListener('change',phoneState);context();phoneState();form.querySelector('button[type="submit"]').disabled=false;
   form.addEventListener('submit',ev=>{
    ev.preventDefault();resetErrors();const invalid=[];
    for(const input of form.querySelectorAll('input,textarea')){
@@ -44,6 +44,7 @@
 // Only allow known navigation context. Never copy arbitrary query text into email.
 (()=>{
  const form=document.querySelector('.enquiry-form');if(!form)return;
+ if(!form.dataset.contextMap||!form.elements.topic)return;
  const map=JSON.parse(form.dataset.contextMap),topic=form.elements.topic,email=document.querySelector('[data-context-email]'),summary=document.querySelector('[data-context-summary]');
  const topics=[...topic.options].map(x=>x.value),routes=[...map.sources,...map.solutions.map(x=>x.route),...map.services.map(x=>x.route),...map.solutions.map(x=>'/briefs/'+x.slug)];
  const goals=['cash-flow','growth','equipment','property','startup','ownership','complex','not-sure'];
