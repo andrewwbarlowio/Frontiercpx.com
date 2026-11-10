@@ -38,3 +38,6 @@
 
 /* Group company pages beneath one primary navigation item. */
 .desktop-nav .nav-about .nav-dropdown{left:0;right:auto;width:260px;padding:22px}.nav-about-links a:last-child{border-bottom:0}
+
+/* Carry the navigation palette through expanded panels on every screen. */
+.site-header .nav-dropdown,.site-header .mobile-nav{background:linear-gradient(135deg,#193f5c 0%,#112c45 55%,#0d233d 100%);color:#fff}.site-header .nav-dropdown .kicker{color:#bed0df}.site-header .nav-dropdown a{border-bottom-color:#ffffff26}.site-header .nav-dropdown>a{color:#c3e8fa}.site-header .nav-dropdown a:focus-visible{outline-color:#b6edff}.site-header .nav-dropdown a:hover,.site-header .mobile-nav a:hover{color:#d5f0ff}.site-header .mobile-nav .subnav{border-left-color:#ffffff40}
