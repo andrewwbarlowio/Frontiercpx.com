@@ -4,6 +4,7 @@ const root=path.resolve(import.meta.dirname,'..'),out=path.join(root,'dist');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8'),write=(p,s)=>{const target=path.join(out,p);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,s)},escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const data=JSON.parse(read('content/site.json'));
+data.solutionImagery=JSON.parse(read('content/solution-imagery.json'));
 
 data.heroSVG=read('assets/hero.svg').replace('<g clip-path="url(#one)">','<g class="hero-slot-1" clip-path="url(#one)">').replace('<g clip-path="url(#two)">','<g class="hero-slot-2" clip-path="url(#two)">').replace('<g clip-path="url(#three)">','<g class="hero-slot-3" clip-path="url(#three)">');
 fs.mkdirSync(out,{recursive:true});for(const name of fs.readdirSync(out))fs.rmSync(path.join(out,name),{recursive:true,force:true});fs.cpSync(path.join(root,'assets'),path.join(out,'assets'),{recursive:true});
