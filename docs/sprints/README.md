@@ -20,7 +20,7 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 - One working branch; a reviewable preview and evidence at each checkpoint. Preserve source task IDs.
 - A primary sprint owns final acceptance; dependency preparation can happen earlier. G05/G07 start with Sprint 1 and close in their assigned sprints.
 - Run affected checks throughout; Sprint 5 is final regression, not the first time testing occurs.
-- All implementation tasks start **Planned**, except G11 **Deferred**. Record commit, preview/evidence, owner and next action when status changes.
+- The register now records current status. Initially all implementation tasks were Planned, except G11 Deferred. Record commit, preview/evidence, owner and next action when status changes.
 - The documents do not start implementation, merge main or authorise release. Owner approval applies to the concrete release as stated in the source plan.
 
 ## Source and precedence
@@ -29,7 +29,7 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 
 ## Complete task register
 
-| Task ID | Primary sprint | Initial status | Task |
+| Task ID | Primary sprint | Current status | Task |
 | --- | --- | --- | --- |
 | A00.1 | 2 | Planned | Explain the seven services with a clear client situation and deliverable for each. |
 | A00.2 | 2 | Planned | Show how clients can buy preparation or analysis independently of a funding introduction. |
@@ -40,9 +40,9 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | A02.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
 | A02.2 | 2 | Planned | Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example. |
 | A02.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation. |
-| A03.1 | 1 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A03.2 | 1 | Planned | Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example. |
-| A03.3 | 1 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership. |
+| A03.1 | 1 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A03.2 | 1 | Complete | Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example. |
+| A03.3 | 1 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership. |
 | A04.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
 | A04.2 | 2 | Planned | Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example. |
 | A04.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding. |
@@ -65,24 +65,24 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | B08 | 4 | Planned | Sustainability and Impact Funding |
 | B09 | 4 | Planned | Insurance Sector Capital |
 | B10 | 4 | Planned | Digital Asset Business Funding |
-| G01 | 1 | Planned | Record and protect the baseline |
-| G02 | 1 | Planned | Define page roles and hierarchy |
-| G03 | 1 | Planned | Create the contextual copy model |
-| G04 | 1 | Planned | Build reusable solution components |
+| G01 | 1 | Complete | Record and protect the baseline |
+| G02 | 1 | Complete | Define page roles and hierarchy |
+| G03 | 1 | Complete | Create the contextual copy model |
+| G04 | 1 | Complete | Build reusable solution components |
 | G05 | 4 | Planned | Unify the process |
-| G06 | 1 | Planned | Repair the route and category model |
+| G06 | 1 | Complete | Repair the route and category model |
 | G07 | 3 | Planned | Build useful proof assets |
 | G08 | 4 | Planned | Maintain the claims and scope register |
 | G09 | 4 | Planned | Make comparisons usable on mobile |
-| G10 | 1 | Planned | Preserve enquiry intent |
+| G10 | 1 | In progress | Preserve enquiry intent |
 | G11 | Deferred | Deferred | Implement enquiry automation in a later phase |
 | G12 | 4 | Planned | Maintain canonical routes and redirects |
 | G13 | 4 | Planned | Improve the ten decision briefs |
 | G14 | 4 | Planned | Align privacy and website information |
 | G15 | 5 | Planned | Complete journey and accessibility verification |
 | G16 | 5 | Planned | Establish conversion measurement |
-| G17 | 1 | Planned | Add the two navigation routes |
-| G18 | 1 | Planned | Build the advisory content model |
+| G17 | 1 | Complete | Add the two navigation routes |
+| G18 | 1 | Complete | Build the advisory content model |
 | G19 | 2 | Planned | Connect services to funding journeys |
 | G20 | 4 | Planned | Build inactive login and recovery interfaces |
 | L01.1 | 4 | Planned | Build the branded screen with labelled username and password, show/hide password, Sign In, Forgot Password and contact assistance. No public registration is required. |
@@ -97,12 +97,12 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | P02.1 | 4 | Planned | Separate business objectives from sector contexts and show where the two overlap. |
 | P02.2 | 4 | Planned | Give cards concise examples such as stock, machinery, development or shareholder liquidity. |
 | P02.3 | 4 | Planned | Place one prominent uncertain-route option after the choices; test whether readers find their route without assistance. |
-| P03.1 | 1 | Planned | Add separate working-capital, growth and refinance modules with relevant next actions. |
-| P03.2 | 1 | Planned | Replace generic mechanics and commitments headings with cash-flow and repayment language. |
-| P03.3 | 1 | Planned | Use a labelled cash-cycle illustration and short first-call checklist; publish funding bands only if supported. |
-| P04.1 | 1 | Planned | Add a project-stage selector or clear stage links feeding the enquiry context. |
-| P04.2 | 1 | Planned | Introduce a labelled development drawdown and exit illustration, with dependencies. |
-| P04.3 | 1 | Planned | Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment. |
+| P03.1 | 1 | Complete | Add separate working-capital, growth and refinance modules with relevant next actions. |
+| P03.2 | 1 | Complete | Replace generic mechanics and commitments headings with cash-flow and repayment language. |
+| P03.3 | 1 | Complete | Use a labelled cash-cycle illustration and short first-call checklist; publish funding bands only if supported. |
+| P04.1 | 1 | Complete | Add a project-stage selector or clear stage links feeding the enquiry context. |
+| P04.2 | 1 | Complete | Introduce a labelled development drawdown and exit illustration, with dependencies. |
+| P04.3 | 1 | Complete | Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment. |
 | P05.1 | 3 | Planned | Split the opening routes by use of proceeds and ownership objective. |
 | P05.2 | 3 | Planned | Add a simple ownership and governance discussion guide, without invented valuations or returns. |
 | P05.3 | 3 | Planned | Make the CTA about the shareholder decision and explain the agreed role before marketing execution support. |
@@ -170,8 +170,13 @@ Every primary ID is completed with evidence, deferred explicitly or blocked on a
 
 ## Sprint documentation and closure
 
-Each sprint has a **mandatory closeout gate**, detailed in its brief. Write development notes as work proceeds, then commit a closeout under `docs/sprints/closeouts/sprint-NN.md`. Use the [closeout template](closeout-template.md). No closeout records exist yet because implementation has not started.
+Each sprint has a **mandatory closeout gate**, detailed in its brief. Write development notes as work proceeds, then commit a closeout under `docs/sprints/closeouts/sprint-NN.md`. Use the [closeout template](closeout-template.md). [Sprint 1 closeout](closeouts/sprint-01.md) records implementation at `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`, sixteen completed tasks and G10 awaiting protected-deployment verification. Sprint 1 remains In progress; owner review Pending.
 
 Completion requires task-by-task status, change/decision record, tested code commit and preview, actual verification evidence, known issues and handover. Record engineering status and Andy's review status separately; neither a planning document nor a green deployment closes a sprint. Production approval remains separate.
 
 [Closeout records](closeouts/README.md)
+
+
+## Current execution evidence
+
+Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprints 2–5 remain Planned.

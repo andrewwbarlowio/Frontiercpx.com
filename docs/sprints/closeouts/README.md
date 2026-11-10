@@ -1,9 +1,6 @@
-# Sprint closeout records
+# Sprint closeouts
 
-No sprint has been implemented or closed by adding these planning documents.
+- [Sprint 1](sprint-01.md): implementation delivered; In progress pending protected-deployment verification for G10. Owner review Pending.
+- Sprints 2–5: not started.
 
-Create one record per sprint here as `sprint-01.md` through `sprint-05.md`, based on the [template](../closeout-template.md). Write and maintain development notes during delivery, then reconcile them at the mandatory closeout gate.
-
-Keep the tested code commit distinct from later documentation-only commits. Link verification and actual review outcomes. Do not prepopulate successful tests, accepted reviews or completed tasks.
-
-[Return to sprint index](../README.md)
+Use the [template](../closeout-template.md). A closeout record is evidence of status, not an automatic claim of completion.

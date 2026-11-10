@@ -1,3 +1,5 @@
+> Execution update: Sprint 1 implementation and verification are tracked in [the sprint index](README.md) and [closeout](closeouts/sprint-01.md). Historical specification statements below describe the planning baseline, not current implementation status.
+
 # Frontier website improvement implementation plan
 
 Consolidated specification · 10 November 2026 · 132 work items. Source: reviewed Word plan version 4. These are planned changes, not implemented website behaviour.
@@ -1186,3 +1188,4 @@ Acceptance Standard visual controls and neutral assistance behaviour are present
 ### Tracking and validation status
 
 The 132-item count is 98 original items + G17–G20 (4) + A00–A07 with three items each (24) + L01–L02 with three items each (6). This review validates the specification against the recorded decisions; it does not validate an implemented website, legal permissions, service delivery capacity or deployment.
+

@@ -1,6 +1,6 @@
 # Sprint 1 Foundations and pilot pages
 
-**Status:** Planned. No implementation started by these documents.
+**Status:** In progress. Implementation committed at `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`; G10 protected-deployment verification remains blocked. Owner review Pending. See [closeout](closeouts/sprint-01.md).
 
 **Primary work items:** 17. Owners: development for implementation and evidence; Andy/Roger for business facts and release decisions. No fixed duration or dates are committed.
 
@@ -23,23 +23,23 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### G01
 
-- [ ] Record and protect the baseline — S effort  |  Dependencies None Build Inventory current branch head, main, routes, source files and deployed preview. Retain the starting commit for rollback and record existing failures separately. Done when The working tree matches the selected head; all 38 current routes are accounted for and existing build checks pass or pre-existing failures are documented.
+- [x] Record and protect the baseline — S effort  |  Dependencies None Build Inventory current branch head, main, routes, source files and deployed preview. Retain the starting commit for rollback and record existing failures separately. Done when The working tree matches the selected head; all 38 current routes are accounted for and existing build checks pass or pre-existing failures are documented.
 
 ### G02
 
-- [ ] Define page roles and hierarchy — M effort  |  Dependencies G01 Build Map Home to orientation, Advisory Services to client support, Funding Solutions to funding needs, About to operating role, Approach to process, Expertise to evidence, Network to capital access and Presence to proposed geography. Keep Advisers distinct. Done when Each principal page has one primary reader task and action. Shared sections link to the canonical explanation instead of copying it in full.
+- [x] Define page roles and hierarchy — M effort  |  Dependencies G01 Build Map Home to orientation, Advisory Services to client support, Funding Solutions to funding needs, About to operating role, Approach to process, Expertise to evidence, Network to capital access and Presence to proposed geography. Keep Advisers distinct. Done when Each principal page has one primary reader task and action. Shared sections link to the canonical explanation instead of copying it in full.
 
 ### G03
 
-- [ ] Create the contextual copy model — L effort  |  Dependencies G01 G02 Build Add explicit per-solution fields for hero, fit, use cases, mechanics, commitments, preparation, FAQs and enquiry copy. Keep editorial content separate from rendering and navigation labels. Require all ten records to supply these fields. Done when The renderer has no generic marketing fallback for those fields. Missing fields fail the build. Current anchor IDs stay stable and text remains meaningful in initial HTML.
+- [x] Create the contextual copy model — L effort  |  Dependencies G01 G02 Build Add explicit per-solution fields for hero, fit, use cases, mechanics, commitments, preparation, FAQs and enquiry copy. Keep editorial content separate from rendering and navigation labels. Require all ten records to supply these fields. Done when The renderer has no generic marketing fallback for those fields. Missing fields fail the build. Current anchor IDs stay stable and text remains meaningful in initial HTML.
 
 ### G04
 
-- [ ] Build reusable solution components — L effort  |  Dependencies G03 Build Retain a consistent section order but allow relevant decision aids: project lifecycle, cash cycle, cost breakdown or readiness outline. Pilot Property Finance and Business Funding before rollout. Done when At 320, 390, 768 and desktop widths, both pilots are legible and usable. Their headings, examples and enquiry prompts reflect different buying situations without duplicating component code.
+- [x] Build reusable solution components — L effort  |  Dependencies G03 Build Retain a consistent section order but allow relevant decision aids: project lifecycle, cash cycle, cost breakdown or readiness outline. Pilot Property Finance and Business Funding before rollout. Done when At 320, 390, 768 and desktop widths, both pilots are legible and usable. Their headings, examples and enquiry prompts reflect different buying situations without duplicating component code.
 
 ### G06
 
-- [ ] Repair the route and category model — L effort  |  Dependencies G02 D02 D03 Build Separate business objectives, capital structures, sector contexts and provider types. Correct uncertain guide routing and technology-company routing. Map provider categories to purposes rather than blending the classifications. Done when All objectives and specialist links reach relevant pages. Uncertainty produces neutral help. Confirmed specialist naming is applied consistently across navigation, guide, briefs and forms.
+- [x] Repair the route and category model — L effort  |  Dependencies G02 D02 D03 Build Separate business objectives, capital structures, sector contexts and provider types. Correct uncertain guide routing and technology-company routing. Map provider categories to purposes rather than blending the classifications. Done when All objectives and specialist links reach relevant pages. Uncertainty produces neutral help. Confirmed specialist naming is applied consistently across navigation, guide, briefs and forms.
 
 ### G10
 
@@ -47,47 +47,47 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### G17
 
-- [ ] Add the two navigation routes — M effort | Dependencies G02 D04 Build Place Advisory Services and Funding Solutions side by side, each with overview and individual-page links. Add Client Login on desktop right and at the top of the mobile menu. Preserve existing supporting pages. Done when Desktop and mobile menus expose both routes and login, with visible focus, keyboard access, correct expanded state and usable touch targets.
+- [x] Add the two navigation routes — M effort | Dependencies G02 D04 Build Place Advisory Services and Funding Solutions side by side, each with overview and individual-page links. Add Client Login on desktop right and at the top of the mobile menu. Preserve existing supporting pages. Done when Desktop and mobile menus expose both routes and login, with visible focus, keyboard access, correct expanded state and usable touch targets.
 
 ### G18
 
-- [ ] Build the advisory content model — M effort | Dependencies G03 D04 Build Add required service fields for audience, trigger, scope, outputs, process, fees, boundaries, related funding and enquiry. Create one reusable service template with distinctive examples. Done when All seven service records pass completeness checks; A03 establishes the template; no generic marketing fallback or invented team capacity.
+- [x] Build the advisory content model — M effort | Dependencies G03 D04 Build Add required service fields for audience, trigger, scope, outputs, process, fees, boundaries, related funding and enquiry. Create one reusable service template with distinctive examples. Done when All seven service records pass completeness checks; A03 establishes the template; no generic marketing fallback or invented team capacity.
 
 ### P03.1
 
-- [ ] Add separate working-capital, growth and refinance modules with relevant next actions.
+- [x] Add separate working-capital, growth and refinance modules with relevant next actions.
 
 ### P03.2
 
-- [ ] Replace generic mechanics and commitments headings with cash-flow and repayment language.
+- [x] Replace generic mechanics and commitments headings with cash-flow and repayment language.
 
 ### P03.3
 
-- [ ] Use a labelled cash-cycle illustration and short first-call checklist; publish funding bands only if supported.
+- [x] Use a labelled cash-cycle illustration and short first-call checklist; publish funding bands only if supported.
 
 ### P04.1
 
-- [ ] Add a project-stage selector or clear stage links feeding the enquiry context.
+- [x] Add a project-stage selector or clear stage links feeding the enquiry context.
 
 ### P04.2
 
-- [ ] Introduce a labelled development drawdown and exit illustration, with dependencies.
+- [x] Introduce a labelled development drawdown and exit illustration, with dependencies.
 
 ### P04.3
 
-- [ ] Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment.
+- [x] Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment.
 
 ### A03.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A03.2
 
-- [ ] Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example.
 
 ### A03.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership.
 
 ## Acceptance criteria
 
@@ -125,3 +125,4 @@ A sprint must not be marked Complete or Closed until its development write-up is
 - [ ] Provide handover notes and rollback/recovery guidance where relevant. No new credentials or customer information in documentation.
 
 **Pass rule:** required current-scope acceptance checks pass and the closeout evidence is complete, or each exception has an explicit recorded disposition and owner. Unresolved blockers mean the sprint remains In progress or Blocked. The next sprint may perform independent preparation, but dependent implementation must not assume an unmet acceptance condition is satisfied. Owner release approval remains a separate gate before merge/production release.
+
