@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "capital-strategy",
+    "route": "/services/capital-strategy",
+    "title": "Capital Strategy and Funding Advisory",
+    "intro": "Funding objectives, capital structure and the order of decisions.",
+    "audience": "Business owners and finance teams preparing a capital decision.",
+    "trigger": "Funding objectives, capital structure and the order of decisions.",
+    "scope": [
+      "Funding objectives, capital structure and the order of decisions."
+    ],
+    "outputs": [
+      "Funding roadmap",
+      "Options appraisal",
+      "Information requirements"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Business objective and timing",
+      "Available financial and commercial information"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "private-equity",
+      "credit",
+      "ventures"
+    ],
+    "enquiry": "Discuss your advisory requirement",
+    "faqs": [
+      [
+        "Can we engage you just for preparation?",
+        "Yes. Standalone advisory can be scoped independently of a funding introduction."
+      ]
+    ]
+  },
+  {
+    "slug": "funding-readiness",
+    "route": "/services/funding-readiness",
+    "title": "Funding Readiness and Application Preparation",
+    "intro": "Identify gaps and organise a case for lenders or investors.",
+    "audience": "Business owners and finance teams preparing a capital decision.",
+    "trigger": "Identify gaps and organise a case for lenders or investors.",
+    "scope": [
+      "Identify gaps and organise a case for lenders or investors."
+    ],
+    "outputs": [
+      "Readiness review",
+      "Prioritised action list",
+      "Application or investor pack"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Business objective and timing",
+      "Available financial and commercial information"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "credit",
+      "real-estate",
+      "ventures"
+    ],
+    "enquiry": "Discuss your advisory requirement",
+    "faqs": [
+      [
+        "Can we engage you just for preparation?",
+        "Yes. Standalone advisory can be scoped independently of a funding introduction."
+      ]
+    ]
+  },
+  {
+    "slug": "financial-modelling",
+    "route": "/services/financial-modelling",
+    "title": "Financial Modelling and Commercial Analysis",
+    "intro": "See where the plan needs cash—and what changes when assumptions move.",
+    "audience": "Owners, finance directors and management teams assessing a project, funding round, acquisition or working-capital need.",
+    "trigger": "The commercial plan is taking shape, but the cash requirement, repayment capacity or downside case needs testing.",
+    "scope": [
+      "Integrated profit and loss, balance sheet and cash-flow forecasts",
+      "Working-capital assumptions, debt schedules and funding gaps",
+      "Project appraisal, affordability and scenario analysis"
+    ],
+    "outputs": [
+      "Assumption-led financial model",
+      "Scenario summary",
+      "Explanation of funding gaps"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Your objective, intended decision and forecast horizon",
+      "Recent accounts, management figures and existing forecasts, if available",
+      "Trading assumptions, investment costs and current facility terms"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "real-estate",
+      "credit",
+      "ventures",
+      "private-equity"
+    ],
+    "enquiry": "Discuss your financial model",
+    "faqs": [
+      [
+        "Do we need an existing model?",
+        "No. We can scope a new model or review and develop an existing one. The available records and decision determine the work."
+      ],
+      [
+        "Can you model a downside case?",
+        "Yes. Agree the variables to test—such as payment delays, costs, sales or programme timing—and compare cash requirements under those assumptions."
+      ],
+      [
+        "Does a model guarantee that funding will be available?",
+        "No. It is a decision tool based on assumptions, not an audit, valuation assurance or a funding commitment. A provider makes its own assessment."
+      ]
+    ],
+    "headline": "Put the numbers behind the next move."
+  },
+  {
+    "slug": "debt-advisory",
+    "route": "/services/debt-advisory",
+    "title": "Debt Advisory and Capital Sourcing",
+    "intro": "Structure the borrowing requirement and compare the commitments.",
+    "audience": "Business owners and finance teams preparing a capital decision.",
+    "trigger": "Structure the borrowing requirement and compare the commitments.",
+    "scope": [
+      "Structure the borrowing requirement and compare the commitments."
+    ],
+    "outputs": [
+      "Funding brief",
+      "Lender approach plan",
+      "Offer comparison where offers exist"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Business objective and timing",
+      "Available financial and commercial information"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "credit",
+      "real-estate",
+      "tech-opportunities",
+      "special-situations"
+    ],
+    "enquiry": "Discuss your advisory requirement",
+    "faqs": [
+      [
+        "Can we engage you just for preparation?",
+        "Yes. Standalone advisory can be scoped independently of a funding introduction."
+      ]
+    ]
+  },
+  {
+    "slug": "equity-advisory",
+    "route": "/services/equity-advisory",
+    "title": "Equity and Strategic Capital Advisory",
+    "intro": "Prepare the round, investor proposition and ownership discussion.",
+    "audience": "Business owners and finance teams preparing a capital decision.",
+    "trigger": "Prepare the round, investor proposition and ownership discussion.",
+    "scope": [
+      "Prepare the round, investor proposition and ownership discussion."
+    ],
+    "outputs": [
+      "Round strategy",
+      "Investor materials",
+      "Ownership scenarios"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Business objective and timing",
+      "Available financial and commercial information"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "ventures",
+      "private-equity"
+    ],
+    "enquiry": "Discuss your advisory requirement",
+    "faqs": [
+      [
+        "Can we engage you just for preparation?",
+        "Yes. Standalone advisory can be scoped independently of a funding introduction."
+      ]
+    ]
+  },
+  {
+    "slug": "transaction-support",
+    "route": "/services/transaction-support",
+    "title": "Due Diligence and Transaction Management",
+    "intro": "Keep information, questions and completion milestones connected.",
+    "audience": "Business owners and finance teams preparing a capital decision.",
+    "trigger": "Keep information, questions and completion milestones connected.",
+    "scope": [
+      "Keep information, questions and completion milestones connected."
+    ],
+    "outputs": [
+      "Issues log",
+      "Diligence tracker",
+      "Transaction timetable"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Business objective and timing",
+      "Available financial and commercial information"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "real-estate",
+      "private-equity",
+      "ventures",
+      "special-situations"
+    ],
+    "enquiry": "Discuss your advisory requirement",
+    "faqs": [
+      [
+        "Can we engage you just for preparation?",
+        "Yes. Standalone advisory can be scoped independently of a funding introduction."
+      ]
+    ]
+  },
+  {
+    "slug": "ongoing-advisory",
+    "route": "/services/ongoing-advisory",
+    "title": "Ongoing Capital and Business Advisory",
+    "intro": "Review facilities, forecasts and the business’s next capital decisions.",
+    "audience": "Business owners and finance teams preparing a capital decision.",
+    "trigger": "Review facilities, forecasts and the business’s next capital decisions.",
+    "scope": [
+      "Review facilities, forecasts and the business’s next capital decisions."
+    ],
+    "outputs": [
+      "Periodic capital review",
+      "Updated forecasts",
+      "Prioritised actions"
+    ],
+    "process": [
+      [
+        "Scope the engagement",
+        "Agree the objective, inputs, deliverables and fee."
+      ],
+      [
+        "Develop the work",
+        "Review information and assumptions with the client."
+      ],
+      [
+        "Review and hand over",
+        "Explain outputs, limitations and the next decisions."
+      ]
+    ],
+    "prepare": [
+      "Business objective and timing",
+      "Available financial and commercial information"
+    ],
+    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
+    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "relatedFunding": [
+      "credit",
+      "private-equity",
+      "special-situations"
+    ],
+    "enquiry": "Discuss your advisory requirement",
+    "faqs": [
+      [
+        "Can we engage you just for preparation?",
+        "Yes. Standalone advisory can be scoped independently of a funding introduction."
+      ]
+    ]
+  }
+]

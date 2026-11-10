@@ -11,8 +11,9 @@
    result.replaceChildren(text('p','Information to explore','kicker'),text('h2','Your starting points'),text('p',choice.explain));
    for(const route of choice.routes){const card=document.createElement('a');card.href=route.url;card.className='goal-card';card.append(text('h3',route.title),text('p',route.description),arrow());result.append(card);}
    const next=text('div','','guide-next'),first=choice.routes[0];
+   if(!first){next.append(text('h3','Start with your objective.'),text('p','There is no need to select a funding product yet.'),makeLink('/funding-options','Compare funding questions','text-link'),makeLink('/contact?purpose=not-sure&source=%2Ffunding-guide#enquiry','Discuss the objective','text-link'));result.append(next);result.hidden=false;result.focus();return;}
    if(help.value==='prepare'){next.append(text('h3','Prepare a useful outline.'),text('p','Write down the objective, broad amount and timing, the evidence available and the commitments you need to understand. Keep confidential details for an agreed later stage.'),makeLink('/briefs/'+first.slug,'Read the decision brief','text-link'));}
-   else if(help.value==='talk'){const topic=choice.id==='not-sure'?'not-sure':first.slug;next.append(text('h3','Start with the requirement.'),text('p','You do not need to have chosen a product. The enquiry preview can carry a starting topic, which you can change.'),makeLink('/contact?purpose='+encodeURIComponent(topic)+'#enquiry','Open the enquiry preview','text-link'));}
+   else if(help.value==='talk'){const topic=choice.id==='not-sure'?'not-sure':first.slug;next.append(text('h3','Start with the requirement.'),text('p','You do not need to have chosen a product. Your enquiry can carry a starting topic, which you can change.'),makeLink('/contact?purpose='+encodeURIComponent(topic)+'&goal='+encodeURIComponent(choice.id)+'&source=%2Ffunding-guide#enquiry','Discuss this requirement','text-link'));}
    else next.append(text('h3','Understand the wider choices.'),text('p','Cost, cash flow, ownership and timing can matter in different ways. Compare the questions before deciding which conversation to pursue.'),makeLink('/funding-options','Compare funding questions','text-link'));
    result.append(next,text('p','These links are information, not an eligibility assessment, recommendation or funding offer. Service scope and suitability must be established for the actual requirement.','form-note'));result.hidden=false;result.focus();
   });
@@ -37,8 +38,19 @@
     if(!input.checkValidity())invalid.push(input);
    }
    if(invalid.length){status.hidden=true;for(const input of invalid){const id=input.id+'-error',label=form.querySelector('label[for="'+input.id+'"]')?.textContent||'Field',message=input.validationMessage;input.setAttribute('aria-invalid','true');input.setAttribute('aria-errormessage',id);input.setAttribute('aria-describedby',[(input.getAttribute('aria-describedby')||''),id].filter(Boolean).join(' '));const inline=text('p',message,'field-error');inline.id=id;input.after(inline);const li=document.createElement('li'),a=text('a',label+': '+message);a.href='#'+input.id;a.addEventListener('click',ev=>{ev.preventDefault();input.focus();});li.append(a);errorList.append(li);}errors.hidden=false;errors.focus();return;}
-   status.hidden=false;status.textContent='Preview checked. Nothing has been sent or stored. Live enquiries will be enabled after contact handling is confirmed.';status.focus();
+   status.hidden=false;status.textContent='Preview checked. Nothing has been sent or stored. You can contact Frontier directly using the email link.';status.focus();
   });
   form.addEventListener('input',ev=>{const input=ev.target;if(typeof input.setCustomValidity==='function'){input.setCustomValidity('');clearField(input);}status.hidden=true;});
  }
+})();
+// Only allow known navigation context. Never copy arbitrary query text into email.
+(()=>{
+ const form=document.querySelector('.enquiry-form');if(!form)return;
+ const map=JSON.parse(form.dataset.contextMap),topic=form.elements.topic,email=document.querySelector('[data-context-email]'),summary=document.querySelector('[data-context-summary]');
+ const topics=[...topic.options].map(x=>x.value),routes=[...map.sources,...map.solutions.map(x=>x.route),...map.services.map(x=>x.route),...map.solutions.map(x=>'/briefs/'+x.slug)];
+ const goals=['cash-flow','growth','equipment','property','startup','ownership','complex','not-sure'];
+ let context={};
+ function restore(){const q=new URLSearchParams(location.search);context={};if(topics.includes(q.get('purpose')))topic.value=q.get('purpose');else if(q.has('purpose'))topic.value='not-sure';for(const [key,allow] of [['source',routes],['city',map.cities],['goal',goals]])if(allow.includes(q.get(key)))context[key]=q.get(key);const stages=map.solutions.find(x=>x.slug===topic.value)?.stages||[];const stage=stages.find(x=>x.id===q.get('stage'));if(stage)context.stage=stage.label;update();}
+ function update(){const label=topic.selectedOptions[0].textContent;const pieces=[['Source',context.source||location.pathname],['Project or purpose',context.stage],['Goal',context.goal],['City',context.city]].filter(([,v])=>v);const body='I would like to discuss '+label+'.\n\n'+pieces.map(([k,v])=>k+': '+v).join('\n')+'\n\nMy non-confidential outline:\n';if(email)email.href='mailto:enquiries@frontiercpx.com?subject='+encodeURIComponent(label)+'&body='+encodeURIComponent(body);if(summary)summary.textContent='Enquiry topic: '+label+(context.stage?' · '+context.stage:'')+(context.city?' · '+context.city:'');}
+ topic.addEventListener('change',()=>{delete context.stage;delete context.goal;update();});window.addEventListener('popstate',restore);window.addEventListener('pageshow',restore);restore();
 })();
