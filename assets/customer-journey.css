@@ -44,3 +44,6 @@
 
 /* Darker inset panels distinguish mobile subnavigation from its parent. */
 .site-header .mobile-nav .subnav{background:linear-gradient(135deg,#102d45 0%,#0a1f33 60%,#071827 100%);border:1px solid #ffffff1f;border-left:2px solid #49738f;border-radius:6px;padding:12px 18px;margin:8px 0 18px}.site-header .mobile-nav .subnav .subnav{background:linear-gradient(135deg,#0a2033,#05121f);padding:10px 14px}.mobile-nav summary{touch-action:manipulation}
+
+/* A quieter mobile menu with comfortable touch targets. */
+@media(max-width:1200px){.mobile-nav>.mobile-link,.mobile-nav summary{font-size:23px;line-height:1.35;padding:11px 0;min-height:48px}.mobile-nav>.client-login{font-size:18px;padding:8px 18px!important;min-height:44px;margin-bottom:8px}.mobile-nav summary:after{font-size:22px}.mobile-nav .subnav summary{font-size:19px}.mobile-nav .subnav a{font-size:15px;min-height:44px;padding-block:10px}.mobile-nav>a:last-child{font-size:14px}.hamburger,.hamburger:before,.hamburger:after{width:23px}.menu-toggle{width:48px;height:48px}}
