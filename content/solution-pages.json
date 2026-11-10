@@ -1,0 +1,332 @@
+{
+  "private-equity": {
+    "headline": "Capital for your next stage.",
+    "intro": "Explore how equity capital could support growth, an acquisition or a change in ownership.",
+    "useCases": [
+      "Acquiring a business",
+      "Accelerating expansion",
+      "Planning ownership change"
+    ],
+    "outcomeHeading": "What should the next investment make possible?",
+    "outcomeBody": "A useful equity conversation starts with the business plan, the opportunity and the ownership priorities you want to preserve. The structure should follow that discussion.",
+    "fit": [
+      "A defined growth or ownership objective",
+      "A business plan and credible financial information",
+      "Willingness to discuss ownership and governance"
+    ],
+    "clarify": [
+      "How much ownership you wish to retain",
+      "The role you want an investor to play",
+      "Your expected investment and exit horizon"
+    ],
+    "mechanics": "Equity involves exchanging an ownership interest for capital. Commercial terms, governance rights and future exit expectations need to be assessed together.",
+    "considerations": [
+      "Dilution and valuation",
+      "Governance and control",
+      "Investor expectations",
+      "Exit arrangements"
+    ],
+    "useCaseDescriptions": [
+      "Connect the acquisition plan with the ownership and capital structure it needs.",
+      "Consider the investment behind new capacity, markets or capability.",
+      "Explore the commercial priorities behind a shareholder or ownership transition."
+    ]
+  },
+  "credit": {
+    "headline": "Finance that moves your business forward.",
+    "intro": "Explore borrowing options around a clear business need, repayment capacity and practical timetable.",
+    "useCases": [
+      "Managing working capital",
+      "Funding expansion",
+      "Reviewing existing facilities"
+    ],
+    "outcomeHeading": "Put the business requirement first.",
+    "outcomeBody": "The right discussion connects the use of funds with the cash flow available to repay them. Existing borrowing, security and flexibility all influence the options worth considering.",
+    "fit": [
+      "A clear funding purpose",
+      "Visibility of cash flow and repayment",
+      "Information about current facilities"
+    ],
+    "clarify": [
+      "Security and guarantee requirements",
+      "Covenants and ongoing obligations",
+      "Total cost and repayment profile"
+    ],
+    "mechanics": "Debt provides capital with agreed repayment obligations. The suitability of a structure depends on the requirement, cash generation and the terms a provider is prepared to offer.",
+    "considerations": [
+      "Interest and fees",
+      "Security and guarantees",
+      "Repayment obligations",
+      "Covenants and flexibility"
+    ],
+    "useCaseDescriptions": [
+      "Understand the cash-flow gap behind a contract, trading cycle or growth plan.",
+      "Connect expansion costs with a realistic repayment profile.",
+      "Review maturity, flexibility and the obligations attached to current borrowing."
+    ]
+  },
+  "ventures": {
+    "headline": "Back the business you\u2019re building.",
+    "intro": "Explore the capital conversation behind a new market, a growing team or the next product milestone.",
+    "useCases": [
+      "Reaching a product milestone",
+      "Building commercial traction",
+      "Entering a new market"
+    ],
+    "outcomeHeading": "Connect the raise to the next milestone.",
+    "outcomeBody": "A convincing funding requirement explains what the capital unlocks, the evidence behind the opportunity and what the business needs to prove next. Stage and investor appetite matter.",
+    "fit": [
+      "A specific milestone and use of capital",
+      "Evidence supporting the market opportunity",
+      "A view of runway and future funding needs"
+    ],
+    "clarify": [
+      "Whether the business is ready for external capital",
+      "Dilution and investor involvement",
+      "The evidence needed at your stage"
+    ],
+    "mechanics": "Venture funding typically considers growth potential alongside substantial uncertainty. Investment structures, investor involvement and future funding needs deserve attention early.",
+    "considerations": [
+      "Valuation and dilution",
+      "Runway and milestones",
+      "Investor involvement",
+      "Future funding rounds"
+    ],
+    "useCaseDescriptions": [
+      "Set out the product evidence and resources needed for the next stage.",
+      "Connect hiring and sales investment with a defined commercial milestone.",
+      "Explain the market-entry plan, runway and evidence behind the opportunity."
+    ]
+  },
+  "real-estate": {
+    "headline": "Turn property ambition into progress.",
+    "intro": "Explore funding around a property purchase, development plan or refinancing requirement.",
+    "useCases": [
+      "Purchasing a property",
+      "Progressing a development",
+      "Refinancing an asset"
+    ],
+    "outcomeHeading": "Start with the asset and the plan.",
+    "outcomeBody": "A property funding conversation needs more than a purchase price. The asset, ownership structure, timetable, project economics and repayment or exit plan shape the requirement.",
+    "fit": [
+      "An identifiable property or project",
+      "A clear use of funds and timetable",
+      "Information about the repayment or exit route"
+    ],
+    "clarify": [
+      "Planning and project status",
+      "Equity contribution and security",
+      "Delivery risk and contingency"
+    ],
+    "mechanics": "Property finance structures vary with the asset, intended use and project stage. The proposed term and repayment route need to work with the underlying plan.",
+    "considerations": [
+      "Fees and borrowing cost",
+      "Security and equity contribution",
+      "Term and exit route",
+      "Drawdown conditions"
+    ],
+    "useCaseDescriptions": [
+      "Clarify the asset, transaction timetable and proposed ownership structure.",
+      "Connect project costs, delivery milestones and the intended exit route.",
+      "Review the existing facility against the asset and the next stage of the plan."
+    ]
+  },
+  "special-situations": {
+    "headline": "Find a route through complexity.",
+    "intro": "Explore a capital requirement shaped by change, pressure or an unusual business situation.",
+    "useCases": [
+      "Responding to business change",
+      "Considering a restructuring",
+      "Funding a complex transaction"
+    ],
+    "outcomeHeading": "Understand the situation before the structure.",
+    "outcomeBody": "Complex requirements benefit from a clear account of the underlying business, the immediate constraints and the choices available. A realistic timetable and complete information are especially important.",
+    "fit": [
+      "A clearly described situation and objective",
+      "Access to up-to-date business information",
+      "Decision-makers ready for a candid assessment"
+    ],
+    "clarify": [
+      "Urgency and stakeholder alignment",
+      "Existing obligations and constraints",
+      "The viability of the proposed plan"
+    ],
+    "mechanics": "Special situations are assessed individually. The business case, stakeholder position and available capital routes need to be understood before a structure can be evaluated.",
+    "considerations": [
+      "Commercial feasibility",
+      "Stakeholder requirements",
+      "Cost and structural terms",
+      "Execution and timing risk"
+    ],
+    "useCaseDescriptions": [
+      "Set out what has changed and the immediate priorities for the business.",
+      "Clarify the operating plan, existing obligations and stakeholder position.",
+      "Explain the transaction, constraints and decisions that need to align."
+    ]
+  },
+  "life-sciences": {
+    "headline": "Fund the next stage of discovery.",
+    "intro": "Frame a capital requirement around the evidence, milestones and operating needs of a life-sciences business.",
+    "useCases": [
+      "Progressing a research milestone",
+      "Expanding laboratory capacity",
+      "Preparing commercial scale-up"
+    ],
+    "outcomeHeading": "Make the next milestone tangible.",
+    "outcomeBody": "Funding needs can change considerably between research, development and commercialisation. Explain the milestone, the evidence supporting it and the resources needed to get there.",
+    "fit": [
+      "A defined scientific or commercial milestone",
+      "A clear business and funding plan",
+      "Relevant technical and financial information"
+    ],
+    "clarify": [
+      "Development stage and uncertainty",
+      "Regulatory and commercial dependencies",
+      "Capital needs beyond the next milestone"
+    ],
+    "mechanics": "Life-sciences requirements depend on the business stage, evidence and intended use of funds. Equity, debt or other routes should be considered in the context of those factors.",
+    "considerations": [
+      "Development and regulatory risk",
+      "Capital structure and dilution",
+      "Milestone dependencies",
+      "Runway and future requirements"
+    ],
+    "useCaseDescriptions": [
+      "Define the milestone, the supporting evidence and the resources it requires.",
+      "Consider the premises, equipment and operating needs behind additional capacity.",
+      "Connect the commercial plan with delivery, regulatory and capital dependencies."
+    ]
+  },
+  "tech-opportunities": {
+    "headline": "Make your next capability possible.",
+    "intro": "Explore funding for a defined technology investment, growth plan or infrastructure requirement.",
+    "useCases": [
+      "Investing in new capability",
+      "Scaling a technology business",
+      "Expanding digital infrastructure"
+    ],
+    "outcomeHeading": "Link the investment to a business outcome.",
+    "outcomeBody": "Technology is the means, rather than the funding case by itself. Explain what changes commercially, how the investment will be delivered and what supports the capital requirement.",
+    "fit": [
+      "A defined investment and intended outcome",
+      "A practical implementation or growth plan",
+      "Commercial and financial evidence"
+    ],
+    "clarify": [
+      "Technology and execution dependencies",
+      "Timing of costs and benefits",
+      "The capital structure that fits the plan"
+    ],
+    "mechanics": "Technology-related requirements vary between established businesses investing in capability and companies developing technology. The appropriate capital conversation follows the business model and use of funds.",
+    "considerations": [
+      "Total investment cost",
+      "Execution and adoption risk",
+      "Ownership or repayment terms",
+      "Future capital needs"
+    ],
+    "useCaseDescriptions": [
+      "Define the capability, delivery plan and commercial outcome of the investment.",
+      "Connect commercial traction with the people and resources needed to grow.",
+      "Explain capacity needs, customer demand and the economics of the infrastructure."
+    ]
+  },
+  "double-impact": {
+    "headline": "Grow with purpose in view.",
+    "intro": "Explore the capital requirement behind a commercial plan with defined social or environmental objectives.",
+    "useCases": [
+      "Investing in cleaner operations",
+      "Scaling a purpose-led business",
+      "Funding measurable improvements"
+    ],
+    "outcomeHeading": "Define both sides of the ambition.",
+    "outcomeBody": "The commercial case and the intended wider outcome should each be clear. Identify the investment, the practical change it supports and how progress could be measured.",
+    "fit": [
+      "A viable commercial plan",
+      "A specific social or environmental objective",
+      "A way to evidence the intended outcome"
+    ],
+    "clarify": [
+      "How the wider outcome will be measured",
+      "Commercial and delivery trade-offs",
+      "Whether the requirement fits provider appetite"
+    ],
+    "mechanics": "An impact-oriented capital conversation considers the business case alongside a defined wider objective. The label alone does not establish suitability or demonstrate an outcome.",
+    "considerations": [
+      "Commercial viability",
+      "Measurement and reporting",
+      "Capital terms and trade-offs",
+      "Delivery of intended outcomes"
+    ],
+    "useCaseDescriptions": [
+      "Identify the operational change and the business case supporting it.",
+      "Connect the growth plan with a specific, evidenced wider objective.",
+      "Define the baseline, the proposed investment and how progress can be assessed."
+    ]
+  },
+  "insurance": {
+    "headline": "Build resilience around your plans.",
+    "intro": "Clarify an insurance-related capital requirement and explore the type of specialist conversation it needs.",
+    "useCases": [
+      "Planning capital for growth",
+      "Reviewing balance-sheet needs",
+      "Considering a strategic transaction"
+    ],
+    "outcomeHeading": "Be precise about the requirement.",
+    "outcomeBody": "Insurance-related needs can involve different businesses, structures and specialists. Start by distinguishing a capital requirement from a request for insurance cover, then define the commercial objective.",
+    "fit": [
+      "A clearly defined insurance-related business need",
+      "Information about the entity and requirement",
+      "A view of the relevant constraints"
+    ],
+    "clarify": [
+      "Whether the need is capital or insurance cover",
+      "Specialist and regulatory dependencies",
+      "The scope of support required"
+    ],
+    "mechanics": "The required route depends on the entity, purpose and nature of the requirement. A capital conversation should not be confused with advice on, or the arrangement of, an insurance policy.",
+    "considerations": [
+      "Specialist suitability",
+      "Structural constraints",
+      "Commercial terms",
+      "Relevant dependencies"
+    ],
+    "useCaseDescriptions": [
+      "Describe the business, growth objective and the capital requirement behind it.",
+      "Clarify the financial objective and the specialist constraints that matter.",
+      "Set out the transaction, the entity involved and the intended commercial outcome."
+    ]
+  },
+  "crypto": {
+    "headline": "Support the next stage of digital infrastructure.",
+    "intro": "Frame a capital requirement around the business model and practical needs of a digital-assets or blockchain business.",
+    "useCases": [
+      "Building infrastructure",
+      "Scaling a commercial operation",
+      "Funding a defined growth milestone"
+    ],
+    "outcomeHeading": "Lead with the business behind the technology.",
+    "outcomeBody": "A clear requirement explains the operating model, customers, financial position and use of capital. The technology category does not replace a commercial funding case.",
+    "fit": [
+      "A defined business requirement",
+      "Transparent operating and financial information",
+      "A clear account of the intended use of funds"
+    ],
+    "clarify": [
+      "Business-model and market risk",
+      "Relevant jurisdictional requirements",
+      "Provider appetite and specialist constraints"
+    ],
+    "mechanics": "Digital-asset and blockchain businesses require individual assessment. The capital route depends on the activity, commercial evidence and the providers willing to consider the requirement.",
+    "considerations": [
+      "Business and market risk",
+      "Jurisdictional requirements",
+      "Capital structure and terms",
+      "Operational dependencies"
+    ],
+    "useCaseDescriptions": [
+      "Explain the infrastructure, its users and the commercial need it addresses.",
+      "Connect operating evidence with the capital needed for the next stage.",
+      "Define the milestone, the use of funds and the relevant dependencies."
+    ]
+  }
+}

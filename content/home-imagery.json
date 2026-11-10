@@ -1,0 +1,53 @@
+{
+  "purpose": "Replace empty homepage image slots for visual review. Fictional illustrative imagery; not clients, transactions or Frontier staff.",
+  "images": [
+    {
+      "key": "architecture",
+      "file": "/assets/images/home/architecture.webp",
+      "generator": "GPT image generation",
+      "status": "illustrative first pass",
+      "brief": "Upward architectural view of elegant contemporary commercial towers in a British business district at blue hour, strong clean facades and sky reflections, subtle warm office lights, confident and spacious. Compose a clear focal building in the central and right half so geometric crops remain legible.",
+      "page": "Home"
+    },
+    {
+      "key": "industry",
+      "file": "/assets/images/home/industry.webp",
+      "generator": "GPT image generation",
+      "status": "illustrative first pass",
+      "brief": "An advanced British manufacturing facility, a precision-engineered metal component in the foreground, modern industrial machinery and one engineer in appropriate safety clothing examining it in the middle ground. Calm, clean, authentic productive industry. No robotic human faces.",
+      "page": "Home"
+    },
+    {
+      "key": "healthcare",
+      "file": "/assets/images/home/healthcare.webp",
+      "generator": "GPT image generation",
+      "status": "illustrative first pass",
+      "brief": "A modern life-science research laboratory, two adult researchers wearing white lab coats and protective eyewear calmly discussing a sample beside contemporary laboratory equipment. Bright realistic laboratory, elegant composition, no visible patient data, no identifiable brands.",
+      "page": "Home"
+    },
+    {
+      "key": "technology",
+      "file": "/assets/images/home/technology.webp",
+      "generator": "GPT image generation",
+      "status": "illustrative first pass",
+      "brief": "A sophisticated modern data-centre corridor with orderly server cabinets and restrained practical blue-white indicator lights. One adult infrastructure engineer in the middle distance inspecting equipment, believable technology infrastructure, no futuristic holograms.",
+      "page": "Home"
+    },
+    {
+      "key": "team",
+      "file": "/assets/images/home/team.webp",
+      "generator": "GPT image generation",
+      "status": "illustrative first pass",
+      "brief": "A candid collaborative meeting of five adult business professionals of varied ages and backgrounds around a table in a contemporary British office overlooking a city. Relaxed serious discussion, natural gestures, business casual and navy tailoring. Landscape wide composition, people concentrated in the right two thirds and subdued uncluttered space on the left for a white headline overlay.",
+      "page": "Home"
+    },
+    {
+      "key": "sustainability",
+      "file": "/assets/images/home/sustainability.webp",
+      "generator": "GPT image generation",
+      "status": "illustrative first pass",
+      "brief": "Aerial editorial photograph of a modern industrial campus with rooftop solar panels and adjacent green landscape under soft morning light. Practical sustainable business growth, crisp architecture, natural greenery, no windmills crowding the frame, credible UK setting.",
+      "page": "Home"
+    }
+  ]
+}

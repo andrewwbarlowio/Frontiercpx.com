@@ -1,0 +1,8804 @@
+@media(min-width:576px) {
+
+	.contact-map-box aside.location-grid:nth-child(2n) .grid-inner:before,
+	.contact-map-box aside.location-grid:last-child .grid-inner:before {
+		display: none;
+	}
+
+	.contact-map-box aside.location-grid:last-child:before,
+	.contact-map-box aside.location-grid:nth-last-child(2):before {
+		display: none;
+	}
+}
+
+@media(min-width:768px) {
+	.image-content-row:nth-child(even) .image-col {
+		order: 2;
+	}
+
+	.image-content-row:nth-child(odd) .image-col {
+		padding-right: 60px;
+	}
+
+	.image-content-row:nth-child(even) .image-col {
+		padding-left: 60px;
+	}
+
+	.image-content-row:nth-child(odd) .image-col .col-inner {
+		padding-left: 120px;
+	}
+
+	.image-content-row:nth-child(even) .image-col .col-inner {
+		padding-right: 120px;
+	}
+
+	.business-explore-col {
+		position: absolute;
+		right: 0;
+		height: 100%;
+		max-width: 100%;
+		top: 0;
+	}
+
+	.banner-explore-content .mobile-btn,
+	.explore-text-wrap .mobile-text,
+	.business-mobile-content.banner-explore-content,
+	.tab-content-block .business-logo,
+	.esg-row .mobile-btn {
+		display: none !important;
+	}
+
+	.investment-spotlight-single .spotlight-content-wrap {
+		transform: none !important;
+	}
+
+	.news-banner-section .banner-nav-slider .anim-line {
+		width: 75%;
+		margin-left: auto;
+	}
+
+	.news-banner-section .banner-nav-slider .slide-single:first-child .anim-line {
+		margin-left: 0;
+	}
+
+	.news-banner-section .banner-nav-slider .slick-current .anim-line {
+		width: 150%;
+
+	}
+
+	.news-banner-section .banner-nav-slider .slick-current:not(:first-child) .anim-line {
+		margin-left: -25%;
+	}
+
+	.news-banner-section .banner-nav-slider .slide-single:not(:first-child):not(:last-child):not(.slick-current) .anim-line {
+		margin-left: -25%;
+	}
+
+	.news-banner-section .banner-nav-slider .slide-single.slick-current:first-child+.slide-single .anim-line {
+		margin-left: 50%;
+	}
+
+	.news-banner-section .banner-nav-slider .slick-current:last-child .anim-line {
+		margin-left: -50%;
+	}
+
+	.our-advantages-box:nth-child(even) .image-col {
+		order: 2;
+	}
+
+	.contact-map-box aside.location-grid {
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+
+	.contact-map-box aside.location-grid:nth-child(2n) .grid-inner:before {
+		display: block;
+	}
+
+	.contact-map-box aside.location-grid:nth-child(3n) .grid-inner:before,
+	.contact-map-box aside.location-grid:last-child .grid-inner:before {
+		display: none;
+	}
+
+	.contact-map-box aside.location-grid:last-child:before,
+	.contact-map-box aside.location-grid:nth-last-child(2):before,
+	.contact-map-box aside.location-grid:nth-last-child(3):before {
+		display: none;
+	}
+
+	.our-advantages-box:nth-child(even) .image-col {
+		order: 2;
+	}
+
+	.sort-filter-wrap .filter-btn {
+		height: 33px;
+	}
+
+	.sticky-filter .sort-filter-wrap .filter-btn,
+	.sticky-filter .portfolio-sorting-wrap .news-filter button {
+		min-height: 30px;
+		height: 30px;
+	}
+
+	section.news-section {
+		padding-bottom: 0;
+	}
+
+	.team-review-slider .slick-outline.slick-arrow {
+		height: 70px;
+		width: 70px;
+	}
+
+	.team-review-slider .slick-outline.slick-arrow svg {
+		height: 38px;
+		width: auto;
+	}
+
+	.opportunity-slider-section .title-wrap {
+		padding-right: 170px;
+	}
+
+
+}
+
+@media only screen and (min-height: 930px) {
+
+	.more-menu-section-wrap,
+	.more-menu-section .container {
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-height: 930px) {
+
+	.more-menu-section .container,
+	.more-menu-section .container .row,
+	.more-menu-section .copyright-wrap {
+		height: auto;
+	}
+
+	.more-menu-section .container {
+		padding-bottom: 100px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+
+	.custom-offset-lg-2 {
+		/* margin-left: 170px; */
+		margin-left: 13.5%;
+	}
+
+	.impact-block-wrapper {
+		padding-bottom: 200px;
+	}
+
+	.bottom-header .navbar .navbar-brand {
+		padding-bottom: 0;
+	}
+
+	.bottom-header .navbar-collapse {
+		padding-top: 0;
+	}
+
+	.contact-map-box aside.location-grid:nth-child(3n) .grid-inner:before {
+		display: block;
+	}
+
+	.contact-map-box aside.location-grid:nth-child(4n) .grid-inner:before,
+	.contact-map-box aside.location-grid:last-child .grid-inner:before {
+		display: none;
+	}
+
+	.contact-map-box aside.location-grid:last-child:before,
+	.contact-map-box aside.location-grid:nth-last-child(2):before,
+	.contact-map-box aside.location-grid:nth-last-child(3):before,
+	.contact-map-box aside.location-grid:nth-last-child(4):before {
+		display: none;
+	}
+
+	.contact-map-box aside.location-grid {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.news-item .feature-news-col {
+		flex: 0 0 55%;
+		max-width: 55%;
+	}
+
+	.news-item .news-item-col {
+		flex: 0 0 45%;
+		max-width: 45%;
+	}
+
+	.business-row-wrap .row>div.global-map-col {
+		flex: 0 0 calc(100% - 410px);
+		max-width: calc(100% - 410px);
+	}
+
+	.business-row-wrap .row>div.latest-news-col {
+		flex: 0 0 410px;
+		max-width: 410px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.people-listing .col {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	.people-listing .quote-col,
+	.people-listing .col.small-banner-col {
+		flex: 0 0 60%;
+		max-width: 60%;
+		width: 60%;
+	}
+
+	/* .news-items-slider.listing-slide-active .slick-arrow.slick-next.slick-outline {
+		right: 30px;
+	} */
+
+	.news-items-slider .slick-list {
+		/* overflow: visible; */
+	}
+
+	section.our-advantages-section {
+		padding-top: 150px;
+	}
+
+	.team-review-slider>.slick-list {
+		overflow: visible;
+	}
+
+	.team-review-slide:not(.slick-current) .review-title-wrap {
+		margin-left: calc(-30% + 100px);
+		transition: all 500ms ease-in-out;
+	}
+
+
+}
+
+@media(min-width:1366px) {
+	.contact-map-box aside.location-grid {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	.contact-map-box aside.location-grid:nth-child(4n) .grid-inner:before {
+		display: block;
+	}
+
+	.contact-map-box aside.location-grid:nth-child(5n) .grid-inner:before,
+	.contact-map-box aside.location-grid:last-child .grid-inner:before {
+		display: none;
+	}
+
+	.contact-map-box aside.location-grid:last-child:before,
+	.contact-map-box aside.location-grid:nth-last-child(2):before,
+	.contact-map-box aside.location-grid:nth-last-child(3):before,
+	.contact-map-box aside.location-grid:nth-last-child(4):before,
+	.contact-map-box aside.location-grid:nth-last-child(5):before {
+		display: none;
+	}
+}
+@media only screen and (min-width: 1500px) {
+	.section-wrapper .section.banner-tanagram-section { padding-top: 200px; }
+}
+@media only screen and (min-width: 1601px) {
+	header .container {
+		max-width: 1530px;
+	}
+
+	.year-review-wrap .container {
+		max-width: 1530px;
+	}
+
+	/* Addtional map css start */
+	.contact-section-content {
+		min-height: 1300px;
+	}
+
+	/* Addtional map css end */
+
+	.team-quote h3 {
+		font-size: 50px;
+	}
+
+	.feature-news-col .featured-news.fixed {
+		max-width: calc(50% - 5.31% - 30px);
+	}
+
+	.small-banner-wrap::before {
+		left: calc(((100vw - 1430px) / -2) - 15px);
+	}
+
+	.small-banner-wrap .bg-image {
+		right: calc(((100vw - 1430px) / -2) - 15px);
+	}
+	.banner-tanagram-section .banner-slider-col
+	{
+		width: 28%;
+	}
+	.banner-tanagram-section .tanagram-anim-col
+	{
+		justify-content: flex-end;
+		width: 75%;
+	}
+	.banner-tanagram-section .tanagram-anim-col .tanagram-anim-wrap
+	{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 1824px) {
+
+	body {
+		font-size: 1.15vw;
+	}
+
+	.section {
+		padding-top: 5.556vw;
+		padding-bottom: 5.556vw;
+	}
+
+	.h1,
+	h1,
+	.inner-banner-row .banner-title {
+		font-size: 4.4vw;
+	}
+
+	.h2,
+	h2 {
+		font-size: 4vw;
+	}
+
+	.h3,
+	h3 {
+		font-size: 2.6vw;
+	}
+
+	.h4,
+	h4 {
+		font-size: 2.222vw;
+	}
+
+	.h5,
+	h5 {
+		font-size: 2vw;
+	}
+
+	.title-wrap .section-title {
+		margin-bottom: 2.222vw;
+	}
+
+	.title-wrap .half-width-caption {
+		font-size: 1.667vw;
+	}
+
+	.inner-banner-row .content-text {
+		font-size: 1.15vw;
+	}
+
+	.tagline-slider-section .banner-caption-col {
+		z-index: 10;
+	}
+
+	.btn {
+		font-size: 1.1vw;
+		padding: 0.278vw 0.889vw;
+		font-weight: 500;
+		border: 0.15vw solid var(--primaryColor);
+		border-radius: 1.667vw;
+	}
+
+	.btn-small .arrow-round-icon,
+	.btn .arrow-round-icon {
+		height: 1.111vw;
+		width: 1.111vw;
+		border: 0.111vw solid;
+	}
+
+	.banner-row .btn-outline.btn-blue .arrow-round-icon {
+		background-position: 60% 50%;
+		background-size: 0.4vw;
+	}
+
+	.btn .arrow-icon svg {
+		width: 0.45vw;
+	}
+
+	button.play-video-btn {
+		font-size: 1.444vw;
+	}
+
+	button.play-video-btn .arrow-icon {
+		margin-right: 0.556vw;
+		height: 1.438vw;
+		width: 1.438vw;
+	}
+
+	button.play-video-btn .arrow-icon svg {
+		width: 1.438vw;
+		height: 1.438vw;
+	}
+
+	section.our-advantages-section {
+		padding-top: 11.1vw;
+	}
+
+	.platform-anim-circle {
+		height: 34.444vw;
+		width: 34.444vw;
+	}
+
+	.platform-anim-circle .nav-tabs .nav-link {
+		font-size: 2vw;
+	}
+
+	.investment-spotlight-single .tag-wrap {
+		font-size: 0.889vw;
+	}
+
+	.investment-spotlight-single .spotlight-title {
+		font-size: 1.778vw;
+	}
+
+	.esg-row .content-col .content-text {
+		font-size: 1.444vw;
+	}
+
+	.esg-tab .nav-tabs .nav-link {
+		font-size: 1.333vw;
+		padding: 0.889vw 0;
+	}
+
+	.arrow-round-icon {
+		height: 1.278vw;
+		width: 1.278vw;
+		border-width: 0.111vw;
+		line-height: 0.889vw;
+	}
+
+	.esg-tab-wrap .nav-link svg {
+		width: 0.45vw;
+	}
+
+	.news-date,
+	.news-box-wrap .by-tag,
+	.news-item-single .by-tag,
+	.feature-news-wrap .by-tag {
+		font-size: 0.889vw;
+	}
+
+	.news-date span.tag-text {
+		font-size: 0.778vw;
+	}
+
+	.news-title {
+		font-size: 1.333vw;
+	}
+
+	.news-listing-wrap .news-list-single:not(:last-child) {
+		margin-bottom: 1.944vw;
+	}
+}
+
+@media(min-width:1700px) {
+	.feature-news-col .featured-news.fixed {
+		max-width: calc(45% - 30px);
+	}
+
+	.banner-slider-section .banner-content-wrap {
+		padding-left: calc(5% + 15px);
+		padding-right: calc(5% + 15px);
+	}
+}
+
+@media(min-height:768px) {
+	.news-banner-section .banner-content-wrap {
+		top: calc(68vh)
+	}
+
+	.news-banner-section .banner-nav-slider-wrap {
+		bottom: auto;
+		top: calc(68vh - 25px);
+	}
+}
+
+@media(max-height:600px) and (min-width:1024px) {
+	.news-banner-section .banner-content-wrap {
+		top: calc(68vh - 45px)
+	}
+
+	.news-banner-section .banner-nav-slider-wrap {
+		bottom: auto;
+		top: calc((68vh - 45px) - 25px);
+	}
+
+	.global-map-col #chartdiv {
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 1635px) {
+	.our-strategies-tabs-content .prevtab {
+		left: 15px;
+	}
+
+	.our-strategies-tabs-content .nexttab {
+		right: 15px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+
+	.h1,
+	h1 {
+		font-size: 72px;
+	}
+
+	.h2,
+	h2 {
+		font-size: 65px;
+	}
+
+	.h3,
+	h3 {
+		font-size: 45px;
+	}
+
+	.h4,
+	h4 {
+		font-size: 35px;
+	}
+
+	.h5,
+	h5 {
+		font-size: 34px;
+	}
+
+	.h6,
+	h6 {
+		font-size: 26px;
+	}
+
+	.intro-section-wrap {
+		font-size: 45px;
+	}
+
+	.video-banner-caption h2 {
+		font-size: 90px;
+		max-width: 70%;
+	}
+
+	.guiding-section-slants {
+		height: 1075px;
+		padding-top: 200px;
+	}
+
+	.guiding-section-slants-wrap {
+		padding-top: 430px;
+	}
+
+	.guiding-section-slants .left-slant {
+		top: 200px;
+	}
+
+	.guiding-section-slants .right-slant {
+		height: 1080px;
+	}
+
+	.guiding-section-slants .right-slant-image {
+		top: -213px;
+	}
+
+	/* .gradient-section-slants-content-wrap {
+        padding-top: 40px;
+    } */
+
+	/* .gradient-section-slants .left-slant {
+        top: 20%;
+    }
+
+    .gradient-section-slants .right-slant {
+        height: 500%;
+    } */
+
+	.video-banner-caption {
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+	.video-banner-caption {
+		top: 65%;
+	}
+
+	.container,
+	header .container {
+		max-width: 100%;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+	.sitemap-bottom-wrap .container,
+	.sitemap-top-wrap .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.strategy-section .guiding-principles-block .section-title:before {
+		width: 100%;
+		max-width: 360px;
+	}
+
+	/* .contact-section-content {
+		right: 7rem;
+		left: 7rem;
+	} */
+
+	.about-menu a {
+		font-size: 50px;
+	}
+
+	.ftr-businesses-menu a {
+		font-size: 38px;
+	}
+
+	.gradient-section-slants-content-wrap img {
+		max-width: 110px;
+	}
+
+	.gradient-section-slants-content h3 {
+		font-size: 40px;
+	}
+
+	.gradient-section-slants-content h2 {
+		font-size: 45px;
+		margin-bottom: 30px;
+	}
+
+	.strategy-section h6 {
+		font-size: 28px;
+	}
+
+	.ip-slider {
+		padding-top: 9rem;
+	}
+
+	.ip-slider .carousel-control {
+		width: 75px;
+		height: 75px;
+		font-size: 4.25rem;
+	}
+
+	.ip-slider .carousel-control-prev {
+		left: -7rem;
+	}
+
+	.ip-slider .carousel-control-next {
+		right: -7rem;
+	}
+
+	.about-section p {
+		font-size: 22px;
+	}
+
+	/* .our-strategies-tabs-content .carousel-btn {
+		width: 75px;
+		height: 75px;
+		font-size: 4.25rem;
+		line-height: 50px;
+	} */
+	.themes-content h6 {
+		font-size: 30px;
+	}
+
+	.themes-content,
+	.themes-content p {
+		font-size: 25px;
+	}
+
+	.expand-icon {
+		font-size: 30px;
+	}
+
+	.count-no sup {
+		font-size: 38px;
+		top: -0.4em;
+	}
+
+	.gradiant-banner-title {
+		margin-bottom: 50px;
+	}
+
+	.count-single {
+		margin-bottom: 30px;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 80px;
+	}
+
+	.gradiant-banner-title {
+		font-size: 40px;
+	}
+
+	.Strategy-intro-text,
+	.Strategy-intro-box p,
+	.intro-box-title,
+	.tab-content-text p {
+		font-size: 22px;
+	}
+
+	.tab-content-title {
+		font-size: 32px;
+	}
+
+	.investment-block-title {
+		font-size: 30px;
+	}
+
+	.investment-block-text {
+		font-size: 22px
+	}
+
+	.box-number {
+		font-size: 40px;
+		height: 80px;
+		width: 80px;
+		line-height: 80px;
+	}
+
+	.portfolio-detail-banner.fp-auto-height {
+		padding-bottom: 25vh;
+	}
+
+	.gradiant-banner-title {
+		margin-bottom: 30px;
+	}
+
+	.count-single {
+		margin-bottom: 20px;
+	}
+
+	.count-no h1 {
+		font-size: 60px;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 0;
+	}
+
+	.spotlight-section-wrap h3 {
+		min-height: 110px;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 260px;
+	}
+
+	.themes-icon-box .themes-content-text {
+		min-height: 20vw;
+	}
+
+	/* homepage third section*/
+	.sitemap-title-wrap h2 {
+		font-size: 45px;
+	}
+
+	/* h3.sitemap-page-title
+	{
+		font-size: 28px;
+	} */
+	/* .sitemap-news-title h4
+	{
+		font-size: 28px;
+	} */
+	/* homepage third section End*/
+
+	/* Amchart map popup css start */
+	/* .map-svg-wrap {
+		top: 200px;
+		height: calc(100% - 200px);
+	} */
+	/* Amchart map popup css end */
+
+	/* Body Text Css */
+	body {
+		/* font-size: 18px; */
+	}
+
+	h3.sitemap-page-title,
+	.sitemap-news-title h4,
+	.portfolio-grid .media-body p,
+	.contact-note,
+	.portfolio-detail-text {
+		font-size: 24px;
+	}
+
+	.about-section p,
+	.case-study-wrapper>h6,
+	.themes-content,
+	.themes-content p,
+	.Strategy-intro-text,
+	.Strategy-intro-box p,
+	.intro-box-title,
+	.tab-content-text p,
+	.management-expand-text,
+	.team-people-content,
+	.team-people-content h6,
+	.investment-block-text {
+		font-size: 24px;
+	}
+
+	/* Body Text Css */
+	/* Homepage banner changes */
+	.video-banner-caption h2 {
+		font-size: 90px;
+		max-width: 50%;
+	}
+
+	/* Homepage banner changes End*/
+	/* More menu - japan link css*/
+	.local-site-listing ul li a {
+		font-size: 24px;
+	}
+
+	/* More menu - japan link css End*/
+
+	/* Additonal CSS for BC Credit start */
+	.portfolio-sorting-wrap .dropdown.show .dropdown-menu {
+		max-height: 215px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	/* Addtional map css start */
+	.contact-section-content {
+		min-height: 1100px;
+	}
+
+	/* Addtional map css end */
+
+	.half-width-caption {
+		max-width: 860px;
+	}
+
+	.home-page-slants .pin-spacer:not(.caption-scrolled) .container.banner-text .row {
+		padding-left: 0;
+	}
+
+
+	/* bc corp */
+	.our-history-section a,
+	.our-history-section .history-tag {
+		font-size: 20px;
+	}
+
+	.our-history-section .review-title {
+		font-size: 36px;
+	}
+
+	.title-wrapper .title-small,
+	.big-video-section .video-text-wrap,
+	.purp-value-col .purp-value-title {
+		font-size: 22px;
+	}
+
+	.career-banner-section .career-title,
+	.career-banner-section .career-link {
+		font-size: 45px;
+	}
+
+	.big-video-section .video-top-text .video-text.text-small {
+		font-size: 24px;
+	}
+
+	.global-map-col .section-title {
+		font-size: 50px;
+	}
+
+	.latest-news-col .news-title {
+		font-size: 26px;
+	}
+
+
+
+	.global-map-col .contact-map-box .container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+	.latest-news-col .news-content-wrap {
+		padding: 30px 20px;
+	}
+
+	.by-the-number-wrap .count-no {
+		font-size: 65px;
+	}
+
+	.banner-text .banner-text-inner p {
+		max-width: 600px;
+	}
+
+	.cerevel-table th,
+	.cerevel-table td {
+		font-size: 20px;
+	}
+
+	.portfolio-detail-content .table-col .sub-title {
+		font-size: 26px;
+	}
+
+	.gradiant-simple-content .gradiant-text,
+	.gradiant-simple-content .gradiant-link-wrap {
+		font-size: 45px;
+	}
+
+	.gradiant-simple-content {
+		max-width: 805px;
+	}
+
+	.case-study-grid.slick-slider .case-study-content h6 {
+		font-size: 34px;
+	}
+
+
+	.news-title {
+		font-size: 22px;
+	}
+
+	/* .feature-news-col .news-content .featured-news-title,
+	.featured-news-title {
+		font-size: 32px;
+	} */
+
+	.tvp-banner-caption-text h2 {
+		font-size: 68px;
+	}
+
+	.tvp-banner-caption-text p {
+		font-size: 26px;
+	}
+
+	.banner-bottom-text h2,
+	.team-review-single h3 {
+		font-size: 54px;
+	}
+
+	/* bc corp End*/
+	.banner-content-wrap .banner-content-text {
+		max-width: 670px;
+	}
+
+	.banner-nav-slider .slide-nav-title {
+		font-size: 22px;
+	}
+
+	.banner-slider-section .banner-content-wrap {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+	.banner-explore-content .explore-text,
+	.business-content-wrap h2.section-title {
+		font-size: 32px;
+	}
+
+	.by-the-number-wrap .count-no {
+		font-size: 80px;
+	}
+
+	.business-content-wrap h2.section-title {
+		padding-right: 6vw;
+	}
+
+	/* .btn-xs {
+		padding: 6px 16px 8px;
+	} */
+
+
+	.content-text.big-text,
+	.content-text.big-text p {
+		font-size: 20px;
+	}
+
+	.review-text-col .review-text,
+	.review-text-col .review-text p {
+		font-size: 28px;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .section-title {
+		font-size: 32px;
+	}
+
+	.news-banner-slider .banner-content-wrap .banner-title {
+		font-size: 36px;
+		max-width: 80%;
+	}
+
+	.small-banner-wrap .small-banner-title {
+		font-size: 32px;
+	}
+
+	.small-banner-col .small-banner-wrap .content-text {
+		font-size: 26px;
+	}
+
+	.full-width-news-item .featured-news-title {
+		font-size: 44px
+	}
+
+	.home-page-contact-section .map-svg-wrap {
+
+		left: -4rem;
+		width: calc(100% + 8rem)
+	}
+
+	.banner-tanagram-section .banner-slider-col {
+		padding-bottom: 5vh;
+	}
+
+	.banner-tanagram-section .banner-title-wrap {
+		width: 900px;
+	}
+/*
+	.banner-tanagram-section .banner-slider-wrap {
+		height: calc(100vh - 360px);
+	} */
+
+	.tanagram-anim-col {
+		/* width: 56%; */
+	}
+
+	.banner-slider-wrap>.row {
+		justify-content: space-between;
+	}
+
+	.title-wrap .half-width-caption {
+		font-size: 28px;
+	}
+
+	button.play-video-btn,
+	.esg-tab .nav-tabs .nav-link,
+	.esg-row .content-col .content-text {
+		font-size: 24px;
+	}
+
+	.our-people-box .title-wrap>p {
+		font-size: 26px;
+	}
+
+	.investment-spotlight-single .spotlight-title {
+		font-size: 30px;
+	}
+
+	.investment-spotlight-single .tag-wrap,
+	.news-date,
+	.news-box-wrap .by-tag,
+	.news-date span:not(:last-child):before,
+	.news-item-single .by-tag {
+		font-size: 14px;
+	}
+
+	.news-date span.tag-text {
+		font-size: 13px;
+	}
+
+	.feature-news-col .news-content .featured-news-title,
+	.featured-news-title {
+		font-size: 30px;
+	}
+
+	.home-page-contact-section .contact-map-box .nav-item .nav-link {
+		font-size: 20px;
+	}
+
+	.news-sidebar-col .sidebar-title {
+		font-size: 22px;
+	}
+
+	.inner-banner-row .banner-title {
+		font-size: 80px;
+		margin-bottom: 50px;
+	}
+
+	.number-counter-col .count-no {
+		font-size: 90px;
+	}
+
+	.title-wrap .title-top-small {
+		font-size: 22px;
+	}
+
+	.purp-value-col .purp-value-title {
+		font-size: 24px;
+	}
+
+	.purp-value-col .content-text {
+		font-size: 20px
+	}
+
+	.latest-news-col .news-tag {
+		font-size: 14px;
+	}
+
+	.team-review-content .team-review-text,
+	.team-review-content .team-review-text p,
+	.team-reviews-listing ul li {
+		font-size: 26px;
+	}
+
+	.team-breadcrumb ul li {
+		font-size: 22px;
+	}
+
+	.team-review-slide {
+		padding: 0 30px;
+	}
+
+	.team-review-slider>.slick-list {
+		margin: 0 -30px
+	}
+
+	.join-team-section .link-list-wrapper {
+		margin-top: 120px;
+	}
+
+	.link-list-wrapper .link-footer-col {
+		margin-top: 80px
+	}
+
+	.related-content-col .news-item-single {
+		padding-right: 70px;
+	}
+
+	.news-detail-right h3 {
+		font-size: 34px;
+	}
+
+	/* cookie Popup*/
+	#sliding-popup .eu-cookie-compliance-banner {
+		max-width: 100%;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+	/* cookie Popup ENd*/
+	.footermenu.copyright-menu li,
+	.site-footer .footermenu li {
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+	.business-menu-nav .nav-tabs .nav-link{
+		font-size: 18px;
+	}
+
+}
+
+@media only screen and (max-width: 1490px) {
+
+	.tab-content-block .container {
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+
+}
+
+@media only screen and (max-width: 1400px) {
+	body {
+		font-size: var(--smFontSize);
+	}
+
+	.h1,
+	h1 {
+		font-size: 68px;
+	}
+
+	.h2,
+	h2 {
+		font-size: 60px;
+	}
+
+	.h3,
+	h3 {
+		font-size: 38px;
+	}
+
+	.h4,
+	h4 {
+		font-size: 30px;
+	}
+
+	.h5,
+	h5 {
+		font-size: 30px;
+	}
+
+	.h6,
+	h6 {
+		font-size: 24px;
+	}
+
+	.guiding-principles-block p {
+		font-size: 22px;
+	}
+
+	.gradient-section-slants-content h3 {
+		max-width: 575px;
+	}
+
+	/* Additonal CSS for BC Credit start */
+	.gradient-section-slants-content h3,
+	.gradient-section-slants-content h3.visit-link-text {
+		font-size: 35px;
+	}
+
+	.visit-link {
+		font-size: 22px;
+	}
+
+	.visit-link a img {
+		max-width: 35px;
+		margin-right: 12px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.gradient-section-slants-content h2 {
+		font-size: 40px;
+	}
+
+	.guiding-principles-note {
+		max-width: 700px;
+	}
+
+	.gradient-section-slants-content-wrap img {
+		max-width: 80px;
+	}
+
+	.strategy-section .guiding-principles-block .section-title:before {
+		max-width: 295px;
+	}
+
+	.about-menu a {
+		font-size: 40px;
+	}
+
+	.ftr-businesses-menu a {
+		font-size: 30px;
+	}
+
+	.search-widget .underscore,
+	.search-widget .typedtext-all {
+		font-size: 50px;
+	}
+
+	.more-menu-sidebar .search-widget #keys,
+	.more-menu-sidebar .search-widget #edit-search-api {
+		font-size: 40px;
+	}
+
+	.more-menu-sidebar .search-widget #keys,
+	.more-menu-sidebar .search-widget #edit-search-api {
+		height: 99px;
+		font-size: 40px;
+	}
+
+	/* .gradient-section-slants .left-slant {
+    top: 40%;
+  } */
+
+	.strategy-section h6 {
+		font-size: 26px;
+	}
+
+	.strategy-block p {
+		font-size: 20px;
+	}
+
+	.portfolio-sorting-wrap .dropdown button.psorting {
+		line-height: 1.25;
+	}
+
+	.ip-slider {
+		padding-top: 8rem;
+	}
+
+	.ip-item-title .heading {
+		font-size: 60px;
+	}
+
+	.tab-content-block .container {
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+
+	.spotlight-image {
+		height: 42vw;
+	}
+
+	.slick-arrow {
+		top: 20vw;
+	}
+
+	.grid-single .img-wrap {
+		height: 14vw;
+	}
+
+	.themes-content h6 {
+		font-size: 26px;
+	}
+
+	.themes-content,
+	.themes-content p {
+		font-size: 22px;
+	}
+
+	.expand-icon {
+		font-size: 26px;
+	}
+
+	.count-no sup {
+		font-size: 35px;
+		top: -0.45em;
+	}
+
+	.gradiant-banner-title {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 50px;
+	}
+
+	.count-single {
+		margin-bottom: 10px;
+	}
+
+	.count-single h6 {
+		font-size: 18px;
+	}
+
+	.Strategy-intro-box,
+	.Strategy-intro-text {
+		padding-right: 0;
+	}
+
+	.strategies-tabs-wrap .nav-tabs .nav-link {
+		font-size: 22px;
+	}
+
+	.investment-single-wrap:before {
+		border-left-width: 60px;
+		border-right-width: 60px;
+		border-top-width: 70px;
+	}
+
+	.investment-block-title {
+		font-size: 28px;
+	}
+
+	.investment-single-wrap:before {
+		left: 11.4%;
+	}
+
+	.tab-content-text p {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.management-title h6 {
+		font-size: 22px;
+	}
+
+	.management-boxes-text {
+		font-size: 22px;
+	}
+
+	.case-study-wrapper>h6 {
+		font-size: 22px;
+	}
+
+	.team-people-image {
+		width: 210px;
+		height: 210px;
+	}
+
+	.team-single {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.governance-team>.row {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	.team-people-content h6,
+	.team-people-content {
+		font-size: 22px;
+	}
+
+	.tab-content-title {
+		font-size: 30px;
+	}
+
+	.portfolio-detail-banner.fp-auto-height {
+		padding-bottom: 15vh;
+	}
+
+	.count-single {
+		margin-bottom: 10px;
+	}
+
+	.count-single h6 {
+		font-size: 18px;
+	}
+
+	.management-expand-text {
+		font-size: 22px;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 0;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 26vw;
+	}
+
+	.spotlight-section-wrap h3 {
+		min-height: 70px;
+	}
+
+	.spotlight-image {
+		height: 24vw;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 17vw;
+	}
+
+	/* homepage third section*/
+	.sitemap-title-wrap h2 {
+		font-size: 40px;
+	}
+
+	h3.sitemap-page-title {
+		font-size: 23px;
+	}
+
+	.sitemap-news-title h4 {
+		font-size: 22px;
+	}
+
+	.news-title-col a {
+		font-size: 20px;
+	}
+
+	.all-news-link a {
+		font-size: 14px;
+	}
+
+	.news-date-col span {
+		font-size: 12px;
+	}
+
+	.all-news-link a i {
+		width: 20px;
+		height: 20px;
+		font-size: 20px;
+		line-height: 9px;
+		padding: 0 2px;
+	}
+
+	/* homepage third section End*/
+
+	/* Body Text Css */
+	h3.sitemap-page-title,
+	.sitemap-news-title h4,
+	.portfolio-grid .media-body p,
+	.contact-note,
+	.portfolio-detail-text {
+		font-size: 22px;
+	}
+
+	.about-section p,
+	.case-study-wrapper>h6,
+	.themes-content,
+	.themes-content p,
+	.Strategy-intro-text,
+	.Strategy-intro-box p,
+	.intro-box-title,
+	.tab-content-text p,
+	.management-expand-text,
+	.team-people-content,
+	.team-people-content h6,
+	.investment-block-text {
+		font-size: 22px;
+	}
+
+	/* Body Text Css */
+
+	/* More menu - japan link css*/
+	.local-site-listing ul li a {
+		font-size: 22px;
+	}
+
+	.local-site-listing {
+		margin-top: 30px;
+	}
+
+	.local-site-listing ul li {
+		margin-bottom: 8px;
+	}
+
+	.local-site-listing ul li::before {
+		height: 25px;
+	}
+
+	/* More menu - japan link css End*/
+
+	/* bc corp */
+	.our-history-section .review-title {
+		font-size: 32px;
+	}
+
+
+
+	.big-video-section .video-top-text .video-text {
+		font-size: 32px;
+	}
+
+	.career-banner-section .career-title,
+	.career-banner-section .career-link {
+		font-size: 42px;
+	}
+
+	.big-video-section .video-top-text.arrow-top {
+		max-width: 100%;
+	}
+
+	.section {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+
+	.global-map-col .section-title {
+		font-size: 45px;
+	}
+
+	.global-map-col .section-title {
+		padding-bottom: 25px;
+	}
+
+	.latest-news-col .news-tag {
+		font-size: 12px;
+	}
+
+	.latest-news-col .news-title {
+		font-size: 24px;
+	}
+
+	.arrow-circle {
+		height: 22px;
+		width: 22px;
+	}
+
+
+	.by-the-number-wrap .count-title {
+		font-size: 18px;
+	}
+
+	.by-the-number-wrap .count-no {
+		font-size: 60px
+	}
+
+	.bottom-section-title-wrap .bottom-sec-title {
+		font-size: 54px;
+	}
+
+	.portfolio-detail-content .table-col .sub-title {
+		font-size: 24px;
+	}
+
+	.cerevel-table {
+		width: 100%;
+	}
+
+	.gradiant-simple-content .gradiant-text,
+	.gradiant-simple-content .gradiant-link-wrap {
+		font-size: 40px;
+	}
+
+	.case-study-grid.slick-slider .case-study-content h6 {
+		font-size: 30px;
+	}
+
+	/* section.section-second .slant-anim-wrap {
+		height: calc(100% - 150px);
+	} */
+	.news-title {
+		font-size: 20px;
+	}
+
+	.feature-news-col .news-content .featured-news-title,
+	.featured-news-title {
+		font-size: 30px;
+	}
+
+	.tvp-banner-caption-text h2 {
+		font-size: 60px;
+	}
+
+	.tvp-banner-caption-text p {
+		font-size: 25px;
+	}
+
+	.banner-bottom-text h2,
+	.team-review-single h3 {
+		font-size: 44px;
+	}
+
+	.image-content-row .content-col .content-text {
+		font-size: 20px;
+	}
+
+	.image-content-row .content-col h3 {
+		font-size: 42px;
+	}
+
+	.image-content-row {
+		margin-bottom: 70px;
+	}
+
+	.lg-outer .lg-sub-html .image-caption p {
+		font-size: 20px;
+	}
+
+	.video-popup .modal-title {
+		font-size: 52px;
+	}
+
+	.video-popup .video-caption {
+		font-size: 30px;
+	}
+
+	.banner-content-wrap {
+		bottom: 130px;
+	}
+
+	.banner-nav-slider .slide-nav-title {
+		font-size: 20px;
+	}
+
+	.business-content-wrap h2.section-title {
+		padding-right: 0;
+	}
+
+	.banner-explore-content .explore-text {
+		max-width: 420px;
+		margin-top: 80px;
+	}
+
+	.banner-explore-content .explore-text,
+	.business-content-wrap h2.section-title {
+		font-size: 28px;
+	}
+
+	.business-slide-tabs .nav-link {
+		font-size: 28px;
+	}
+
+	.business-content-col .tab-content-wrap {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.business-content-col .business-content-wrap {
+		padding-left: 30px;
+	}
+
+	.investment-spotlight-single .spotlight-title {
+		font-size: 24px;
+	}
+
+	section.slant-section {
+		margin-top: -60px;
+	}
+
+	/* section.partnership-section,
+	section.career-video-section,
+	section.team-review-section {
+		padding: 100px 0;
+	} */
+
+	section.esg-section {
+		padding-bottom: 100px;
+	}
+
+	.news-banner-slider .banner-content-wrap .banner-title {
+		font-size: 34px
+	}
+
+	.sticky-filter .top-title-filter-wrapper .section-title {
+		font-size: 30px;
+	}
+
+	.small-banner-wrap .small-banner-title {
+		font-size: 30px;
+	}
+
+	.news-main-col .feature-news-col .news-content .featured-news-title,
+	.news-main-col .news-title {
+		font-size: 22px;
+	}
+
+	.our-advantages-box:not(:first-child) {
+		margin-top: 100px
+	}
+
+	.full-width-news-item .featured-news-title {
+		font-size: 38px;
+	}
+
+	.title-section+section.slant-section {
+		margin-top: -30px
+	}
+
+	/* bc corp End*/
+
+	.number-counter-col .count-no {
+		font-size: 75px;
+	}
+
+	.number-counter-col .count-title {
+		font-size: 20px;
+	}
+
+	.banner-tanagram-section .banner-slider-col {
+		padding-bottom: 20px;
+	}
+
+	.banner-tanagram-section .banner-title-wrap {
+		width: 750px;
+	}
+
+	.section.banner-tanagram-section {
+		padding-top: 170px;
+		padding-bottom: 60px;
+	}
+
+	.btn-small {
+		font-size: 18px;
+	}
+
+	/* .banner-tanagram-section .banner-slider-wrap {
+		height: calc(100vh - 340px);
+	} */
+
+	.banner-slide .slide-title {
+		margin-bottom: 20px;
+	}
+
+	.banner-tanagram-section .banner-nav-slider .slide-nav-title {
+		font-size: 16px;
+	}
+
+	.banner-tanagram-section .banner-nav-slider-wrap {
+		max-width: 600px;
+	}
+
+	.bottom-header {
+		font-size: var(--smFontSize);
+	}
+
+	.title-wrap .half-width-caption {
+		font-size: 26px;
+	}
+
+	button.play-video-btn,
+	.esg-tab .nav-tabs .nav-link,
+	.esg-row .content-col .content-text {
+		font-size: 22px;
+	}
+
+	button.play-video-btn {
+		left: 30px;
+		bottom: 30px;
+	}
+
+	.esg-tab-content .content-text {
+		font-size: 16px;
+	}
+
+	.esg-row .content-col .content-text {
+		margin-bottom: 70px;
+	}
+
+	.our-people-box .title-wrap>p {
+		font-size: 24px;
+	}
+
+	.investment-spotlight-single .spotlight-title {
+		font-size: 28px;
+	}
+
+	.feature-news-col .news-content .featured-news-title,
+	.featured-news-title {
+		font-size: 28px;
+	}
+
+	.contact-map-box .h6,
+	.contact-map-box p,
+	.location-grid .business-address a {
+		font-size: 16px;
+	}
+
+	.news-sidebar-col .sidebar-title {
+		font-size: 20px;
+	}
+
+	.inner-banner-row .content-text {
+		font-size: 20px;
+	}
+
+	.title-wrap .title-top-small {
+		font-size: 20px;
+	}
+
+	.career-row .content-col .content-text {
+		padding-right: 40px;
+	}
+
+	.purp-value-col .purp-value-title {
+		font-size: 20px;
+	}
+
+	.team-review-content .team-review-text,
+	.team-review-content .team-review-text p,
+	.team-reviews-listing ul li {
+		font-size: 22px;
+	}
+
+	.team-review-slider .slick-outline.slick-arrow {
+		top: -110px
+	}
+
+	.team-breadcrumb ul li {
+		font-size: 20px;
+	}
+
+	.review-title-wrap .review-title::before {
+		font-size: 85px;
+	}
+
+	.team-reviews-listing ul li::before {
+		font-size: 75px;
+	}
+
+	ul.career-nav-listing a,
+	.link-list-wrapper .link-footer-col {
+		font-size: 20px;
+	}
+
+	.join-team-section .link-list-wrapper {
+		margin-top: 100px;
+	}
+
+	.detail-content-right {
+		font-size: 20px;
+	}
+
+	.people-detail-section .title-wrap .title-top-small {
+		font-size: 18px;
+	}
+
+	.detail-content-right .small-title {
+		font-size: 16px;
+	}
+
+	.related-content-col .news-item-single {
+		padding-right: 0;
+	}
+
+	.news-detail-right .news-detail-img img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.news-detail-right p,
+	.news-detail-right,
+	.related-content-section .title-wrap .small-title {
+		font-size: 20px;
+
+	}
+
+	.news-detail-right h3 {
+		font-size: 30px;
+	}
+
+	.news-detail-section .news-sidebar-col .media-content-wrap {
+		margin-top: 40px;
+	}
+
+	.footermenu.copyright-menu li,
+	.site-footer .footermenu li {
+		margin-right: 15px;
+	}
+	.business-menu-nav .nav-tabs .nav-link{
+		font-size: 16px;
+	}
+}
+
+@media(max-width:1365px) {
+	.tvp-banner-caption-text {
+		max-width: 60%;
+	}
+
+	.team-review-single:nth-child(odd) .svg-wrap {
+		right: -20px;
+		left: auto
+	}
+
+	.team-review-single:nth-child(even) .svg-wrap {
+		right: auto;
+		left: 20px;
+	}
+
+	.business-content-col .tab-content-wrap {
+		margin-right: 0;
+	}
+
+	.business-content-col .tab-content-wrap {
+		padding-right: 0;
+	}
+
+	.home-page-contact-section .contact-map-box {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	section.slant-section:first-child .slant-anim-wrap {
+		top: 520px;
+	}
+
+	.sort-filter-wrap .filter-btn {
+		font-size: 16px;
+	}
+
+	.news-main-row .news-sidebar-col {
+		flex: 0 0 250px;
+		max-width: 250px;
+	}
+
+	.news-main-row .news-main-col {
+		flex: 0 0 calc(100% - 250px);
+		max-width: calc(100% - 250px);
+	}
+
+	.news-section .title-wrapper,
+	.top-title-filter-wrapper {
+		margin-bottom: 40px;
+	}
+
+	.esg-row .tab-content-col {
+		padding-left: 15px;
+	}
+
+	.news-items-slider .news-item .news-listing-wrap {
+		padding-left: 20px;
+	}
+
+	.news-items-slider .news-item .col-inner.featured-news {
+		padding-right: 20px;
+	}
+
+	.contact-map-box .nav-tabs .nav-item {
+		padding-right: 10px;
+	}
+
+	.home-page-contact-section .contact-map-box .nav-item .nav-link {
+		font-size: 18px;
+	}
+
+	.career-row .content-col .content-text {
+		padding-right: 0;
+	}
+
+	.review-title-wrap .review-title {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 1278px) {
+
+
+	.bottom-header .navbar-nav a {
+		margin: 0 6px;
+	}
+
+	.banner-text {
+		bottom: 3%;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .news-filter-wrapper .right-filter-wrap {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 10px;
+	}
+
+	.portfolio-listing-section-wrap .small-banner-col .small-banner-wrap {
+		min-height: 432px;
+	}
+
+	.small-banner-col .small-banner-wrap .content-text {
+		font-size: 24px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+	.gradient-section-slants-content-wrap img {
+		max-width: 80px;
+	}
+
+	.video-banner-caption h2 {
+		font-size: 88px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	/* .people-listing-section .portfolio-search-wrap {
+        margin-top: 10px;
+    } */
+
+	.portfolio-listing-section .section-title {
+		padding-bottom: 30px;
+		margin-bottom: 12px;
+		display: inline-block;
+	}
+
+	/* .sideStick {
+		min-width: 268px;
+		max-width: 268px !important;
+	} */
+
+	.video-banner-caption h2 {
+		font-size: 80px;
+		max-width: 65%;
+	}
+
+	.intro-section-wrap {
+		font-size: 40px;
+	}
+
+	.intro-section .read-more-link i {
+		font-size: 40px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.strategy-section-slants .left-slant {
+		width: 70%;
+		top: 70%;
+	}
+
+	.team-bg::before {
+		left: -128%;
+	}
+
+	/* .people-listing .col {
+		flex: 0 0 25%;
+		max-width: 25%;
+	} */
+
+	.section.people-detail-section .section-title {
+		padding-bottom: 40px;
+	}
+
+	.featured-news-title {
+		font-size: 25px;
+	}
+
+	.news-title {
+		font-size: 20px;
+	}
+
+	.portfolio-link-wrap,
+	.portfolio-video-wrap {
+		padding-left: 50px;
+	}
+
+	/* Additonal CSS for BC Credit start */
+	.gradient-section-slants-content h3,
+	.gradient-section-slants-content h3.visit-link-text {
+		font-size: 32px;
+	}
+
+	.gradient-section-slants-content h2 {
+		font-size: 35px;
+		margin-bottom: 15px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.contact-section-content .section-title {
+		padding-top: 40px;
+	}
+
+	.esg-item {
+		/* line-height: 1.8rem; */
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.esg-item:nth-child(-n + 3) {
+		border-top-width: 1px;
+		padding-top: 50px;
+	}
+
+	.esg-item:nth-last-child(-n + 3) {
+		padding-bottom: 50px;
+	}
+
+	.esg-item:nth-child(3n + 1) {
+		border-left-width: 1px;
+	}
+
+	.esg-item:nth-child(-n + 2) {
+		border-top-width: 0;
+		padding-top: 0;
+	}
+
+	.esg-item:nth-last-child(-n + 2) {
+		padding-bottom: 0;
+	}
+
+	.esg-item:nth-child(2n + 1) {
+		border-left-width: 0;
+	}
+
+	.esg-item .sr-no {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 38px;
+	}
+
+	.investment-block .investment-block-content {
+		top: auto;
+		bottom: 0;
+	}
+
+	.investment-block .container-inr {
+		padding: 0 3rem;
+	}
+
+	.ip-item-title .heading {
+		font-size: 50px;
+	}
+
+	.ip-slider .carousel-control {
+		width: 65px;
+		height: 65px;
+		font-size: 3.75rem;
+		border-width: 4px;
+	}
+
+	.ip-slider .carousel-control-prev {
+		left: -5.25rem;
+	}
+
+	.ip-slider .carousel-control-next {
+		right: -5.25rem;
+	}
+
+	.ip-item-content {
+		line-height: 1.4;
+	}
+
+	.our-vale-icons-block {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.spotlight-logo {
+		bottom: 30px;
+		left: 30px;
+	}
+
+	.grid-single .img-wrap {
+		margin-bottom: 20px;
+	}
+
+	.themes-icon {
+		height: 90px;
+	}
+
+	.expand-icon::after {
+		height: 50px;
+		width: 50px;
+		background-size: 50px;
+	}
+
+	.expand-icon {
+		padding-top: 55px;
+	}
+
+	.custom-lg-offset {
+		margin-left: 0;
+	}
+
+	.strategies-tabs-wrap .nav-tabs .nav-link {
+		font-size: 20px;
+	}
+
+	.strategies-tabs-wrap .nav-tabs {
+		justify-content: center;
+	}
+
+	.investment-block-content {
+		padding-left: 50px;
+	}
+
+	.investment-single-wrap:before {
+		left: 10%;
+	}
+
+	.management-title h6 {
+		font-size: 20px;
+	}
+
+	.management-title {
+		min-height: 90px;
+		max-height: 90px;
+		padding: 18px 60px
+	}
+
+	.management-boxes-text {
+		font-size: 20px;
+	}
+
+	.team-people-image {
+		width: 180px;
+		height: 180px;
+	}
+
+	.governance-team {
+		padding: 0;
+	}
+
+	.governance-team-wrap {
+		margin-top: 50px;
+	}
+
+	.team-people-content h6,
+	.team-people-content {
+		font-size: 20px;
+	}
+
+	.portfolio-detail-text {
+		font-size: 22px;
+	}
+
+	.mission-statment-text {
+		padding: 40px 0;
+	}
+
+	.mission-statment-text .statment-text {
+		font-size: 32px;
+	}
+
+	.case-study-inner {
+		margin-top: 30px;
+	}
+
+	.improve-count {
+		font-size: 50px;
+	}
+
+	.impact-score {
+		font-size: 32px;
+	}
+
+	.impact-year {
+		font-size: 13px;
+	}
+
+	.case-study-text .case-study-title {
+		font-size: 42px;
+	}
+
+	.improve-count sup {
+		font-size: 28px;
+	}
+
+	.portfolio-detail-banner.fp-auto-height {
+		padding-bottom: 30vh;
+	}
+
+	.management-boxes-text {
+		padding-left: 30px;
+		padding-right: 10px;
+	}
+
+	.management-expand-text {
+		padding-left: 30px;
+	}
+
+	.management-expand-text {
+		font-size: 20px;
+	}
+
+	.portfolio-logo img {
+		max-height: 8vw;
+		min-height: 8vw;
+	}
+
+	.spotlight-section-wrap h3 {
+		min-height: 122px;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 24vw;
+	}
+
+	.themes-icon-box .themes-content-text {
+		min-height: 310px;
+	}
+
+	.all-news-link {
+		top: 0;
+	}
+
+	/* homepage third section*/
+	.sitemap-single-page {
+		margin-bottom: 30px;
+	}
+
+	/* .sitemap-news-title {
+		flex: 0 0 55%;
+	} */
+	.all-news-link {
+		flex: 0 0 40%;
+	}
+
+	/* homepage third section End*/
+
+	/* Our approach page css start */
+	.inner_wrap {
+		height: 90vh;
+		overflow: visible;
+	}
+
+	.hex_navigation {
+		width: 200px;
+		height: 80px;
+	}
+
+	.hexagon_small {
+		width: 80px;
+		height: 70px;
+	}
+
+	.main_hex_text_wrap .title span {
+		font-size: 1.2rem;
+	}
+
+	.main_hex_text_wrap .main_hex_text {
+		font-size: 1rem;
+	}
+
+	.hexagon_small .text {
+		font-size: 0.8rem;
+	}
+
+	/* Our approach page css end */
+
+	.contact-map-box .nav-item .nav-link {
+		font-size: 25px;
+	}
+
+	.arrow-xl .big-arrow {
+		margin-bottom: 10px;
+	}
+
+	.career-banner-section .top-title-wrap {
+		max-width: 50%;
+	}
+
+	.about-tvp-banner-section .tvp-banner-caption-text {
+		max-width: 80%;
+	}
+
+	.banner-text .col-md-6 {
+		padding-right: 0;
+	}
+
+	.tvp-banner-caption-text {
+		max-width: 75%;
+	}
+
+	.about-tvp-banner-section .home-page-slants .right-slant {
+		top: calc(100% - 100px);
+	}
+
+	.about-tvp-banner-section .banner-bottom-text {
+		bottom: 20px;
+	}
+
+	.image-col .image-caption {
+		font-size: 14px;
+	}
+
+	.video-popup .video-popup-thubnail {
+		flex: 0 0 150px;
+		max-width: 150px;
+	}
+
+	.video-popup .video-popup-thubnail .image-wrap {
+		height: 150px
+	}
+
+	.video-popup .video-wrapper {
+		flex: 0 0 calc(100% - 150px);
+		max-width: calc(100% - 150px);
+		padding-left: 30px;
+
+	}
+
+	.video-popup .video-caption .arrow-icon {
+		height: 70px;
+		width: 70px;
+		font-size: 85px
+	}
+
+	.video-popup .video-caption .arrow-icon::before {
+		top: -37px;
+	}
+
+	.video-popup .video-caption {
+		padding: 20px 30px;
+		padding-left: 130px;
+	}
+
+	.video-popup .video-caption .arrow-icon {
+		height: 70px;
+		width: 70px;
+		font-size: 85px;
+		left: 30px;
+	}
+
+	.news-listing-col .col-inner {
+		padding-left: 40px;
+	}
+
+	.banner-content-wrap .banner-title {
+		font-size: 80px;
+	}
+
+	.business-content-col .business-content-wrap {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.by-the-number-wrap .count-no {
+		font-size: 50px;
+	}
+
+	.by-the-number-wrap .count-title {
+		font-size: 16px;
+	}
+
+	.banner-explore-content .explore-text,
+	.business-content-wrap h2.section-title {
+		font-size: 26px
+	}
+
+	.business-content-col .tab-content-wrap {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.advantage-inner-slant .left-slant,
+	.advantage-inner-slant .right-slant {
+		transform: none !important;
+	}
+
+	.advantage-sec-slant.page-slants .left-slant,
+	.advantage-sec-slant.page-slants .right-slant {
+		height: 200vh;
+	}
+
+	.esg-row .tab-content-col {
+		margin-top: 40px;
+	}
+
+	.team-review-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.image-content-row:nth-child(odd) .image-col .col-inner {
+		padding-left: 40px;
+	}
+
+	.image-content-row:nth-child(even) .image-col .col-inner {
+		padding-right: 40px;
+	}
+
+	.business-row-wrap>.row {
+		padding-right: 40px;
+	}
+
+	.advantage-box-image {
+		margin-left: 30px;
+		margin-right: 0;
+	}
+
+	.our-advantages-box:nth-child(even) .advantage-box-image {
+		margin-right: 30px;
+		margin-left: 0;
+	}
+
+	.news-items-slider .news-listing-slide.slick-current+.news-item {
+		margin-left: 0;
+	}
+
+	.news-items-slider .featured-news-img {
+		padding-bottom: 70%;
+	}
+
+	.global-business-section.home-page-contact-section .contact-map-box {
+		min-height: 750px;
+	}
+
+	.banner-tanagram-section .banner-slider-wrap .row {
+		flex-direction: row-reverse;
+	}
+
+	.banner-tanagram-section .banner-slider-col {
+		order: 2;
+		display: block;
+		margin-top: 40px;
+	}
+
+
+	.banner-tanagram-section .banner-nav-slider-wrap {
+		bottom: 110px;
+		top: auto;
+	}
+
+
+	.bottom-header .navbar-nav a {
+		font-size: 15px;
+	}
+
+	.number-counter-col .count-no {
+		font-size: 60px;
+	}
+
+	.global-map-col #chartdiv {
+		height: 80vh;
+	}
+
+	.team-review-slide {
+		overflow: hidden;
+	}
+
+	.team-image-listing .team-review-single.slick-slide:not(.slick-active) {
+		opacity: 0.5;
+	}
+
+	.team-image-listing .team-review-single.slick-slide:first-child,
+	.team-image-listing .team-review-single.slick-slide:nth-child(2) {
+		opacity: 1;
+	}
+
+	.team-reviews-listing {
+		padding-right: 0;
+	}
+	.banner-tanagram-section .banner-slider-col {
+		order: 2;
+		height: auto;
+	}
+
+	.tanagram-anim-col {
+		position: static;
+		width: 90%;
+		height: auto;
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		margin-right: -4rem;
+		margin-top: -100px;
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		width: 100%;
+	}
+
+
+}
+
+@media only screen and (max-width: 1103px) {
+
+	.search-portfolio {
+		position: relative;
+		width: 300px;
+	}
+
+}
+@media only screen and (max-width: 1199px) and (min-height: 1000px) {
+	.section.banner-tanagram-section {
+		height: 100vh;
+	}
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.bottom-header {
+		font-size: 20px;
+	}
+
+	.bottom-header .navbar-nav a {
+		margin: 0 6px;
+	}
+
+	.video-banner-caption h2 {
+		max-width: 90%;
+	}
+
+	.bottom-header .navbar-collapse {
+		padding: 24px 0 0;
+	}
+
+	.scrolled .bottom-header .navbar-collapse {
+		padding: 5px 0 0;
+	}
+
+	/* .gradient-section-slants .left-slant {
+        top: 60%;
+    } */
+	.themes-icon-box .themes-content-text {
+		min-height: 360px;
+	}
+
+	/* Homepage banner changes */
+	.video-banner-caption h2 {
+		max-width: 85%;
+	}
+
+	/* Homepage banner changes End*/
+
+	/* Addtional map css start */
+	.contact-section-content {
+		min-height: 850px;
+	}
+
+	/* Addtional map css end */
+
+	.bu-slide-logo img {
+		max-width: 300px;
+	}
+
+	.business-slide-tabs .nav-item {
+		padding-left: 63px;
+	}
+
+	.advantage-box-image .h6 {
+		left: 15px;
+		bottom: 30px;
+		right: 15px;
+	}
+
+	.case-study-content.media-content {
+		min-height: 242px;
+	}
+
+	.home-page-slants .right-slant {
+		top: 90%
+	}
+
+	.home-page-slants .left-slant {
+		top: 75%;
+	}
+
+	.banner-explore-content .explore-text {
+		margin-bottom: 50px;
+	}
+
+	.by-the-number-wrap .counter-single {
+		margin-bottom: 20px;
+	}
+
+	.banner-text {
+		bottom: 5%;
+	}
+
+	.banner-text .col-md-6 {
+		padding-right: 0;
+	}
+
+	.advantage-box-image .parallax-bg {
+		transform: none !important;
+	}
+
+	.team-review-single:nth-child(odd) .review-text-col .play-video-link {
+		text-align: right;
+	}
+
+	.team-review-single:nth-child(even) .review-text-col .play-video-link {
+		text-align: left;
+	}
+
+	.investment-spotlight-single .image-wrap {
+		height: 38vw;
+	}
+
+	.slick-outline.slick-arrow {
+		top: calc(19vw - 24px);
+	}
+
+	.custom-space-sec-wrap {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.community-culture-section .investment-spotlight-single .image-wrap {
+		height: 26vw;
+	}
+
+	.community-culture-section .slick-outline.slick-arrow {
+		top: calc(13vw - 24px)
+	}
+
+	.section.banner-tanagram-section {
+		height: 100vh;
+	}
+
+
+}
+@media only screen and (max-width: 1024px) and (max-height: 1100px) {
+	.banner-tanagram-section .banner-nav-slider-wrap{
+		bottom: 40px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.container {
+		padding: 0 50px;
+	}
+
+	.h1,
+	h1 {
+		font-size: 60px;
+	}
+
+	.section,
+	.more-menu-section .container,
+	.section.contact-section {
+		padding-top: 60px;
+	}
+
+	.bottom-header .navbar .navbar-brand {
+		max-width: 200px;
+	}
+
+	.intro-section-wrap {
+		font-size: 36px;
+	}
+
+	.portfolio-listing-section .section-title {
+		padding-bottom: 20px;
+	}
+
+	.approach-intro {
+		padding-bottom: 70px;
+	}
+
+	.esg-block {
+		padding-top: 70px;
+	}
+
+	.strategy-block {
+		margin-bottom: 50px;
+	}
+
+	.guiding-principles-block {
+		margin-top: 100px;
+	}
+
+	/* .gradient-section-slants .left-slant {
+        top: -20%;
+    }
+
+    .gradient-section-slants .right-slant {
+        top: 0;
+    } */
+
+	.gradient-section-slants-content-wrap {
+		/* justify-content: flex-start; */
+		padding-top: 30px;
+	}
+
+	/* .section.strategy-section .strategy-section-wrap {
+        padding-bottom: 280px;
+    } */
+
+	.portfolio-grid {
+		margin-top: 50px;
+	}
+
+	.portfolio-link-wrap,
+	.portfolio-video-wrap {
+		padding-left: 0;
+	}
+
+	.video-wrap {
+		margin: 50px -2rem;
+	}
+
+	.video-wrap.portfolio-video-wrap {
+		margin-bottom: 25px;
+	}
+
+	/* .people-listing .col {
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	} */
+
+
+	.featured-news-title {
+		margin-bottom: 65px;
+	}
+
+	/* .section.news-listing-section {
+        padding-bottom: 90px;
+    } */
+
+	.news-listing-wrap {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.news-list-row {
+		padding-top: 20px;
+	}
+
+	/* .sideStick {
+		min-width: 226px;
+		max-width: 226px !important;
+	} */
+
+	.about-section .container {
+		display: flex;
+		flex-direction: column;
+		/* padding: 0; */
+	}
+
+	.about-section .page-title {
+		/* order: 1; */
+		padding: 50px 50px 0;
+	}
+
+	.about-section .video-wrap {
+		order: 2;
+		width: 100%;
+		margin: 0 0 50px;
+	}
+
+	/* .about-section p:not(.copyright-txt) {
+		order: 3;
+		padding: 0 50px;
+		margin: 0 0 1rem;
+	} */
+
+	.video-banner-caption h2 {
+		max-width: 65%;
+		font-size: 70px;
+		margin-top: 0;
+	}
+
+	.bottom-header .navbar {
+		align-items: center;
+	}
+
+	.bottom-header .navbar-collapse {
+		padding: 0;
+		background-color: #fff;
+	}
+
+	.more-menu-search-background {
+		display: none;
+	}
+
+	/* .more-menu-section {
+        padding-top: 120px;
+    } */
+
+	.about-menu a,
+	.ftr-businesses-menu a {
+		font-size: 30px;
+	}
+
+	.more-menu-section .widget-title {
+		font-size: 18px;
+	}
+
+	.more-menu-section {
+		padding-top: 0;
+	}
+
+	.more-menu-section .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.more-menu-section>.container>.row {
+		margin: 0;
+	}
+
+	.more-menu-sec {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.more-menu-sidebar {
+		padding: 0;
+	}
+
+	.widget.search-widget {
+		background-color: #fff;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.more-menu-sidebar .investor-login-widget {
+		border-top: none;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		margin-top: 0;
+		background-color: #0076a9;
+	}
+
+	.mobile-copyright-sec {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.mobile-copyright-sec,
+	.more-menu-sidebar .investor-login-widget,
+	.widget.search-widget,
+	.more-menu-sec {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.more-menu-section .more-menu-sidebar .search-widget .widget-title {
+		color: #aea8a5;
+	}
+
+	.more-menu-sidebar .search-widget .SearchFrm,
+	.more-menu-sidebar .search-widget .search__form {
+		color: #1c2156;
+	}
+
+	.more-menu-sidebar .search-widget #keys,
+	.more-menu-sidebar .search-widget #edit-search-api {
+		height: 80px;
+		color: #1c2156 !important;
+	}
+
+	.more-menu-sidebar .signinOption button {
+		max-width: 400px;
+	}
+
+	.more-menu-section .copyright-wrap {
+		margin-top: 30px;
+		border-top: 1px solid #abcae9;
+	}
+
+	/* .intro-section-wrap {
+        font-size: 35px;
+    } */
+
+
+
+	.search-widget .underscore,
+	.search-widget .typedtext-all {
+		font-size: 57px;
+	}
+
+	.more-menu-section .copyright-txt,
+	.more-menu-section .copyright-menu a {
+		font-size: 16px;
+	}
+
+	.video-banner-caption {
+		top: auto;
+		transform: none;
+		bottom: 0;
+		height: 45%;
+		z-index: 0;
+	}
+
+	.caption-slants {
+		display: block;
+		position: absolute;
+		background-color: transparent;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+	}
+
+	.caption-slants .right-slant {
+		background-color: #0047bb;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		transform-origin: 0 0;
+		transform: skewY(-12deg);
+		z-index: -1;
+	}
+
+	.home-page-slants.intro-section-slants .right-slant {
+		display: none;
+	}
+
+	.intro-section-slants .left-slant {
+		top: -35%;
+	}
+
+	.page-slants .right-slant {
+		top: 6%;
+	}
+
+	.contact-section-content {
+		/* padding: 0 2rem; */
+		left: 0;
+		right: 0;
+	}
+
+	.guiding-principles-icon-block {
+		padding: 0 12px;
+	}
+
+	.portfolio-grid .media-img a,
+	.portfolio-detail-content .portfolio-grid .media-img {
+		padding: 15px;
+		min-height: 170px;
+		max-height: 170px;
+	}
+
+	.grid-item--height2 .media-img a {
+		max-height: 370px;
+		min-height: 370px;
+	}
+
+	.portfolio-grid .media-body {
+		padding: 50px 15px 15px;
+	}
+
+	.container,
+	.about-section footer .container,
+	footer .container,
+	header .container {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.strategy-image-wrap:after {
+		bottom: -151px;
+		height: 151px;
+	}
+
+	.guiding-principles-note {
+		max-width: 500px;
+	}
+
+	/* .news-listing-wrap .news-box-wrap:nth-child(2n) {
+		padding-left: 15px;
+	} */
+
+	.news-listing-wrap .news-box-wrap:nth-child(2n + 1):after {
+		position: absolute;
+		content: "";
+		top: 15px;
+		bottom: 0;
+		right: 0;
+		width: 1px;
+		background-color: #aea8a5;
+	}
+
+	.news-listing-wrap .news-box-wrap:first-child:after {
+		top: 0;
+	}
+
+	.news-listing-wrap .news-box-wrap:nth-child(2n + 1) .news-box {
+		border-right: none;
+	}
+
+	.news-box {
+		padding-right: 0;
+	}
+
+	.small-section-title {
+		padding-top: 20px;
+	}
+
+	.gradient-section-slants-content-wrap .site-footer {
+		padding-top: 100px;
+	}
+
+	.gradient-section-slants .right-slant {
+		-webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+	}
+
+	.contact-section-content .section-title {
+		padding-top: 20px;
+	}
+
+	.ip-item-content {
+		padding-left: 0;
+	}
+
+	.investment-block .container-inr {
+		padding: 0 4rem;
+	}
+
+	.ip-slider {
+		padding-top: 7rem;
+	}
+
+	.ip-item-title .heading {
+		font-size: 45px;
+	}
+
+	.ip-slider .carousel-control {
+		width: 52px;
+		height: 52px;
+		font-size: 3rem;
+		border-width: 3px;
+	}
+
+	.carousel-control-next,
+	.carousel-control-prev {
+		top: 10px;
+	}
+
+	.ip-slider .carousel-control-prev {
+		left: -4.5rem;
+	}
+
+	.ip-slider .carousel-control-next {
+		right: -4.5rem;
+	}
+
+	.our-vale-icons-block:nth-child(n+3) {
+		margin-top: 50px;
+	}
+
+	.our-strategies-section .nav-item+.nav-item {
+		margin-left: 10px;
+	}
+
+	.our-strategies-section .nav-link {
+		font-size: 18px;
+	}
+
+	.tab-content-block .container {
+		padding-left: 85px;
+		padding-right: 85px;
+	}
+
+	.our-strategies-tabs-content .carousel-btn {
+		width: 52px;
+		height: 52px;
+		font-size: 3rem;
+		border-width: 3px;
+		line-height: 35px;
+	}
+
+	/* 16-02-2021 changes start */
+	.home-page-slants .left-slant {
+		top: 88%;
+	}
+
+	/* 16-02-2021 changes end */
+
+	/* hamburger menu animation css start */
+	.bottom-header .more-menu-link {
+		background-image: none;
+		position: relative;
+		border: 2px solid #1c2156;
+		border-radius: 50%;
+	}
+
+	.bottom-header .more-menu-link.backLink {
+		background-image: none;
+	}
+
+	.more-menu-link span {
+		position: absolute;
+		left: 0;
+		display: block;
+		width: 75%;
+		height: 0.125rem;
+		background: #1c2156;
+		transition: .5s ease-in-out;
+		right: 0;
+		margin: auto;
+	}
+
+	.more-menu-link span:first-child {
+		top: 9px;
+	}
+
+	/* .more-menu-link.open span:first-child {
+		top: 0.6875rem;
+		width: 0;
+		left: 50%;
+	} */
+
+	.more-menu-link span:nth-child(2) {
+		top: 16px;
+		width: 20px;
+		left: auto;
+
+	}
+
+	.more-menu-link.open span:nth-child(2) {
+
+		width: 0;
+
+	}
+
+	.more-menu-link.open span:first-child {
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+		top: 15px;
+	}
+
+	.more-menu-link span:nth-child(3) {
+		top: 23px;
+	}
+
+	.more-menu-link.open span:nth-child(3) {
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		top: 15px;
+	}
+
+	/* hamburger menu animation css close */
+	.grid-single .img-wrap {
+		height: 20vw;
+	}
+
+	.impact-theme-wrapper h1.page-title {
+		order: inherit;
+	}
+
+	.count-no sup {
+		font-size: 25px;
+		top: -0.6em;
+	}
+
+	.gradiant-banner-title {
+		font-size: 30px;
+	}
+
+	.count-no h1 {
+		font-size: 50px;
+	}
+
+	.management-title {
+		margin-left: 0px;
+	}
+
+	.management-boxes-wrap .expand-icon {
+		padding-top: 75px;
+		margin-top: 0;
+	}
+
+	.management-boxes-wrap .expand-icon::after {
+		top: 20px;
+	}
+
+	.management-boxes-text {
+		margin-bottom: 30px;
+	}
+
+	.management-expand-text {
+		padding-bottom: 20px;
+	}
+
+	.management-boxes-wrap .management-boxes-single {
+		text-align: center;
+	}
+
+	.management-title {
+		justify-content: center;
+	}
+
+	.management-boxes-wrap {
+		margin-top: 20px;
+	}
+
+	.management-expand-text ul {
+		list-style: none;
+	}
+
+	.management-boxes-wrap .row {
+		margin-left: 0;
+	}
+
+	.governance-team {
+		padding: 0 60px;
+	}
+
+	.strategies-tabs-content .tab-content>.tab-pane {
+		display: block;
+		opacity: 1;
+	}
+
+	.tab-content-wrap {
+		display: none;
+	}
+
+	.tab-content-wrap.open {
+		display: block;
+	}
+
+	.tab-content-wrap {
+		padding: 40px 0;
+	}
+
+	.tab-title .nav-link.collapse,
+	.tab-title .nav-link:hover {
+		color: #1c2156;
+		border-bottom-color: #1c2156;
+	}
+
+	.impact-matrics-wrap ul li h6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.row-wrap .col-lg-6 {
+		margin-bottom: 20px;
+	}
+
+	.impact-score-title {
+		text-align: center;
+	}
+
+	.impact-score-sec .col-lg-6 {
+		margin-top: 16px;
+		margin-bottom: 0;
+	}
+
+	.impact-score-sec .col-lg-9 {
+		margin-top: 20px;
+	}
+
+	.impact-score-sec>.row {
+		width: auto;
+	}
+
+	.impact-score-sec .col-lg-3 {
+		padding-right: 15px;
+	}
+
+	.impact-score-sec .impact-logo {
+		text-align: center;
+		margin-bottom: 10px;
+		max-width: 66px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.portfolio-related-logo {
+		text-align: center;
+	}
+
+	.management-boxes-text {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.management-expand-text {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.portfolio-logo img {
+		max-height: 10vw;
+		min-height: 10vw;
+	}
+
+	.review-image {
+		margin-bottom: 30px;
+	}
+
+	.strategies-tabs-content .tab-content>.tab-pane {
+		padding: 0 !important;
+	}
+
+	.strategies-tabs-content .tab-content>.tab-pane:last-child {
+		padding-bottom: 8rem !important;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {}
+
+	.spotlight-image {
+		height: 37vw;
+	}
+
+	.spotlight-image {
+		order: 1;
+	}
+
+	.spotlight-section-wrap h3 {
+		order: 2;
+	}
+
+	.spotlight-slide a {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 15vw;
+	}
+
+	.investment-boxes-wrap {
+		margin-top: 40px;
+	}
+
+	/* 26-May-2021 */
+	/* .home-page-slants .left-slant
+	{
+		top: 50%;
+	}
+	.home-page-slants .right-slant
+	{
+		top: 57%;
+	} */
+	.caption-slants {
+		display: none
+	}
+
+	.video-banner-caption {
+		z-index: 2;
+	}
+
+	.home-page-slants .scroll {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%) !important;
+		bottom: 0;
+		top: 92%;
+
+	}
+
+	.spotlight-section-wrap h3 {
+		min-height: auto;
+		padding-left: 0;
+	}
+
+	/* 26-May-2021 End*/
+	/* 4-June-2021 */
+	.strategies-tabs-content .accordion>.card>.card-header {
+		display: block;
+	}
+
+	.strategies-tabs-content .collapse {
+		display: none;
+	}
+
+	.strategies-tabs-content .card-header button {
+		font-size: 30px;
+		font-weight: 700;
+		color: #0047bb;
+		padding-left: 0;
+		padding-top: 20px;
+		border: none;
+		padding-bottom: 20px;
+		border-bottom: 2px solid #0047bb;
+		padding-right: 30px;
+		position: relative;
+		text-decoration: none;
+	}
+
+	.strategies-tabs-content .card-header button::before {
+		content: '+';
+		position: absolute;
+		right: 10px;
+		top: 48%;
+		transform: translateY(-50%);
+		transition: all 300ms ease-in-out;
+	}
+
+	.strategies-tabs-content .accordion>.card>.card-header {
+		padding: 0;
+		background-color: transparent;
+	}
+
+	.strategies-tabs-content .card-body {
+		padding: 0 !important;
+	}
+
+	.strategies-tabs-content .card-header button:hover,
+	.strategies-tabs-content .card-header button[aria-expanded="true"] {
+		color: #1c2156;
+		border-bottom-color: #1c2156;
+	}
+
+	.strategies-tabs-content .card-header button[aria-expanded="true"]::before {
+		content: '-';
+	}
+
+	.strategies-tabs-content .card-header button {
+		border-radius: 0;
+	}
+
+	/* 4-June-2021 End*/
+	.sitemap-top-wrap {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.featured-news-content {
+		margin-top: 15px;
+	}
+
+	/* Homepage banner changes*/
+	.video-banner-caption h2 {
+		margin-top: 20px;
+	}
+
+	/* Homepage banner changes End*/
+
+	/* More menu changes start  */
+	.more-menu-sidebar .widget.search-widget {
+		margin-bottom: 0;
+	}
+
+	/* More menu changes end  */
+
+	/* Additonal CSS for BC Credit start */
+	.year-review-grid .image-wrap {
+		height: auto;
+		display: block;
+		width: auto;
+		text-align: center;
+	}
+
+	.year-review-grid .image-wrap a {
+		display: inline-block;
+		margin: auto;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.banner-text p {
+		font-size: 18px;
+	}
+
+	/* .top-left-slant {
+		clip-path: polygon(0 0, 100% 312px, 100% 88%, 0 100%);
+		-webkit-clip-path: polygon(0 0, 100% 312px, 100% 88%, 0 100%);
+	} */
+	.home-page-slants .right-slant {
+		top: 96%;
+	}
+
+	.bu-slide-logo img {
+		max-width: 220px;
+	}
+
+	.business-slide-tabs .nav-item {
+		padding-left: 43px;
+	}
+
+	.business-slide-tabs .nav-link {
+		font-size: 20px;
+	}
+
+	.bu-news {
+		padding-left: 15px;
+	}
+
+	.tab-content {
+		padding-left: 30px;
+	}
+
+	.banner-rf-section.esg-approach-section {
+		background-color: transparent;
+	}
+
+	.news-items-slider .featured-news-title {
+		margin-bottom: 0;
+	}
+
+	.news-items-slider .news-listing-wrap .news-box-wrap:nth-child(2n + 1):after {
+		display: none;
+	}
+
+	.news-listing-wrap>div:last-child .news-box-wrap:nth-child(2n + 1):after {
+		display: none;
+	}
+
+	.full-width-news-item .featured-news-img {
+		height: 550px;
+	}
+
+	.case-study-content.media-content {
+		min-height: 286px;
+	}
+
+	/* bc corp */
+	.our-history-section .year-review-grid .image-wrap a {
+		width: 100%;
+	}
+
+	.career-banner-section {
+		padding-bottom: 60px;
+	}
+
+	/* bc corp End*/
+	.latest-news-col .col-inner {
+		height: auto;
+	}
+
+	.global-map-col .contact-map-box .container {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.latest-news-col .news-content-wrap,
+	.latest-news-col .news-image-wrap {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.latest-news-col .col-inner {
+		flex-direction: row;
+	}
+
+	.news-image-wrap {
+		padding-bottom: 50%;
+	}
+
+	.global-map-col .col-inner {
+		/* height: 500px; */
+		min-height: 500px;
+	}
+
+	.home-page-slants .left-slant {
+		top: 80%;
+	}
+
+	.home-page-slants .right-slant {
+		top: 90%;
+	}
+
+	.section-wrapper section:first-child {
+		padding-top: 60px;
+	}
+
+	.about-tvp-banner-section .section-inner {
+		margin-top: 40px;
+	}
+
+	.section-wrapper section.casestudy-detail-section .section-inner {
+		margin-top: 40px;
+	}
+
+	.team-quote {
+		padding-right: 0;
+		padding-left: 80px;
+	}
+
+	.team-quote:before {
+		width: 60px;
+		height: 50px;
+		left: 0;
+	}
+
+	.scrolled .bottom-header {
+		padding: 8px 0;
+	}
+
+	.esg-approach-slider-button a,
+	.esg-approach-slider-button a.nav-link {
+		font-size: 20px;
+	}
+
+	.feature-news-col .featured-news {
+		transform: none !important;
+	}
+
+	/* .bottom-header .navbar .navbar-brand img {
+		height: 35px;
+	}
+
+	header.scrolled .bottom-header .navbar .navbar-brand img {
+		height: 32px;
+	}	 */
+
+
+	.tvp-banner-caption-text {
+		max-width: 90%;
+	}
+
+	.about-tvp-banner-section .home-page-slants .right-slant {
+		top: calc(100% - 130px);
+	}
+
+	.image-content-row .content-col h3 {
+		font-size: 38px;
+	}
+
+	.video-popup .modal-title {
+		font-size: 45px;
+	}
+
+	.video-popup .video-popup-thubnail {
+		margin-bottom: 20px;
+	}
+
+	.video-popup .video-wrapper {
+		flex: 0 0 100%;
+		padding: 0;
+		max-width: 100%
+	}
+
+	.video-popup .video-player {
+		/* height:50vw */
+	}
+
+	.news-listing-col .col-inner {
+		padding-left: 0;
+	}
+
+	.news-listing-col .news-list-single {
+		padding-left: 0 !important;
+	}
+
+	.news-listing-col .news-listing-wrap {
+		max-height: 100%;
+		overflow: visible;
+	}
+
+	.banner-content-wrap .banner-title {
+		font-size: 70px;
+	}
+
+	.banner-slider-section .banner-content-wrap {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.banner-explore-content .explore-text,
+	.business-content-wrap h2.section-title {
+		font-size: 24px
+	}
+
+	.business-content-col .banner-explore-content {
+		height: auto;
+	}
+
+	.business-content-col .tab-content-wrap {
+		display: block;
+	}
+
+	.esg-row .tab-content-col {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.esg-row .tab-content-col .col-inner {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.home-news-section .news-listing-col {
+		margin-top: 30px;
+	}
+
+	.home-page-contact-section .contact-map-box .nav-tabs {
+		justify-content: flex-start;
+	}
+
+	.esg-carousal-btn-wrap .carousel-btn {
+		left: -0;
+	}
+
+	.esg-carousal-btn-wrap .carousel-btn.nexttab {
+		right: -0;
+	}
+
+	.slick-outline.slick-arrow {
+		left: -20px;
+	}
+
+	.slick-outline.slick-arrow.slick-next {
+		right: -20px;
+	}
+
+	.bottom-header .more-menu-link {
+		border: none;
+		height: 25px;
+		width: 25px;
+	}
+
+	.more-menu-link span {
+		height: 2px;
+		width: 25px;
+	}
+
+	.career-row .content-col {
+		margin-bottom: 40px;
+	}
+
+	.image-content-row:nth-child(odd) .image-col {
+		padding-right: 40px;
+	}
+
+	.image-content-row:nth-child(even) .image-col {
+		padding-left: 40px;
+	}
+
+	.section-wrapper section:first-of-type .section-inner {
+		padding-top: 50px;
+	}
+
+	section.slant-section:first-child .slant-anim-wrap {
+		top: 500px;
+	}
+
+	.news-main-col .feature-news-col {
+		transform: none !important;
+	}
+
+	.news-main-col .feature-news-col .featured-news,
+	.news-main-col .feature-news-col {
+		padding-bottom: 0;
+	}
+
+	.news-main-col .feature-news-col {
+		margin-bottom: 40px;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .top-title-filter-inner {
+		flex-wrap: wrap;
+	}
+
+	.sticky-filter .top-title-filter-wrapper {
+		padding-bottom: 15px;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .news-filter-wrapper {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	.news-main-col .news-listing-col {
+		border-left: none;
+	}
+
+	.small-banner-wrap .bg-image {
+		right: -2rem;
+	}
+
+	.small-banner-wrap::before {
+		left: -2rem;
+	}
+
+	.portfolio-listing-section-wrap .small-banner-col .small-banner-wrap {
+		min-height: 414px;
+	}
+
+	.people-listing .col.col-md-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.business-row-wrap>.row {
+		padding-right: 0;
+	}
+
+	.business-row-wrap .latest-news-col {
+		margin: 0 25px 30px;
+	}
+
+	.news-items-slider .news-item .row {
+		width: calc(100% + 30px);
+	}
+
+	.news-listing-section .news-listing-wrap {
+		border-top: 1px solid #c8c7c7;
+		padding: 0;
+		padding-top: 30px;
+		margin-top: 30px;
+	}
+
+	.news-items-slider .news-item {
+		padding: 0;
+	}
+
+	.contact-map-box article {
+		margin-top: 50px;
+	}
+
+	section.global-business-section #chartdiv {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.business-row-wrap .latest-news-col {
+		width: calc(100% - 50px);
+	}
+
+	.location-section.home-page-contact-section #chartdiv {
+		margin-top: 300px
+	}
+
+	.home-page-contact-section .map-svg-wrap {
+		left: -1.5rem;
+		width: calc(100% + 3rem);
+	}
+
+	.section.banner-tanagram-section {
+		padding-top: 100px;
+	}
+
+	.banner-tanagram-section .banner-slider-col {
+		margin-top: 60px;
+	}
+
+	.banner-tanagram-section .banner-slider-wrap {
+		height: calc(100vh - 250px);
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		width: 80%;
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		margin-right: -2rem;
+		margin-top: -70px;
+		width: 80%;
+		height: 40vh;
+		overflow: visible;
+	}
+
+	.slick-outline.slick-arrow,
+	.esg-carousal-btn-wrap .carousel-btn {
+		height: 38px;
+		width: 38px;
+	}
+
+	.slick-outline.slick-arrow svg,
+	.esg-carousal-btn-wrap .carousel-btn svg {
+		height: 20px;
+		width: auto;
+	}
+
+	.news-items-slider .news-item .col-inner.featured-news {
+		border-right: none;
+	}
+
+	.news-items-slider .feature-news-col .featured-news-img {
+		margin-right: 0;
+	}
+
+	.news-items-slider .news-item .col-inner.featured-news {
+		padding-right: 0;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .title-wrap {
+		margin-bottom: 10px;
+	}
+
+	.news-main-col .feature-news-col {
+		border-right: none;
+	}
+
+	.inner-banner-row .banner-title {
+		font-size: 70px;
+		margin-bottom: 40px;
+	}
+
+	.team-review-content .team-review-text,
+	.team-review-content .team-review-text p,
+	.team-reviews-listing ul li {
+		font-size: 26px;
+	}
+
+	.review-title-wrap {
+		max-width: 100%;
+	}
+
+	/* cookie Popup*/
+	#sliding-popup .eu-cookie-compliance-banner {
+		/* max-width: 100%; */
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	/* switch css */
+	div#sliding-popup .eu-cookie-compliance-categories .eu-cookie-compliance-category {
+		margin-bottom: 20px;
+	}
+
+	.eu-cookie-compliance-categories .eu-cookie-compliance-categories-buttons {
+		display: block;
+		float: none;
+	}
+
+	/* switch css End*/
+	/* cookie Popup ENd*/
+
+	.news-main-col .feature-news-col .featured-news::before {
+		display: none;
+	}
+	.banner-tanagram-section .banner-slider-wrap .row
+	{
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.all-news-link {
+		/* top: auto;
+		position: relative;
+		right: auto; */
+		margin: 0 0 15px;
+	}
+
+	.sitemap-news-title,
+	.all-news-link {
+		flex: 0 0 100%;
+	}
+
+	.sitemap-news-title {
+		flex-direction: column;
+	}
+
+	.bu-news .sitemap-news-title h4 {
+		margin-right: 0;
+	}
+
+	.news-date-col {
+		margin-top: 10px;
+	}
+
+	.case-study-grid .slick-slide {
+		opacity: 1;
+	}
+
+	.news-items-slider .slick-next {
+		right: -30px;
+	}
+
+	.news-items-slider .slick-prev {
+		left: -30px;
+	}
+
+	.home-page-slants .pin-spacer:not(.caption-scrolled) .container.banner-text .row {
+		padding-left: 35px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.news-detail-right p,
+	body {
+		font-size: 18px;
+	}
+
+	.h1,
+	h1 {
+		font-size: 36px;
+	}
+
+	.h2,
+	h2 {
+		font-size: 32px;
+	}
+
+	h2.h1 {
+		font-size: 36px;
+	}
+
+	.h3,
+	h3 {
+		font-size: 30px;
+	}
+
+	.h4,
+	h4 {
+		font-size: 25px;
+	}
+
+	.h5,
+	h5 {
+		font-size: 20px;
+	}
+
+	.h6,
+	h6 {
+		font-size: 18px;
+	}
+
+	.container,
+	.about-section footer .container,
+	footer .container,
+	header .container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.video-wrap {
+		margin: 60px -25px 90px;
+	}
+
+	/* .about-section p:not(.copyright-txt) {
+		padding: 0 25px;
+	} */
+
+	.about-section .page-title {
+		padding: 50px 0 0;
+	}
+
+	.site-footer {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.bottom-header .navbar .navbar-brand {
+		max-width: 180px;
+	}
+
+	.map-svg .st361 {
+		font-size: 36px;
+	}
+
+	.strategy-image-wrap:after {
+		bottom: -239px;
+		height: 240px;
+	}
+
+	.guiding-principles-icon-block {
+		text-align: center;
+		padding: 30px 0;
+		display: flex;
+		margin: 0 15px;
+	}
+
+	.guiding-principles-icon-block p {
+		max-width: calc(100% - 95px);
+		flex: calc(100% - 95px);
+		padding-left: 45px;
+		text-align: left;
+	}
+
+	.guiding-principles-icon-image {
+		margin-bottom: 0;
+		flex: 0 0 95px;
+		max-width: 95px;
+	}
+
+	.guiding-principles-icon-block+.guiding-principles-icon-block {
+		border-top: 1px solid #abcae9;
+	}
+
+	.gradient-section-slants-content-wrap {
+		padding-bottom: 45px;
+	}
+
+	.gradient-section-slants-content h3 {
+		max-width: 520px;
+	}
+
+	/* Additonal CSS for BC Credit start */
+	.gradient-section-slants-content h3,
+	.gradient-section-slants-content h3.visit-link-text {
+		font-size: 30px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.footermenu li {
+		/* flex: 0 0 50%; */
+		/* max-width: 50%; */
+		margin: 5px 10px 5px 0;
+		padding-right: 10px;
+	}
+
+	.footermenu li+li {
+		margin-left: 0;
+	}
+
+	.more-menu-section .container {
+		padding-bottom: 50px;
+	}
+
+	.more-menu-section {
+		padding: 0;
+	}
+
+	/* .section.strategy-section .strategy-section-wrap {
+        padding-bottom: 150px;
+    } */
+
+	.guiding-principles-block {
+		margin-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	/* .grid-item--height2 .media-img {
+        max-height: 100%;
+        min-height: auto;
+    } */
+
+	.portfolio-detail-section .section-title {
+		padding-bottom: 35px;
+	}
+
+	.detail-content-right {
+		padding-left: 15px;
+	}
+
+	.detail-content-left li p {
+		flex: 0 0 calc(100% - 95px);
+		max-width: calc(100% - 95px);
+	}
+
+	.detail-content-left li h6 {
+		flex: 0 0 95px;
+		max-width: 95px;
+	}
+
+	.video-wrap.portfolio-video-wrap {
+		margin-bottom: 0;
+	}
+
+	/* .people-listing .col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	} */
+
+	.portfolio-sorting-wrap>div {
+		/* margin: 0.5rem 0.5rem 0 0; */
+	}
+
+	.portfolio-sorting-wrap .psorting+.psorting {
+		margin-left: 0;
+	}
+
+	/* .portfolio-search-wrap,
+    .people-listing-section .portfolio-search-wrap {
+        margin-top: 0.5rem;
+    } */
+
+	.detail-content-left .people-img {
+		margin-top: 0px;
+		text-align: center;
+		margin-bottom: 45px;
+	}
+
+	.section.people-detail-section .section-title {
+		padding-bottom: 30px;
+	}
+
+	.news-listing-wrap .news-box-wrap:nth-child(n + 3) {
+		border-top: none;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.news-listing-wrap .news-box-wrap:nth-child(2n + 1) .news-box {
+		border-right: none;
+	}
+
+	.news-box {
+		min-height: 150px;
+		border-top: 1px solid #aea8a5;
+		padding: 15px 0;
+		max-height: 100%;
+		min-height: auto;
+	}
+
+	/* .section.news-listing-section {
+        padding-bottom: 50px;
+    } */
+
+	.featured-news-title {
+		margin-bottom: 42px;
+	}
+
+	/* .sideStick {
+		min-width: auto;
+		max-width: 100% !important;
+	} */
+
+	.news-detail-left {
+		margin-top: 30px;
+	}
+
+	.sub-link {
+		font-size: 20px;
+	}
+
+	.sub-link i {
+		width: 22px;
+		height: 22px;
+		vertical-align: -10%;
+	}
+
+	.sub-link.more-news-link {
+		margin-top: 20px;
+	}
+
+	.sharePage.mediaContact ul li {
+		display: block;
+	}
+
+	.more-menu-sidebar .search-widget #keys,
+	.more-menu-sidebar .search-widget #edit-search-api {
+		height: 45px;
+		font-size: 35px;
+	}
+
+	.search-widget .underscore,
+	.search-widget .typedtext-all {
+		font-size: 35px;
+	}
+
+	.more-menu-section .widget-title {
+		font-size: 17px;
+	}
+
+	.more-menu-sec,
+	.widget.search-widget,
+	.more-menu-sidebar .investor-login-widget {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.mobile-copyright-sec,
+	.more-menu-sidebar .investor-login-widget,
+	.widget.search-widget,
+	.more-menu-sec {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.more-menu-sidebar .signinOption button {
+		font-size: 18px;
+	}
+
+	.more-menu-sec .col-12+.col-12 {
+		margin-top: 40px;
+	}
+
+	.more-menu-section .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.video-banner-caption h2 {
+		max-width: 550px;
+		font-size: 70px;
+		margin-top: 15px;
+	}
+
+	.contact-section-content {
+		/* padding: 0 25px; */
+	}
+
+	.strategy-block:first-child {
+		order: 1;
+	}
+
+	.strategy-block:nth-child(2) {
+		order: 2;
+	}
+
+	.strategy-block:nth-child(3) {
+		order: 4;
+	}
+
+	.strategy-block:last-child {
+		order: 3;
+	}
+
+
+	/* .news-listing-section .section-title {
+    padding-bottom: 25px;
+  } */
+
+	.video-caption img {
+		margin-right: 15px;
+		max-width: 38px;
+	}
+
+	.strategy-block p,
+	.guiding-principles-block p {
+		font-size: 18px;
+	}
+
+	.strategy-section .guiding-principles-block .section-title:before {
+		max-width: 100%;
+	}
+
+	.portfolio-grid .media-img a,
+	.portfolio-detail-content .portfolio-grid .media-img {
+		padding: 15px;
+		min-height: 230px;
+		max-height: 230px;
+	}
+
+	.portfolio-grid .case-study-grid .media-img a {
+		max-height: 100%;
+	}
+
+	.small-title {
+		font-size: 18px;
+	}
+
+	.featured-news-title {
+		font-size: 20px;
+	}
+
+	.news-title {
+		font-size: 18px;
+	}
+
+	.news-detail-content {
+		margin-top: 50px;
+	}
+
+	.news-detail-img {
+		text-align: center;
+	}
+
+	.sharePage ul li {
+		font-size: 18px;
+	}
+
+	.clist h5 {
+		font-size: 18px;
+	}
+
+	/* .more-menu-section .copyright-txt {
+    margin-top: 40px;
+  } */
+
+	.guiding-principles-note {
+		max-width: 420px;
+	}
+
+	.news-listing-wrap .news-box-wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.news-listing-wrap .news-box-wrap:nth-child(2n + 1):after {
+		display: none;
+	}
+
+	.news-listing-wrap .news-box-wrap:nth-child(2n) {
+		padding-left: 0;
+	}
+
+	.guiding-principles-icons-wrap {
+		margin-top: 30px;
+	}
+
+	.more-menu-section .investorLoginWrap p {
+		max-width: 350px;
+	}
+
+	.grid-item--height2 .media-img a {
+		max-height: 383px;
+		min-height: 383px;
+	}
+
+	.portfolio-grid .media {
+		margin: 0 0 20px;
+	}
+
+	.strategy-section-slants .left-slant {
+		width: 70%;
+		top: 70%;
+	}
+
+	.gradient-section-slants .right-slant {
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+	}
+
+	.portfolio-grid .grid-item:not(.case-study-grid) .media-img img {
+		width: 50%;
+	}
+
+	.approach-intro-content {
+		margin-top: 10px;
+	}
+
+	.esg-block {
+		padding-top: 60px;
+	}
+
+	.esg-list {
+		margin: 20px 0;
+	}
+
+	.esg-item {
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+		border-top-width: 1px;
+		border-left-width: 0 !important;
+		border-right-width: 0 !important;
+	}
+
+	.esg-item:nth-child(-n + 2) {
+		border-top-width: 1px;
+		padding-top: 40px;
+	}
+
+	.esg-item:nth-last-child(-n + 2) {
+		padding-bottom: 40px;
+	}
+
+	.esg-item:first-child {
+		padding-top: 0;
+		border-top-width: 0;
+	}
+
+	.esg-item:last-child {
+		padding-bottom: 0;
+	}
+
+	.esg-item .sr-no {
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		font-size: 34px;
+	}
+
+	.ip-item-title .heading {
+		font-size: 40px;
+	}
+
+	.our-vale-icons-block {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.about-section p.our-vale-icon-caption {
+		font-size: 18px;
+		line-height: 1.4;
+	}
+
+	.our-vale-icon-title {
+		font-size: 20px;
+	}
+
+	.our-strategies-section .nav-item+.nav-item {
+		margin-left: 15px;
+	}
+
+	.our-strategies-section .nav-link {
+		font-size: 22px;
+	}
+
+	.about-section p {
+		font-size: 18px;
+	}
+
+	/* 16-02-2021 changes start */
+	.more-menu-link span:first-child {
+		top: 4px;
+	}
+
+	.more-menu-link span:nth-child(2),
+	.more-menu-link.open span:nth-child(3) {
+		top: 10px;
+	}
+
+	.more-menu-link span:nth-child(3) {
+		top: 16px;
+	}
+
+	.more-menu-link.open span:first-child {
+		top: 10px;
+	}
+
+	/* 16-02-2021 changes end */
+	.spotlight-section-wrap h3 {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.slick-arrow {
+		height: 50px;
+		width: 50px;
+		font-size: 40px;
+		top: 17vw;
+	}
+
+	.slick-next::before,
+	.slick-prev::before {
+		top: -6px;
+	}
+
+	.spotlight-slider {
+		padding-left: 65px;
+		padding-right: 65px;
+	}
+
+	.spotlight-slider .slick-slide {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.spotlight-logo {
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.spotlight-slider-wrapper {
+		padding-bottom: 100px;
+	}
+
+	.spotlight-section-wrap h3 {
+		font-size: 24px;
+	}
+
+	.spotlight-related-content p {
+		font-size: 16px;
+	}
+
+	.grid-single .img-wrap {
+		height: 30vw;
+	}
+
+	.expand-icon {
+		margin-top: 0;
+		font-size: 20px;
+		padding-top: 40px;
+	}
+
+	.expand-icon::after {
+		height: 30px;
+		width: 30px;
+		background-size: 30px;
+		top: 10px;
+	}
+
+	.themes-icon-box {
+		margin-bottom: 50px;
+	}
+
+	.themes-content h6 {
+		font-size: 22px;
+	}
+
+	.themes-content,
+	.themes-content p {
+		font-size: 20px;
+	}
+
+	.count-single h6 {
+		font-size: 18px;
+	}
+
+	.count-single p {
+		font-size: 14px;
+	}
+
+	.count-no h1 {
+		margin-bottom: 5px;
+	}
+
+	.count-no sup {
+		font-size: 22px;
+		top: -0.5em;
+	}
+
+	.Strategy-intro-text,
+	.Strategy-intro-box p,
+	.intro-box-title,
+	.tab-content-text p {
+		font-size: 18px;
+	}
+
+	.strategies-tabs-content {
+		padding-top: 40px;
+	}
+
+	.investment-single-wrap .col-md-4,
+	.investment-single-wrap .col-md-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.investment-single-wrap .col-md-8 {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.investment-block-content {
+		padding-left: 0px;
+	}
+
+	.investment-block-single:not(:first-child) .investment-single-wrap {
+		padding-top: 100px;
+	}
+
+	.investment-single-wrap:before {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.tab-content-text p {
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
+
+	.investment-block-text {
+		font-size: 18px;
+	}
+
+	.tab-content-title {
+		font-size: 28px;
+	}
+
+	.management-boxes-wrap .expand-icon {
+		padding-top: 50px;
+	}
+
+	.case-study-wrapper>h6 {
+		font-size: 20px;
+	}
+
+	.case-study-title a:before {
+		height: 40px;
+		width: 40px;
+		background-size: 40px;
+	}
+
+	.case-study-title a,
+	.date-wrap {
+		padding-left: 55px;
+	}
+
+	.case-study-report-section {
+		padding-top: 70px;
+		padding-bottom: 40px;
+	}
+
+	.governance-team {
+		padding: 0;
+	}
+
+	.team-people-image {
+		width: 210px;
+		height: 210px;
+	}
+
+	.strategies-tabs-content {
+		padding-bottom: 60px;
+	}
+
+	.tab-title .nav-link {
+		font-size: 26px;
+	}
+
+	.tab-content-title {
+		font-size: 24px;
+	}
+
+	.detail-content-right {
+		margin-top: 50px;
+	}
+
+	.portfolio-detail-inner h1.secton-title {
+		margin-bottom: 30px;
+	}
+
+	.row-wrap .improve-title {
+		display: block;
+		text-align: center;
+	}
+
+	.impact-score {
+		line-height: 0.8;
+	}
+
+	.case-study-text .case-study-title {
+		font-size: 32px;
+	}
+
+	.case-study-inner h5.small-title {
+		font-size: 23px;
+	}
+
+	.mission-statment-text .statment-text p {
+		font-size: 26px;
+	}
+
+	.portfolio-detail-inner {
+		margin-top: 50px;
+	}
+
+	.company-caption {
+		padding-top: 60px;
+	}
+
+	.count-no h1 {
+		font-size: 40px;
+	}
+
+	.management-expand-text {
+		font-size: 18px;
+	}
+
+	.gradiant-counter-content-section .scroll-sec {
+		margin-top: 0px !important;
+		margin-bottom: 10px;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 0;
+	}
+
+	.portfolio-detail-inner {
+		margin-top: 0;
+	}
+
+	.news-box-wrap .by-tag,
+	.news-item-single .by-tag {
+		font-size: 14px;
+	}
+
+	.portfolio-logo img {
+		max-height: 107px;
+		min-height: 107px;
+	}
+
+	.company-caption {
+		padding-top: 6px;
+		padding-bottom: 0;
+	}
+
+	.detail-content-left li .impact-matrics-wrap h6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.year-review-row {
+		padding: 0 85px;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 19vw;
+	}
+
+	.spotlight-section-wrap h3 {
+		min-height: inherit;
+	}
+
+	.slide-wrapper a {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.slide-wrapper .spotlight-image {
+		order: 1;
+	}
+
+	.slide-wrapper a h3 {
+		order: 2;
+	}
+
+	.spotlight-slider-wrapper {
+		margin-top: 20px;
+	}
+
+	.spotlight-section-wrap h3 {
+		text-align: left;
+	}
+
+	.themes-icon-box .themes-content-text {
+		min-height: auto;
+	}
+
+	/* .banner-section .embed-responsive
+	{
+		height: 80vh;
+	} */
+	/* 4-June-2021*/
+	.strategies-tabs-content .card-header button {
+		font-size: 26px;
+	}
+
+	/* 4-June-2021 End*/
+	.gradiant-counter-content-section .fp-bg::before {
+		content: '';
+		background-color: #000;
+		position: absolute;
+		opacity: 0.5;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	/* homepage third section*/
+	.sitemap-title-wrap h2 {
+		font-size: 35px;
+		margin-bottom: 40px;
+	}
+
+	.sitemap-page-description,
+	.sitemap-page-description p {
+		font-size: 18px;
+	}
+
+	.news-title-col a {
+		font-size: 20px;
+	}
+
+	.news-title-col a i {
+		font-size: 25px;
+		line-height: 11px;
+		width: 24px;
+		height: 24px;
+		padding: 0 2px;
+	}
+
+	.all-news-link a i {
+		font-size: 25px;
+		line-height: 11px;
+		width: 24px;
+		height: 24px;
+		padding: 0 2px;
+	}
+
+	.sitemap-page-title i {
+		font-size: 25px;
+		line-height: 11px;
+		width: 24px;
+		height: 24px;
+		padding: 0 2px;
+	}
+
+	h3.sitemap-page-title {
+		font-size: 21px;
+	}
+
+	.sitemap-news-title h4 {
+		font-size: 20px;
+	}
+
+	/* homepage third section End*/
+	.home-page-scroll-sec-left,
+	.home-page-scroll-sec-right {
+		display: none;
+	}
+
+	.home-page-scroll-section {
+		background-color: #E6E6E3;
+	}
+
+	.home-page-scroll-section .scroll-sec {
+		position: relative;
+		bottom: auto;
+		width: 100%;
+		left: auto;
+		right: auto;
+		background-color: #E6E6E3;
+		padding-bottom: 30px;
+	}
+
+	.sitemap-bottom-section,
+	.sitemap-top-section {
+		padding: 35px 0;
+	}
+
+	.sitemap-top-wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.sitemap-news-wrap {
+		padding-right: 0;
+	}
+
+	.sitemap-news-col:last-child {
+		margin-bottom: 0;
+	}
+
+	.sitemap-section-wrap .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.sitemap-top-wrap .row.slick-slider {
+		padding: 0 30px;
+	}
+
+	/* .sitemap-top-wrap .slick-arrow {
+		width: 30px;
+		height: 30px;
+		font-size: 30px;
+	} */
+	.sitemap-top-wrap .slick-next {
+		right: 10px;
+	}
+
+	.sitemap-top-wrap .slick-prev {
+		left: 10px;
+	}
+
+	.gradient-section-slants-content .fp-bg::before {
+		content: '';
+		background-color: #000;
+		opacity: 0.5;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	.hex_over_wrap {
+		height: 90vh;
+		top: -10vh;
+	}
+
+	/* Amchart map popup css start */
+	.map-address {
+		min-width: auto;
+	}
+
+	/* .map-address .address {
+		max-width: 200px;
+	} */
+	.map-address {
+		font-size: 18px;
+	}
+
+	body .ampopup-inside {
+		padding: 1.2em 1.4em 1.2em 1.2em;
+	}
+
+	body .ampopup-close {
+		right: 10px;
+		top: 10px;
+		width: 20px;
+		height: 20px;
+	}
+
+	/* Amchart map popup css end */
+
+	/* Mobile scroll behaviour css changes start */
+	.home-page-slants .scroll,
+	.scroll-sec {
+		display: none;
+	}
+
+	/* Mobile scroll behaviour css changes end */
+
+	/* Body Text Css */
+	.contact-note,
+	h3.sitemap-page-title,
+	.sitemap-news-title h4,
+	.portfolio-grid .media-body p,
+	.portfolio-detail-text {
+		font-size: 18px;
+	}
+
+	.about-section p,
+	.case-study-wrapper>h6,
+	.themes-content,
+	.themes-content p,
+	.Strategy-intro-text,
+	.Strategy-intro-box p,
+	.intro-box-title,
+	.tab-content-text p,
+	.management-expand-text,
+	.team-people-content,
+	.team-people-content h6,
+	.investment-block-text {
+		font-size: 18px;
+	}
+
+	/* Body Text Css */
+
+	/* More menu - japan link css */
+	.local-site-listing ul li {
+		line-height: 1;
+	}
+
+	.local-site-listing ul li a {
+		font-size: 20px;
+	}
+
+	.local-site-listing ul li::before {
+		height: 20px;
+	}
+
+	.local-site-listing ul li::before {
+		top: 63%;
+	}
+
+	/* More menu - japan link css End*/
+	/* Additonal CSS for BC Credit start */
+	.tabs-to-dropdown .tab-content>.tab-pane {
+		display: none;
+	}
+
+	.tabs-to-dropdown .tab-content>.tab-pane.active {
+		display: block;
+	}
+
+	.tabs-to-dropdown .dropdown-toggle {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #f7f5f4;
+		padding: 14px 10px;
+		margin: 10px 0 0 0;
+		border-radius: 5px;
+		box-shadow: none;
+		font-size: 20px;
+		font-weight: bold;
+		color: #5e4f47;
+		text-align: left;
+		padding-right: 30px;
+		margin-bottom: 15px;
+	}
+
+	.tabs-to-dropdown .dropdown .dropdown-menu {
+		left: 0;
+		right: auto;
+		top: 100% !important;
+		padding: 0;
+		margin: 4px 0 4px -1px;
+		background: #fff;
+		box-shadow: none;
+		border-color: #e6e6e3;
+		/* max-height: 176px; */
+		/* overflow-y: scroll; */
+		/* min-width: 200px; */
+		overflow: hidden;
+		max-height: 0;
+		/* width: 255px; */
+		/* white-space: normal; */
+		height: auto;
+		border-radius: 5px;
+		transform: none !important;
+		display: block;
+		visibility: hidden;
+		-webkit-transition: all 350ms ease-out;
+		-moz-transition: all 350ms ease-out;
+		-ms-transition: all 350ms ease-out;
+		-o-transition: all 350ms ease-out;
+		transition: all 350ms ease-out;
+	}
+
+	.tabs-to-dropdown .dropdown.show .dropdown-menu {
+		max-height: 395px;
+		/* max-height: 200px; */
+		visibility: visible;
+	}
+
+	.tabs-to-dropdown .dropdown .dropdown-menu a {
+		width: 100%;
+		margin: 0;
+		border: none;
+		border-bottom: 1px solid #e6e6e3;
+		display: inline-block;
+		padding: 0;
+		font-size: 18px;
+		font-weight: bold;
+		color: #5e4f47;
+		text-align: left;
+		padding: 15px 12px;
+		white-space: normal;
+		cursor: pointer;
+		display: block;
+		-webkit-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		-ms-transition: all 0.5s ease-out;
+		-o-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+		line-height: 100%;
+	}
+
+	.tabs-to-dropdown .dropdown .dropdown-menu a:last-child {
+		border: 0;
+	}
+
+	.our-strategies-section .tab_nav {
+		display: none;
+	}
+
+	.our-strategies-tabs-content .tab-pane {
+		min-height: 450px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+	.banner-section {
+		min-height: 100vh;
+	}
+
+	.home-banner-section .video-banner {
+		height: 100%;
+	}
+
+	.business-slide-section.tabs-to-dropdown .dropdown-toggle {
+		background-color: #fff;
+		margin-bottom: 0;
+	}
+
+	.business-slide-tabs {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bu-slide-logo {
+		order: 1;
+		position: relative;
+		top: auto;
+	}
+
+	.business-end-trigger {
+		display: none;
+	}
+
+	.business-slide-tabs .dropdown {
+		order: 2;
+	}
+
+	.business-slide-tabs,
+	.tab-content {
+		z-index: auto;
+	}
+
+	.business-slide-wrap .tab-content {
+		margin-top: 30px;
+	}
+
+	.our-advantages-box {
+		margin-top: 20px;
+	}
+
+	.advantages-box-content {
+		margin-top: 15px;
+	}
+
+	.advantages-box-content p {
+		font-size: 16px;
+	}
+
+	h5.section-title {
+		padding-bottom: 0;
+	}
+
+	.case-study-grid .col-md-6 .media-img a {
+		height: 200px;
+	}
+
+	.case-study-grid .case-study-content h6 {
+		font-size: 22px;
+	}
+
+	.case-study-grid button.slick-next.slick-arrow {
+		right: -5px;
+	}
+
+	.case-study-grid button.slick-prev.slick-arrow {
+		left: -5px;
+	}
+
+	.video-banner-caption {
+		height: 65%;
+	}
+
+	.home-page-slants .left-slant {
+		top: 75%;
+	}
+
+	.home-page-slants .right-slant {
+		top: 85%;
+	}
+
+	.section.business-slide-section {
+		padding-bottom: 60px;
+	}
+
+	.case-study-content.media-content {
+		min-height: 201px;
+	}
+
+	.tab-content-block p {
+		font-size: inherit;
+	}
+
+	.business-slide-wrap .tab-content>.tab-pane {
+		position: relative;
+	}
+
+	/* .top-left-slant-wrap {
+		transform: skewY(-11deg);
+	}
+	.top-right-slant-wrap {
+		transform: skewY(12deg);
+	} */
+
+	.trigger-end {
+		display: none;
+	}
+
+	.section.spotlight-section .top-right-slant-wrap {
+		height: 300%;
+	}
+
+	.news-listing-wrap .news-box-wrap:first-child:after {
+		display: none;
+	}
+
+	.full-width-news-item .feature-news-content {
+		padding: 15px;
+	}
+
+	.our-advantages-box .col-md-6+.col-md-6 {
+		margin-top: 20px;
+	}
+
+	/* .news-listing-wrap .col-md-6 + .col-md-6 .news-box-wrap:first-child {
+		margin-top: 15px;
+		padding-top: 10px;
+		border-top: 1px solid #aea8a5;
+	} */
+
+	/* bc corp */
+	.our-history-section .year-review-row {
+		padding: 0;
+	}
+
+	.our-history-section .review-title {
+		font-size: 28px;
+	}
+
+	.our-history-section a,
+	.our-history-section .history-tag {
+		font-size: 16px;
+	}
+
+	.title-wrapper .title-small,
+	.big-video-section .video-text-wrap,
+	.purp-value-col .purp-value-title {
+		font-size: 18px;
+	}
+
+	.big-video-section .video-top-text .video-text {
+		font-size: 26px;
+	}
+
+	.career-banner-section .career-title,
+	.career-banner-section .career-link {
+		font-size: 35px;
+	}
+
+
+
+	.career-banner-section .top-title-wrap {
+		max-width: 70%;
+	}
+
+	.arrow-xl .big-arrow {
+		height: 40px;
+		width: 40px;
+		font-size: 40px;
+		border-width: 4px;
+	}
+
+	.arrow-xl .big-arrow::before {
+		top: -14px
+	}
+
+	.big-video-section .video-top-text,
+	.big-video-section .video-top-text.arrow-lg {
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.purp-value-col .content-text,
+	.purp-value-col .content-text p {
+		font-size: 16px;
+	}
+
+	.career-banner-section .career-title,
+	.career-banner-section .career-link {
+		font-size: 26px;
+	}
+
+	.arrow-medium {
+		height: 34px;
+		width: 34px;
+		font-size: 40px;
+		border-width: 4px;
+	}
+
+	.arrow-medium::before {
+		top: -17px;
+	}
+
+	.career-link .arrow-medium {
+		margin-top: 0;
+	}
+
+	.video-top-text .video-text.text-small {
+		font-size: 12px;
+	}
+
+	.esg-approach-slider-contents .tab-pane .esg-approach-slider-text,
+	.esg-approach-slider-contents {
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.global-map-col .section-title {
+		font-size: 36px;
+	}
+
+	.global-map-col .contact-map-box .nav-item .nav-link {
+		font-size: 16px
+	}
+
+	.global-map-col .contact-map-box .container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.contact-map-box .nav-tabs .nav-item:first-child {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.contact-map-box .nav-tabs .nav-item:nth-child(2) {
+		padding-left: 0;
+	}
+
+	.contact-map-box .portfolio-sorting-wrap .dropdown button.psorting {
+		padding-left: 0;
+	}
+
+	.home-page-slants .banner-text .col-9 {
+		flex: 0 0 100%;
+		max-width: 100%;
+		transform: none !important;
+	}
+
+	.home-page-slants .banner-text {
+		bottom: auto;
+		top: 80%;
+	}
+
+	.banner-explore-content {
+		display: block;
+	}
+
+	.section.business-slide-section {
+		padding-top: 0;
+	}
+
+	.home-page-slants .banner-text .col-9 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.by-the-number-wrap .count-no {
+		font-size: 45px;
+	}
+
+	.by-the-number-wrap .count-title {
+		font-size: 16px;
+	}
+
+	.about-tvp-banner-section .tvp-banner-caption-text {
+		max-width: 100%;
+	}
+
+	.arrow-lg .big-arrow {
+		height: 36px;
+		width: 36px;
+		font-size: 36px;
+		border-width: 2px;
+	}
+
+	.arrow-lg .big-arrow::before {
+		top: -10px;
+	}
+
+	.left-arrow.arrow-lg .video-text-inner {
+		padding-left: 50px;
+	}
+
+	.big-video-section .video-title {
+		font-size: 22px;
+	}
+
+	.big-video-section .video-top-text .video-text.text-small {
+		display: none;
+	}
+
+	.portfolio-detail-content .table-col {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.table-col .table-wrapper {
+		margin-top: 40px;
+	}
+
+	.tvp-banner-caption-text .section-title {
+		margin-bottom: 30px;
+	}
+
+	.bottom-section-title-wrap .bottom-sec-title {
+		font-size: 36px;
+	}
+
+	.section.about-tvp-banner-section {
+		padding-bottom: 60px;
+	}
+
+	.about-tvp-banner-section::before,
+	.team-review-section::before {
+		border-width: 40px;
+	}
+
+
+
+	.table-col .small-title {
+		font-size: 18px;
+	}
+
+	.portfolio-detail-content .table-col .sub-title {
+		font-size: 22px;
+	}
+
+	.cerevel-table th,
+	.cerevel-table td,
+	.small-title.color-blue {
+		font-size: 18px;
+	}
+
+	.team-quote h3 {
+		font-size: 24px;
+	}
+
+	.people-listing .col.quote-col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.team-quote h6 .right-arrow-circled {
+		height: 40px;
+		width: 40px;
+		font-size: 40px;
+		line-height: 28px;
+		padding: 0 10px;
+	}
+
+	.team-quote h6 {
+		padding-left: 50px;
+	}
+
+	.team-quote:before {
+		width: 40px;
+		height: 30px;
+	}
+
+	.team-quote {
+		padding-left: 60px;
+	}
+
+	.people-listing .quote-col {
+		height: auto;
+	}
+
+	.gradiant-simple-content .gradiant-text,
+	.gradiant-simple-content .gradiant-link-wrap {
+		font-size: 32px
+	}
+
+	.detail-content-left .people-bottom-info .info-single:last-child {
+		margin-bottom: 0;
+	}
+
+	.detail-content-right {
+		margin-top: 30px;
+	}
+
+	.our-advantages-section .slant-anim-wrap {
+		top: 0;
+	}
+
+	.business-slide-wrap .tab-content {
+		padding-left: 15px;
+	}
+
+	.case-study-grid.slick-slider .case-study-content h6 {
+		font-size: 22px;
+	}
+
+	.slick-slider .case-study-content.media-content {
+		padding: 25px;
+	}
+
+	.section-title.title-with-no-border {
+		margin-bottom: 15px;
+	}
+
+	.banner-rf-section.esg-approach-section .row {
+		height: auto;
+		min-height: auto;
+		max-height: auto;
+		min-height: 100%;
+	}
+
+	.banner-rf-section.esg-approach-section {
+		height: auto;
+	}
+
+	.banner-rf-section.esg-approach-section .row .esg-approach-slider-contents-wrap3 {
+		height: 450px;
+	}
+
+	.esg-approach-section.tabs-to-dropdown .dropdown-toggle {
+		margin-top: 0;
+	}
+
+	.news-item .featured-news-title {
+		font-size: 22px;
+	}
+
+	.contact-map-box .nav-item .nav-link {
+		font-size: 16px;
+	}
+
+	.contact-map-box {
+		padding: 0;
+		min-height: 550px;
+	}
+
+	.feature-news-col .news-content .featured-news-title,
+	.featured-news-title {
+		font-size: 20px;
+	}
+
+	.lg-actions .lg-next,
+	.lg-actions .lg-prev {
+		margin-top: 20px;
+	}
+
+	/* .bottom-header .navbar .navbar-brand img {
+		height: 35px;
+	}
+	.scrolled .bottom-header .navbar .navbar-brand
+	{
+		max-width: 180px;
+	}
+	header.scrolled .bottom-header .navbar .navbar-brand img {
+		height: 32px;
+	} */
+	/* bc corp End*/
+	.tvp-banner-caption-text {
+		max-width: 100%;
+	}
+
+	.tvp-banner-caption-text h2 {
+		font-size: 52px;
+	}
+
+	.tvp-banner-caption-text p {
+		font-size: 22px;
+	}
+
+	.about-tvp-banner-section .home-page-slants .right-slant {
+		top: calc(100% - 15vh);
+	}
+
+	.banner-bottom-text h2,
+	.team-review-single h3 {
+		font-size: 38px;
+	}
+
+	.about-tvp-banner-section .video-banner {
+		padding-bottom: 20vh;
+	}
+
+	.team-review-single {
+		margin-bottom: 70px;
+	}
+
+	.review-text-col .review-text,
+	.review-text-col .review-text p {
+		font-size: 22px;
+	}
+
+	.image-content-row .content-col {
+		margin-top: 20px;
+	}
+
+	.image-slide .image-wrap {
+		height: 60vw;
+	}
+
+	.image-col .slick-arrow {
+		height: 40px;
+		width: 40px;
+		font-size: 50px;
+		top: calc(30vw - 20px);
+	}
+
+	.image-col .image-caption p,
+	.image-col .image-caption {
+		font-size: 12px;
+	}
+
+	.image-content-row .content-col h3 {
+		font-size: 32px;
+	}
+
+	.image-content-row .content-col .content-text p,
+	.image-content-row .content-col .content-text {
+		font-size: 16px;
+	}
+
+	.image-content-row {
+		margin-bottom: 50px;
+	}
+
+	.lg-actions .lg-prev,
+	.lg-actions .lg-next {
+		height: 40px;
+		width: 40px;
+		font-size: 40px;
+	}
+
+	.lg-actions .lg-prev:after,
+	.lg-actions .lg-next:after {
+		height: 20px;
+		width: 13px;
+	}
+
+	.lg-actions .lg-prev {
+		left: 10px;
+		right: 10px;
+	}
+
+	.lg-outer {
+		padding: 20px 5px 50px;
+	}
+
+	.lg-outer .lg-sub-html .image-caption p {
+		font-size: 16px;
+	}
+
+	.lg-outer .lg-inner {
+		width: calc(100% - 120px);
+	}
+
+	.lg-outer .lg-sub-html {
+		width: calc(100% - 130px);
+	}
+
+	.lg-outer .lg-inner img.lg-object {
+		height: auto !important;
+	}
+
+	.video-popup .video-caption {
+		position: relative;
+	}
+
+	.video-popup .video-caption .arrow-icon {
+		left: 0;
+	}
+
+	.video-popup .video-caption {
+		padding-left: 100px
+	}
+
+	.video-popup .modal-title {
+		font-size: 40px;
+	}
+
+	.feature-news-col .news-content .featured-news-title {
+		font-size: 24px;
+	}
+
+	.banner-slider-section .banner-content-wrap {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.business-content-col .business-content-wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.business-slide-tabs {
+		padding-top: 100px;
+	}
+
+	.business-slide-wrap .tab-content,
+	.business-content-col .tab-content-wrap {
+		padding-left: 0;
+		margin: 0;
+		padding-bottom: 0;
+	}
+
+	.banner-explore-content .explore-text,
+	.business-content-wrap h2.section-title {
+		font-size: 20px;
+	}
+
+	.banner-explore-content .explore-text {
+		margin-top: 46px;
+		margin-bottom: 0;
+	}
+
+	.business-content-wrap .banner-explore-content {
+		margin-bottom: 60px;
+	}
+
+	.our-advantages-box:nth-child(2),
+	.our-advantages-box:nth-child(3) {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+
+	.our-advantages-box {
+		transform: none !important;
+	}
+
+	.slick-outline.slick-arrow {
+		height: 38px;
+		width: 38px;
+		font-size: 28px;
+	}
+
+	.custom-space-sec-wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.investment-spotlight-slider {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.slick-outline.slick-arrow {
+		left: 0;
+	}
+
+	.slick-outline.slick-arrow.slick-next {
+		right: 0;
+	}
+
+	.esg-row .content-col .content-text {
+		margin-bottom: 25px;
+	}
+
+	.esg-row .tab-content-col .col-inner {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.esg-image-slider .slick-outline.slick-arrow {
+		left: -25px;
+	}
+
+	.esg-image-slider .slick-outline.slick-arrow.slick-next {
+		right: -25px;
+	}
+
+	.esg-image-slider {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.esg-image-slider .image-wrap,
+	.esg-row .tab-content-col .tab-content {
+		padding-bottom: 130%;
+	}
+
+	.esg-tab-content .content-text p,
+	.esg-tab-content .content-text {
+		font-size: 16px;
+	}
+
+	.esg-tab-content .content-wrap {
+		padding: 0 25px;
+	}
+
+	.btn-xs {
+		font-size: 20px;
+	}
+
+	.esg-image-slider .image-wrap,
+	.esg-image-slider .slick-track {
+		height: 100%;
+	}
+
+	.home-page-contact-section .contact-map-box .nav-item .nav-link {
+		font-size: 18px;
+	}
+
+	section.spotlight-section-main.slant-section {
+		margin-top: -40px;
+	}
+
+	.esg-tab .nav-tabs .nav-link .arrow-xs {
+		top: 0;
+	}
+
+	.esg-carousal-btn-wrap .carousel-btn {
+		height: 38px;
+		width: 38px;
+		font-size: 28px;
+	}
+
+	.esg-row .tab-content-col .col-inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.esg-carousal-btn-wrap .carousel-btn.nexttab {
+		right: -24px;
+	}
+
+	.esg-carousal-btn-wrap .carousel-btn {
+		left: -24px;
+	}
+
+	.business-content-wrap h2.section-title {
+		margin-bottom: 20px;
+	}
+
+	.banner-explore-content .explore-text {
+		font-weight: 500;
+		color: #1CA6DF;
+	}
+
+	.bu-slide-logo {
+		margin-bottom: 25px;
+		margin-top: 0;
+	}
+
+	.business-slide-tabs .nav-link {
+		font-size: 28px;
+		padding: 8px 0;
+		text-transform: capitalize;
+		color: #1C2156;
+		font-weight: 500;
+		font-family: "fs_silas_sans", sans-serif;
+	}
+
+	.business-slide-tabs .nav-item {
+		padding-left: 0;
+		transform: none;
+
+	}
+
+	.banner-explore-content {
+		margin-bottom: 10px;
+	}
+
+	.business-content-col .business-slide-tabs,
+	.business-slide-wrap .tab-content,
+	.business-content-col .tab-content-wrap {
+		padding-top: 0;
+	}
+
+	.business-content-col .bu-news::before {
+		display: none;
+	}
+
+	.tab-pane .bu-tab-menu ul {
+		display: none;
+	}
+
+	.tab-content-block h3 {
+		font-size: 36px;
+	}
+
+	.business-slider-mobile .tab-pane,
+	.business-slider-mobile .tab-pane p {
+		font-size: 20px;
+	}
+
+	.bu-news .sitemap-news-title h4 {
+		font-size: 12px;
+	}
+
+	.sitemap-news-wrap .news-date-col {
+		flex: auto;
+		margin-top: 0;
+		margin-left: 10px;
+	}
+
+	.sitemap-news-title {
+		flex-direction: row;
+	}
+
+	.tab-content-block .bu-news {
+		margin-top: 30px;
+	}
+
+	.back-business-text .arrow-xs {
+		background-color: transparent;
+		border: 2px solid #1CA6DF;
+		color: #1CA6DF;
+		line-height: 10px;
+		margin-top: -2px;
+		position: relative;
+		height: 17px;
+		width: 17px;
+	}
+
+	.back-arrow.arrow-xs::before {
+		content: '<';
+		position: absolute;
+		left: 48%;
+		transform: translateX(-50%);
+	}
+
+	.mobile-text .back-business-text {
+		padding-right: 5px;
+	}
+
+	.explore-text-wrap .animate-text-wrap {
+		transition: all 300ms ease-in-out;
+		display: inline-block;
+	}
+
+	.banner-explore-content .explore-text-wrap {
+		overflow: hidden;
+		position: relative;
+		padding-bottom: 8px;
+	}
+
+	.explore-text-wrap::before {
+		content: '';
+		height: 1px;
+		width: 0;
+		background-color: #1CA6DF;
+		left: 0;
+		position: absolute;
+		bottom: 0;
+		transition: all 300ms ease-in-out;
+		transform-origin: left;
+	}
+
+	.explore-text-wrap.active::before {
+		width: 100%;
+		transition: all 300ms ease-in-out;
+	}
+
+	.explore-text-wrap.active .explore-text {
+		cursor: pointer;
+	}
+
+	.tab-content-block .business-logo {
+		width: 220px;
+		margin-bottom: 45px;
+	}
+
+	.tab-content-block .business-logo img {
+		max-width: 100%;
+	}
+
+	.business-slider-mobile .tab-content-block {
+		padding-top: 25px;
+	}
+
+	.section-title-with-blue-line:before,
+	.section-title-with-white-line:before,
+	.esg-section .section-title:before {
+		width: 52px;
+	}
+
+	.section-title-with-blue-line,
+	.esg-section .section-title.section-title-with-white-line {
+		margin-bottom: 20px;
+	}
+
+	.title-wrap .half-width-caption {
+		font-size: 20px;
+	}
+
+	.investment-spotlight-single {
+		margin: 0;
+	}
+
+	.spotlight-slider .slide-single:nth-child(odd) {
+		margin-left: -25px;
+		padding-right: 30%;
+	}
+
+	.spotlight-slider .slide-single:nth-child(even) {
+		margin-right: -25px;
+		padding-left: 30%;
+	}
+
+	.spotlight-slider .slide-single {
+		position: relative;
+	}
+
+	.spotlight-slider .investment-spotlight-single .spotlight-content-wrap {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 55%;
+	}
+
+	.spotlight-slider .slide-single:nth-child(even) .spotlight-content-wrap {
+		left: 0;
+		right: auto;
+	}
+
+	.investment-spotlight-slider.spotlight-slider {
+		padding: 0;
+	}
+
+	.spotlight-slider .investment-spotlight-single .image-wrap {
+		margin-bottom: 0;
+	}
+
+	.investment-spotlight-slider.spotlight-slider .slide-single:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.esg-tab-wrap {
+		display: none;
+	}
+
+	.esg-row .tab-content-col {
+		margin-top: 60px;
+	}
+
+	.esg-carousal-btn-wrap {
+		display: none;
+	}
+
+	.esg-row .tab-content-col .col-inner {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+
+	.our-people-box {
+		padding: 0;
+	}
+
+	.community-cult-slider .investment-spotlight-single .image-wrap {
+		margin-bottom: 15px;
+	}
+
+	.community-cult-slider .slide-single {
+		margin-bottom: 40px;
+	}
+
+	button.navbar-toggler,
+	.bottom-header .more-menu-link {
+		height: 20px;
+		width: 20px;
+	}
+
+	.more-menu-link span {
+		width: 20px;
+	}
+
+	.more-menu-link span:nth-child(2) {
+		width: 15px;
+	}
+
+	.banner-content-wrap .banner-content-text,
+	.banner-content-wrap .banner-content-text p {
+		font-size: 20px;
+	}
+
+	.title-wrapper,
+	.sec-small-title,
+	.big-video-section {
+		margin-bottom: 50px;
+	}
+
+	.arrow-top .big-arrow {
+		margin-bottom: 10px;
+	}
+
+	.content-text.big-text,
+	.content-text.big-text p {
+		font-size: 16px;
+	}
+
+	.partnership-section .video-row {
+		margin-top: 50px;
+	}
+
+	.image-content-grid {
+		padding-top: 20px;
+	}
+
+	.image-content-row:nth-child(odd) .image-col .col-inner {
+		padding-left: 0;
+	}
+
+	.image-content-row:nth-child(even) .image-col .col-inner {
+		padding-right: 0;
+	}
+
+	.image-content-row:nth-child(even) .image-col,
+	.image-content-row:nth-child(odd) .image-col {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.image-gallary-slider .slick-outline.slick-arrow {
+		top: calc(30vw - 19px);
+		left: -20px;
+	}
+
+	.image-gallary-slider .slick-outline.slick-arrow.slick-next {
+		right: -20px;
+	}
+
+	section.esg-section {
+		padding-bottom: 80px;
+	}
+
+	.slant-section .section {
+		padding-top: 50px;
+	}
+
+	.news-banner-slider .banner-content-wrap .banner-title {
+		font-size: 26px;
+	}
+
+	.news-type-date-wrap>div,
+	.news-info-wrap .news-tag {
+		font-size: 14px;
+	}
+
+	.news-banner-section .banner-content-wrap {
+		top: calc(58vh - 25px);
+	}
+
+	.news-banner-section .banner-nav-slider-wrap {
+		top: calc((58vh - 25px) - 25px);
+	}
+
+	.news-main-row .news-sidebar-col,
+	.news-main-row .news-main-col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.news-main-row .news-sidebar-col .col-inner {
+		transform: none !important;
+	}
+
+	.news-main-row .news-sidebar-col {
+		padding-top: 30px;
+		margin-top: 30px;
+		border-top: 1px solid #CFCDC9;
+		border-right: none;
+		order: 2;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .top-title-filter-inner {
+		margin-top: -50px;
+	}
+
+	.sort-filter-wrap .filter-btn {
+		font-size: 14px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.portfolio-sorting-wrap .dropdown button.psorting {
+		font-size: 16px;
+	}
+
+	.news-main-row .news-sidebar-col .col-inner::before {
+		display: none;
+	}
+
+	.portfolio-sorting-wrap .psorting .psorting-label {
+		font-size: 14px;
+	}
+
+	.news-sidebar-col .media-content-wrap {
+		padding-bottom: 0;
+	}
+
+	.sticky-filter .top-title-filter-inner::before {
+		width: calc(100% + 50px);
+		left: -25px;
+	}
+
+	.news-main-col .feature-news-col .news-content .featured-news-title,
+	.news-main-col .news-title {
+		font-size: 20px;
+	}
+
+	.media-content-single .media-content-title {
+		margin-bottom: 10px;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .portfolio-sorting-wrap .dropdown button.psorting {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.sticky-filter .top-title-filter-wrapper .portfolio-sorting-wrap .news-filter {
+		margin-bottom: 10px;
+	}
+
+	.small-banner-wrap .bg-image {
+		right: -25px;
+	}
+
+	.small-banner-wrap::before {
+		left: -25px;
+	}
+
+	.small-banner-wrap .bg-image {
+		width: 100%;
+	}
+
+	.small-banner-wrap .small-banner-title {
+		font-size: 26px;
+	}
+
+	.small-banner-wrap .content-text {
+		max-width: 100%;
+	}
+
+	.small-banner-wrap .content-text,
+	.small-banner-wrap .content-text p {
+		font-size: 20px;
+	}
+
+	.small-banner-wrap::before {
+		background: linear-gradient(45deg, rgba(28, 166, 223, 1) 30%, rgba(28, 166, 223, 0) 100%);
+	}
+
+	.portfolio-listing-section-wrap .small-banner-wrap {
+		margin-bottom: 50px;
+	}
+
+	.small-banner-col .small-banner-wrap .banner-inner {
+		padding: 20px;
+	}
+
+	.small-banner-col .small-banner-wrap .content-text {
+		max-width: 90%;
+	}
+
+	.portfolio-listing-section-wrap .small-banner-col .small-banner-wrap {
+		height: auto;
+		min-height: 100%;
+	}
+
+	.small-banner-col .small-banner-wrap .small-banner-content {
+		min-height: 350px;
+	}
+
+	.advantage-box-image {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	/* .advantage-box-image .parallax-block-img {
+		padding-bottom: 65%;
+	} */
+
+	.our-advantages-box-wrap .content-col {
+		transform: none !important;
+	}
+
+	.our-advantages-box:nth-child(2),
+	.our-advantages-box:nth-child(3) {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+
+	.full-width-news-item .featured-news-title {
+		font-size: 24px;
+	}
+
+	.full-width-news-item .feature-news-content {
+		padding: 25px 20px;
+	}
+
+	.location-popup .ampopup-inside {
+		max-width: 280px
+	}
+
+	.home-page-contact-section .map-svg-wrap {
+		top: 0;
+	}
+
+	section.title-section {
+		padding-bottom: 30px;
+	}
+
+	.about-section .year-review-section+.row {
+		margin-top: 30px;
+	}
+
+	.portfolio-title-sec .row .content-text {
+		padding-left: 0;
+		max-width: 100%;
+	}
+
+	section.small-banner-section+.portfolio-listing-section {
+		padding-top: 50px;
+	}
+
+	.tvp-title-sec .title-wrapper {
+		max-width: 100%;
+	}
+
+	.tvp-title-sec .col-md-8 {
+		width: 100%;
+	}
+
+	.slant-section.video-slant-section .slant-anim-wrap {
+		top: 30px;
+	}
+
+	.number-counter-col .count-no {
+		font-size: 50px;
+	}
+
+	.number-counter-col .count-text {
+		font-size: 16px;
+	}
+
+	.number-counter-col .count-title {
+		font-size: 18px;
+	}
+
+	.banner-content-wrap {
+		bottom: 180px;
+	}
+
+	.banner-nav-slider-wrap {
+		bottom: 100px;
+	}
+
+	.banner-tanagram-section .banner-slider-wrap {
+		height: auto;
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		width: 100%;
+	}
+
+	.banner-tanagram-section .banner-nav-slider-wrap {
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+
+	.btn-small {
+		font-size: 16px;
+	}
+
+	.banner-slide .content-text p {
+		font-size: 14px;
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		margin-right: -20px;
+		width: calc(100% + 40px);
+		max-width: calc(100% + 40px);
+	}
+
+	.section-wrapper .section.banner-tanagram-section {
+		padding-top: 80px;
+	}
+
+	.banner-slide .slide-title,
+	.banner-slide .slide-title p {
+		font-size: 18px;
+	}
+
+	.banner-slide .content-text p {
+		font-size: 12px;
+	}
+
+	.banner-tanagram-section .banner-nav-slider-wrap {
+		bottom: 20px;
+		display: none;
+		padding: 0 20px;
+	}
+
+	.btn {
+		font-size: 14px;
+	}
+
+	.btn-small .arrow-round-icon,
+	.btn .arrow-round-icon {
+		height: 18px;
+		width: 18px;
+	}
+
+	.btn-small .arrow-round-icon svg,
+	.btn .arrow-round-icon svg {
+		width: 6px;
+		height: auto;
+		margin-top: -2px;
+	}
+
+	.btn-outline.btn-blue .arrow-round-icon {
+		background-size: 5.5px;
+		background-position: 5px center;
+	}
+
+	.advantage-title {
+		margin-bottom: 18px;
+	}
+
+	button.play-video-btn {
+		left: 20px;
+		bottom: 20px;
+	}
+
+	button.play-video-btn {
+		font-size: 16px;
+	}
+
+	button.play-video-btn .arrow-icon {
+		height: 20px;
+		width: 20px;
+	}
+
+	button.play-video-btn .arrow-icon svg {
+		height: 20px;
+		width: 20px;
+	}
+
+	.btn .download-icon {
+		height: 12px;
+	}
+
+	.btn .download-icon svg {
+		height: 12px;
+		width: auto;
+	}
+
+	.our-people-box .title-wrap>p {
+		font-size: 18px;
+	}
+
+	.btn .arrow-icon svg {
+		width: 6px
+	}
+
+	.people-breadcrumb-single li {
+		font-size: 14px;
+	}
+
+	.our-people-box {
+		height: calc(100vh - 120px)
+	}
+
+	.investment-spotlight-single .tag-wrap {
+		font-size: 12px;
+	}
+
+	.investment-spotlight-single .spotlight-title {
+		font-size: 24px;
+	}
+
+	.news-items-slider .news-item-inner {
+		padding: 0;
+	}
+
+	.news-items-slider .slick-arrow.slick-next.slick-outline {
+		right: -25px;
+	}
+
+	.news-items-slider .slick-arrow.slick-prev.slick-outline {
+		left: -25px;
+	}
+
+	.investment-spotlight-single .tag-wrap,
+	.news-date,
+	.news-box-wrap .by-tag,
+	.news-date span.tag-text,
+	.news-item-single .by-tag {
+		font-size: 12px;
+	}
+
+	.team-desc h4 {
+		font-size: 16px;
+	}
+
+	.team-footer,
+	.team-desc small {
+		font-size: 14px;
+	}
+
+	.people-grid .team-bg {
+		padding-bottom: 50px;
+	}
+
+	.portfolio-search {
+		flex-wrap: wrap;
+	}
+
+	.portfolio-sorting-wrap .dropdown,
+	.portfolio-sorting-wrap .psorting.people-layout {
+		margin-bottom: 20px;
+	}
+
+	.portfolio-search-wrap .search-portfolio input[type="text"],
+	.portfolio-search-wrap .search-portfolio input[type="search"] {
+		text-align: left;
+	}
+
+	.portfolio-search-wrap .search-portfolio input[type="text"],
+	.portfolio-search-wrap .search-portfolio input[type="search"] {
+		font-size: 16px;
+	}
+
+	.portfolio-title-sec .section-title {
+		margin-bottom: 40px;
+	}
+
+	.news-sidebar-col .sidebar-title {
+		font-size: 18px;
+	}
+
+	.inner-banner-row .banner-title {
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+
+	.inner-banner-row .content-text,
+	.inner-banner-row .content-text p {
+		font-size: 16px;
+	}
+
+	.title-wrap .title-top-small {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.title-wrap .section-title.mb-60 {
+		margin-bottom: 30px;
+	}
+
+	.section.purpose-value-section {
+		padding-bottom: 60px;
+	}
+
+	.value-grid-section::before {
+		height: 60px;
+	}
+
+	section.career-video-section {
+		padding-top: 60px;
+	}
+
+	section.global-business-section .global-map-col .map-svg-wrap {
+		top: 100px;
+	}
+
+	.platform-counter-wrap .content-text,
+	.platform-counter-wrap .content-text p {
+		font-size: 12px;
+	}
+
+	ul.career-nav-listing a {
+		font-size: 14px;
+	}
+
+	ul.career-nav-listing li {
+		padding: 20px 10px;
+	}
+
+	/* section.career-nav-section {
+		padding-bottom: 30px;
+	} */
+
+	.team-review-slider .slick-outline.slick-arrow.slick-prev {
+		right: 50px;
+	}
+
+	.team-review-slider .slick-outline.slick-arrow {
+		top: 0
+	}
+
+	.team-review-slider {
+		padding-top: 60px;
+	}
+
+	.review-title-wrap .review-title::before {
+		font-size: 60px;
+		text-align: left;
+		top: -10px;
+		transform: none;
+		width: 40px;
+	}
+
+	.team-reviews-listing ul li::before {
+		font-size: 45px;
+		width: auto;
+	}
+
+	.review-title-wrap .review-title {
+		padding-left: 45px;
+	}
+
+	.review-title-wrap,
+	.review-title-wrap .review-title {
+		margin-bottom: 20px;
+	}
+
+	.team-image-listing.row {
+		padding: 0 30px;
+	}
+
+	.team-image-listing .team-review-single.slick-slide:not(.slick-current):nth-child(2),
+	.team-image-listing .team-review-single.slick-slide:not(.slick-current):nth-child(1) {
+		opacity: 0.5;
+	}
+
+	.team-review-content .team-review-text,
+	.team-review-content .team-review-text p,
+	.team-reviews-listing ul li {
+		font-size: 18px;
+	}
+
+	.team-breadcrumb ul li {
+		font-size: 16px;
+	}
+
+	.team-reviews-listing ul li {
+		padding-left: 45px;
+		min-height: 80px;
+	}
+
+	.review-title-wrap .review-title {
+		align-items: flex-start;
+	}
+
+	.join-team-section .link-list-wrapper {
+		margin-top: 50px;
+	}
+
+	.link-list-wrapper .link-list-col:nth-child(2) .col-inner {
+		padding-left: 0;
+		border-left: 0;
+		padding-top: 30px;
+		margin-top: 10px;
+		border-top: 1px solid rgba(255, 255, 255, 0.35);
+	}
+
+	.link-list-wrapper .link-footer-col,
+	.link-list-wrapper .link-footer-col p {
+		font-size: 16px;
+	}
+
+	.link-list-wrapper .link-footer-col {
+		margin-top: 60px;
+	}
+
+	.people-detail-section .title-wrap .title-top-small,
+	.detail-content-left .people-bottom-info {
+		font-size: 16px;
+	}
+
+	.detail-content-right .small-title {
+		font-size: 14px;
+	}
+
+	.case-study-box .case-study-title .arrow-icon {
+		height: 20px;
+		width: 20px;
+	}
+
+	.case-study-box .case-study-title .arrow-icon svg {
+		height: 100%;
+		width: 100%;
+	}
+
+	.news-detail-right p,
+	.news-detail-right {
+		font-size: 16px;
+	}
+
+	.news-sidebar-col h4 {
+		font-size: 12px;
+	}
+
+	.news-detail-section .news-sidebar-col .media-content-wrap{
+		margin-top: 20px;
+	}
+
+	.news-detail-right h3:not(:first-child) {
+		margin-top: 40px;
+	}
+
+	.news-detail-right h3 {
+		font-size: 24px;
+	}
+
+	.news-detail-right {
+		padding-left: 15px;
+	}
+
+	.news-detail-right {
+		margin-bottom: 40px;
+	}
+
+	.news-detail-img {
+		margin-bottom: 30px;
+	}
+
+	.detail-content-right,
+	.related-content-section .title-wrap .small-title {
+		font-size: 18px;
+	}
+
+	section.career-nav-section {
+		padding: 0;
+	}
+
+	.link-listing .btn .arrow-icon {
+		height: 10px;
+		width: 6px;
+	}
+
+	.link-listing .btn {
+		padding-right: 28px;
+	}
+
+	.login-section .login-form-wrap {
+		padding: 20px;
+	}
+
+	section.error-section .section-title {
+		font-size: 60px;
+	}
+
+
+	/* cookie Popup*/
+	#sliding-popup .eu-cookie-compliance-banner {
+		/* max-width: 100%; */
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.eu-cookie-compliance-content .eu-cookie-compliance-message,
+	.eu-cookie-compliance-content #popup-buttons {
+		flex: 0 0 100%;
+		max-width: 100%;
+		text-align: left;
+	}
+
+	.eu-cookie-compliance-content #popup-buttons {
+		margin-top: 20px;
+	}
+
+	div#sliding-popup #popup-text.eu-cookie-compliance-message {
+		padding-right: 0;
+	}
+
+	div#sliding-popup {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div#sliding-popup #popup-text.eu-cookie-compliance-message p {
+		font-size: 14px;
+	}
+
+	.eu-cookie-compliance-default-button,
+	.eu-cookie-compliance-categories-buttons .eu-cookie-compliance-save-preferences-button {
+		font-size: 16px;
+	}
+
+	.footnote-wrap .footnote-no {
+		height: 16px;
+		width: 16px;
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	.footnote-tooltip {
+		width: 200px;
+		font-size: 11px;
+		padding: 10px;
+		left: -130px;
+	}
+
+	.our-advantages-box:nth-child(even) .advantage-box-image {
+		margin-right: 0;
+	}
+
+	.review-title-wrap .review-title {
+		font-size: 18px;
+	}
+
+	#peopleLoader {
+		top: 300px;
+	}
+
+	.investment-spotlight-single .spotlight-title {
+		/* color: var(--colorBlue100); */
+	}
+
+	/* .investment-spotlight-single .image-wrap
+	{
+		opacity: 0.3;
+	} */
+
+	.pagination-link:not(.prev):not(.next) {
+		font-size: 18px;
+	}
+
+	.pagination-link.prev {
+		margin-left: 0;
+	}
+
+	.pagination-link.next {
+		margin-right: 0;
+	}
+
+	.search-widget .typedtext {
+		margin-top: -20px;
+	}
+
+	.location-grid .office_title {
+		font-size: 16px;
+	}
+
+	.inner-banner-section {
+		padding-bottom: 80vw;
+		height: auto;
+	}
+
+	.inner-banner-section .banner-bg {
+		top: auto;
+		bottom: 0;
+		height: 80vw;
+		overflow: hidden;
+	}
+
+	.inner-banner-section .inner-banner-row {
+		padding: 50px 0;
+		color: var(--primaryColor);
+	}
+
+	.banner-tanagram-section .tanagram-anim-col {
+		margin-top: -40px;
+		height: 50vh;
+	}
+	.section.banner-tanagram-section
+	{
+		height: auto;
+	}
+	.banner-tanagram-section .banner-slider-col
+	{
+		margin-top: 20px;
+	}
+	.banner-tanagram-section .banner-slider-wrap
+	{
+		margin-top: 0;
+	}
+	.our-people-section .people-breadcrumb-wrap{
+		display: none;
+	}
+	.pager__items .pager__item.pager__item--next a,
+.pager__items .pager__item.pager__item--previous a,
+.pager__items .pager__item.pager__item--first a
+{
+	height: 24px;
+    width: 24px;
+	margin: 0;
+}
+}
+
+@media (orientation: landscape) and (max-width: 991px) {
+	.portfolio-detail-inner {
+		margin-top: 20px;
+	}
+
+	.portfolio-detail-banner.fp-auto-height {
+		padding-bottom: 0;
+	}
+
+	.portfolio-logo img {
+		max-width: 40%;
+	}
+
+	.portfolio-detail-inner h1.secton-title {
+		font-size: 30px;
+	}
+
+	.count-single h6 {
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+
+	.gradiant-banner-title {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.gradiant-counter-content-section .col-6 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.count-single p {
+		padding-right: 0;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 10px;
+	}
+
+	.gradiant-counter-content-section .counter-column-wrapper {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.count-no h1 {
+		font-size: 25px;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 0;
+	}
+
+	.count-no sup {
+		font-size: 16px;
+		top: -0.4em;
+	}
+
+	.count-no sub {
+		font-size: 16px;
+	}
+
+	.sitemap-news-col {
+		margin-bottom: 15px;
+	}
+
+	.half-width-caption {
+		margin-bottom: 0;
+	}
+
+	.our-advantages-box {
+		margin-top: 50px;
+	}
+
+	.section.spotlight-section .top-right-slant-wrap {
+		height: 250%;
+	}
+
+	.news-items-slider .slick-next {
+		right: 0;
+	}
+
+	.news-items-slider .slick-prev {
+		left: 0;
+	}
+	.banner-tanagram-section .banner-slider-wrap
+	{
+		height: auto;
+	}
+	.banner-tanagram-section .tanagram-anim-col
+	{
+		height: auto;
+	}
+	.section.banner-tanagram-section
+	{
+		height: auto;
+	}
+}
+
+@media (orientation: landscape) and (max-width: 767px) {
+	.count-single h6 {
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+
+	.gradiant-banner-title {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	.gradiant-counter-content-section .col-6 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.count-single p {
+		padding-right: 0;
+	}
+
+	.gradiant-counter-content-section .gradient-section-slants-content-wrap {
+		padding-bottom: 25px;
+	}
+
+	.count-no h1 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+
+	/* .h1,
+	h1,
+	.h2,
+	h2 {
+		font-size: 30px;
+	} */
+
+	.news-detail-right p,
+	body p {
+		font-size: 16px;
+	}
+
+	.copyright-wrap {
+		font-size: 16px;
+	}
+
+	.search-portfolio {
+		position: relative;
+		width: 270px;
+	}
+
+	.portfolio-sorting-wrap {
+		flex-wrap: wrap;
+	}
+
+	.portfolio-listing-section-wrap {
+		padding-bottom: 140px;
+	}
+
+	.video-caption h3 {
+		font-size: 25px;
+	}
+
+	.video-caption img {
+		margin-right: 15px;
+		max-width: 30px;
+	}
+
+	.video-caption {
+		padding: 15px 22px;
+	}
+
+	.video-wrap {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	/* .video-wrap.portfolio-video-wrap {
+    margin-top: 60px;
+  } */
+
+	.people-listing .col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	/* .map-svg-wrap {
+		display: none;
+	} */
+
+	.map-svg-mobile-wrap {
+		display: block;
+	}
+
+	.map-svg-mobile {
+		width: 100vw;
+		/* left: -25px;
+		position: relative;
+		height: 700px; */
+	}
+
+	.cls-2 {
+		clip-path: none !important;
+		-webkit-clip-path: none !important;
+	}
+
+	.video-wrap {
+		margin: 50px -25px;
+	}
+
+	.contact-footer {
+		bottom: 50px;
+	}
+
+	.about-menu a,
+	.ftr-businesses-menu a {
+		font-size: 25px;
+	}
+
+	.more-menu-sidebar .search-widget #keys,
+	.more-menu-sidebar .search-widget #edit-search-api {
+		height: 35px;
+		font-size: 24px;
+	}
+
+	.search-widget .underscore,
+	.search-widget .typedtext-all {
+		font-size: 24px;
+	}
+
+	.more-menu-section .more-menu-sidebar,
+	.more-menu-section .more-menu-sidebar p,
+	.more-menu-section .more-menu-sidebar a {
+		font-size: 16px;
+	}
+
+	.more-menu-section .copyright-txt,
+	.more-menu-section .copyright-menu a {
+		font-size: 15px;
+	}
+
+	.video-banner-caption h2 {
+		max-width: 100%;
+		font-size: 12vw;
+		margin-top: 3vw;
+		margin-left: 0px;
+	}
+
+	.more-menu-slants {
+		width: 130%;
+		left: -20%;
+	}
+
+	.strategy-section .section-title:before,
+	.portfolio-listing-section .section-title:before {
+		width: 100%;
+	}
+
+	.contact-section .section-title {
+		display: block;
+	}
+
+	.contact-section .section-title:before {
+		width: 80%;
+	}
+
+	.more-menu-section .investorLoginWrap p {
+		max-width: 280px;
+	}
+
+	/* .banner-section .embed-responsive {
+		height: 80vh;
+	} */
+
+	.gradient-section-slants .right-slant {
+		-webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+	}
+
+	.home-page-slants .scroll {
+		top: 50px;
+	}
+
+	.ios-browser .home-page-slants .scroll {
+		top: -10px;
+	}
+
+	.portfolio-sorting-wrap .dropdown {
+		flex-basis: 100%;
+	}
+
+	.portfolio-sorting-wrap .dropdown button.psorting {
+		line-height: 1;
+	}
+
+	.ip-slider .carousel-control {
+		width: 40px;
+		height: 40px;
+		font-size: 2.2rem;
+		border-width: 3px;
+	}
+
+	/* Slider changes for mobile view */
+	.investment-block .container-inr {
+		padding: 0;
+	}
+
+	.ip-slider {
+		padding-top: 9rem;
+	}
+
+	.ip-header {
+		display: block;
+	}
+
+	.ip-header .ip-count {
+		margin-left: 65px;
+	}
+
+	.ip-header .ip-title .h6 {
+		margin-bottom: 30px;
+	}
+
+	.ip-item-title .heading {
+		margin-bottom: 0;
+	}
+
+	.ip-slider .carousel-control-prev {
+		left: 0px;
+		top: 50px;
+	}
+
+	.ip-slider .carousel-control-next {
+		left: 150px;
+		top: 50px;
+	}
+
+	.tab-content-block .container {
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+
+	.our-strategies-tabs-content .carousel-btn {
+		width: 40px;
+		height: 40px;
+		font-size: 2.2rem;
+		border-width: 3px;
+		padding: 5px;
+		line-height: 15px;
+	}
+
+	.our-strategies-section .nav-link {
+		font-size: 18px;
+	}
+
+	.our-strategies-section .nav-item,
+	.our-strategies-section .nav-item+.nav-item {
+		margin-left: 7.5px;
+		margin-right: 7.5px;
+	}
+
+	.our-strategies-tabs-content .nexttab {
+		right: 5px;
+	}
+
+	.our-strategies-tabs-content .prevtab {
+		left: 5px;
+	}
+
+	.our-vale-icons-block {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.intro-section-wrap {
+		font-size: 32px;
+	}
+
+	/* 01-03-2021 changes start */
+	.map-svg-mobile {
+		width: 100vw;
+		position: relative;
+		height: 1030px;
+	}
+
+	.contact-footer {
+		bottom: 5px;
+	}
+
+	.contact-section-content {
+		min-height: 1030px;
+	}
+
+	.slick-arrow {
+		height: 35px;
+		width: 35px;
+		font-size: 30px;
+	}
+
+	.slick-next::before,
+	.slick-prev::before {
+		top: -4px;
+	}
+
+	.spotlight-slider {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.spotlight-slider .slick-slide {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.slick-prev {
+		left: 0;
+	}
+
+	.slick-next {
+		right: 0;
+	}
+
+	.spotlight-slider-wrapper {
+		padding-bottom: 80px;
+	}
+
+	/* 01-03-2021 changes end */
+	.grid-single .img-wrap {
+		height: 58vw;
+	}
+
+	.investment-block-title {
+		font-size: 22px;
+	}
+
+	.box-number {
+		font-size: 30px;
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
+	}
+
+	.investment-single-wrap .col-md-8 {
+		margin-top: 10px;
+	}
+
+	.investment-single-wrap:before {
+		border-left-width: 50px;
+		border-right-width: 50px;
+		border-top-width: 60px;
+	}
+
+	.tab-content-title {
+		font-size: 24px;
+	}
+
+	#managementMeasurement .tab-content-title {
+		margin-bottom: 20px;
+	}
+
+	.management-boxes-text {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.management-title {
+		min-height: 80px;
+		max-height: 80px;
+		padding: 12px 40px;
+	}
+
+	.management-title h6 {
+		font-size: 18px;
+	}
+
+	.management-expand-text ul {
+		padding-left: 0;
+	}
+
+	.case-study-report-section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.date-wrap span {
+		font-size: 14px;
+	}
+
+	.tab-title .nav-link {
+		font-size: 22px;
+	}
+
+	.management-expand-text {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 16px;
+	}
+
+	.spotlight-logo {
+		max-width: 60%;
+	}
+
+	.portfolio-logo img {
+		max-height: inherit;
+		min-height: auto;
+	}
+
+	.year-review-row {
+		padding: 0 50px;
+	}
+
+	.review-content-text h6 {
+		margin-bottom: 20px;
+		padding-top: 10px;
+	}
+
+	.spotlight-slider-wrapper .slick-arrow {
+		top: 14vw;
+	}
+
+	.home-page-slants .scroll {
+		top: 92% !important;
+	}
+
+	.ios-browser .home-page-slants .scroll {
+		top: 92% !important;
+	}
+
+	/* .banner-section .embed-responsive
+	{
+		height: 60vh;
+	} */
+	.ios-browser .video-banner-caption {
+		top: auto;
+	}
+
+	.strategies-tabs-content .card-header button {
+		font-size: 22px;
+	}
+
+	/* homepage third section*/
+	.sitemap-title-wrap h2 {
+		font-size: 28px;
+		margin-bottom: 55px;
+	}
+
+	h3.sitemap-page-title {
+		margin-bottom: 10px;
+	}
+
+	.news-date-col,
+	.news-title-col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.news-date-col span {
+		margin-bottom: 5px;
+	}
+
+	.sitemap-news-col {
+		margin-bottom: 25px;
+	}
+
+	.all-news-link a i {
+		font-size: 22px;
+		line-height: 10px;
+		width: 22px;
+		height: 22px;
+		padding: 0 2px;
+		margin-left: 0;
+	}
+
+	/* homepage third section End*/
+
+	/* Our Appproach page css start  */
+	.hex_over_wrap.hex-popup-open {
+		bottom: -95px;
+	}
+
+	body .hexCapital-popup-open .main_hex {
+		height: 240px;
+	}
+
+	/* Our Appproach page css end  */
+
+	/* Amchart map popup css start */
+	.map-address {
+		font-size: 16px;
+	}
+
+	/* Amchart map popup css end */
+
+	/* Homepage banner changes */
+	.video-banner-caption h2 {
+		font-size: 12vw;
+	}
+
+	/* Homepage banner changes End*/
+
+	/* Body Text Css */
+	body,
+	body p {
+		font-size: 16px;
+	}
+
+	h3.sitemap-page-title,
+	.sitemap-news-title h4,
+	.portfolio-grid .media-body p,
+	.contact-note,
+	.portfolio-detail-text,
+	.see-all-location-link,
+	.sitemap-page-description,
+	.sitemap-page-description p {
+		font-size: 18px;
+	}
+
+	.about-section p,
+	.case-study-wrapper>h6,
+	.themes-content,
+	.themes-content p,
+	.Strategy-intro-text,
+	.Strategy-intro-box p,
+	.intro-box-title,
+	.tab-content-text p,
+	.management-expand-text,
+	.team-people-content,
+	.team-people-content h6,
+	.investment-block-text {
+		font-size: 18px;
+	}
+
+	/* Body Text Css */
+
+	/* Additonal CSS for BC Credit start */
+	.our-vale-icons-wrap+.our-vale-icons-wrap:before {
+		width: 85%;
+	}
+
+	.tab-content-block .container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	/* Addtional map css start */
+	.contact-section-content {
+		min-height: 850px;
+	}
+
+	/* Addtional map css end */
+
+	.tab-content-block .row {
+		margin-top: 15px;
+	}
+
+	.bu-tab-menu ul {
+		margin: 0 0 30px;
+		column-count: 2;
+	}
+
+
+	/* .top-left-slant {
+		clip-path: polygon(0 0, 100% 170px, 100% 94%, 0 100%);
+		-webkit-clip-path: polygon(0 0, 100% 170px, 100% 94%, 0 100%);
+	}
+	.top-right-slant {
+		clip-path: polygon(0 170px, 100% 0, 100% 100%, 0 100%);
+		-webkit-clip-path: polygon(0 170px, 100% 0, 100% 100%, 0 100%);
+	} */
+
+
+	.business-slide-tabs:after,
+	.bu-tab-menu:after {
+		display: none;
+	}
+
+	.home-page-slants .right-slant {
+		top: 78%;
+	}
+
+	.home-page-slants .left-slant {
+		top: 67%;
+	}
+
+	.advantage-box-image .h6 {
+		left: 15px;
+		bottom: 30px;
+		right: 15px;
+		font-size: 22px;
+	}
+
+	.advantage-box-image .h6 .right-arrow-circled {
+		font-size: 45px;
+		width: 45px;
+		height: 45px;
+		flex: 0 0 45px;
+		padding: 0 8px;
+	}
+
+	.tabs-to-dropdown .dropdown-toggle {
+		font-size: 18px;
+	}
+
+	.our-people-box {
+		min-height: 400px;
+		/* overflow: hidden; */
+	}
+
+	.our-people-box .h1 {
+		margin-bottom: 30px;
+	}
+
+	.news-items-slider .slick-prev {
+		left: -15px;
+	}
+
+	.news-items-slider .slick-next {
+		right: -15px;
+	}
+
+	.full-width-news-item .feature-news-content {
+		max-width: 100%;
+	}
+
+	.full-width-news-item .featured-news-img {
+		height: 398px;
+	}
+
+	.top-slant {
+		clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 100%);
+	}
+
+	/* 26-06-2023*/
+
+
+	.big-video-section .video-top-text {
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.big-video-section .video-top-text .video-text.text-small {
+		font-size: 12px;
+	}
+
+	.big-video-section .video-top-text .video-text {
+		font-size: 22px;
+	}
+
+	.latest-news-col .news-content-wrap,
+	.latest-news-col .news-image-wrap {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.global-map-col .col-inner {
+		min-height: 400px;
+	}
+
+	.latest-news-col .news-content-wrap {
+		padding: 40px 20px;
+	}
+
+	.news-image-wrap {
+		padding-bottom: 90%;
+	}
+
+	.gradiant-simple-content .gradiant-text,
+	.gradiant-simple-content .gradiant-link-wrap {
+		font-size: 26px
+	}
+
+	.portfolio-listing-section .portfolio-listing-section-wrap {
+		padding-bottom: 50px
+	}
+
+	.gradient-section-slants-content .gradient-section-slants-content-wrap {
+		padding-bottom: 0
+	}
+
+	.tvp-banner-caption-text h2 {
+		font-size: 42px;
+	}
+
+	.tvp-banner-caption-text p {
+		font-size: 18px;
+	}
+
+	.banner-bottom-text h2,
+	.team-review-single h3 {
+		font-size: 30px;
+	}
+
+	.review-text-col .review-text,
+	.review-text-col .review-text p {
+		font-size: 20px;
+	}
+
+	.team-review-single .image-wrap,
+	.team-review-single .review-text-col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.team-review-single .image-wrap {
+		height: 100px;
+		width: 100px;
+		max-width: 100px;
+	}
+
+	.team-review-single .review-text-col {
+		padding-left: 0;
+		padding-top: 10px;
+	}
+
+	.review-text-col .review-text {
+		padding: 18px;
+	}
+
+	.play-video-link a {
+		font-size: 22px;
+	}
+
+	.play-video-link .arrow-icon {
+		height: 25px;
+		width: 25px;
+		line-height: 16px;
+		font-size: 30px;
+	}
+
+	.team-review-single {
+		margin-bottom: 50px;
+	}
+
+	.team-review-single:nth-child(even) .review-text-col {
+		padding-right: 0;
+	}
+
+	.team-review-single:nth-child(even) .grid-inner .image-wrap {
+		order: inherit;
+	}
+
+	.team-review-single .svg-wrap {
+		width: 100%;
+	}
+
+	.team-review-single .svg-wrap svg {
+		width: 100%;
+	}
+
+	.team-review-single:nth-child(odd) .review-text-grid {
+		padding-top: 20px;
+	}
+
+	.lg-outer .lg-sub-html .image-caption p {
+		font-size: 12px;
+	}
+
+	.video-popup .modal-title {
+		font-size: 30px;
+	}
+
+	.video-popup .video-popup-thubnail {
+		max-width: 120px;
+	}
+
+	.video-popup .video-popup-thubnail .image-wrap {
+		height: 120px;
+	}
+
+	.video-popup .close-btn .close {
+		width: 25px;
+		height: 25px;
+	}
+
+	.video-popup .close-btn .close:after,
+	.video-popup .close-btn .close:before {
+		left: 10px;
+		height: 22px;
+	}
+
+	.video-popup .video-caption .arrow-icon {
+		height: 40px;
+		width: 40px;
+		border-width: 4px;
+		font-size: 45px;
+	}
+
+	.video-popup .video-caption .arrow-icon::before {
+		top: -18px
+	}
+
+	.video-popup .video-caption {
+		padding-left: 50px;
+		padding-right: 0;
+	}
+
+	.video-popup {
+		padding: 60px 0;
+	}
+
+	.team-review-single:nth-child(odd) .play-video-link {
+		text-align: right;
+	}
+
+	.team-review-single .svg-wrap svg {
+		max-height: 100%;
+	}
+
+	.team-review-single .svg-wrap {
+		height: 100%;
+		top: 30px;
+	}
+
+	.news-section .page-title {
+		margin-bottom: 20px;
+	}
+
+	.investment-spotlight-single .image-wrap {
+		height: 80vw;
+	}
+
+	.investment-spotlight-slider {
+		margin-left: 0;
+	}
+
+	.slick-outline.slick-arrow {
+		top: calc(40vw - 19px);
+	}
+
+	.community-culture-section .investment-spotlight-single .image-wrap {
+		height: 56vw;
+	}
+
+	.community-culture-section .slick-outline.slick-arrow {
+		top: calc(28vw - 19px);
+	}
+
+	.contact-map-box aside.location-grid .grid-inner::before,
+	.contact-map-box aside.location-grid:last-child::before {
+		display: none;
+	}
+
+	.contact-map-box .nav-tabs .nav-item {
+		padding: 0 10px;
+	}
+
+	/* 26-06-2023 End*/
+	/* cookie Popup*/
+	/* switch css */
+	div#sliding-popup .eu-cookie-compliance-categories .eu-cookie-compliance-category {
+		margin-bottom: 10px;
+	}
+
+	div#sliding-popup .eu-cookie-compliance-categories .eu-cookie-compliance-category {
+		display: block;
+	}
+
+	.eu-cookie-compliance-categories-buttons .eu-cookie-compliance-save-preferences-button {
+		margin-top: 10px;
+	}
+
+	/* switch css End*/
+	/* cookie Popup End*/
+}
+
+@media(max-width:480px) {
+	.about-tvp-banner-section .video-banner {
+		padding-top: 90px;
+	}
+
+	.tvp-banner-caption-text h2 {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+
+	.tvp-banner-caption-text p {
+		max-width: 90%;
+	}
+
+	.banner-bottom-text h2,
+	.team-review-single h3 {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	.banner-bottom-text .col-8 {
+		max-width: 75%;
+		flex: 0 0 75%;
+	}
+
+}
+
+@media only screen and (max-width: 440px) {
+	/* .gradient-section-slants-content-wrap {
+        padding-top: 0;
+    } */
+
+	/* .gradient-section-slants {
+        height: 250px;
+    } */
+
+	/* .gradient-section-slants .right-slant {
+        height: 200%;
+    } */
+
+	/* .right-slant-image {
+        background-image: url("/assets/image-placeholder.svg");
+        position: static;
+        background-size: auto;
+        margin-top: -55px;
+    }
+
+    .portfolio-section-slants .right-slant-image {
+        background-image: url("/assets/image-placeholder.svg");
+    }
+
+    .people-section-slants .right-slant-image {
+        background-image: url("/assets/image-placeholder.svg");
+    } */
+
+	/* Additonal CSS for BC Credit start */
+	.gradient-section-slants-content h3,
+	.gradient-section-slants-content h3.visit-link-text {
+		font-size: 25px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.gradient-section-slants-content h2 {
+		font-size: 30px;
+	}
+
+	.portfolio-listing-section-wrap {
+		padding-bottom: 100px;
+	}
+
+	.video-caption img {
+		margin-right: 10px;
+		max-width: 25px;
+	}
+
+	.video-caption h3 {
+		font-size: 18px;
+	}
+
+	.video-banner-caption h2 {
+		max-width: 100%;
+		font-size: 13vw;
+		margin-top: 4vw;
+	}
+
+	/* .intro-section-wrap {
+		font-size: 25px;
+	} */
+
+	.intro-section .read-more-link i {
+		font-size: 32px;
+		width: 30px;
+		height: 30px;
+		border-width: 3px;
+		line-height: 16px;
+		padding: 0 4px;
+	}
+
+
+	.small-section-title {
+		padding-top: 10px;
+	}
+
+	.gradient-section-slants-content-wrap .site-footer {
+		padding-top: 200px;
+	}
+
+	.news-list-row {
+		padding-top: 10px;
+	}
+
+	.approach-intro {
+		padding-bottom: 50px;
+	}
+
+	/* Homepage banner changes End*/
+	.video-banner-caption h2 {
+		margin-top: -4px;
+		padding-top: 6vw;
+		font-size: 11vw;
+	}
+
+	/* Homepage banner changes End*/
+	.banner-content-wrap .banner-title {
+		font-size: 11vw;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.video-banner-caption h2 {
+		margin-top: 43px;
+	}
+
+	.portfolio-grid .grid-item:not(.case-study-grid) .media-img img {
+		width: auto;
+	}
+
+	/* 01-03-2021 changes start */
+	.map-svg-mobile {
+		height: 740px;
+	}
+
+	.contact-footer {
+		bottom: 5px;
+	}
+
+	.contact-section-content {
+		min-height: 830px;
+	}
+
+	/* 01-03-2021 changes end */
+
+	.video-banner-caption h2 {
+		margin-top: 0;
+		padding-top: 4vw;
+		font-size: 12vw;
+	}
+
+	/* .intro-section-wrap {
+		font-size: 30px;
+	} */
+
+	/* Additonal CSS for BC Credit start */
+	.portfolio-sorting-wrap .dropdown button.psorting {
+		font-size: 16px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.video-banner-caption {
+		height: 55%;
+	}
+
+	.banner-content-wrap .banner-title {
+		font-size: 11vw;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.video-banner-caption h2 {
+		margin-top: 5px;
+		padding-top: 2vw;
+	}
+
+	.ios-browser .banner-ps-section .video-banner-caption h2 {
+		margin-top: 20px;
+	}
+
+	/* .ios-browser .video-banner-caption {
+		top: 55%;
+	} */
+
+	.gradient-section-slants .right-slant {
+		-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+	}
+
+	.our-vale-icons-block {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.our-vale-icons-block:nth-child(n+3),
+	.our-vale-icons-block:nth-child(n+2) {
+		margin-top: 50px;
+	}
+
+	.people-listing .col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.intro-section-wrap {
+		font-size: 25px;
+	}
+
+	/* .hexagon_wrap .text {
+		font-size: 12px;
+	} */
+
+	/* Homepage banner changes */
+	.banner-ps-section .video-banner-caption h2 {
+		font-size: 11vw;
+		margin-top: 5px;
+	}
+
+	/* Homepage banner changes End*/
+
+	.home-page-slants .left-slant {
+		top: 70%;
+	}
+
+	.home-page-slants .right-slant {
+		top: 75%;
+	}
+}
+
+@media(max-width:374px) {
+	.count-single h6 {
+		font-size: 15px;
+	}
+
+	.count-single p {
+		padding-right: 0;
+	}
+
+	.count-single p {
+		font-size: 13px;
+	}
+
+	.gradiant-banner-title {
+		font-size: 25px;
+	}
+
+	.portfolio-detail-section {
+		padding-top: 70px;
+	}
+
+	.year-review-row {
+		padding: 0 20px;
+	}
+
+	.pagination-link:not(.prev):not(.next) {
+		margin: 0 8px;
+		font-size: 16px;
+	}
+
+	.pagination-link.next {
+		margin-left: 4px;
+	}
+
+	.pagination-link.prev {
+		margin-right: 4px;
+	}
+
+	.pagination-link.next,
+	.pagination-link.prev {
+		height: 26px;
+		width: 26px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.portfolio-listing-section-wrap {
+		padding-bottom: 70px;
+	}
+
+	.see-all-location-link {
+		font-size: 18px;
+	}
+
+	.see-all-location-link img {
+		max-width: 25px;
+	}
+
+	.video-banner-caption h2 {
+		margin-top: 7px;
+	}
+
+	/* 01-03-2021 changes start */
+	.map-svg-mobile {
+		height: 650px;
+	}
+
+	.contact-section-content {
+		min-height: 750px;
+	}
+
+	/* 01-03-2021 changes end */
+
+	/* .gradient-section-slants-content h3 {
+		font-size: 22px;
+	} */
+
+	/* .hexagon_wrap .text {
+		font-size: 11px;
+	} */
+
+	.banner-text .col {
+		flex: 0 0 90%;
+		max-width: 90%;
+	}
+}
+
+/* min-height media query */
+@media only screen and (width: 768px) and (height: 1024px) {
+	.video-banner-caption h2 {
+		/* max-width: 400px; */
+		margin-top: 50px;
+	}
+
+	/* .intro-section {
+		padding: 84px 0;
+	} */
+	/* .hex_over_wrap {
+		height: 61vh;
+		top: 0;
+	} */
+}
+
+@media only screen and (max-height: 850px) {
+	.ip-slider {
+		padding-top: 8rem;
+	}
+
+	.investment-block .investment-block-content {
+		top: auto;
+		bottom: 0;
+	}
+}
+
+@media only screen and (max-height: 786px) {
+	.ios-browser .home-page-slants .scroll {
+		top: 87%;
+	}
+}
+
+@media only screen and (max-height: 768px) and (max-height: 1023px) {
+
+	/* home page news section fit into view port css start */
+	.full-width-news-item .featured-news-img {
+		height: calc(100vh - 220px);
+	}
+
+	/* .featured-news-title {
+		font-size: 4vh;
+	} */
+
+
+
+	/* .news-item .news-title {
+		font-size: 2.3vh;
+	}
+
+	.news-item .news-date,
+	.news-item .news-box-wrap .by-tag {
+		font-size: 1.5vh;
+	} */
+
+	.news-box {
+		min-height: auto;
+	}
+
+	.contact-map-box {
+		/* min-height: calc(100vh - 180px); */
+		height: auto;
+	}
+
+	/* home page news section fit into view port css end */
+}
+
+@media only screen and (max-height: 768px) {
+	/* .gradient-section-slants .right-slant {
+        height: 500%;
+    } */
+
+	/* .site-footer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  } */
+}
+
+/* @media only screen and (max-height: 650px) {
+    .video-banner-caption h2 {
+        font-size: 90px;
+        max-width: 50%;
+    }
+} */
+
+@media only screen and (max-height: 479px) {
+	.video-banner-caption h2 {
+		max-width: 350px;
+		font-size: 35px;
+		margin-top: 22px;
+	}
+
+	.intro-section-slants .left-slant {
+		top: -20%;
+	}
+
+	.section,
+	.more-menu-section .container {
+		padding-top: 100px;
+	}
+
+	.more-menu-section .container,
+	.site-footer {
+		padding-bottom: 50px;
+	}
+
+	.more-menu-section {
+		padding: 0;
+	}
+
+	/* .gradient-section-slants .right-slant {
+        top: 35px;
+    } */
+
+	/* Additonal CSS for BC Credit start */
+	.gradient-section-slants-content h3,
+	.gradient-section-slants-content h3.visit-link-text {
+		max-width: 100%;
+		font-size: 25px;
+	}
+
+	/* Additonal CSS for BC Credit end */
+
+	.gradient-section-slants-content-wrap img {
+		max-width: 60px;
+	}
+
+	.banner-ps-section .video-banner-caption h2 {
+		font-size: 4vw;
+		padding-top: 2vw;
+		padding-bottom: 0;
+		max-width: 75%;
+	}
+
+	.banner-content-wrap .banner-title {
+		font-size: 35px;
+	}
+
+
+
+
+}
+
+@media only screen and (max-height: 414px) {
+	.video-banner-caption h2 {
+		margin-top: 0;
+		font-size: 30px;
+	}
+
+	.intro-section-wrap {
+		font-size: 25px;
+	}
+
+	.intro-section .read-more-link i {
+		font-size: 32px;
+		width: 30px;
+		height: 30px;
+		border-width: 3px;
+		line-height: 16px;
+		padding: 0 4px;
+	}
+
+	.intro-section .read-more-link {
+		margin-top: 15px;
+	}
+
+	.caption-slants .right-slant {
+		transform: skewY(-7deg);
+	}
+
+	.banner-content-wrap .banner-title {
+		font-size: 30px;
+	}
+
+}
+
+@media only screen and (max-height: 375px) {
+	.video-banner-caption h2 {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-height: 320px) {
+	.intro-section-slants .left-slant {
+		top: -15%;
+	}
+
+	.video-banner-caption {
+		top: auto;
+		transform: none;
+		bottom: 0;
+		height: 40%;
+		z-index: 0;
+	}
+
+	.video-banner-caption h2 {
+		margin-top: 4px;
+		font-size: 30px;
+		max-width: 300px;
+	}
+
+	.intro-section-wrap {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.ios-browser .gredient-bg-img {
+		top: 16%;
+	}
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+	.ios-browser .home-page-slants .scroll {
+		top: -15px;
+	}
+}
+
+@media only screen and (width: 736px) and (height: 414px) {
+	.ios-browser .home-page-slants .scroll {
+		top: 90%;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.ios-browser .gredient-bg-img {
+		top: 7%;
+	}
+}
+
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	.video-banner-caption h2 {
+		margin-top: -17px;
+	  }
+} */
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+	.ios-browser .home-page-slants .scroll {
+		top: -35px;
+	}
+}
+
+@media only screen and (width: 667px) and (height: 375px) {
+	.banner-ps-section .video-banner-caption h2 {
+		padding-top: 4vw;
+	}
+
+	.ios-browser .home-page-slants .scroll {
+		top: 90%;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+	.ios-browser .gredient-bg-img {
+		top: 7%;
+	}
+}
+
+/* Small screens with thin aspect ratio */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+	@media only screen and (min-device-height: 500px) and (max-device-height: 800px) {
+		.video-banner-caption h2 {
+			font-size: 6vw;
+			padding-bottom: 4vw;
+		}
+
+		.intro-section-wrap {
+			font-size: 3vw;
+		}
+
+		.sitemap-page-description,
+		.sitemap-page-description p {
+			font-size: 16px;
+		}
+
+		.gradient-section-slants-content-wrap .pt-5,
+		.py-5 {
+			padding-top: 2rem !important;
+		}
+
+		.gradient-section-slants-content-wrap .scroll-sec {
+			margin-top: 0rem !important;
+		}
+
+		.gradient-section-slants-content-wrap .col-4 {
+			max-width: 13%;
+		}
+
+		/* Additonal CSS for BC Credit start */
+		.gradient-section-slants-content h3,
+		.gradient-section-slants-content h3.visit-link-text {
+			font-size: 25px;
+		}
+
+		.gradient-section-slants-content h2 {
+			font-size: 32px;
+		}
+
+		/* Additonal CSS for BC Credit end */
+
+		.banner-content-wrap .banner-title {
+			font-size: 6vw;
+		}
+	}
+}
+
+
+/* Very large screens */
+@media only screen and (min-width: 1700px) {
+
+	.container,
+	header .container,
+	.video-banner-caption .container,
+	.about-section .container,
+	.more-menu-section .container {
+		max-width: 90%;
+	}
+
+	.video-banner-caption h2 {
+		width: 60%;
+	}
+
+	.gradient-section-slants-content-wrap .pt-5,
+	.py-5 {
+		padding-top: 2rem !important;
+	}
+
+	.gradient-section-slants-content-wrap .scroll-sec {
+		margin-top: 0rem !important;
+	}
+
+	.gradient-section-slants-content-wrap .col-4 {
+		max-width: 13%;
+	}
+
+	.main_hex_container {
+		max-width: 90%;
+		top: 40%;
+	}
+
+	.main_hex_container .main_hex {
+		width: 30%
+	}
+
+	.main_hex_content_wrap {
+		width: 65%
+	}
+
+	.main_hex_text_wrap .main_hex_text {
+		max-width: 70%;
+	}
+
+	/* Homepage banner changes */
+	.video-banner-caption h2 {
+		width: 50%;
+		font-size: 110px;
+	}
+
+	.small-banner-wrap::before {
+		left: calc(-5vw - 15px);
+	}
+
+	.small-banner-wrap .bg-image {
+		right: calc(-5vw - 15px);
+	}
+
+	/* Homepage banner changes End*/
+	.home-page-contact-section .map-svg-wrap {
+		width: calc(100% + 10vw + 24px);
+		left: calc(-5vw + -12px);
+	}
+
+}
+
+@media(max-height:640px) and (min-width:1025px) {
+	/* .featured-news-title {
+		font-size: 4vh;
+	} */
+
+
+	/* .news-item .news-title {
+		font-size: 2.3vh;
+	} */
+
+	/* .news-item .news-date,
+	.news-item .news-box-wrap .by-tag {
+		font-size: 1.5vh;
+	} */
+}
+
+@media(max-width:1600px) and (max-height: 768px) {
+	.banner-text {
+		top: 80%
+	}
+}
+
+@media(max-width:1400px) and (max-height: 700px) {
+	.banner-text {
+		top: 78%
+	}
+}
+
+@media(max-width:1300px) and (min-height: 700px) {
+	.banner-text {
+		top: 85%
+	}
+}
+
+
+@media(min-height:900px) and (max-width:1024px) {
+	.banner-nav-slider-wrap {
+		bottom: 90px;
+	}
+
+	.banner-content-wrap {
+		bottom: 180px;
+	}
+
+	.banner-slider .video-banner iframe {
+		left: -100%;
+	}
+
+	.home-page-contact-section .map-svg-wrap {
+		min-height: calc(100vh - 100px);
+		top: -40px
+	}
+
+}
+
+@media(min-height:900px) and (min-width:1200px) {
+	.home-page-contact-section .contact-map-box {
+		min-height: calc(100vh - 100px);
+	}
+}
+
+@media(max-height:680px) and (min-width:1025px) {
+
+	.banner-slide .slide-title,
+	.banner-slide .slide-title p {
+		font-size: 22px
+	}
+
+	.btn-small {
+		font-size: 16px;
+		padding: 5px 20px;
+		font-size: 14px;
+	}
+
+	.banner-slide .content-text {
+		font-size: 14px;
+	}
+
+	.btn-small i {
+		height: 16px;
+		width: 16px;
+		line-height: 13px;
+		vertical-align: middle;
+		margin-top: -2px;
+		font-size: 8px;
+	}
+}

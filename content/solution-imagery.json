@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Private Equity",
+    "slug": "private-equity",
+    "subject": "A powerful, elegant bull standing firmly in a poised forward-facing three-quarter stance, lowered head and beautiful curved horns, strong full-body silhouette, confident not aggressive. Full animal in frame, no buildings.",
+    "why": "Capital strength, ownership and growth",
+    "photo": "/assets/images/home/team.webp",
+    "hero": "/assets/images/solutions/private-equity-hero.webp",
+    "alt": "Illustrative Private Equity concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Credit",
+    "slug": "credit",
+    "subject": "A single elegant modern bridge with a clear solid deck spanning a visible gap between two low rock platforms. Three-quarter perspective shows the connection clearly, structurally believable clean design, one bridge only, no vehicles.",
+    "why": "Capital connecting ambition with execution",
+    "photo": "/assets/images/home/architecture.webp",
+    "hero": "/assets/images/solutions/credit-hero.webp",
+    "alt": "Illustrative Credit concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Ventures",
+    "slug": "ventures",
+    "subject": "A young vigorous tree with a slender trunk, visible roots and upward-reaching branches forming a small confident canopy. The entire tree and roots visible, a sense of early growth and potential. Sculptural natural tree, not a circuit diagram, no buildings.",
+    "why": "Early-stage growth and potential",
+    "photo": "/assets/images/home/team.webp",
+    "hero": "/assets/images/solutions/ventures-hero.webp",
+    "alt": "Illustrative Ventures concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Real Estate",
+    "slug": "real-estate",
+    "subject": "Contemporary commercial building",
+    "why": "Property, development and the built environment",
+    "hero": "/assets/images/solutions/real-estate-hero.webp",
+    "photo": "/assets/images/home/architecture.webp",
+    "alt": "Illustrative commercial building formed from luminous blue numbers and particles"
+  },
+  {
+    "title": "Special Situations",
+    "slug": "special-situations",
+    "subject": "A precision-engineered circular gear wheel in three-quarter perspective, with one missing segment being reassembled from ordered fragments drifting into its gap. Main gear recognisable and nearly whole, several small pieces resolving into the structure, elegant simple composition representing rebuilding.",
+    "why": "Restructuring, complexity and renewed momentum",
+    "photo": "/assets/images/home/industry.webp",
+    "hero": "/assets/images/solutions/special-situations-hero.webp",
+    "alt": "Illustrative Special Situations concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Life Sciences",
+    "slug": "life-sciences",
+    "subject": "A beautifully defined single DNA double helix rising diagonally in a graceful three-dimensional curve, clean paired rungs and two continuous intertwined strands. Scientific sculptural form, full structure visible, not a medical infographic, no labels or molecules crowding it.",
+    "why": "Biotechnology, research and discovery",
+    "photo": "/assets/images/home/healthcare.webp",
+    "hero": "/assets/images/solutions/life-sciences-hero.webp",
+    "alt": "Illustrative Life Sciences concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Tech Opportunities",
+    "slug": "tech-opportunities",
+    "subject": "A sophisticated industrial robotic arm on a stable round pedestal, joints clearly articulated, gripper extending upward and toward the right. Full machine visible and structurally plausible, strong engineering silhouette, no human-like head or face.",
+    "why": "Applied technological capability and productivity",
+    "photo": "/assets/images/home/technology.webp",
+    "hero": "/assets/images/solutions/tech-opportunities-hero.webp",
+    "alt": "Illustrative Tech Opportunities concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Double Impact",
+    "slug": "double-impact",
+    "subject": "A compact contemporary commercial campus with clearly visible photovoltaic solar panels across its roof and two small elegant trees alongside. Three-quarter architectural view, business activity and cleaner energy as one coherent sculptural subject, no sky scenery or infographic.",
+    "why": "Commercial progress alongside environmental improvement",
+    "photo": "/assets/images/home/sustainability.webp",
+    "hero": "/assets/images/solutions/double-impact-hero.webp",
+    "alt": "Illustrative Double Impact concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Insurance",
+    "slug": "insurance",
+    "subject": "A clean three-dimensional protective shield standing around and slightly in front of a small contemporary commercial building. The shield is a translucent curved outline form, building clearly visible behind it, one simple coherent subject representing protection and resilience, no emblems or ticks.",
+    "why": "Protection and business resilience",
+    "photo": "/assets/images/home/architecture.webp",
+    "hero": "/assets/images/solutions/insurance-hero.webp",
+    "alt": "Illustrative Insurance concept formed from luminous blue digits and particles"
+  },
+  {
+    "title": "Crypto",
+    "slug": "crypto",
+    "subject": "Three substantial interlocking chain links forming a graceful receding three-dimensional structure, with a few fine interconnected network points extending from the far link. Clearly recognisable linked chain, intricate digital construction, no cryptocurrency coin, no currency symbol.",
+    "why": "Blockchain and connected digital infrastructure",
+    "photo": "/assets/images/home/technology.webp",
+    "hero": "/assets/images/solutions/crypto-hero.webp",
+    "alt": "Illustrative Crypto concept formed from luminous blue digits and particles"
+  }
+]

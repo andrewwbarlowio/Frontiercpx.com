@@ -1,0 +1,479 @@
+[
+  {
+    "route": "/",
+    "file": "index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": "homebannerslider",
+        "class": "section-parent home-section-parent"
+      },
+      {
+        "tag": "section",
+        "id": "advantagesSec",
+        "class": "section our-advantages-section position-relative section-light"
+      },
+      {
+        "tag": "section",
+        "id": "ourintegratedplatform",
+        "class": "section integrated-platform-section section-dark"
+      },
+      {
+        "tag": "section",
+        "id": "verticalSpotlight",
+        "class": "section spotlight-section spotlight-sec-wrap section-dark"
+      },
+      {
+        "tag": "section",
+        "id": "section5",
+        "class": "section esg-section home-esg-section section-light"
+      },
+      {
+        "tag": "section",
+        "id": "greatTeamsec",
+        "class": "section our-people-section position-relative"
+      },
+      {
+        "tag": "section",
+        "id": "latestNews",
+        "class": "section news-listing-section news-listing-home-section"
+      },
+      {
+        "tag": "section",
+        "id": "globalpresence",
+        "class": "section contact-section home-page-contact-section"
+      }
+    ]
+  },
+  {
+    "route": "/about-us",
+    "file": "about-us/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": "overview",
+        "class": "section inner-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": "aboutBythenumber",
+        "class": "section about-section dark-text-color"
+      },
+      {
+        "tag": "section",
+        "id": "purposeandValue",
+        "class": "section value-grid-section purpose-value-section"
+      },
+      {
+        "tag": "section",
+        "id": "purposeValue",
+        "class": "section career-video-section"
+      },
+      {
+        "tag": "section",
+        "id": "ourpartnership",
+        "class": "section partnership-section dark-text-color"
+      },
+      {
+        "tag": "section",
+        "id": "globalpresence",
+        "class": "section contact-section home-page-contact-section"
+      }
+    ]
+  },
+  {
+    "route": "/sustainability-and-impact",
+    "file": "sustainability-and-impact/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section esg-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section esg-commitment-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section two-col-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section counter-banner-section"
+      }
+    ]
+  },
+  {
+    "route": "/careers",
+    "file": "careers/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": "careerTitleSec",
+        "class": "section title-section tvp-title-sec"
+      },
+      {
+        "tag": "section",
+        "id": "careerTopSec",
+        "class": "section about-tvp-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": "careerOppotunity",
+        "class": "section career-nav-section"
+      },
+      {
+        "tag": "section",
+        "id": "your-opportunity",
+        "class": "section opportunity-slider-section"
+      },
+      {
+        "tag": "section",
+        "id": "our-support",
+        "class": "section image-content-grid-section image-gallary-section"
+      },
+      {
+        "tag": "section",
+        "id": "join-the-team",
+        "class": "section join-team-section"
+      }
+    ]
+  },
+  {
+    "route": "/people",
+    "file": "people/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section title-section portfolio-title-sec dark-text-color"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section portfolio-listing-section people-listing-section"
+      }
+    ]
+  },
+  {
+    "route": "/locations",
+    "file": "locations/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": "globalpresence",
+        "class": "section contact-section home-page-contact-section"
+      }
+    ]
+  },
+  {
+    "route": "/news",
+    "file": "news/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section news-section news-main-section"
+      }
+    ]
+  },
+  {
+    "route": "/ventures",
+    "file": "ventures/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-about-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section counter-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-about-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-contact-section"
+      }
+    ]
+  },
+  {
+    "route": "/crypto",
+    "file": "crypto/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-about-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-about-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section cry-ven-contact-section"
+      }
+    ]
+  },
+  {
+    "route": "/privacy-policy",
+    "file": "privacy-policy/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section download-pdf-section"
+      }
+    ]
+  },
+  {
+    "route": "/terms-use",
+    "file": "terms-use/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section download-pdf-section"
+      }
+    ]
+  },
+  {
+    "route": "/regulatory-disclosures",
+    "file": "regulatory-disclosures/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section download-pdf-section"
+      }
+    ]
+  },
+  {
+    "route": "/fraud-and-cybersecurity-warning",
+    "file": "fraud-and-cybersecurity-warning/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section download-pdf-section"
+      }
+    ]
+  },
+  {
+    "route": "/fraud-and-cybersecurity-warning-chinese",
+    "file": "fraud-and-cybersecurity-warning-chinese/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section download-pdf-section"
+      }
+    ]
+  },
+  {
+    "route": "/fraud-and-cybersecurity-warning-spanish",
+    "file": "fraud-and-cybersecurity-warning-spanish/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section download-pdf-section"
+      }
+    ]
+  },
+  {
+    "route": "/sustainability-and-impact/active-governance-and-stewardship",
+    "file": "sustainability-and-impact/active-governance-and-stewardship/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section inner-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section simple-content-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section text-dark pt-50"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section two-col-section"
+      }
+    ]
+  },
+  {
+    "route": "/sustainability-and-impact/sustainable-growth-reducing-climate-impact",
+    "file": "sustainability-and-impact/sustainable-growth-reducing-climate-impact/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section inner-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section simple-content-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section text-dark pt-50"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section two-col-section"
+      }
+    ]
+  },
+  {
+    "route": "/sustainability-and-impact/fair-employment-engagement-well-being",
+    "file": "sustainability-and-impact/fair-employment-engagement-well-being/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section inner-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section simple-content-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section text-dark pt-50"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section two-col-section"
+      }
+    ]
+  },
+  {
+    "route": "/sustainability-and-impact/opportunity-and-inclusion",
+    "file": "sustainability-and-impact/opportunity-and-inclusion/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section inner-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section simple-content-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section text-dark pt-50"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section dei-aspiration-section three-col-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section two-col-section"
+      }
+    ]
+  },
+  {
+    "route": "/sustainability-and-impact/community-engagement",
+    "file": "sustainability-and-impact/community-engagement/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section inner-banner-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section simple-content-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section team-slider-section text-dark pt-50"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section dei-aspiration-section three-col-section"
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section simple-content-section dark-text"
+      }
+    ]
+  },
+  {
+    "route": "/people/john-connaughton",
+    "file": "people/john-connaughton/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section people-detail-section 1"
+      }
+    ]
+  },
+  {
+    "route": "/news/bain-capital-and-omnam-group-announce-sale-lake-como-edition-hotel-sansiri-capital",
+    "file": "news/bain-capital-and-omnam-group-announce-sale-lake-como-edition-hotel-sansiri-capital/index.html",
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "class": "section news-detail-section"
+      }
+    ]
+  }
+]
