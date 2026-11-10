@@ -30,3 +30,7 @@ Actual phone/screen reader, instrumented browser network/storage capture and Chr
 ## Release and recovery
 
 After blockers are resolved, rerun affected checks at the reviewed head, update evidence, obtain owner approval, merge, then verify production headers/routing/contact and chosen indexing. Do not activate auth/forms/analytics as part of merge. Record the exact production deployment and known-good predecessor before promotion. On failure, restore the recorded known-good Vercel production deployment; if source correction is required, revert the merge in a reviewed commit. Do not reset main or force-push. Pre-Sprint-5 branch baseline is 00fbfc16d31223bebde02b2f0a9e9c8721e28e4f; this is a source baseline, not a verified production rollback deployment. No production deployment was changed by this work.
+
+## Subsequent bug audit
+
+The 10 November full local audit fixed guide reset/history and numbered-label contrast at tested code 2631faf7657aa2e94e53884236aa4ebd8d90a0bf. See [audit and browser evidence](../qa/2026-11-10-bug-audit/README.md). This supersedes the original tested code for the current branch; existing release blockers and approval status remain unchanged.

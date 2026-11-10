@@ -1,0 +1,7 @@
+{"routes":48,"solutions":10,"demonstrationPeople":0,"demonstrationArticles":0,"demonstrationOffices":0,"proposedLocations":5,"credibilityPillars":4,"preview":true}
+{"routes":48,"solutions":10,"localLinksChecked":4116,"assetsChecked":372,"staticContent":"pass","uniqueIDs":"pass","previewForms":"disconnected and clearly labelled","demoRecordsPublished":0}
+{"requiredContent":"pass","negativeSchemaChecks":4,"pilotInitialHTML":3,"serviceRecords":7}
+{"serviceRoutes":8,"distinctServiceHeadlines":7,"distinctExamples":7,"bidirectionalFundingMappings":30,"missingContentRejections":4,"scopeFeeAndExampleChecks":"pass","anchorsAndInitialHTML":"pass"}
+{"fundingRoutes":10,"labelledDecisionAids":10,"illustrativeBriefStructures":10,"stablePurposeAnchors":30,"earlyChoicePages":5,"missingContentRejections":4,"specialistScope":"pass","repetitionAudit":"pass"}
+{"routes":48,"canonicalProcessStages":5,"guideCombinations":24,"briefs":10,"printSectionsPerBrief":2,"proposedLocations":5,"unsupportedScaleClaims":0,"legacyMappings":10,"authScreens":2,"scopeAndInformationChecks":"pass"}
+Sprint 5 measurement: 34 accepted disabled events; 21 rejected payloads; no runtime import or transport.
