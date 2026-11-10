@@ -1,0 +1,802 @@
+{
+  "date": "2026-11-10",
+  "counts": {
+    "Complete": 122,
+    "In progress": 9,
+    "Deferred": 1
+  },
+  "tasks": [
+    {
+      "id": "A00.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Explain the seven services with a clear client situation and deliverable for each."
+    },
+    {
+      "id": "A00.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Show how clients can buy preparation or analysis independently of a funding introduction."
+    },
+    {
+      "id": "A00.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Link each service, relevant funding solutions and the canonical process; keep one primary enquiry action."
+    },
+    {
+      "id": "A01.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A01.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Specify outputs: Funding roadmap, options appraisal and information requirements. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A01.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Growth/Ownership, Business Funding, Venture Funding."
+    },
+    {
+      "id": "A02.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A02.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A02.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation."
+    },
+    {
+      "id": "A03.1",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A03.2",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A03.3",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership."
+    },
+    {
+      "id": "A04.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A04.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A04.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding."
+    },
+    {
+      "id": "A05.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A05.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Specify outputs: Round strategy, investor materials and ownership scenario analysis. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A05.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Venture Funding and Growth/Ownership Capital."
+    },
+    {
+      "id": "A06.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A06.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Specify outputs: Issues log, diligence tracker and transaction timetable. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A06.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property, Growth/Ownership, Venture and Complex Funding."
+    },
+    {
+      "id": "A07.1",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route."
+    },
+    {
+      "id": "A07.2",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Specify outputs: Periodic capital review, updated forecasts and prioritised actions. Include one clearly labelled illustrative example."
+    },
+    {
+      "id": "A07.3",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Growth/Ownership and Complex Funding."
+    },
+    {
+      "id": "B01",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Business Funding"
+    },
+    {
+      "id": "B02",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Property Finance"
+    },
+    {
+      "id": "B03",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Growth and Ownership Capital"
+    },
+    {
+      "id": "B04",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Venture Funding"
+    },
+    {
+      "id": "B05",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Complex Funding"
+    },
+    {
+      "id": "B06",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Life Sciences Funding"
+    },
+    {
+      "id": "B07",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Technology and Equipment Funding"
+    },
+    {
+      "id": "B08",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Sustainability and Impact Funding"
+    },
+    {
+      "id": "B09",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Insurance Sector Capital"
+    },
+    {
+      "id": "B10",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Digital Asset Business Funding"
+    },
+    {
+      "id": "G01",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Record and protect the baseline"
+    },
+    {
+      "id": "G02",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Define page roles and hierarchy"
+    },
+    {
+      "id": "G03",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Create the contextual copy model"
+    },
+    {
+      "id": "G04",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Build reusable solution components"
+    },
+    {
+      "id": "G05",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Unify the process"
+    },
+    {
+      "id": "G06",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Repair the route and category model"
+    },
+    {
+      "id": "G07",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Build useful proof assets"
+    },
+    {
+      "id": "G08",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Maintain the claims and scope register"
+    },
+    {
+      "id": "G09",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Make comparisons usable on mobile"
+    },
+    {
+      "id": "G10",
+      "sprint": "1",
+      "status": "In progress",
+      "description": "Preserve enquiry intent"
+    },
+    {
+      "id": "G11",
+      "sprint": "Deferred",
+      "status": "Deferred",
+      "description": "Implement enquiry automation in a later phase"
+    },
+    {
+      "id": "G12",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Maintain canonical routes and redirects"
+    },
+    {
+      "id": "G13",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Improve the ten decision briefs"
+    },
+    {
+      "id": "G14",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Align privacy and website information"
+    },
+    {
+      "id": "G15",
+      "sprint": "5",
+      "status": "In progress",
+      "description": "Complete journey and accessibility verification"
+    },
+    {
+      "id": "G16",
+      "sprint": "5",
+      "status": "Complete",
+      "description": "Establish conversion measurement"
+    },
+    {
+      "id": "G17",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Add the two navigation routes"
+    },
+    {
+      "id": "G18",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Build the advisory content model"
+    },
+    {
+      "id": "G19",
+      "sprint": "2",
+      "status": "Complete",
+      "description": "Connect services to funding journeys"
+    },
+    {
+      "id": "G20",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Build inactive login and recovery interfaces"
+    },
+    {
+      "id": "L01.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Build the branded screen with labelled username and password, show/hide password, Sign In, Forgot Password and contact assistance. No public registration is required."
+    },
+    {
+      "id": "L01.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Place the lozenge button on the right of desktop navigation and at the top of the expanded mobile menu. No coming-soon, access-unavailable or public development-status notice."
+    },
+    {
+      "id": "L01.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Keep authentication unconnected. Prevent credential transmission, persistence and analytics capture. An attempted sign-in may return a neutral inability-to-complete message with contact assistance; never claim verified account or password validation."
+    },
+    {
+      "id": "L02.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Build the matching recovery screen with username/email, recovery action, return-to-login link and contact assistance."
+    },
+    {
+      "id": "L02.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Keep recovery unconnected. Do not transmit or retain entries or claim that a reset email was sent. Offer enquiries@frontiercpx.com for account assistance."
+    },
+    {
+      "id": "L02.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Verify routing, keyboard use, labels and responsive layout; confirm no account enumeration, credential storage or recovery network request."
+    },
+    {
+      "id": "P01.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Retain the hero brand line; replace the repeated philosophy sections with one concrete explanation of Frontier\u2019s work."
+    },
+    {
+      "id": "P01.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Add one labelled example of a requirement moving from objective to provider questions; show process, not an invented deal."
+    },
+    {
+      "id": "P01.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Make both advisory support and funding solutions visible, then show evidence and a relevant next action. Distinguish paid advisory engagements from provider-paid funding activity."
+    },
+    {
+      "id": "P02.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Separate business objectives from sector contexts and show where the two overlap."
+    },
+    {
+      "id": "P02.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Give cards concise examples such as stock, machinery, development or shareholder liquidity."
+    },
+    {
+      "id": "P02.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Place one prominent uncertain-route option after the choices; test whether readers find their route without assistance."
+    },
+    {
+      "id": "P03.1",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Add separate working-capital, growth and refinance modules with relevant next actions."
+    },
+    {
+      "id": "P03.2",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Replace generic mechanics and commitments headings with cash-flow and repayment language."
+    },
+    {
+      "id": "P03.3",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Use a labelled cash-cycle illustration and short first-call checklist; publish funding bands only if supported."
+    },
+    {
+      "id": "P04.1",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Add a project-stage selector or clear stage links feeding the enquiry context."
+    },
+    {
+      "id": "P04.2",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Introduce a labelled development drawdown and exit illustration, with dependencies."
+    },
+    {
+      "id": "P04.3",
+      "sprint": "1",
+      "status": "Complete",
+      "description": "Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment."
+    },
+    {
+      "id": "P05.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Split the opening routes by use of proceeds and ownership objective."
+    },
+    {
+      "id": "P05.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Add a simple ownership and governance discussion guide, without invented valuations or returns."
+    },
+    {
+      "id": "P05.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Make the CTA about the shareholder decision and explain the agreed role before marketing execution support."
+    },
+    {
+      "id": "P06.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Retain the milestone concept; use runway, round and investor fit throughout the sections."
+    },
+    {
+      "id": "P06.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Add a round-readiness checklist and separate validation from scaling requirements."
+    },
+    {
+      "id": "P06.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Replace generic proof with a sample investment-summary structure and confirmed mandate coverage when available."
+    },
+    {
+      "id": "P07.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Replace the abstract opening with a requirement and deadline-led message."
+    },
+    {
+      "id": "P07.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Add an optional deadline field and explain how the first discussion is triaged."
+    },
+    {
+      "id": "P07.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Define the boundary between capital introductions and specialist restructuring work; keep relevant advice signposts visible."
+    },
+    {
+      "id": "P08.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Retain the scientific milestone headline and introduce stage-specific content paths."
+    },
+    {
+      "id": "P08.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Add a non-confidential milestone brief with evidence, budget, dependencies and runway."
+    },
+    {
+      "id": "P08.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Limit public scope to supported subsectors and activities; link laboratory equipment to the appropriate capital route."
+    },
+    {
+      "id": "P09.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Make operating-business investment the primary path and route company fundraising immediately to venture or growth capital."
+    },
+    {
+      "id": "P09.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Add an expenditure breakdown and implementation timeline, both illustrative."
+    },
+    {
+      "id": "P09.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Use installation, capacity and capability language rather than ambition or generic progress."
+    },
+    {
+      "id": "P10.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Separate operational investment and impact-led business growth before the main copy."
+    },
+    {
+      "id": "P10.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Add a commercial and outcome measurement example without claiming realised savings."
+    },
+    {
+      "id": "P10.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Use specific investment language and keep grant availability distinct from the core offering."
+    },
+    {
+      "id": "P11.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Carry forward the existing named entities and capital purposes; treat these as the agreed scope rather than an unanswered product decision."
+    },
+    {
+      "id": "P11.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Replace broad examples with approved scope and entity-specific preparation."
+    },
+    {
+      "id": "P11.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Retain an explicit capital-versus-cover distinction and use a specialist-requirement CTA."
+    },
+    {
+      "id": "P12.1",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Clarify the display name to reflect digital-asset businesses while preserving the existing URL. Do not extend the proposition to data centres, telecoms or cloud infrastructure."
+    },
+    {
+      "id": "P12.2",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Separate operating-company capital from token, retail investment and physical infrastructure routes."
+    },
+    {
+      "id": "P12.3",
+      "sprint": "3",
+      "status": "Complete",
+      "description": "Retain a simple activity and jurisdiction enquiry without requesting financial account access."
+    },
+    {
+      "id": "P13.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Rewrite around Frontier\u2019s role and the client problem it addresses, not another philosophy statement."
+    },
+    {
+      "id": "P13.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Use a sample requirement summary or provider-question checklist as visible work quality evidence."
+    },
+    {
+      "id": "P13.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Link once to Approach, Expertise and Network; remove their repeated explanations here."
+    },
+    {
+      "id": "P14.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Consolidate How It Works into this page while preserving useful anchors and redirects."
+    },
+    {
+      "id": "P14.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Replace philosophy with concrete deliverables and responsibilities for each stage."
+    },
+    {
+      "id": "P14.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Explain preparation, commercial negotiation and transaction coordination within an agreed engagement. Distinguish client-paid advisory deliverables from provider-paid funding activity and specialist professional responsibilities."
+    },
+    {
+      "id": "P15.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Choose Our Approach as the canonical destination and migrate the useful detail."
+    },
+    {
+      "id": "P15.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Redirect this route and preserve or map #roles and other existing anchors."
+    },
+    {
+      "id": "P15.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Update homepage, About Us and supporting links, then test every redirected journey."
+    },
+    {
+      "id": "P16.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Replace placeholder metrics with verified facts before external promotion; do not substitute another invented number."
+    },
+    {
+      "id": "P16.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Show a capability-to-client-output matrix and an approved example deliverable."
+    },
+    {
+      "id": "P16.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Specify access and engagement scope factually, without implying an employed global team."
+    },
+    {
+      "id": "P17.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Create a provider-type view and a separate funding-purpose view with links between them."
+    },
+    {
+      "id": "P17.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Show one explicitly illustrative matching example and the reasons a provider may or may not fit."
+    },
+    {
+      "id": "P17.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Describe provider categories and supported purposes without names or logos. Keep relationship evidence internally; omit unverified counts rather than treating anonymity as proof."
+    },
+    {
+      "id": "P18.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Retain all five addresses and approved photographs, with each location clearly identified as proposed. Do not require agreements to finish this preview page."
+    },
+    {
+      "id": "P18.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Verify address format and coordinate purpose; avoid presenting approximate coordinates as a precise premises pin."
+    },
+    {
+      "id": "P18.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Add a central contact action with city context and preserve the distinction between city photography and premises."
+    },
+    {
+      "id": "P19.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Lead with the client relationship and useful specialist access; keep procedure concise."
+    },
+    {
+      "id": "P19.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Show who contacts the client and how updates are agreed."
+    },
+    {
+      "id": "P19.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Make the adviser route visible beside contact and in relevant supporting pages; publish only real commercial terms."
+    },
+    {
+      "id": "P20.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Replace the narrow-screen table with labelled cards or an accessible two-route comparison."
+    },
+    {
+      "id": "P20.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Clarify that rows are overlapping structure families, not mutually exclusive product definitions."
+    },
+    {
+      "id": "P20.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Move the relevant brief choice earlier and keep cost assumptions explicit in any future example."
+    },
+    {
+      "id": "P21.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Make uncertain-route results neutral and explain why each route is shown."
+    },
+    {
+      "id": "P21.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Expose preparation and enquiry actions for each result rather than only the first."
+    },
+    {
+      "id": "P21.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Test all 24 objective and next-step combinations plus back navigation and keyboard use."
+    },
+    {
+      "id": "P22.1",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Keep direct email as the working route and forms disconnected. Show no send success or transmission. Record automated email delivery as a later task under G11."
+    },
+    {
+      "id": "P22.2",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Carry service, solution, guide, adviser or city context into the contact page and a contextual email option without forcing repeated selection."
+    },
+    {
+      "id": "P22.3",
+      "sprint": "4",
+      "status": "Complete",
+      "description": "Add only useful optional qualification and replace generic hero copy with a direct invitation."
+    },
+    {
+      "id": "U01",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Privacy and This Preview"
+    },
+    {
+      "id": "U02",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Website Information"
+    },
+    {
+      "id": "U03",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Page Not Found"
+    },
+    {
+      "id": "U04",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Legacy Ventures"
+    },
+    {
+      "id": "U05",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Legacy Crypto"
+    },
+    {
+      "id": "U06",
+      "sprint": "4",
+      "status": "In progress",
+      "description": "Legacy Destination"
+    }
+  ]
+}

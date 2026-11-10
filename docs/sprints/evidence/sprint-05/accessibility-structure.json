@@ -1,0 +1,194 @@
+[
+  {
+    "route": "/our-approach",
+    "errors": []
+  },
+  {
+    "route": "/our-expertise",
+    "errors": []
+  },
+  {
+    "route": "/funding-network",
+    "errors": []
+  },
+  {
+    "route": "/global-presence",
+    "errors": []
+  },
+  {
+    "route": "/",
+    "errors": []
+  },
+  {
+    "route": "/solutions",
+    "errors": []
+  },
+  {
+    "route": "/solutions/business-funding",
+    "errors": []
+  },
+  {
+    "route": "/solutions/property-finance",
+    "errors": []
+  },
+  {
+    "route": "/solutions/growth-and-ownership-capital",
+    "errors": []
+  },
+  {
+    "route": "/solutions/venture-funding",
+    "errors": []
+  },
+  {
+    "route": "/solutions/complex-funding",
+    "errors": []
+  },
+  {
+    "route": "/sectors/life-sciences",
+    "errors": []
+  },
+  {
+    "route": "/solutions/technology-funding",
+    "errors": []
+  },
+  {
+    "route": "/solutions/sustainability-and-impact",
+    "errors": []
+  },
+  {
+    "route": "/sectors/insurance-capital",
+    "errors": []
+  },
+  {
+    "route": "/sectors/digital-infrastructure",
+    "errors": []
+  },
+  {
+    "route": "/services",
+    "errors": []
+  },
+  {
+    "route": "/services/capital-strategy",
+    "errors": []
+  },
+  {
+    "route": "/services/funding-readiness",
+    "errors": []
+  },
+  {
+    "route": "/services/financial-modelling",
+    "errors": []
+  },
+  {
+    "route": "/services/debt-advisory",
+    "errors": []
+  },
+  {
+    "route": "/services/equity-advisory",
+    "errors": []
+  },
+  {
+    "route": "/services/transaction-support",
+    "errors": []
+  },
+  {
+    "route": "/services/ongoing-advisory",
+    "errors": []
+  },
+  {
+    "route": "/about-us",
+    "errors": []
+  },
+  {
+    "route": "/for-advisers",
+    "errors": []
+  },
+  {
+    "route": "/funding-options",
+    "errors": []
+  },
+  {
+    "route": "/funding-guide",
+    "errors": []
+  },
+  {
+    "route": "/briefs/credit",
+    "errors": []
+  },
+  {
+    "route": "/briefs/real-estate",
+    "errors": []
+  },
+  {
+    "route": "/briefs/private-equity",
+    "errors": []
+  },
+  {
+    "route": "/briefs/ventures",
+    "errors": []
+  },
+  {
+    "route": "/briefs/special-situations",
+    "errors": []
+  },
+  {
+    "route": "/briefs/life-sciences",
+    "errors": []
+  },
+  {
+    "route": "/briefs/tech-opportunities",
+    "errors": []
+  },
+  {
+    "route": "/briefs/double-impact",
+    "errors": []
+  },
+  {
+    "route": "/briefs/insurance",
+    "errors": []
+  },
+  {
+    "route": "/briefs/crypto",
+    "errors": []
+  },
+  {
+    "route": "/contact",
+    "errors": []
+  },
+  {
+    "route": "/privacy-policy",
+    "errors": []
+  },
+  {
+    "route": "/terms-use",
+    "errors": []
+  },
+  {
+    "route": "/client-login",
+    "errors": []
+  },
+  {
+    "route": "/forgot-password",
+    "errors": []
+  },
+  {
+    "route": "/404",
+    "errors": []
+  },
+  {
+    "route": "/ventures",
+    "errors": []
+  },
+  {
+    "route": "/crypto",
+    "errors": []
+  },
+  {
+    "route": "/how-it-works",
+    "errors": []
+  },
+  {
+    "route": "/destination",
+    "errors": []
+  }
+]

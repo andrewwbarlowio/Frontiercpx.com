@@ -1,0 +1,1 @@
+{"requiredContent":"pass","negativeSchemaChecks":4,"pilotInitialHTML":3,"serviceRecords":7}

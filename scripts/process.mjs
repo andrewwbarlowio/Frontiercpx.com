@@ -1,0 +1,9 @@
+// Single canonical process for the detailed page and compact strips.
+export const stages=[
+ ['Define the objective','Describe the business decision, capital purpose, broad amount and timetable.','A non-confidential requirement summary.','Client explains the need; Frontier frames the initial discussion.'],
+ ['Assess scope and readiness','Review existing obligations, information gaps and the specialist input needed.','Agreed preparation priorities and delivery scope.','Frontier and client agree inputs; qualified specialists own their professional judgments.'],
+ ['Agree the route and engagement','Compare structures and commitments. Agree advisory fees, responsibilities and information sharing.','A documented basis for the next action.','Client approves scope and gives go-ahead before provider sharing.'],
+ ['Prepare and approach','Develop agreed materials, identify relevant counterparties and coordinate a targeted approach.','An agreed pack and, where suitable, a provider assessment conversation.','Frontier coordinates agreed preparation and commercial discussions; provider assesses its own criteria.'],
+ ['Review terms and completion','Compare the whole commitment, track questions and conditions, and coordinate agreed transaction support.','A decision and remaining-condition record, not a funding guarantee.','Client and advisers decide; provider sets terms and completion conditions.']
+];
+export function processStrip({e,link}){return `<section class="section dark" id="process"><div class="container"><div class="section-heading"><p class="kicker">Our approach</p><h2>Know what the next stage needs.</h2></div><ol class="process">${stages.map(([h,p],i)=>`<li><span class="number">0${i+1}</span><h3>${e(h)}</h3><p>${e(p)}</p></li>`).join('')}</ol>${link('/our-approach','Explore the full approach')}</div></section>`;}

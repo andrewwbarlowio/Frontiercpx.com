@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Credit",
+    "path": "/solutions/business-funding",
+    "actual": "http://127.0.0.1:4173/solutions/business-funding/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/business-funding"
+  },
+  {
+    "title": "Real Estate",
+    "path": "/solutions/property-finance",
+    "actual": "http://127.0.0.1:4173/solutions/property-finance/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/property-finance"
+  },
+  {
+    "title": "Private Equity",
+    "path": "/solutions/growth-and-ownership-capital",
+    "actual": "http://127.0.0.1:4173/solutions/growth-and-ownership-capital/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/growth-and-ownership-capital"
+  },
+  {
+    "title": "Ventures",
+    "path": "/solutions/venture-funding",
+    "actual": "http://127.0.0.1:4173/solutions/venture-funding/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/venture-funding"
+  },
+  {
+    "title": "Special Situations",
+    "path": "/solutions/complex-funding",
+    "actual": "http://127.0.0.1:4173/solutions/complex-funding/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/complex-funding"
+  },
+  {
+    "title": "Life Sciences",
+    "path": "/sectors/life-sciences",
+    "actual": "http://127.0.0.1:4173/sectors/life-sciences/#enquiry",
+    "canonical": "https://frontiercpx.com/sectors/life-sciences"
+  },
+  {
+    "title": "Tech Opportunities",
+    "path": "/solutions/technology-funding",
+    "actual": "http://127.0.0.1:4173/solutions/technology-funding/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/technology-funding"
+  },
+  {
+    "title": "Double Impact",
+    "path": "/solutions/sustainability-and-impact",
+    "actual": "http://127.0.0.1:4173/solutions/sustainability-and-impact/#enquiry",
+    "canonical": "https://frontiercpx.com/solutions/sustainability-and-impact"
+  },
+  {
+    "title": "Insurance",
+    "path": "/sectors/insurance-capital",
+    "actual": "http://127.0.0.1:4173/sectors/insurance-capital/#enquiry",
+    "canonical": "https://frontiercpx.com/sectors/insurance-capital"
+  },
+  {
+    "title": "Crypto",
+    "path": "/sectors/digital-infrastructure",
+    "actual": "http://127.0.0.1:4173/sectors/digital-infrastructure/#enquiry",
+    "canonical": "https://frontiercpx.com/sectors/digital-infrastructure"
+  }
+]

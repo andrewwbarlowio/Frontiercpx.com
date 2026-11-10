@@ -1,0 +1,1815 @@
+{
+  "date": "2026-11-10",
+  "base": "90eab8d4036c251fed961ad603fc5f01130f1280",
+  "layouts": [
+    {
+      "group": "supporting",
+      "title": "/our-approach at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/our-expertise at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-network at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/global-presence at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/ at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/solutions at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/services at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/about-us at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/for-advisers at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-options at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-guide at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/credit at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/real-estate at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/private-equity at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/ventures at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/special-situations at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/life-sciences at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/tech-opportunities at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/double-impact at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/insurance at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/crypto at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/contact at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/privacy-policy at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/terms-use at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/client-login at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/forgot-password at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/destination at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "supporting",
+      "title": "/our-approach at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/our-expertise at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-network at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/global-presence at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/ at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/solutions at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/services at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/about-us at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/for-advisers at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-options at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-guide at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/credit at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/real-estate at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/private-equity at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/ventures at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/special-situations at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/life-sciences at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/tech-opportunities at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/double-impact at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/insurance at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/crypto at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/contact at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/privacy-policy at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/terms-use at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/client-login at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/forgot-password at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/destination at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "supporting",
+      "title": "/our-approach at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/our-expertise at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-network at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/global-presence at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/ at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/solutions at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/services at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/about-us at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/for-advisers at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-options at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-guide at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/credit at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/real-estate at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/private-equity at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/ventures at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/special-situations at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/life-sciences at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/tech-opportunities at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/double-impact at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/insurance at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/crypto at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/contact at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/privacy-policy at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/terms-use at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/client-login at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/forgot-password at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/destination at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "supporting",
+      "title": "/our-approach at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/our-expertise at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-network at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/global-presence at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/ at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/solutions at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/services at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/about-us at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/for-advisers at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-options at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/funding-guide at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/credit at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/real-estate at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/private-equity at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/ventures at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/special-situations at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/life-sciences at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/tech-opportunities at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/double-impact at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/insurance at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/briefs/crypto at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/contact at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/privacy-policy at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/terms-use at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/client-login at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/forgot-password at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "supporting",
+      "title": "/destination at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "credit at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "real-estate at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "private-equity at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "ventures at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "special-situations at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "life-sciences at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "tech-opportunities at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "double-impact at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "insurance at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "crypto at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "funding",
+      "title": "credit at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "real-estate at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "private-equity at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "ventures at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "special-situations at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "life-sciences at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "tech-opportunities at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "double-impact at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "insurance at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "crypto at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "funding",
+      "title": "credit at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "real-estate at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "private-equity at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "ventures at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "special-situations at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "life-sciences at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "tech-opportunities at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "double-impact at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "insurance at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "crypto at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "funding",
+      "title": "credit at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "real-estate at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "private-equity at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "ventures at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "special-situations at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "life-sciences at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "tech-opportunities at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "double-impact at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "insurance at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "funding",
+      "title": "crypto at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "overview at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "capital-strategy at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "funding-readiness at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "financial-modelling at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "debt-advisory at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "equity-advisory at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "transaction-support at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "ongoing-advisory at 320",
+      "h1": 1,
+      "images": [],
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "group": "services",
+      "title": "overview at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "capital-strategy at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "funding-readiness at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "financial-modelling at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "debt-advisory at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "equity-advisory at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "transaction-support at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "ongoing-advisory at 390",
+      "h1": 1,
+      "images": [],
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "group": "services",
+      "title": "overview at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "capital-strategy at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "funding-readiness at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "financial-modelling at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "debt-advisory at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "equity-advisory at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "transaction-support at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "ongoing-advisory at 768",
+      "h1": 1,
+      "images": [],
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "group": "services",
+      "title": "overview at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "capital-strategy at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "funding-readiness at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "financial-modelling at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "debt-advisory at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "equity-advisory at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "transaction-support at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "group": "services",
+      "title": "ongoing-advisory at 1440",
+      "h1": 1,
+      "images": [],
+      "scroll": 1425,
+      "width": 1425
+    }
+  ],
+  "guideCases": [
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "cash-flow",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 1,
+      "focus": true,
+      "goal": "cash-flow",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "cash-flow",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 2,
+      "checklists": 0,
+      "focus": true,
+      "goal": "growth",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 2,
+      "checklists": 2,
+      "focus": true,
+      "goal": "growth",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 2,
+      "checklists": 0,
+      "focus": true,
+      "goal": "growth",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "equipment",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 1,
+      "focus": true,
+      "goal": "equipment",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "equipment",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "property",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 1,
+      "focus": true,
+      "goal": "property",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "property",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 2,
+      "checklists": 0,
+      "focus": true,
+      "goal": "startup",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 2,
+      "checklists": 2,
+      "focus": true,
+      "goal": "startup",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 2,
+      "checklists": 0,
+      "focus": true,
+      "goal": "startup",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "ownership",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 1,
+      "focus": true,
+      "goal": "ownership",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "ownership",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "complex",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 1,
+      "focus": true,
+      "goal": "complex",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 1,
+      "checklists": 0,
+      "focus": true,
+      "goal": "complex",
+      "help": "talk",
+      "visible": true
+    },
+    {
+      "cards": 0,
+      "checklists": 0,
+      "focus": true,
+      "goal": "not-sure",
+      "help": "understand",
+      "visible": true
+    },
+    {
+      "cards": 0,
+      "checklists": 0,
+      "focus": true,
+      "goal": "not-sure",
+      "help": "prepare",
+      "visible": true
+    },
+    {
+      "cards": 0,
+      "checklists": 0,
+      "focus": true,
+      "goal": "not-sure",
+      "help": "talk",
+      "visible": true
+    }
+  ],
+  "historyResult": {
+    "goal": "cash-flow",
+    "help": "understand",
+    "resultHidden": true
+  },
+  "topicChecks": [
+    {
+      "topic": "not-sure",
+      "expected": "I\u2019m not sure which route I need",
+      "email": "mailto:enquiries@frontiercpx.com?subject=I%E2%80%99m%20not%20sure%20which%20route%20I%20need&body=I%20would%20like%20to%20discuss%20I%E2%80%99m%20not%20sure%20which%20route%20I%20need.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "credit",
+      "expected": "Business funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Business%20funding&body=I%20would%20like%20to%20discuss%20Business%20funding.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "real-estate",
+      "expected": "Property finance",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Property%20finance&body=I%20would%20like%20to%20discuss%20Property%20finance.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "private-equity",
+      "expected": "Growth and ownership capital",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Growth%20and%20ownership%20capital&body=I%20would%20like%20to%20discuss%20Growth%20and%20ownership%20capital.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "ventures",
+      "expected": "Venture funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Venture%20funding&body=I%20would%20like%20to%20discuss%20Venture%20funding.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "special-situations",
+      "expected": "Complex funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Complex%20funding&body=I%20would%20like%20to%20discuss%20Complex%20funding.%0A%0ASource%3A%20%2Fcontact%2F%0AImportant%20deadline%20and%20event%20(optional)%3A%0A%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "life-sciences",
+      "expected": "Life sciences funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Life%20sciences%20funding&body=I%20would%20like%20to%20discuss%20Life%20sciences%20funding.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "tech-opportunities",
+      "expected": "Technology and equipment funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Technology%20and%20equipment%20funding&body=I%20would%20like%20to%20discuss%20Technology%20and%20equipment%20funding.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "double-impact",
+      "expected": "Sustainability and impact funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Sustainability%20and%20impact%20funding&body=I%20would%20like%20to%20discuss%20Sustainability%20and%20impact%20funding.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "insurance",
+      "expected": "Insurance sector capital",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Insurance%20sector%20capital&body=I%20would%20like%20to%20discuss%20Insurance%20sector%20capital.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "crypto",
+      "expected": "Digital Asset Business Funding",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Digital%20Asset%20Business%20Funding&body=I%20would%20like%20to%20discuss%20Digital%20Asset%20Business%20Funding.%0A%0ASource%3A%20%2Fcontact%2F%0ABusiness%20activity%20and%20company%20jurisdiction%3A%0A%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "capital-strategy",
+      "expected": "Capital Strategy and Funding Advisory",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Capital%20Strategy%20and%20Funding%20Advisory&body=I%20would%20like%20to%20discuss%20Capital%20Strategy%20and%20Funding%20Advisory.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "funding-readiness",
+      "expected": "Funding Readiness and Application Preparation",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Funding%20Readiness%20and%20Application%20Preparation&body=I%20would%20like%20to%20discuss%20Funding%20Readiness%20and%20Application%20Preparation.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "financial-modelling",
+      "expected": "Financial Modelling and Commercial Analysis",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Financial%20Modelling%20and%20Commercial%20Analysis&body=I%20would%20like%20to%20discuss%20Financial%20Modelling%20and%20Commercial%20Analysis.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "debt-advisory",
+      "expected": "Debt Advisory and Capital Sourcing",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Debt%20Advisory%20and%20Capital%20Sourcing&body=I%20would%20like%20to%20discuss%20Debt%20Advisory%20and%20Capital%20Sourcing.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "equity-advisory",
+      "expected": "Equity and Strategic Capital Advisory",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Equity%20and%20Strategic%20Capital%20Advisory&body=I%20would%20like%20to%20discuss%20Equity%20and%20Strategic%20Capital%20Advisory.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "transaction-support",
+      "expected": "Due Diligence and Transaction Management",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Due%20Diligence%20and%20Transaction%20Management&body=I%20would%20like%20to%20discuss%20Due%20Diligence%20and%20Transaction%20Management.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "ongoing-advisory",
+      "expected": "Ongoing Capital and Business Advisory",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Ongoing%20Capital%20and%20Business%20Advisory&body=I%20would%20like%20to%20discuss%20Ongoing%20Capital%20and%20Business%20Advisory.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "advisory",
+      "expected": "An advisory services discussion",
+      "email": "mailto:enquiries@frontiercpx.com?subject=An%20advisory%20services%20discussion&body=I%20would%20like%20to%20discuss%20An%20advisory%20services%20discussion.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "client-access",
+      "expected": "Client access assistance",
+      "email": "mailto:enquiries@frontiercpx.com?subject=Client%20access%20assistance&body=I%20would%20like%20to%20discuss%20Client%20access%20assistance.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    },
+    {
+      "topic": "adviser",
+      "expected": "An enquiry as an adviser or referrer",
+      "email": "mailto:enquiries@frontiercpx.com?subject=An%20enquiry%20as%20an%20adviser%20or%20referrer&body=I%20would%20like%20to%20discuss%20An%20enquiry%20as%20an%20adviser%20or%20referrer.%0A%0ASource%3A%20%2Fcontact%2F%0A%0AMy%20non-confidential%20outline%3A%0A"
+    }
+  ],
+  "legacyChecks": [
+    {
+      "title": "Credit",
+      "url": "http://127.0.0.1:4173/solutions/business-funding/#main",
+      "h1": "Keep your cash flow moving."
+    },
+    {
+      "title": "Real Estate",
+      "url": "http://127.0.0.1:4173/solutions/property-finance/#main",
+      "h1": "Build the next project on firmer foundations."
+    },
+    {
+      "title": "Private Equity",
+      "url": "http://127.0.0.1:4173/solutions/growth-and-ownership-capital/#main",
+      "h1": "Fund the growth. Shape the ownership."
+    },
+    {
+      "title": "Ventures",
+      "url": "http://127.0.0.1:4173/solutions/venture-funding/#main",
+      "h1": "Fund the milestone that moves you forward."
+    },
+    {
+      "title": "Special Situations",
+      "url": "http://127.0.0.1:4173/solutions/complex-funding/#main",
+      "h1": "Start with the requirement and the real deadline."
+    },
+    {
+      "title": "Life Sciences",
+      "url": "http://127.0.0.1:4173/sectors/life-sciences/#main",
+      "h1": "Capital around your next scientific milestone."
+    },
+    {
+      "title": "Tech Opportunities",
+      "url": "http://127.0.0.1:4173/solutions/technology-funding/#main",
+      "h1": "Put the next capability into productive use."
+    },
+    {
+      "title": "Double Impact",
+      "url": "http://127.0.0.1:4173/solutions/sustainability-and-impact/#main",
+      "h1": "Fund the investment behind the intended impact."
+    },
+    {
+      "title": "Insurance",
+      "url": "http://127.0.0.1:4173/sectors/insurance-capital/#main",
+      "h1": "Capital for the business behind the insurance."
+    },
+    {
+      "title": "Crypto",
+      "url": "http://127.0.0.1:4173/sectors/digital-infrastructure/#main",
+      "h1": "Fund the operating business behind the digital assets."
+    },
+    {
+      "title": "unknown",
+      "url": "http://127.0.0.1:4173/funding-guide/#main"
+    }
+  ],
+  "contrast": {
+    "sampled": 4806,
+    "gradientExcluded": 515,
+    "failures": []
+  },
+  "testedCodeCommit": "2631faf7657aa2e94e53884236aa4ebd8d90a0bf",
+  "environment": "Managed local static preview; Chromium browser; fixture widths 320/390/768/1440; local daemon redirects are not Vercel status proof"
+}

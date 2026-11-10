@@ -1,0 +1,215 @@
+[
+  {
+    "id": "location-san-francisco",
+    "wording": "315 Montgomery Street, Suite 900, San Francisco, CA 94104 — Proposed address · agreement pending",
+    "surfaces": [
+      "/global-presence"
+    ],
+    "evidence": "https://pacificworkplaces.com/locations/san-francisco/",
+    "owner": "Andy and Roger",
+    "status": "Proposed; address format source-checked, no occupancy agreement",
+    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "location-new-york",
+    "wording": "14 Wall Street, 20th Floor, New York, NY 10005 — Proposed address · agreement pending",
+    "surfaces": [
+      "/global-presence"
+    ],
+    "evidence": "https://www.regus.com/en/us/new-york/virtual-offices",
+    "owner": "Andy and Roger",
+    "status": "Proposed; address format source-checked, no occupancy agreement",
+    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "location-london",
+    "wording": "Level 1, One Mayfair Place, London, W1J 8AJ — Proposed address · agreement pending",
+    "surfaces": [
+      "/global-presence"
+    ],
+    "evidence": "https://www.servcorp.co.uk/en/locations/london/one-mayfair-place/",
+    "owner": "Andy and Roger",
+    "status": "Proposed; address format source-checked, no occupancy agreement",
+    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "location-abu-dhabi",
+    "wording": "Al Maqam Tower, ADGM Square, Al Maryah Island, Abu Dhabi, UAE — Proposed address · agreement pending",
+    "surfaces": [
+      "/global-presence"
+    ],
+    "evidence": "https://www.regus.com/nb/ae/abu-dhabi",
+    "owner": "Andy and Roger",
+    "status": "Proposed; address format source-checked, no occupancy agreement",
+    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "location-singapore",
+    "wording": "Level 39, Marina Bay Financial Centre Tower 2, 10 Marina Boulevard, Singapore 018983 — Proposed address · agreement pending",
+    "surfaces": [
+      "/global-presence"
+    ],
+    "evidence": "https://www.servcorp.com.sg/en/serviced-offices/locations/",
+    "owner": "Andy and Roger",
+    "status": "Proposed; address format source-checked, no occupancy agreement",
+    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-capital-strategy",
+    "wording": "Capital Strategy and Funding Advisory",
+    "surfaces": [
+      "/services/capital-strategy",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-funding-readiness",
+    "wording": "Funding Readiness and Application Preparation",
+    "surfaces": [
+      "/services/funding-readiness",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-financial-modelling",
+    "wording": "Financial Modelling and Commercial Analysis",
+    "surfaces": [
+      "/services/financial-modelling",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-debt-advisory",
+    "wording": "Debt Advisory and Capital Sourcing",
+    "surfaces": [
+      "/services/debt-advisory",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-equity-advisory",
+    "wording": "Equity and Strategic Capital Advisory",
+    "surfaces": [
+      "/services/equity-advisory",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-transaction-support",
+    "wording": "Due Diligence and Transaction Management",
+    "surfaces": [
+      "/services/transaction-support",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "service-ongoing-advisory",
+    "wording": "Ongoing Capital and Business Advisory",
+    "surfaces": [
+      "/services/ongoing-advisory",
+      "/services",
+      "/our-expertise"
+    ],
+    "evidence": "Confirmed seven-service direction; content/advisory-services.json defines scoped outputs.",
+    "owner": "Andy sources specialists; development maintains scope wording",
+    "status": "Defined advisory offer; individual delivery responsibilities and capacity to be agreed before engagement",
+    "rights": "Original site copy; no third-party staff names, credentials or client case permissions implied.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "company",
+    "wording": "Frontier Capital Partners operates through Frontier AI Group Limited.",
+    "surfaces": [
+      "/terms-use",
+      "/privacy-policy",
+      "footer"
+    ],
+    "evidence": "Andy confirmed operating company, correspondence address and inbox on 10 Nov 2026.",
+    "owner": "Andy",
+    "status": "Owner-confirmed; statutory company number/registered particulars not verified from official register",
+    "rights": "Owner-authorised website identity; do not add an unverified number.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "unsupported-scale",
+    "wording": "100+ specialists; 250+ lending relationships; 35 years experience",
+    "surfaces": [
+      "Removed from all generated pages and metadata"
+    ],
+    "evidence": "Illustrative targets and owner-supplied experience have no supporting record in this build.",
+    "owner": "Andy and Roger",
+    "status": "Omitted; not publishable as verified proof",
+    "rights": "No network rights or credentials implied by anonymous partners.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "network",
+    "wording": "The network framework is being developed.",
+    "surfaces": [
+      "/funding-network"
+    ],
+    "evidence": "Confirmed intended operating model; no signed provider mandates supplied.",
+    "owner": "Andy and Roger",
+    "status": "Explicitly provisional; no count, committed pool or provider coverage claim",
+    "rights": "Providers remain unnamed; no logos, names or case studies used.",
+    "review": "2026-11-10"
+  },
+  {
+    "id": "examples",
+    "wording": "Illustrative examples and brief structures are not completed transactions or client results.",
+    "surfaces": [
+      "funding pages",
+      "service pages",
+      "briefs",
+      "Home",
+      "About",
+      "Network"
+    ],
+    "evidence": "Original labelled examples from Sprints 1–4; assumptions and limitations embedded in copy.",
+    "owner": "Development",
+    "status": "Illustrative, not outcome evidence",
+    "rights": "Original authored text; no client transaction claimed.",
+    "review": "2026-11-10"
+  }
+]

@@ -1,0 +1,2 @@
+{"routes":40,"solutions":10,"demonstrationPeople":0,"demonstrationArticles":0,"demonstrationOffices":0,"proposedLocations":5,"credibilityPillars":4,"preview":true}
+{"routes":40,"solutions":10,"localLinksChecked":3373,"assetsChecked":318,"staticContent":"pass","uniqueIDs":"pass","previewForms":"disconnected and clearly labelled","demoRecordsPublished":0}

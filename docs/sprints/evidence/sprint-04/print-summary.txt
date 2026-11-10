@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "credit",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1076,
+      1803
+    ]
+  },
+  {
+    "slug": "real-estate",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1033,
+      1694
+    ]
+  },
+  {
+    "slug": "private-equity",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1107,
+      1711
+    ]
+  },
+  {
+    "slug": "ventures",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1130,
+      1590
+    ]
+  },
+  {
+    "slug": "special-situations",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1115,
+      1604
+    ]
+  },
+  {
+    "slug": "life-sciences",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1094,
+      1624
+    ]
+  },
+  {
+    "slug": "tech-opportunities",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1160,
+      1825
+    ]
+  },
+  {
+    "slug": "double-impact",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1292,
+      1592
+    ]
+  },
+  {
+    "slug": "insurance",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1360,
+      1534
+    ]
+  },
+  {
+    "slug": "crypto",
+    "pages": 2,
+    "firstPageMarker": true,
+    "secondPageMarker": true,
+    "characters": [
+      1319,
+      1683
+    ]
+  }
+]

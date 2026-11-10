@@ -1,0 +1,190 @@
+# Frontier website delivery sprints
+
+Five outcome-led delivery batches on `build/site-refinements-v3`. Planning baseline: `5321053c43bd9eb7ca239b848f66e768720f5a28`. Prepared 10 November 2026 from consolidated implementation plan version 4.
+
+## Delivery sequence
+
+| Sprint | Outcome | Primary task count |
+| --- | --- | ---: |
+| [1 Foundations and pilot pages](sprint-01-foundations-and-pilots.md) | Establish the shared architecture and demonstrate three complete buyer journeys before scaling the copy. | 17 |
+| [2 Advisory Services](sprint-02-advisory-services.md) | Complete the client-facing service offer using the financial-modelling pilot. | 22 |
+| [3 Funding Solutions](sprint-03-funding-solutions.md) | Give each of the remaining eight funding pages its own commercial language and decision support. | 25 |
+| [4 Supporting journeys and client login](sprint-04-supporting-journeys.md) | Complete the site around the advisory and funding pages, including decision support and the inactive login screens. | 65 |
+| [5 Verification and release readiness](sprint-05-verification-and-release.md) | Prove the complete current scope works and prepare a concrete release for owner review. | 2 |
+| [Deferred](deferred-operations.md) | G11 automation; other future operations separately described | 1 |
+
+Total: **132 unique primary task assignments: 131 in five sprints and G11 deferred.** Counts are traceability units, not equal effort or time. Sprint 4 is deliberately split into three execution sub-stages.
+
+## How to execute
+
+- One working branch; a reviewable preview and evidence at each checkpoint. Preserve source task IDs.
+- A primary sprint owns final acceptance; dependency preparation can happen earlier. G05/G07 start with Sprint 1 and close in their assigned sprints.
+- Run affected checks throughout; Sprint 5 is final regression, not the first time testing occurs.
+- The register now records current status. Initially all implementation tasks were Planned, except G11 Deferred. Record commit, preview/evidence, owner and next action when status changes.
+- The documents do not start implementation, merge main or authorise release. Owner approval applies to the concrete release as stated in the source plan.
+
+## Source and precedence
+
+[Complete consolidated specification](implementation-specification.md) contains every page brief and confirmed business decision. These sprint files organise its execution; they do not expand the commercial scope. Earlier repository plans describe previous development phases. If they conflict with the confirmed decisions in this specification, use this consolidated specification.
+
+## Complete task register
+
+| Task ID | Primary sprint | Current status | Task |
+| --- | --- | --- | --- |
+| A00.1 | 2 | Complete | Explain the seven services with a clear client situation and deliverable for each. |
+| A00.2 | 2 | Complete | Show how clients can buy preparation or analysis independently of a funding introduction. |
+| A00.3 | 2 | Complete | Link each service, relevant funding solutions and the canonical process; keep one primary enquiry action. |
+| A01.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A01.2 | 2 | Complete | Specify outputs: Funding roadmap, options appraisal and information requirements. Include one clearly labelled illustrative example. |
+| A01.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Growth/Ownership, Business Funding, Venture Funding. |
+| A02.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A02.2 | 2 | Complete | Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example. |
+| A02.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation. |
+| A03.1 | 1 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A03.2 | 1 | Complete | Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example. |
+| A03.3 | 1 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership. |
+| A04.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A04.2 | 2 | Complete | Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example. |
+| A04.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding. |
+| A05.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A05.2 | 2 | Complete | Specify outputs: Round strategy, investor materials and ownership scenario analysis. Include one clearly labelled illustrative example. |
+| A05.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Venture Funding and Growth/Ownership Capital. |
+| A06.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A06.2 | 2 | Complete | Specify outputs: Issues log, diligence tracker and transaction timetable. Include one clearly labelled illustrative example. |
+| A06.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property, Growth/Ownership, Venture and Complex Funding. |
+| A07.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A07.2 | 2 | Complete | Specify outputs: Periodic capital review, updated forecasts and prioritised actions. Include one clearly labelled illustrative example. |
+| A07.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Growth/Ownership and Complex Funding. |
+| B01 | 4 | Complete | Business Funding |
+| B02 | 4 | Complete | Property Finance |
+| B03 | 4 | Complete | Growth and Ownership Capital |
+| B04 | 4 | Complete | Venture Funding |
+| B05 | 4 | Complete | Complex Funding |
+| B06 | 4 | Complete | Life Sciences Funding |
+| B07 | 4 | Complete | Technology and Equipment Funding |
+| B08 | 4 | Complete | Sustainability and Impact Funding |
+| B09 | 4 | Complete | Insurance Sector Capital |
+| B10 | 4 | Complete | Digital Asset Business Funding |
+| G01 | 1 | Complete | Record and protect the baseline |
+| G02 | 1 | Complete | Define page roles and hierarchy |
+| G03 | 1 | Complete | Create the contextual copy model |
+| G04 | 1 | Complete | Build reusable solution components |
+| G05 | 4 | Complete | Unify the process |
+| G06 | 1 | Complete | Repair the route and category model |
+| G07 | 3 | Complete | Build useful proof assets |
+| G08 | 4 | Complete | Maintain the claims and scope register |
+| G09 | 4 | Complete | Make comparisons usable on mobile |
+| G10 | 1 | In progress | Preserve enquiry intent |
+| G11 | Deferred | Deferred | Implement enquiry automation in a later phase |
+| G12 | 4 | In progress | Maintain canonical routes and redirects |
+| G13 | 4 | Complete | Improve the ten decision briefs |
+| G14 | 4 | Complete | Align privacy and website information |
+| G15 | 5 | In progress | Complete journey and accessibility verification |
+| G16 | 5 | Complete | Establish conversion measurement |
+| G17 | 1 | Complete | Add the two navigation routes |
+| G18 | 1 | Complete | Build the advisory content model |
+| G19 | 2 | Complete | Connect services to funding journeys |
+| G20 | 4 | Complete | Build inactive login and recovery interfaces |
+| L01.1 | 4 | Complete | Build the branded screen with labelled username and password, show/hide password, Sign In, Forgot Password and contact assistance. No public registration is required. |
+| L01.2 | 4 | Complete | Place the lozenge button on the right of desktop navigation and at the top of the expanded mobile menu. No coming-soon, access-unavailable or public development-status notice. |
+| L01.3 | 4 | Complete | Keep authentication unconnected. Prevent credential transmission, persistence and analytics capture. An attempted sign-in may return a neutral inability-to-complete message with contact assistance; never claim verified account or password validation. |
+| L02.1 | 4 | Complete | Build the matching recovery screen with username/email, recovery action, return-to-login link and contact assistance. |
+| L02.2 | 4 | Complete | Keep recovery unconnected. Do not transmit or retain entries or claim that a reset email was sent. Offer enquiries@frontiercpx.com for account assistance. |
+| L02.3 | 4 | Complete | Verify routing, keyboard use, labels and responsive layout; confirm no account enumeration, credential storage or recovery network request. |
+| P01.1 | 4 | Complete | Retain the hero brand line; replace the repeated philosophy sections with one concrete explanation of Frontier’s work. |
+| P01.2 | 4 | Complete | Add one labelled example of a requirement moving from objective to provider questions; show process, not an invented deal. |
+| P01.3 | 4 | Complete | Make both advisory support and funding solutions visible, then show evidence and a relevant next action. Distinguish paid advisory engagements from provider-paid funding activity. |
+| P02.1 | 4 | Complete | Separate business objectives from sector contexts and show where the two overlap. |
+| P02.2 | 4 | Complete | Give cards concise examples such as stock, machinery, development or shareholder liquidity. |
+| P02.3 | 4 | Complete | Place one prominent uncertain-route option after the choices; test whether readers find their route without assistance. |
+| P03.1 | 1 | Complete | Add separate working-capital, growth and refinance modules with relevant next actions. |
+| P03.2 | 1 | Complete | Replace generic mechanics and commitments headings with cash-flow and repayment language. |
+| P03.3 | 1 | Complete | Use a labelled cash-cycle illustration and short first-call checklist; publish funding bands only if supported. |
+| P04.1 | 1 | Complete | Add a project-stage selector or clear stage links feeding the enquiry context. |
+| P04.2 | 1 | Complete | Introduce a labelled development drawdown and exit illustration, with dependencies. |
+| P04.3 | 1 | Complete | Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment. |
+| P05.1 | 3 | Complete | Split the opening routes by use of proceeds and ownership objective. |
+| P05.2 | 3 | Complete | Add a simple ownership and governance discussion guide, without invented valuations or returns. |
+| P05.3 | 3 | Complete | Make the CTA about the shareholder decision and explain the agreed role before marketing execution support. |
+| P06.1 | 3 | Complete | Retain the milestone concept; use runway, round and investor fit throughout the sections. |
+| P06.2 | 3 | Complete | Add a round-readiness checklist and separate validation from scaling requirements. |
+| P06.3 | 3 | Complete | Replace generic proof with a sample investment-summary structure and confirmed mandate coverage when available. |
+| P07.1 | 3 | Complete | Replace the abstract opening with a requirement and deadline-led message. |
+| P07.2 | 3 | Complete | Add an optional deadline field and explain how the first discussion is triaged. |
+| P07.3 | 3 | Complete | Define the boundary between capital introductions and specialist restructuring work; keep relevant advice signposts visible. |
+| P08.1 | 3 | Complete | Retain the scientific milestone headline and introduce stage-specific content paths. |
+| P08.2 | 3 | Complete | Add a non-confidential milestone brief with evidence, budget, dependencies and runway. |
+| P08.3 | 3 | Complete | Limit public scope to supported subsectors and activities; link laboratory equipment to the appropriate capital route. |
+| P09.1 | 3 | Complete | Make operating-business investment the primary path and route company fundraising immediately to venture or growth capital. |
+| P09.2 | 3 | Complete | Add an expenditure breakdown and implementation timeline, both illustrative. |
+| P09.3 | 3 | Complete | Use installation, capacity and capability language rather than ambition or generic progress. |
+| P10.1 | 3 | Complete | Separate operational investment and impact-led business growth before the main copy. |
+| P10.2 | 3 | Complete | Add a commercial and outcome measurement example without claiming realised savings. |
+| P10.3 | 3 | Complete | Use specific investment language and keep grant availability distinct from the core offering. |
+| P11.1 | 3 | Complete | Carry forward the existing named entities and capital purposes; treat these as the agreed scope rather than an unanswered product decision. |
+| P11.2 | 3 | Complete | Replace broad examples with approved scope and entity-specific preparation. |
+| P11.3 | 3 | Complete | Retain an explicit capital-versus-cover distinction and use a specialist-requirement CTA. |
+| P12.1 | 3 | Complete | Clarify the display name to reflect digital-asset businesses while preserving the existing URL. Do not extend the proposition to data centres, telecoms or cloud infrastructure. |
+| P12.2 | 3 | Complete | Separate operating-company capital from token, retail investment and physical infrastructure routes. |
+| P12.3 | 3 | Complete | Retain a simple activity and jurisdiction enquiry without requesting financial account access. |
+| P13.1 | 4 | Complete | Rewrite around Frontier’s role and the client problem it addresses, not another philosophy statement. |
+| P13.2 | 4 | Complete | Use a sample requirement summary or provider-question checklist as visible work quality evidence. |
+| P13.3 | 4 | Complete | Link once to Approach, Expertise and Network; remove their repeated explanations here. |
+| P14.1 | 4 | Complete | Consolidate How It Works into this page while preserving useful anchors and redirects. |
+| P14.2 | 4 | Complete | Replace philosophy with concrete deliverables and responsibilities for each stage. |
+| P14.3 | 4 | Complete | Explain preparation, commercial negotiation and transaction coordination within an agreed engagement. Distinguish client-paid advisory deliverables from provider-paid funding activity and specialist professional responsibilities. |
+| P15.1 | 4 | Complete | Choose Our Approach as the canonical destination and migrate the useful detail. |
+| P15.2 | 4 | Complete | Redirect this route and preserve or map #roles and other existing anchors. |
+| P15.3 | 4 | Complete | Update homepage, About Us and supporting links, then test every redirected journey. |
+| P16.1 | 4 | Complete | Replace placeholder metrics with verified facts before external promotion; do not substitute another invented number. |
+| P16.2 | 4 | Complete | Show a capability-to-client-output matrix and an approved example deliverable. |
+| P16.3 | 4 | Complete | Specify access and engagement scope factually, without implying an employed global team. |
+| P17.1 | 4 | Complete | Create a provider-type view and a separate funding-purpose view with links between them. |
+| P17.2 | 4 | Complete | Show one explicitly illustrative matching example and the reasons a provider may or may not fit. |
+| P17.3 | 4 | Complete | Describe provider categories and supported purposes without names or logos. Keep relationship evidence internally; omit unverified counts rather than treating anonymity as proof. |
+| P18.1 | 4 | Complete | Retain all five addresses and approved photographs, with each location clearly identified as proposed. Do not require agreements to finish this preview page. |
+| P18.2 | 4 | Complete | Verify address format and coordinate purpose; avoid presenting approximate coordinates as a precise premises pin. |
+| P18.3 | 4 | Complete | Add a central contact action with city context and preserve the distinction between city photography and premises. |
+| P19.1 | 4 | Complete | Lead with the client relationship and useful specialist access; keep procedure concise. |
+| P19.2 | 4 | Complete | Show who contacts the client and how updates are agreed. |
+| P19.3 | 4 | Complete | Make the adviser route visible beside contact and in relevant supporting pages; publish only real commercial terms. |
+| P20.1 | 4 | Complete | Replace the narrow-screen table with labelled cards or an accessible two-route comparison. |
+| P20.2 | 4 | Complete | Clarify that rows are overlapping structure families, not mutually exclusive product definitions. |
+| P20.3 | 4 | Complete | Move the relevant brief choice earlier and keep cost assumptions explicit in any future example. |
+| P21.1 | 4 | Complete | Make uncertain-route results neutral and explain why each route is shown. |
+| P21.2 | 4 | Complete | Expose preparation and enquiry actions for each result rather than only the first. |
+| P21.3 | 4 | Complete | Test all 24 objective and next-step combinations plus back navigation and keyboard use. |
+| P22.1 | 4 | Complete | Keep direct email as the working route and forms disconnected. Show no send success or transmission. Record automated email delivery as a later task under G11. |
+| P22.2 | 4 | Complete | Carry service, solution, guide, adviser or city context into the contact page and a contextual email option without forcing repeated selection. |
+| P22.3 | 4 | Complete | Add only useful optional qualification and replace generic hero copy with a direct invitation. |
+| U01 | 4 | In progress | Privacy and This Preview |
+| U02 | 4 | In progress | Website Information |
+| U03 | 4 | In progress | Page Not Found |
+| U04 | 4 | In progress | Legacy Ventures |
+| U05 | 4 | In progress | Legacy Crypto |
+| U06 | 4 | In progress | Legacy Destination |
+
+## Definition of completion
+
+Every primary ID is completed with evidence, deferred explicitly or blocked on a named input. Original 22 principal pages, ten briefs and six utility routes remain accounted for; add Services overview, seven services and login/recovery. Preserve old URLs and one process redirect. No statement that a business decision is settled proves that a feature has been implemented.
+
+## Sprint documentation and closure
+
+Each sprint has a **mandatory closeout gate**, detailed in its brief. Write development notes as work proceeds, then commit a closeout under `docs/sprints/closeouts/sprint-NN.md`. Use the [closeout template](closeout-template.md). [Sprint 1 closeout](closeouts/sprint-01.md) records implementation at `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`, sixteen completed tasks and G10 awaiting protected-deployment verification. Sprint 1 remains In progress; owner review Pending.
+
+Completion requires task-by-task status, change/decision record, tested code commit and preview, actual verification evidence, known issues and handover. Record engineering status and Andy's review status separately; neither a planning document nor a green deployment closes a sprint. Production approval remains separate.
+
+[Closeout records](closeouts/README.md)
+
+
+## Current execution evidence
+
+Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprint 2 implementation is complete; Sprint 3 implementation is complete; Sprint 4 implementation is delivered with named verification items open; Sprint 5 verification and release preparation delivered; G15 remains In progress for the named protected-deployment checks.
+
+Sprint 2: all 22 assigned implementation tasks Complete at `14f5d7a71bbf631fab1a844804b4b00a6aec74b4`. [Closeout](closeouts/sprint-02.md), [architecture](sprint-02-architecture.md) and [evidence](evidence/sprint-02/) record local acceptance and the unchanged protected-deployment verification limit under G10/G15. No claim of G10 completion or production approval.
+
+Sprint 3: all 25 assigned implementation tasks Complete at `3e7db9bdb7cc172875dfb950996517c8afe5d9fd`. [Closeout](closeouts/sprint-03.md), [architecture](sprint-03-architecture.md) and [evidence](evidence/sprint-03/) record ten decision aids, forty width checks and the unchanged protected-deployment verification limit under G10/G15. No production merge.
+
+Sprint 4: implementation delivered at `d3975ff565e593c24a327c9c7f4c3c40990bd759`; 58 tasks Complete and G12/U01–U06 In progress for deployed HTTP checks and official statutory particulars. [Closeout](closeouts/sprint-04.md), [architecture](sprint-04-architecture.md), [claims register](../claims-and-scope-register.json) and [evidence](evidence/sprint-04/). No production merge, auth or enquiry activation.
+
+Sprint 5: G16 complete with a disabled synthetic measurement contract; G15 In progress. [Closeout](closeouts/sprint-05.md), [release handover](release-handover.md), [measurement](measurement.md) and [full task audit](evidence/sprint-05/task-audit.json). No merge or production approval.

@@ -1,0 +1,290 @@
+[
+  {
+    "route": "/our-approach",
+    "file": "our-approach/index.html",
+    "title": "Our Approach",
+    "status": 200
+  },
+  {
+    "route": "/our-expertise",
+    "file": "our-expertise/index.html",
+    "title": "Our Expertise",
+    "status": 200
+  },
+  {
+    "route": "/funding-network",
+    "file": "funding-network/index.html",
+    "title": "Frontier Funding Network",
+    "status": 200
+  },
+  {
+    "route": "/global-presence",
+    "file": "global-presence/index.html",
+    "title": "Global Presence",
+    "status": 200
+  },
+  {
+    "route": "/",
+    "file": "index.html",
+    "title": "Funding your ambition",
+    "status": 200
+  },
+  {
+    "route": "/solutions",
+    "file": "solutions/index.html",
+    "title": "Funding Solutions",
+    "status": 200
+  },
+  {
+    "route": "/solutions/business-funding",
+    "file": "solutions/business-funding/index.html",
+    "title": "Business funding",
+    "status": 200
+  },
+  {
+    "route": "/solutions/property-finance",
+    "file": "solutions/property-finance/index.html",
+    "title": "Property finance",
+    "status": 200
+  },
+  {
+    "route": "/solutions/growth-and-ownership-capital",
+    "file": "solutions/growth-and-ownership-capital/index.html",
+    "title": "Growth and ownership capital",
+    "status": 200
+  },
+  {
+    "route": "/solutions/venture-funding",
+    "file": "solutions/venture-funding/index.html",
+    "title": "Venture funding",
+    "status": 200
+  },
+  {
+    "route": "/solutions/complex-funding",
+    "file": "solutions/complex-funding/index.html",
+    "title": "Complex funding",
+    "status": 200
+  },
+  {
+    "route": "/sectors/life-sciences",
+    "file": "sectors/life-sciences/index.html",
+    "title": "Life sciences funding",
+    "status": 200
+  },
+  {
+    "route": "/solutions/technology-funding",
+    "file": "solutions/technology-funding/index.html",
+    "title": "Technology and equipment funding",
+    "status": 200
+  },
+  {
+    "route": "/solutions/sustainability-and-impact",
+    "file": "solutions/sustainability-and-impact/index.html",
+    "title": "Sustainability and impact funding",
+    "status": 200
+  },
+  {
+    "route": "/sectors/insurance-capital",
+    "file": "sectors/insurance-capital/index.html",
+    "title": "Insurance sector capital",
+    "status": 200
+  },
+  {
+    "route": "/sectors/digital-infrastructure",
+    "file": "sectors/digital-infrastructure/index.html",
+    "title": "Digital Asset Business Funding",
+    "status": 200
+  },
+  {
+    "route": "/services",
+    "file": "services/index.html",
+    "title": "Advisory Services",
+    "status": 200
+  },
+  {
+    "route": "/services/capital-strategy",
+    "file": "services/capital-strategy/index.html",
+    "title": "Capital Strategy and Funding Advisory",
+    "status": 200
+  },
+  {
+    "route": "/services/funding-readiness",
+    "file": "services/funding-readiness/index.html",
+    "title": "Funding Readiness and Application Preparation",
+    "status": 200
+  },
+  {
+    "route": "/services/financial-modelling",
+    "file": "services/financial-modelling/index.html",
+    "title": "Financial Modelling and Commercial Analysis",
+    "status": 200
+  },
+  {
+    "route": "/services/debt-advisory",
+    "file": "services/debt-advisory/index.html",
+    "title": "Debt Advisory and Capital Sourcing",
+    "status": 200
+  },
+  {
+    "route": "/services/equity-advisory",
+    "file": "services/equity-advisory/index.html",
+    "title": "Equity and Strategic Capital Advisory",
+    "status": 200
+  },
+  {
+    "route": "/services/transaction-support",
+    "file": "services/transaction-support/index.html",
+    "title": "Due Diligence and Transaction Management",
+    "status": 200
+  },
+  {
+    "route": "/services/ongoing-advisory",
+    "file": "services/ongoing-advisory/index.html",
+    "title": "Ongoing Capital and Business Advisory",
+    "status": 200
+  },
+  {
+    "route": "/about-us",
+    "file": "about-us/index.html",
+    "title": "About Us",
+    "status": 200
+  },
+  {
+    "route": "/for-advisers",
+    "file": "for-advisers/index.html",
+    "title": "For Advisers",
+    "status": 200
+  },
+  {
+    "route": "/funding-options",
+    "file": "funding-options/index.html",
+    "title": "Compare Funding Options",
+    "status": 200
+  },
+  {
+    "route": "/funding-guide",
+    "file": "funding-guide/index.html",
+    "title": "Find Your Funding Route",
+    "status": 200
+  },
+  {
+    "route": "/briefs/credit",
+    "file": "briefs/credit/index.html",
+    "title": "Business funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/real-estate",
+    "file": "briefs/real-estate/index.html",
+    "title": "Property finance Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/private-equity",
+    "file": "briefs/private-equity/index.html",
+    "title": "Growth and ownership capital Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/ventures",
+    "file": "briefs/ventures/index.html",
+    "title": "Venture funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/special-situations",
+    "file": "briefs/special-situations/index.html",
+    "title": "Complex funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/life-sciences",
+    "file": "briefs/life-sciences/index.html",
+    "title": "Life sciences funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/tech-opportunities",
+    "file": "briefs/tech-opportunities/index.html",
+    "title": "Technology and equipment funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/double-impact",
+    "file": "briefs/double-impact/index.html",
+    "title": "Sustainability and impact funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/insurance",
+    "file": "briefs/insurance/index.html",
+    "title": "Insurance sector capital Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/briefs/crypto",
+    "file": "briefs/crypto/index.html",
+    "title": "Digital Asset Business Funding Decision Brief",
+    "status": 200
+  },
+  {
+    "route": "/contact",
+    "file": "contact/index.html",
+    "title": "Contact Frontier",
+    "status": 200
+  },
+  {
+    "route": "/privacy-policy",
+    "file": "privacy-policy/index.html",
+    "title": "Privacy and Information Handling",
+    "status": 200
+  },
+  {
+    "route": "/terms-use",
+    "file": "terms-use/index.html",
+    "title": "Website Information",
+    "status": 200
+  },
+  {
+    "route": "/client-login",
+    "file": "client-login/index.html",
+    "title": "Client Login",
+    "status": 200
+  },
+  {
+    "route": "/forgot-password",
+    "file": "forgot-password/index.html",
+    "title": "Forgot Password",
+    "status": 200
+  },
+  {
+    "route": "/404",
+    "file": "404.html",
+    "title": "Page not found",
+    "status": 404
+  },
+  {
+    "route": "/ventures",
+    "file": "ventures/index.html",
+    "title": "Page moved",
+    "status": 308
+  },
+  {
+    "route": "/crypto",
+    "file": "crypto/index.html",
+    "title": "Page moved",
+    "status": 308
+  },
+  {
+    "route": "/how-it-works",
+    "file": "how-it-works/index.html",
+    "title": "Page moved",
+    "status": 308
+  },
+  {
+    "route": "/destination",
+    "file": "destination/index.html",
+    "title": "Find your funding page",
+    "status": 200
+  }
+]

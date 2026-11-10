@@ -1,0 +1,1 @@
+{"serviceRoutes":8,"distinctServiceHeadlines":7,"distinctExamples":7,"bidirectionalFundingMappings":30,"missingContentRejections":4,"scopeFeeAndExampleChecks":"pass","anchorsAndInitialHTML":"pass"}
