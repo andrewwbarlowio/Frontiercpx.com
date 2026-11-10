@@ -1,6 +1,6 @@
 # Sprint 4 Supporting journeys and client login
 
-**Status:** Planned. No implementation started by these documents.
+**Status:** Implementation delivered at `d3975ff565e593c24a327c9c7f4c3c40990bd759`. 58 tasks Complete; seven utility/routing acceptance items remain In progress for deployed verification and statutory particulars. Owner review Pending. See [closeout](closeouts/sprint-04.md).
 
 **Primary work items:** 65. Owners: development for implementation and evidence; Andy/Roger for business facts and release decisions. No fixed duration or dates are committed.
 
@@ -30,15 +30,15 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### G05
 
-- [ ] Unify the process — M effort  |  Dependencies G02 D04 Build Use Our Approach as the canonical five-stage explanation. Migrate useful role, fee and information-sharing content from How It Works. Render shorter process strips from the same data. Done when There is one source of process truth. Stage labels and responsibilities agree across pages; #roles survives; no duplicated full process page remains after redirect.
+- [x] Unify the process — M effort  |  Dependencies G02 D04 Build Use Our Approach as the canonical five-stage explanation. Migrate useful role, fee and information-sharing content from How It Works. Render shorter process strips from the same data. Done when There is one source of process truth. Stage labels and responsibilities agree across pages; #roles survives; no duplicated full process page remains after redirect.
 
 ### G08
 
-- [ ] Maintain the claims and scope register — M effort  |  Dependencies D01–D06 Build For each location, count, credential, service capability and access claim, record exact wording, evidence, rights to use, owner and status. Check related cards, metadata and downloadable briefs too. Done when Each promoted claim has supporting evidence and approved wording. Unverified content is visibly provisional or absent. Biographies are not added as a substitute for proof.
+- [x] Maintain the claims and scope register — M effort  |  Dependencies D01–D06 Build For each location, count, credential, service capability and access claim, record exact wording, evidence, rights to use, owner and status. Check related cards, metadata and downloadable briefs too. Done when Each promoted claim has supporting evidence and approved wording. Unverified content is visibly provisional or absent. Biographies are not added as a substitute for proof.
 
 ### G09
 
-- [ ] Make comparisons usable on mobile — M effort  |  Dependencies G06 Build Replace reliance on horizontal scrolling with labelled mobile cards or a two-route comparison. Preserve route, structure, commitments and question fields in meaningful reading order. Done when At 320 CSS pixels all fields can be read without side-scrolling a wide table. Keyboard and screen-reader order remains coherent; category overlap is explained.
+- [x] Make comparisons usable on mobile — M effort  |  Dependencies G06 Build Replace reliance on horizontal scrolling with labelled mobile cards or a two-route comparison. Preserve route, structure, commitments and question fields in meaningful reading order. Done when At 320 CSS pixels all fields can be read without side-scrolling a wide table. Keyboard and screen-reader order remains coherent; category overlap is explained.
 
 ### G12
 
@@ -46,199 +46,199 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### G13
 
-- [ ] Improve the ten decision briefs — L effort  |  Dependencies G03 G04 G06 Build Use each parent page’s approved content and name, adding route-specific discussion fields. Include source date, route and scope. Provide print or save behaviour with a designed print stylesheet. Done when Every brief remains useful alone, returns to the correct enquiry, and has inspected print pagination without clipped content. Edits to the parent data do not leave an old proposition in the brief.
+- [x] Improve the ten decision briefs — L effort  |  Dependencies G03 G04 G06 Build Use each parent page’s approved content and name, adding route-specific discussion fields. Include source date, route and scope. Provide print or save behaviour with a designed print stylesheet. Done when Every brief remains useful alone, returns to the correct enquiry, and has inspected print pagination without clipped content. Edits to the parent data do not leave an old proposition in the brief.
 
 ### G14
 
-- [ ] Align privacy and website information — M effort  |  Dependencies D01 D04 D07 D08; G11 only for later automated forms Build Align company, advisory fees, provider remuneration, direct email and information handling with confirmed decisions. Explain the current disconnected forms. Update privacy wording again when automation or document collection changes; no G11 launch dependency now. Done when The notice and website information match the implemented system and current entity. Any appropriate specialist review is complete before live collection. No unverified certification or privacy guarantee is added.
+- [x] Align privacy and website information — M effort  |  Dependencies D01 D04 D07 D08; G11 only for later automated forms Build Align company, advisory fees, provider remuneration, direct email and information handling with confirmed decisions. Explain the current disconnected forms. Update privacy wording again when automation or document collection changes; no G11 launch dependency now. Done when The notice and website information match the implemented system and current entity. Any appropriate specialist review is complete before live collection. No unverified certification or privacy guarantee is added.
 
 ### G20
 
-- [ ] Build inactive login and recovery interfaces — M effort | Dependencies G17 D07 D08 Build Create both branded screens without authentication or recovery integration. Show no coming-soon or availability notice. Keep credentials out of transmission, storage and analytics. Done when The login and recovery acceptance criteria pass. No actual login, fabricated account validation, reset-email confirmation or unintended credential request occurs.
+- [x] Build inactive login and recovery interfaces — M effort | Dependencies G17 D07 D08 Build Create both branded screens without authentication or recovery integration. Show no coming-soon or availability notice. Keep credentials out of transmission, storage and analytics. Done when The login and recovery acceptance criteria pass. No actual login, fabricated account validation, reset-email confirmation or unintended credential request occurs.
 
 ### P01.1
 
-- [ ] Retain the hero brand line; replace the repeated philosophy sections with one concrete explanation of Frontier’s work.
+- [x] Retain the hero brand line; replace the repeated philosophy sections with one concrete explanation of Frontier’s work.
 
 ### P01.2
 
-- [ ] Add one labelled example of a requirement moving from objective to provider questions; show process, not an invented deal.
+- [x] Add one labelled example of a requirement moving from objective to provider questions; show process, not an invented deal.
 
 ### P01.3
 
-- [ ] Make both advisory support and funding solutions visible, then show evidence and a relevant next action. Distinguish paid advisory engagements from provider-paid funding activity.
+- [x] Make both advisory support and funding solutions visible, then show evidence and a relevant next action. Distinguish paid advisory engagements from provider-paid funding activity.
 
 ### P02.1
 
-- [ ] Separate business objectives from sector contexts and show where the two overlap.
+- [x] Separate business objectives from sector contexts and show where the two overlap.
 
 ### P02.2
 
-- [ ] Give cards concise examples such as stock, machinery, development or shareholder liquidity.
+- [x] Give cards concise examples such as stock, machinery, development or shareholder liquidity.
 
 ### P02.3
 
-- [ ] Place one prominent uncertain-route option after the choices; test whether readers find their route without assistance.
+- [x] Place one prominent uncertain-route option after the choices; test whether readers find their route without assistance.
 
 ### P13.1
 
-- [ ] Rewrite around Frontier’s role and the client problem it addresses, not another philosophy statement.
+- [x] Rewrite around Frontier’s role and the client problem it addresses, not another philosophy statement.
 
 ### P13.2
 
-- [ ] Use a sample requirement summary or provider-question checklist as visible work quality evidence.
+- [x] Use a sample requirement summary or provider-question checklist as visible work quality evidence.
 
 ### P13.3
 
-- [ ] Link once to Approach, Expertise and Network; remove their repeated explanations here.
+- [x] Link once to Approach, Expertise and Network; remove their repeated explanations here.
 
 ### P14.1
 
-- [ ] Consolidate How It Works into this page while preserving useful anchors and redirects.
+- [x] Consolidate How It Works into this page while preserving useful anchors and redirects.
 
 ### P14.2
 
-- [ ] Replace philosophy with concrete deliverables and responsibilities for each stage.
+- [x] Replace philosophy with concrete deliverables and responsibilities for each stage.
 
 ### P14.3
 
-- [ ] Explain preparation, commercial negotiation and transaction coordination within an agreed engagement. Distinguish client-paid advisory deliverables from provider-paid funding activity and specialist professional responsibilities.
+- [x] Explain preparation, commercial negotiation and transaction coordination within an agreed engagement. Distinguish client-paid advisory deliverables from provider-paid funding activity and specialist professional responsibilities.
 
 ### P15.1
 
-- [ ] Choose Our Approach as the canonical destination and migrate the useful detail.
+- [x] Choose Our Approach as the canonical destination and migrate the useful detail.
 
 ### P15.2
 
-- [ ] Redirect this route and preserve or map #roles and other existing anchors.
+- [x] Redirect this route and preserve or map #roles and other existing anchors.
 
 ### P15.3
 
-- [ ] Update homepage, About Us and supporting links, then test every redirected journey.
+- [x] Update homepage, About Us and supporting links, then test every redirected journey.
 
 ### P16.1
 
-- [ ] Replace placeholder metrics with verified facts before external promotion; do not substitute another invented number.
+- [x] Replace placeholder metrics with verified facts before external promotion; do not substitute another invented number.
 
 ### P16.2
 
-- [ ] Show a capability-to-client-output matrix and an approved example deliverable.
+- [x] Show a capability-to-client-output matrix and an approved example deliverable.
 
 ### P16.3
 
-- [ ] Specify access and engagement scope factually, without implying an employed global team.
+- [x] Specify access and engagement scope factually, without implying an employed global team.
 
 ### P17.1
 
-- [ ] Create a provider-type view and a separate funding-purpose view with links between them.
+- [x] Create a provider-type view and a separate funding-purpose view with links between them.
 
 ### P17.2
 
-- [ ] Show one explicitly illustrative matching example and the reasons a provider may or may not fit.
+- [x] Show one explicitly illustrative matching example and the reasons a provider may or may not fit.
 
 ### P17.3
 
-- [ ] Describe provider categories and supported purposes without names or logos. Keep relationship evidence internally; omit unverified counts rather than treating anonymity as proof.
+- [x] Describe provider categories and supported purposes without names or logos. Keep relationship evidence internally; omit unverified counts rather than treating anonymity as proof.
 
 ### P18.1
 
-- [ ] Retain all five addresses and approved photographs, with each location clearly identified as proposed. Do not require agreements to finish this preview page.
+- [x] Retain all five addresses and approved photographs, with each location clearly identified as proposed. Do not require agreements to finish this preview page.
 
 ### P18.2
 
-- [ ] Verify address format and coordinate purpose; avoid presenting approximate coordinates as a precise premises pin.
+- [x] Verify address format and coordinate purpose; avoid presenting approximate coordinates as a precise premises pin.
 
 ### P18.3
 
-- [ ] Add a central contact action with city context and preserve the distinction between city photography and premises.
+- [x] Add a central contact action with city context and preserve the distinction between city photography and premises.
 
 ### P19.1
 
-- [ ] Lead with the client relationship and useful specialist access; keep procedure concise.
+- [x] Lead with the client relationship and useful specialist access; keep procedure concise.
 
 ### P19.2
 
-- [ ] Show who contacts the client and how updates are agreed.
+- [x] Show who contacts the client and how updates are agreed.
 
 ### P19.3
 
-- [ ] Make the adviser route visible beside contact and in relevant supporting pages; publish only real commercial terms.
+- [x] Make the adviser route visible beside contact and in relevant supporting pages; publish only real commercial terms.
 
 ### P20.1
 
-- [ ] Replace the narrow-screen table with labelled cards or an accessible two-route comparison.
+- [x] Replace the narrow-screen table with labelled cards or an accessible two-route comparison.
 
 ### P20.2
 
-- [ ] Clarify that rows are overlapping structure families, not mutually exclusive product definitions.
+- [x] Clarify that rows are overlapping structure families, not mutually exclusive product definitions.
 
 ### P20.3
 
-- [ ] Move the relevant brief choice earlier and keep cost assumptions explicit in any future example.
+- [x] Move the relevant brief choice earlier and keep cost assumptions explicit in any future example.
 
 ### P21.1
 
-- [ ] Make uncertain-route results neutral and explain why each route is shown.
+- [x] Make uncertain-route results neutral and explain why each route is shown.
 
 ### P21.2
 
-- [ ] Expose preparation and enquiry actions for each result rather than only the first.
+- [x] Expose preparation and enquiry actions for each result rather than only the first.
 
 ### P21.3
 
-- [ ] Test all 24 objective and next-step combinations plus back navigation and keyboard use.
+- [x] Test all 24 objective and next-step combinations plus back navigation and keyboard use.
 
 ### P22.1
 
-- [ ] Keep direct email as the working route and forms disconnected. Show no send success or transmission. Record automated email delivery as a later task under G11.
+- [x] Keep direct email as the working route and forms disconnected. Show no send success or transmission. Record automated email delivery as a later task under G11.
 
 ### P22.2
 
-- [ ] Carry service, solution, guide, adviser or city context into the contact page and a contextual email option without forcing repeated selection.
+- [x] Carry service, solution, guide, adviser or city context into the contact page and a contextual email option without forcing repeated selection.
 
 ### P22.3
 
-- [ ] Add only useful optional qualification and replace generic hero copy with a direct invitation.
+- [x] Add only useful optional qualification and replace generic hero copy with a direct invitation.
 
 ### B01
 
-- [ ] Business Funding — /briefs/credit  |  M effort  |  G13 and approved parent page Work Add a cash-cycle outline and a short existing-facility checklist. Heading direction The questions behind your next facility. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A reader can mistake a generic brief for a provider-specific quotation or assessment.
+- [x] Business Funding — /briefs/credit  |  M effort  |  G13 and approved parent page Work Add a cash-cycle outline and a short existing-facility checklist. Heading direction The questions behind your next facility. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A reader can mistake a generic brief for a provider-specific quotation or assessment.
 
 ### B02
 
-- [ ] Property Finance — /briefs/real-estate  |  M effort  |  G13 and approved parent page Work Add a project summary with costs, equity, programme and exit assumptions; leave values for the user. Heading direction Put the project and the funding on the same page. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A static generic document can circulate while project costs and timetable change.
+- [x] Property Finance — /briefs/real-estate  |  M effort  |  G13 and approved parent page Work Add a project summary with costs, equity, programme and exit assumptions; leave values for the user. Heading direction Put the project and the funding on the same page. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A static generic document can circulate while project costs and timetable change.
 
 ### B03
 
-- [ ] Growth and Ownership Capital — /briefs/private-equity  |  M effort  |  G13 and approved parent page Work Add proceeds purpose, desired ownership outcome and governance questions for shareholders. Heading direction Prepare the shareholder conversation. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A high valuation can dominate discussion while rights and conditions receive too little attention.
+- [x] Growth and Ownership Capital — /briefs/private-equity  |  M effort  |  G13 and approved parent page Work Add proceeds purpose, desired ownership outcome and governance questions for shareholders. Heading direction Prepare the shareholder conversation. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A high valuation can dominate discussion while rights and conditions receive too little attention.
 
 ### B04
 
-- [ ] Venture Funding — /briefs/ventures  |  M effort  |  G13 and approved parent page Work Add a round outline and milestone budget headings, without inventing investment assumptions. Heading direction A round built around the next milestone. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test An overly polished brief can look investor-ready while essential diligence remains incomplete.
+- [x] Venture Funding — /briefs/ventures  |  M effort  |  G13 and approved parent page Work Add a round outline and milestone budget headings, without inventing investment assumptions. Heading direction A round built around the next milestone. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test An overly polished brief can look investor-ready while essential diligence remains incomplete.
 
 ### B05
 
-- [ ] Complex Funding — /briefs/special-situations  |  M effort  |  G13 and approved parent page Work Add deadline, change, stakeholders and required-consent fields; avoid sensitive detail in the web form. Heading direction The situation, the deadline and the next decision. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test The brief must not be treated as an emergency professional assessment.
+- [x] Complex Funding — /briefs/special-situations  |  M effort  |  G13 and approved parent page Work Add deadline, change, stakeholders and required-consent fields; avoid sensitive detail in the web form. Heading direction The situation, the deadline and the next decision. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test The brief must not be treated as an emergency professional assessment.
 
 ### B06
 
-- [ ] Life Sciences Funding — /briefs/life-sciences  |  M effort  |  G13 and approved parent page Work Provide non-confidential milestone, evidence, budget and runway headings with subsector context. Heading direction Frame the capital around the scientific milestone. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test Circulation can inadvertently include unpublished work if the intended boundary is unclear.
+- [x] Life Sciences Funding — /briefs/life-sciences  |  M effort  |  G13 and approved parent page Work Provide non-confidential milestone, evidence, budget and runway headings with subsector context. Heading direction Frame the capital around the scientific milestone. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test Circulation can inadvertently include unpublished work if the intended boundary is unclear.
 
 ### B07
 
-- [ ] Technology and Equipment Funding — /briefs/tech-opportunities  |  M effort  |  G13 and approved parent page Work Focus this brief on the investment and cost categories; route founders to the relevant equity brief. Heading direction Prepare the investment before the installation. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A supplier quote can conceal excluded integration or service costs if the breakdown is absent.
+- [x] Technology and Equipment Funding — /briefs/tech-opportunities  |  M effort  |  G13 and approved parent page Work Focus this brief on the investment and cost categories; route founders to the relevant equity brief. Heading direction Prepare the investment before the installation. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A supplier quote can conceal excluded integration or service costs if the breakdown is absent.
 
 ### B08
 
-- [ ] Sustainability and Impact Funding — /briefs/double-impact  |  M effort  |  G13 and approved parent page Work Add two variants or clear branches: investment economics and impact-led growth evidence. Heading direction Cost the improvement and define the evidence. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test The presence of an environmental objective can be mistaken for preferential funding terms.
+- [x] Sustainability and Impact Funding — /briefs/double-impact  |  M effort  |  G13 and approved parent page Work Add two variants or clear branches: investment economics and impact-led growth evidence. Heading direction Cost the improvement and define the evidence. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test The presence of an environmental objective can be mistaken for preferential funding terms.
 
 ### B09
 
-- [ ] Insurance Sector Capital — /briefs/insurance  |  M effort  |  G13 and approved parent page Work Tailor preparation to the retained existing insurance entity coverage; remove the obsolete request to reconfirm the product set. Distinguish business capital from cover and underwriting capacity. Heading direction Define the insurance business requirement. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A forwarded brief may appear to evidence specialist capability beyond the agreed service.
+- [x] Insurance Sector Capital — /briefs/insurance  |  M effort  |  G13 and approved parent page Work Tailor preparation to the retained existing insurance entity coverage; remove the obsolete request to reconfirm the product set. Distinguish business capital from cover and underwriting capacity. Heading direction Define the insurance business requirement. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A forwarded brief may appear to evidence specialist capability beyond the agreed service.
 
 ### B10
 
-- [ ] Digital Asset Business Funding — /briefs/crypto  |  M effort  |  G13 and approved parent page Work Align the display name and activity questions with the parent page’s digital-asset business audience. Keep /briefs/crypto stable in this release. Heading direction Describe the business behind the digital assets. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A standalone forwarded document can lose the surrounding site explanation and attract the wrong audience.
+- [x] Digital Asset Business Funding — /briefs/crypto  |  M effort  |  G13 and approved parent page Work Align the display name and activity questions with the parent page’s digital-asset business audience. Keep /briefs/crypto stable in this release. Heading direction Describe the business behind the digital assets. Acceptance Use the parent page’s final name, scope and preparation points. Include source date, correct enquiry link and the agreed route-specific outline. Inspect print pagination and mobile reading; keep assumptions labelled. Do not require an email address to read or print. Specific risk to test A standalone forwarded document can lose the surrounding site explanation and attract the wrong audience.
 
 ### U01
 
@@ -266,27 +266,27 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### L01.1
 
-- [ ] Build the branded screen with labelled username and password, show/hide password, Sign In, Forgot Password and contact assistance. No public registration is required.
+- [x] Build the branded screen with labelled username and password, show/hide password, Sign In, Forgot Password and contact assistance. No public registration is required.
 
 ### L01.2
 
-- [ ] Place the lozenge button on the right of desktop navigation and at the top of the expanded mobile menu. No coming-soon, access-unavailable or public development-status notice.
+- [x] Place the lozenge button on the right of desktop navigation and at the top of the expanded mobile menu. No coming-soon, access-unavailable or public development-status notice.
 
 ### L01.3
 
-- [ ] Keep authentication unconnected. Prevent credential transmission, persistence and analytics capture. An attempted sign-in may return a neutral inability-to-complete message with contact assistance; never claim verified account or password validation.
+- [x] Keep authentication unconnected. Prevent credential transmission, persistence and analytics capture. An attempted sign-in may return a neutral inability-to-complete message with contact assistance; never claim verified account or password validation.
 
 ### L02.1
 
-- [ ] Build the matching recovery screen with username/email, recovery action, return-to-login link and contact assistance.
+- [x] Build the matching recovery screen with username/email, recovery action, return-to-login link and contact assistance.
 
 ### L02.2
 
-- [ ] Keep recovery unconnected. Do not transmit or retain entries or claim that a reset email was sent. Offer enquiries@frontiercpx.com for account assistance.
+- [x] Keep recovery unconnected. Do not transmit or retain entries or claim that a reset email was sent. Offer enquiries@frontiercpx.com for account assistance.
 
 ### L02.3
 
-- [ ] Verify routing, keyboard use, labels and responsive layout; confirm no account enumeration, credential storage or recovery network request.
+- [x] Verify routing, keyboard use, labels and responsive layout; confirm no account enumeration, credential storage or recovery network request.
 
 ## Acceptance criteria
 
@@ -324,3 +324,4 @@ A sprint must not be marked Complete or Closed until its development write-up is
 - [ ] Provide handover notes and rollback/recovery guidance where relevant. No new credentials or customer information in documentation.
 
 **Pass rule:** required current-scope acceptance checks pass and the closeout evidence is complete, or each exception has an explicit recorded disposition and owner. Unresolved blockers mean the sprint remains In progress or Blocked. The next sprint may perform independent preparation, but dependent implementation must not assume an unmet acceptance condition is satisfied. Owner release approval remains a separate gate before merge/production release.
+
