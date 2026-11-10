@@ -27,6 +27,22 @@ Mobile menu opening, Solutions expansion, nested closed-state indicator, goal na
 
 External browser-extension metadata errors were observed in the test environment; no site script exception was identified in those logs. GitHub’s Vercel integration reports a successful branch deployment. Browser access to that deployed preview reaches Vercel sign-in; the connected Vercel account cannot find/access this project, and no authenticated CLI is installed. Deployed redirects and page behaviour therefore remain unverified. Local build/browser checks are the verification evidence; no protection setting was weakened.
 
+## Content and decision-support pass — 10 November 2026
+
+Expanded About us with practical business situations, principles and explicit responsibilities. Expanded How it works into five stages with intended results and responsibilities for Frontier, the client and the provider. Added a dedicated adviser route with client-authority and contact-ownership questions.
+
+Added an optional funding guide (eight objectives and three next-step choices), a comparison of borrowing, receivables, assets, equity and property questions, and ten standalone decision briefs. Solution pages link to their specific brief. Guide results are information only, without eligibility assessment or personal-data capture. Home retains its approved hero and gains a supporting guide/comparison section.
+
+Forms now provide a linked error summary, inline errors and focus on the summary. Adviser context changes the firm label and information guidance; callback requires a telephone number only while selected. This supersedes the earlier name-field focus behaviour described above.
+
+Final build: 34 routes, ten solutions, 1,869 local links/anchors and 271 asset references; script syntax, unique IDs, content, preview restrictions and references pass. Browser checks covered guide growth/preparation, uncertain-route/conversation and mobile equipment results; changing a selection hides stale results. Adviser query context, required-field summary/focus, invalid email, callback telephone requirement, removal of that requirement and explicit sample-only success were verified.
+
+The six new/reworked page types (About, process, guide, comparison, adviser and a representative brief) were checked after their headings loaded in 320/390/768 CSS-pixel iframe viewports: no document-level horizontal overflow. The comparison table intentionally scrolls within its own region. Desktop About and mobile guide were visually reviewed. These are responsive browser checks, not physical-device certification. Brief print CSS is included but printed pagination has not been verified.
+
+The local preview server drops queries on its automatic slash redirect. Query-based context was therefore tested on the slash-normalised local contact URL, where it passes. Deployed clean-URL/query behaviour remains a release check because the remote preview is protected.
+
+Saved email-signature source still contains placeholder titles, contact details and Roger's surname. No biographies or operational contacts were inferred from it. See `launch-inputs.md` for the concrete outstanding inputs. No live delivery, measurement or production merge is included.
+
 ## Remaining operating dependencies
 
 - Andy/Roger: actual supported products, partner relationships, geography/entity/stage coverage, exclusions and verified capital bands if published.

@@ -11,7 +11,9 @@ Run `node scripts/build.mjs` with Node 20.11 or later. No package installation i
 - `content/customer-journeys.json`: ten tailored solution/sector journeys, trade-offs, suitability and FAQs.
 - `content/solution-imagery.json`: retained approved concept heroes and photographic illustrations.
 - `scripts/customer-site.mjs`: shared initial-HTML templates, homepage, navigation, hub, supporting pages, 404 and local legacy fallbacks.
-- `assets/customer-journey.css` and `.js`: responsive layout, accessible navigation and preview form interactions.
+- `assets/customer-journey.css` and `.js`: responsive layout and accessible navigation.
+- `scripts/customer-content.mjs`: About, process, adviser route, funding guide, comparison and ten decision briefs.
+- `assets/decision-support.css` and `.js`: guide interactions, accessible preview validation and brief print styles.
 - `vercel.json`: preview indexing restrictions and explicit legacy redirects. When routes change, update this file and the checks together.
 
 The build publishes only the new customer experience and its selected assets. Old captured templates, 80 demonstration profiles, 12 articles and 23 office records remain in source history/reference files but are not emitted or linked in the new build. Do not edit dist.
