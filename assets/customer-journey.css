@@ -61,3 +61,20 @@
 .about-context .context-photo{max-width:900px;margin:0 auto}
 .about-context .context-photo img{max-height:520px;object-fit:contain}
 @media(max-width:850px){.context-intro{gap:24px;margin-bottom:28px}.about-context .context-photo img{max-height:none}.context-photo img{border-radius:6px}}
+
+/* Give concept heroes a clear visual presence without cropping the artwork. */
+@media screen and (min-width:851px){
+ .home-hero .hero-grid,.solution-hero .hero-grid{grid-template-columns:minmax(0,.98fr) minmax(0,1.02fr)}
+ .home-hero .hero-photo,.solution-hero .hero-photo{min-width:0}
+ .home-hero .hero-art,.solution-hero .hero-art{width:110%;max-width:none;height:auto;margin-left:-5%;object-fit:contain}
+}
+@media screen and (max-width:850px){
+ .home-hero .hero-grid,.solution-hero .hero-grid{gap:20px}
+ .home-hero .hero-photo,.solution-hero .hero-photo{width:min(calc(100vw - 24px),520px);max-width:none;justify-self:center;margin-top:0}
+ .home-hero .hero-art,.solution-hero .hero-art{display:block;width:100%;max-width:100%;height:auto;max-height:none;margin:0;object-fit:contain}
+}
+@media screen and (max-width:520px){
+ .home-hero .hero-photo,.solution-hero .hero-photo{width:min(calc(100vw - 24px),440px)}
+ .home-hero .hero-grid,.solution-hero .hero-grid{gap:16px}
+ .home-hero{padding-bottom:28px}
+}
