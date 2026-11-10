@@ -44,3 +44,50 @@ em{color:inherit!important}.cry-ven-banner-section,.cry-ven-about-section{backgr
 /* Homepage image exploration: generated illustrations, ready for later replacement. */
 .path-frontpage .our-people-section{background-image:url('/assets/images/home/team.webp')!important;background-position:center 45%!important}.path-frontpage .our-people-section::before{background:linear-gradient(90deg,#0d233de8 0%,#0d233da6 48%,#0d233d33 100%)}
 .path-frontpage .investment-spotlight-slider .slide-single:nth-child(1) img{object-position:48% center}.path-frontpage .investment-spotlight-slider .slide-single:nth-child(2) img{object-position:48% center}.path-frontpage .investment-spotlight-slider .slide-single:nth-child(3) img{object-position:58% center}
+/* Mobile homepage review: flow layouts instead of inherited desktop positioning. */
+@media(max-width:991px){
+.path-frontpage .banner-tanagram-section{padding:112px 0 36px!important}
+.path-frontpage .banner-title-wrap{margin-bottom:22px!important}
+.path-frontpage .banner-slider-wrap>.row{gap:12px;margin-left:0!important;margin-right:0!important}
+.path-frontpage .banner-slider-col{order:0!important;margin:0!important;padding:0!important}
+.path-frontpage .banner-slide>p{font-size:18px!important;line-height:1.45!important}
+.path-frontpage .banner-tanagram-slider{min-height:142px}
+.path-frontpage .tanagram-anim-col{order:1!important;height:240px!important;overflow:hidden!important}
+.path-frontpage .tanagram-anim-wrap{height:240px!important;overflow:hidden!important}
+.path-frontpage .tanagram-anim-wrap>svg{width:120%!important;max-width:none!important;height:auto!important;aspect-ratio:1274/1106;transform:translate(-7%,-15%)}
+.path-frontpage .banner-nav-slider-wrap{margin-top:16px!important}.path-frontpage .preview-hero-nav{min-height:48px;padding-top:12px;font-size:12px;line-height:1.3}
+.path-frontpage .banner-title{font-size:40px!important;line-height:1.1!important}
+.path-frontpage .platform-anim-circle .nav-link{font-size:18px!important;line-height:1.15!important;word-break:normal;overflow-wrap:normal}.path-frontpage .platform-anim-circle .btn-text{max-width:100%;word-break:normal;overflow-wrap:normal}
+.path-frontpage .investment-spotlight-slider{display:grid!important;grid-template-columns:1fr!important;gap:30px!important;overflow:visible!important;padding:0!important}
+.path-frontpage .investment-spotlight-slider>.slide-single{width:100%!important;min-width:0!important;margin:0!important;padding:0!important}
+.path-frontpage .investment-spotlight-single,.path-frontpage .investment-spotlight-single>a{display:block!important;width:100%!important;height:auto!important;position:static!important;transform:none!important;padding:0!important;margin:0!important}
+.path-frontpage .investment-spotlight-single .image-wrap{display:block!important;position:static!important;width:100%!important;height:auto!important;max-width:none!important;margin:0!important;padding:0!important;transform:none!important}
+.path-frontpage .investment-spotlight-single img{display:block!important;width:100%!important;height:auto!important;aspect-ratio:4/3!important;object-fit:cover!important}
+.path-frontpage .spotlight-content-wrap{position:static!important;width:100%!important;max-width:none!important;margin:16px 0 0!important;padding:0!important;transform:none!important;opacity:1!important}
+.path-frontpage .spotlight-title{font:400 24px/1.25 Arial,Helvetica,sans-serif!important;color:white!important;margin-top:8px!important}
+.path-frontpage .spotlight-tag{font:600 12px/1.3 Arial,Helvetica,sans-serif!important;letter-spacing:.08em;color:#c5d5e3!important}
+.path-frontpage .our-people-section{min-height:520px!important;height:auto!important;padding:80px 0!important;background-position:60% center!important}
+.path-frontpage .our-people-section::before{background:linear-gradient(90deg,#0d233dec,#0d233da6)!important}
+.path-frontpage .our-people-section .section-title{font-size:32px!important;line-height:1.15!important}.path-frontpage .our-people-section .content-text{font-size:17px!important;line-height:1.45!important}
+.path-frontpage .news-listing-home-section *{opacity:1!important}.path-frontpage .news-listing-home-section h2,.path-frontpage .news-listing-home-section h3,.path-frontpage .news-listing-home-section h6,.path-frontpage .news-listing-home-section h6 a{color:#0D233D!important}
+.path-frontpage .news-listing-home-section .btn,.path-frontpage .home-esg-section .btn{color:#0D233D!important;border-color:#0D233D!important;background:transparent!important}
+.path-frontpage .home-page-contact-section{height:auto!important;min-height:0!important;overflow:visible!important;padding:60px 0!important}
+.path-frontpage .contact-map-box{height:auto!important;min-height:0!important}
+.path-frontpage .contact-row{display:block!important;pointer-events:auto!important}
+.path-frontpage .title-drop-col,.path-frontpage .contact-tab-col{width:100%!important;position:static!important;pointer-events:auto!important}
+.path-frontpage .contact-row .title-wrap{margin-bottom:24px!important}.path-frontpage .contact-tab-col{margin-top:24px!important}
+.path-frontpage #regionListTab{display:flex!important;flex-wrap:wrap!important;gap:8px 18px!important;padding:0 0 20px!important;margin:0!important;height:auto!important}
+.path-frontpage #regionListTab li{width:auto!important;margin:0!important;padding:0!important}.path-frontpage #regionListTab a{font-size:16px!important;line-height:1.4!important;padding:10px 0!important;color:#fff!important;min-height:44px}
+.path-frontpage .contact-section .tab-content{position:relative!important;top:auto!important;left:auto!important;width:100%!important;height:auto!important;min-height:0!important}
+.path-frontpage .contact-section .tab-content>.tab-pane{height:auto!important;overflow:visible!important;padding:0!important}
+.path-frontpage .contact-section .map-svg-wrap{position:relative!important;inset:auto!important;height:auto!important;min-height:0!important}
+.path-frontpage .contact-section .preview-world{height:auto!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important}
+.path-frontpage .preview-world-image{width:100%!important;height:auto!important;aspect-ratio:900/520!important}
+.path-frontpage .preview-map-pins{inset:0 0 auto!important;width:100%;height:auto!important;aspect-ratio:900/520!important}
+.path-frontpage .preview-map-pin{width:12px!important;height:12px!important}
+.path-frontpage .contact-section .preview-map-callout{position:relative!important;inset:auto!important;max-width:none!important;margin:20px 0 0!important}
+.path-frontpage .contact-section .dropdown-toggle{color:#fff!important}.path-frontpage .contact-section .dropdown-toggle svg{color:#fff!important}.path-frontpage .contact-section .dropdown-toggle svg path{fill:currentColor!important}
+.path-frontpage .site-footer{padding:44px 0!important}.path-frontpage .site-footer .footermenu{display:flex!important;flex-wrap:wrap;gap:12px 20px}.path-frontpage .site-footer .footermenu a{line-height:1.5!important}
+}
+@media(min-width:600px) and (max-width:991px){.path-frontpage .tanagram-anim-col,.path-frontpage .tanagram-anim-wrap{height:340px!important}.path-frontpage .tanagram-anim-wrap>svg{width:90%!important;transform:translate(8%,-16%)}.path-frontpage .investment-spotlight-slider{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:991px){.path-frontpage .banner-tanagram-slider{min-height:0!important}.path-frontpage .contact-map-box{padding:0!important}.path-frontpage .btn{min-height:44px!important;display:inline-flex;align-items:center;justify-content:center;white-space:normal!important;line-height:1.35!important;padding:10px 18px!important}.path-frontpage .site-footer .footermenu a{display:inline-flex;align-items:center;min-height:44px}.path-frontpage .news-listing-home-section .tag,.path-frontpage .news-listing-home-section .tag-wrap{color:#193853!important}}
