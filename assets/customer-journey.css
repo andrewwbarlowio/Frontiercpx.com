@@ -69,12 +69,12 @@
  .home-hero .hero-art,.solution-hero .hero-art{width:110%;max-width:none;height:auto;margin-left:-5%;object-fit:contain}
 }
 @media screen and (max-width:850px){
- .home-hero .hero-grid,.solution-hero .hero-grid{gap:20px}
- .home-hero .hero-photo,.solution-hero .hero-photo{width:min(calc(100vw - 24px),520px);max-width:none;justify-self:center;margin-top:0}
- .home-hero .hero-art,.solution-hero .hero-art{display:block;width:100%;max-width:100%;height:auto;max-height:none;margin:0;object-fit:contain}
+ .home-hero .hero-grid,.solution-hero .hero-grid{grid-template-columns:minmax(0,1fr);gap:20px}
+ .home-hero .hero-photo,.solution-hero .hero-photo{width:min(calc(100vw + 64px),600px);max-width:none;justify-self:center;margin-top:0}
+ .home-hero .hero-art,.solution-hero .hero-art{display:block;width:100%;max-width:100%;height:auto;max-height:none;margin:0;object-fit:contain;mask-image:radial-gradient(ellipse at 50% 50%,#000 54%,transparent 78%)}
 }
 @media screen and (max-width:520px){
- .home-hero .hero-photo,.solution-hero .hero-photo{width:min(calc(100vw - 24px),440px)}
+ .home-hero .hero-photo,.solution-hero .hero-photo{width:calc(100vw + 64px)}
  .home-hero .hero-grid,.solution-hero .hero-grid{gap:16px}
- .home-hero{padding-bottom:28px}
+ .home-hero,.solution-hero{padding-bottom:20px}
 }
