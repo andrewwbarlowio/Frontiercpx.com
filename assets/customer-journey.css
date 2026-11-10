@@ -35,3 +35,6 @@
 /* Labelled, illustrative client-output structures share a readable editorial rhythm. */
 .illustrative-output{margin-top:42px;padding:32px;border:1px solid #c7d8e3;background:#f5f8fa}.illustrative-output>h3{font-size:28px}.output-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 36px;margin:28px 0}.output-fields>div{border-top:1px solid #c7d8e3;padding-top:18px;min-width:0}.output-fields dt{font-weight:700;font-size:14px}.output-fields dd{margin:10px 0 0;color:#536477;font-size:15px}.illustrative-output .form-note{margin-bottom:0}
 @media(max-width:600px){.illustrative-output{padding:24px}.output-fields{grid-template-columns:1fr;gap:20px}}
+
+/* Group company pages beneath one primary navigation item. */
+.desktop-nav .nav-about .nav-dropdown{left:0;right:auto;width:260px;padding:22px}.nav-about-links a:last-child{border-bottom:0}
