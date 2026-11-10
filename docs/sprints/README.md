@@ -71,7 +71,7 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | G04 | 1 | Complete | Build reusable solution components |
 | G05 | 4 | Planned | Unify the process |
 | G06 | 1 | Complete | Repair the route and category model |
-| G07 | 3 | Planned | Build useful proof assets |
+| G07 | 3 | Complete | Build useful proof assets |
 | G08 | 4 | Planned | Maintain the claims and scope register |
 | G09 | 4 | Planned | Make comparisons usable on mobile |
 | G10 | 1 | In progress | Preserve enquiry intent |
@@ -103,30 +103,30 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | P04.1 | 1 | Complete | Add a project-stage selector or clear stage links feeding the enquiry context. |
 | P04.2 | 1 | Complete | Introduce a labelled development drawdown and exit illustration, with dependencies. |
 | P04.3 | 1 | Complete | Change section language to project, equity, drawdowns, programme and exit; keep qualifications beside the relevant commitment. |
-| P05.1 | 3 | Planned | Split the opening routes by use of proceeds and ownership objective. |
-| P05.2 | 3 | Planned | Add a simple ownership and governance discussion guide, without invented valuations or returns. |
-| P05.3 | 3 | Planned | Make the CTA about the shareholder decision and explain the agreed role before marketing execution support. |
-| P06.1 | 3 | Planned | Retain the milestone concept; use runway, round and investor fit throughout the sections. |
-| P06.2 | 3 | Planned | Add a round-readiness checklist and separate validation from scaling requirements. |
-| P06.3 | 3 | Planned | Replace generic proof with a sample investment-summary structure and confirmed mandate coverage when available. |
-| P07.1 | 3 | Planned | Replace the abstract opening with a requirement and deadline-led message. |
-| P07.2 | 3 | Planned | Add an optional deadline field and explain how the first discussion is triaged. |
-| P07.3 | 3 | Planned | Define the boundary between capital introductions and specialist restructuring work; keep relevant advice signposts visible. |
-| P08.1 | 3 | Planned | Retain the scientific milestone headline and introduce stage-specific content paths. |
-| P08.2 | 3 | Planned | Add a non-confidential milestone brief with evidence, budget, dependencies and runway. |
-| P08.3 | 3 | Planned | Limit public scope to supported subsectors and activities; link laboratory equipment to the appropriate capital route. |
-| P09.1 | 3 | Planned | Make operating-business investment the primary path and route company fundraising immediately to venture or growth capital. |
-| P09.2 | 3 | Planned | Add an expenditure breakdown and implementation timeline, both illustrative. |
-| P09.3 | 3 | Planned | Use installation, capacity and capability language rather than ambition or generic progress. |
-| P10.1 | 3 | Planned | Separate operational investment and impact-led business growth before the main copy. |
-| P10.2 | 3 | Planned | Add a commercial and outcome measurement example without claiming realised savings. |
-| P10.3 | 3 | Planned | Use specific investment language and keep grant availability distinct from the core offering. |
-| P11.1 | 3 | Planned | Carry forward the existing named entities and capital purposes; treat these as the agreed scope rather than an unanswered product decision. |
-| P11.2 | 3 | Planned | Replace broad examples with approved scope and entity-specific preparation. |
-| P11.3 | 3 | Planned | Retain an explicit capital-versus-cover distinction and use a specialist-requirement CTA. |
-| P12.1 | 3 | Planned | Clarify the display name to reflect digital-asset businesses while preserving the existing URL. Do not extend the proposition to data centres, telecoms or cloud infrastructure. |
-| P12.2 | 3 | Planned | Separate operating-company capital from token, retail investment and physical infrastructure routes. |
-| P12.3 | 3 | Planned | Retain a simple activity and jurisdiction enquiry without requesting financial account access. |
+| P05.1 | 3 | Complete | Split the opening routes by use of proceeds and ownership objective. |
+| P05.2 | 3 | Complete | Add a simple ownership and governance discussion guide, without invented valuations or returns. |
+| P05.3 | 3 | Complete | Make the CTA about the shareholder decision and explain the agreed role before marketing execution support. |
+| P06.1 | 3 | Complete | Retain the milestone concept; use runway, round and investor fit throughout the sections. |
+| P06.2 | 3 | Complete | Add a round-readiness checklist and separate validation from scaling requirements. |
+| P06.3 | 3 | Complete | Replace generic proof with a sample investment-summary structure and confirmed mandate coverage when available. |
+| P07.1 | 3 | Complete | Replace the abstract opening with a requirement and deadline-led message. |
+| P07.2 | 3 | Complete | Add an optional deadline field and explain how the first discussion is triaged. |
+| P07.3 | 3 | Complete | Define the boundary between capital introductions and specialist restructuring work; keep relevant advice signposts visible. |
+| P08.1 | 3 | Complete | Retain the scientific milestone headline and introduce stage-specific content paths. |
+| P08.2 | 3 | Complete | Add a non-confidential milestone brief with evidence, budget, dependencies and runway. |
+| P08.3 | 3 | Complete | Limit public scope to supported subsectors and activities; link laboratory equipment to the appropriate capital route. |
+| P09.1 | 3 | Complete | Make operating-business investment the primary path and route company fundraising immediately to venture or growth capital. |
+| P09.2 | 3 | Complete | Add an expenditure breakdown and implementation timeline, both illustrative. |
+| P09.3 | 3 | Complete | Use installation, capacity and capability language rather than ambition or generic progress. |
+| P10.1 | 3 | Complete | Separate operational investment and impact-led business growth before the main copy. |
+| P10.2 | 3 | Complete | Add a commercial and outcome measurement example without claiming realised savings. |
+| P10.3 | 3 | Complete | Use specific investment language and keep grant availability distinct from the core offering. |
+| P11.1 | 3 | Complete | Carry forward the existing named entities and capital purposes; treat these as the agreed scope rather than an unanswered product decision. |
+| P11.2 | 3 | Complete | Replace broad examples with approved scope and entity-specific preparation. |
+| P11.3 | 3 | Complete | Retain an explicit capital-versus-cover distinction and use a specialist-requirement CTA. |
+| P12.1 | 3 | Complete | Clarify the display name to reflect digital-asset businesses while preserving the existing URL. Do not extend the proposition to data centres, telecoms or cloud infrastructure. |
+| P12.2 | 3 | Complete | Separate operating-company capital from token, retail investment and physical infrastructure routes. |
+| P12.3 | 3 | Complete | Retain a simple activity and jurisdiction enquiry without requesting financial account access. |
 | P13.1 | 4 | Planned | Rewrite around Frontier’s role and the client problem it addresses, not another philosophy statement. |
 | P13.2 | 4 | Planned | Use a sample requirement summary or provider-question checklist as visible work quality evidence. |
 | P13.3 | 4 | Planned | Link once to Approach, Expertise and Network; remove their repeated explanations here. |
@@ -179,6 +179,8 @@ Completion requires task-by-task status, change/decision record, tested code com
 
 ## Current execution evidence
 
-Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprint 2 implementation is complete; Sprints 3–5 remain Planned.
+Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprint 2 implementation is complete; Sprint 3 implementation is complete; Sprints 4–5 remain Planned.
 
 Sprint 2: all 22 assigned implementation tasks Complete at `14f5d7a71bbf631fab1a844804b4b00a6aec74b4`. [Closeout](closeouts/sprint-02.md), [architecture](sprint-02-architecture.md) and [evidence](evidence/sprint-02/) record local acceptance and the unchanged protected-deployment verification limit under G10/G15. No claim of G10 completion or production approval.
+
+Sprint 3: all 25 assigned implementation tasks Complete at `3e7db9bdb7cc172875dfb950996517c8afe5d9fd`. [Closeout](closeouts/sprint-03.md), [architecture](sprint-03-architecture.md) and [evidence](evidence/sprint-03/) record ten decision aids, forty width checks and the unchanged protected-deployment verification limit under G10/G15. No production merge.
