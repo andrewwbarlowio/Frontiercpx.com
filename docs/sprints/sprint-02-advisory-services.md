@@ -1,6 +1,6 @@
 # Sprint 2 Advisory Services
 
-**Status:** Planned. No implementation started by these documents.
+**Status:** Complete for implementation and local acceptance at `14f5d7a71bbf631fab1a844804b4b00a6aec74b4`. Owner review Pending. Protected deployment/browser verification remains recorded under G10/G15; see [closeout](closeouts/sprint-02.md).
 
 **Primary work items:** 22. Owners: development for implementation and evidence; Andy/Roger for business facts and release decisions. No fixed duration or dates are committed.
 
@@ -23,91 +23,91 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### G19
 
-- [ ] Connect services to funding journeys — M effort | Dependencies G06 G10 G18 Build Map each service to relevant funding pages and each funding page to relevant support. Use existing rendering architecture. Carry service context into direct-email contact. Done when Every service is reachable from its overview and relevant funding journey; links work both ways; paid services and provider-paid funding remain clear.
+- [x] Connect services to funding journeys — M effort | Dependencies G06 G10 G18 Build Map each service to relevant funding pages and each funding page to relevant support. Use existing rendering architecture. Carry service context into direct-email contact. Done when Every service is reachable from its overview and relevant funding journey; links work both ways; paid services and provider-paid funding remain clear.
 
 ### A00.1
 
-- [ ] Explain the seven services with a clear client situation and deliverable for each.
+- [x] Explain the seven services with a clear client situation and deliverable for each.
 
 ### A00.2
 
-- [ ] Show how clients can buy preparation or analysis independently of a funding introduction.
+- [x] Show how clients can buy preparation or analysis independently of a funding introduction.
 
 ### A00.3
 
-- [ ] Link each service, relevant funding solutions and the canonical process; keep one primary enquiry action.
+- [x] Link each service, relevant funding solutions and the canonical process; keep one primary enquiry action.
 
 ### A01.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A01.2
 
-- [ ] Specify outputs: Funding roadmap, options appraisal and information requirements. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Funding roadmap, options appraisal and information requirements. Include one clearly labelled illustrative example.
 
 ### A01.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Growth/Ownership, Business Funding, Venture Funding.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Growth/Ownership, Business Funding, Venture Funding.
 
 ### A02.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A02.2
 
-- [ ] Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example.
 
 ### A02.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation.
 
 ### A04.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A04.2
 
-- [ ] Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example.
 
 ### A04.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding.
 
 ### A05.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A05.2
 
-- [ ] Specify outputs: Round strategy, investor materials and ownership scenario analysis. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Round strategy, investor materials and ownership scenario analysis. Include one clearly labelled illustrative example.
 
 ### A05.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Venture Funding and Growth/Ownership Capital.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Venture Funding and Growth/Ownership Capital.
 
 ### A06.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A06.2
 
-- [ ] Specify outputs: Issues log, diligence tracker and transaction timetable. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Issues log, diligence tracker and transaction timetable. Include one clearly labelled illustrative example.
 
 ### A06.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property, Growth/Ownership, Venture and Complex Funding.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property, Growth/Ownership, Venture and Complex Funding.
 
 ### A07.1
 
-- [ ] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
+- [x] Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route.
 
 ### A07.2
 
-- [ ] Specify outputs: Periodic capital review, updated forecasts and prioritised actions. Include one clearly labelled illustrative example.
+- [x] Specify outputs: Periodic capital review, updated forecasts and prioritised actions. Include one clearly labelled illustrative example.
 
 ### A07.3
 
-- [ ] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Growth/Ownership and Complex Funding.
+- [x] Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Growth/Ownership and Complex Funding.
 
 ## Acceptance criteria
 
@@ -145,3 +145,4 @@ A sprint must not be marked Complete or Closed until its development write-up is
 - [ ] Provide handover notes and rollback/recovery guidance where relevant. No new credentials or customer information in documentation.
 
 **Pass rule:** required current-scope acceptance checks pass and the closeout evidence is complete, or each exception has an explicit recorded disposition and owner. Unresolved blockers mean the sprint remains In progress or Blocked. The next sprint may perform independent preparation, but dependent implementation must not assume an unmet acceptance condition is satisfied. Owner release approval remains a separate gate before merge/production release.
+

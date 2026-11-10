@@ -31,30 +31,30 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 
 | Task ID | Primary sprint | Current status | Task |
 | --- | --- | --- | --- |
-| A00.1 | 2 | Planned | Explain the seven services with a clear client situation and deliverable for each. |
-| A00.2 | 2 | Planned | Show how clients can buy preparation or analysis independently of a funding introduction. |
-| A00.3 | 2 | Planned | Link each service, relevant funding solutions and the canonical process; keep one primary enquiry action. |
-| A01.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A01.2 | 2 | Planned | Specify outputs: Funding roadmap, options appraisal and information requirements. Include one clearly labelled illustrative example. |
-| A01.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Growth/Ownership, Business Funding, Venture Funding. |
-| A02.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A02.2 | 2 | Planned | Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example. |
-| A02.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation. |
+| A00.1 | 2 | Complete | Explain the seven services with a clear client situation and deliverable for each. |
+| A00.2 | 2 | Complete | Show how clients can buy preparation or analysis independently of a funding introduction. |
+| A00.3 | 2 | Complete | Link each service, relevant funding solutions and the canonical process; keep one primary enquiry action. |
+| A01.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A01.2 | 2 | Complete | Specify outputs: Funding roadmap, options appraisal and information requirements. Include one clearly labelled illustrative example. |
+| A01.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Growth/Ownership, Business Funding, Venture Funding. |
+| A02.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A02.2 | 2 | Complete | Specify outputs: Readiness review, prioritised action list and agreed application or investor pack. Include one clearly labelled illustrative example. |
+| A02.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: All funding solutions, with page-specific preparation. |
 | A03.1 | 1 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
 | A03.2 | 1 | Complete | Specify outputs: Assumption-led model, scenario summary and explanation of funding gaps. Include one clearly labelled illustrative example. |
 | A03.3 | 1 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property Finance, Business Funding, Venture and Growth/Ownership. |
-| A04.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A04.2 | 2 | Planned | Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example. |
-| A04.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding. |
-| A05.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A05.2 | 2 | Planned | Specify outputs: Round strategy, investor materials and ownership scenario analysis. Include one clearly labelled illustrative example. |
-| A05.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Venture Funding and Growth/Ownership Capital. |
-| A06.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A06.2 | 2 | Planned | Specify outputs: Issues log, diligence tracker and transaction timetable. Include one clearly labelled illustrative example. |
-| A06.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property, Growth/Ownership, Venture and Complex Funding. |
-| A07.1 | 2 | Planned | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
-| A07.2 | 2 | Planned | Specify outputs: Periodic capital review, updated forecasts and prioritised actions. Include one clearly labelled illustrative example. |
-| A07.3 | 2 | Planned | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Growth/Ownership and Complex Funding. |
+| A04.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A04.2 | 2 | Complete | Specify outputs: Funding brief, lender approach plan and offer comparison where offers exist. Include one clearly labelled illustrative example. |
+| A04.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Property, Equipment and Complex Funding. |
+| A05.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A05.2 | 2 | Complete | Specify outputs: Round strategy, investor materials and ownership scenario analysis. Include one clearly labelled illustrative example. |
+| A05.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Venture Funding and Growth/Ownership Capital. |
+| A06.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A06.2 | 2 | Complete | Specify outputs: Issues log, diligence tracker and transaction timetable. Include one clearly labelled illustrative example. |
+| A06.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Property, Growth/Ownership, Venture and Complex Funding. |
+| A07.1 | 2 | Complete | Write contextual audience, scope, preparation and FAQs; distinguish advisory support from the associated funding route. |
+| A07.2 | 2 | Complete | Specify outputs: Periodic capital review, updated forecasts and prioritised actions. Include one clearly labelled illustrative example. |
+| A07.3 | 2 | Complete | Add engagement/fee wording, process, related links and the contextual enquiry action. Related funding: Business, Growth/Ownership and Complex Funding. |
 | B01 | 4 | Planned | Business Funding |
 | B02 | 4 | Planned | Property Finance |
 | B03 | 4 | Planned | Growth and Ownership Capital |
@@ -83,7 +83,7 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | G16 | 5 | Planned | Establish conversion measurement |
 | G17 | 1 | Complete | Add the two navigation routes |
 | G18 | 1 | Complete | Build the advisory content model |
-| G19 | 2 | Planned | Connect services to funding journeys |
+| G19 | 2 | Complete | Connect services to funding journeys |
 | G20 | 4 | Planned | Build inactive login and recovery interfaces |
 | L01.1 | 4 | Planned | Build the branded screen with labelled username and password, show/hide password, Sign In, Forgot Password and contact assistance. No public registration is required. |
 | L01.2 | 4 | Planned | Place the lozenge button on the right of desktop navigation and at the top of the expanded mobile menu. No coming-soon, access-unavailable or public development-status notice. |
@@ -179,4 +179,6 @@ Completion requires task-by-task status, change/decision record, tested code com
 
 ## Current execution evidence
 
-Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprints 2–5 remain Planned.
+Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprint 2 implementation is complete; Sprints 3–5 remain Planned.
+
+Sprint 2: all 22 assigned implementation tasks Complete at `14f5d7a71bbf631fab1a844804b4b00a6aec74b4`. [Closeout](closeouts/sprint-02.md), [architecture](sprint-02-architecture.md) and [evidence](evidence/sprint-02/) record local acceptance and the unchanged protected-deployment verification limit under G10/G15. No claim of G10 completion or production approval.
