@@ -89,3 +89,7 @@
  .home-hero-actions .text-link{font-size:13px;gap:8px;min-height:44px}
  .home-hero-actions .icon-arrow{width:16px;height:16px}
 }
+
+/* Contact opens directly onto the enquiry, without a second introduction. */
+.quick-contact>.container{max-width:760px}.quick-contact-heading{margin-bottom:28px}.quick-contact h1{font-size:clamp(34px,4vw,54px)}.quick-contact .lede{margin-top:16px}.direct-contact{margin-top:18px;font-size:15px;overflow-wrap:anywhere}.quick-contact .form-wrap{padding:28px}.contact-options{margin-bottom:20px;border-bottom:1px solid #d4dee6;padding-bottom:12px}.contact-options summary{cursor:pointer;min-height:44px;display:list-item;font-size:14px;font-weight:700}.contact-options[open] summary{margin-bottom:12px}.contact-footnote{font-size:13px;line-height:1.6;color:#bed0df;margin-top:24px}.contact-footnote p+p{margin-top:8px}.contact-footnote>a{display:inline-block;margin-top:14px;min-height:44px}.quick-contact .form-note{font-size:13px}
+@media(max-width:520px){.quick-contact{padding-top:28px}.quick-contact .form-wrap{padding:22px 18px}.quick-contact-heading{margin-bottom:22px}.quick-contact .lede{font-size:17px}}
