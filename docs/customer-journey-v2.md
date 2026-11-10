@@ -25,7 +25,7 @@ Browser review used the supported cloud browser against the local Sites preview.
 
 Mobile menu opening, Solutions expansion, nested closed-state indicator, goal navigation, background inert state and form context were checked. Form tests used sample data: required-field validation focuses the name field; callback reveals/requires telephone; successful preview validation explicitly says nothing was sent or stored. Hero copy contrast, artwork blending and font-independent SVG arrows were corrected during review. Build checks confirm meaningful content without waiting for JavaScript and unique IDs on every page.
 
-External browser-extension metadata errors were observed in the test environment; no site script exception was identified in those logs. Production redirect behaviour and the deployed branch still require their own smoke test after deployment.
+External browser-extension metadata errors were observed in the test environment; no site script exception was identified in those logs. GitHub’s Vercel integration reports a successful branch deployment. Browser access to that deployed preview reaches Vercel sign-in; the connected Vercel account cannot find/access this project, and no authenticated CLI is installed. Deployed redirects and page behaviour therefore remain unverified. Local build/browser checks are the verification evidence; no protection setting was weakened.
 
 ## Remaining operating dependencies
 
