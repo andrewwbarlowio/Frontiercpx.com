@@ -98,3 +98,10 @@ em{color:inherit!important}.cry-ven-banner-section,.cry-ven-about-section{backgr
 .preview-solutions-panel{margin:10px 0 18px;padding:0 0 0 20px;border-left:1px solid #ffffff40}
 .preview-mobile-menu-group .preview-solutions-panel a{font:400 22px/1.35 Arial,Helvetica,sans-serif!important;min-height:44px;display:flex;align-items:center;margin:0;padding:5px 0}
 @media(max-width:359px){.preview-solutions-toggle{font-size:25px}.preview-mobile-menu-group .preview-solutions-panel a{font-size:20px!important}}
+
+/* All current Solutions destinations share the homepage hero treatment. */
+.cry-ven-banner-section,main.preview-solution-hero{background:var(--frontier-background)!important;background-attachment:fixed!important;background-size:100vw 100vh!important;background-position:center top!important;color:#fff!important}
+.cry-ven-banner-section .section-title,.cry-ven-banner-section .title-top-small,.cry-ven-banner-section .banner-caption,.cry-ven-banner-section p,.cry-ven-banner-section em,main.preview-solution-hero h1,main.preview-solution-hero p,main.preview-solution-hero a{color:#fff!important}
+main.preview-solution-hero{width:100%;max-width:none;margin:0;padding:190px max(25px,calc((100vw - 1220px)/2)) 80px;min-height:70vh}
+main.preview-solution-hero h1{max-width:1000px}main.preview-solution-hero>a{display:inline-block;margin-top:20px;text-underline-offset:5px}
+@media(max-width:991px){main.preview-solution-hero{padding:130px 25px 60px;min-height:60vh}main.preview-solution-hero h1{font-size:42px;line-height:1.12;overflow-wrap:break-word}.cry-ven-banner-section .banner-caption{color:#fff!important}}
