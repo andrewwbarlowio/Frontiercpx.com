@@ -1,1 +1,165 @@
-{"framework":null,"buildCommand":"node scripts/build.mjs","outputDirectory":"dist","cleanUrls":true,"trailingSlash":false,"headers":[{"source":"/(.*)","headers":[{"key":"X-Robots-Tag","value":"noindex, nofollow"}]}]}
+{
+  "framework": null,
+  "buildCommand": "node scripts/build.mjs",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/ventures",
+      "destination": "/solutions/venture-funding",
+      "permanent": true
+    },
+    {
+      "source": "/crypto",
+      "destination": "/sectors/digital-infrastructure",
+      "permanent": true
+    },
+    {
+      "source": "/people",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/locations",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/sustainability-and-impact",
+      "destination": "/solutions/sustainability-and-impact",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Credit(?: >)?"
+        }
+      ],
+      "destination": "/solutions/business-funding",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Real Estate(?: >)?"
+        }
+      ],
+      "destination": "/solutions/property-finance",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Private Equity(?: >)?"
+        }
+      ],
+      "destination": "/solutions/growth-and-ownership-capital",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Ventures(?: >)?"
+        }
+      ],
+      "destination": "/solutions/venture-funding",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Special Situations(?: >)?"
+        }
+      ],
+      "destination": "/solutions/complex-funding",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Life Sciences(?: >)?"
+        }
+      ],
+      "destination": "/sectors/life-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Tech Opportunities(?: >)?"
+        }
+      ],
+      "destination": "/solutions/technology-funding",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Double Impact(?: >)?"
+        }
+      ],
+      "destination": "/solutions/sustainability-and-impact",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Insurance(?: >)?"
+        }
+      ],
+      "destination": "/sectors/insurance-capital",
+      "permanent": true
+    },
+    {
+      "source": "/destination",
+      "has": [
+        {
+          "type": "query",
+          "key": "title",
+          "value": "(?:Global )?Crypto(?: >)?"
+        }
+      ],
+      "destination": "/sectors/digital-infrastructure",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}
