@@ -80,3 +80,12 @@
 }
 
 .home-steps{list-style:none;padding:0;margin:0}.home-steps .number{margin-bottom:0}#support .form-note{margin-top:24px;margin-bottom:0}
+
+/* Keep homepage actions on one row at ordinary mobile widths; allow zoom reflow. */
+@media screen and (max-width:600px){
+ .home-hero .home-hero-actions{flex-direction:row;flex-wrap:wrap;align-items:center;gap:12px}
+ .home-hero-actions>a{white-space:nowrap;flex-shrink:0}
+ .home-hero-actions .button{gap:12px;padding-inline:16px}
+ .home-hero-actions .text-link{font-size:13px;gap:8px;min-height:44px}
+ .home-hero-actions .icon-arrow{width:16px;height:16px}
+}
