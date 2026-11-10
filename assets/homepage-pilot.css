@@ -14,14 +14,14 @@
 .homepage-pilot .site-header{padding:24px 0;background:radial-gradient(ellipse at 50% 0%,#193853,#0d233d 85%);border-bottom:1px solid #ffffff1c}
 .homepage-pilot .desktop-nav{gap:20px;font-size:11px;font-weight:600}
 .homepage-pilot .header-inner>.wordmark{width:224px}
-.homepage-pilot .nav-contact{border-radius:9px;background:#345a72;color:#f6f3ed;border-color:#64859a;padding:10px 18px}
+.homepage-pilot .nav-contact{border-radius:7px;background:#315f86;color:#f6f3ed;border-color:#547593;padding:10px 18px}
 .homepage-pilot .client-login{border-radius:9px;border-color:#58748d;font-size:11px}
 .homepage-pilot .nav-dropdown{background:#fff;color:#191f24;border:1px solid #d8dfdf;border-radius:14px;box-shadow:0 24px 60px #020b1633;padding:26px}
 .homepage-pilot .nav-dropdown a{border-color:#e0e5e7;font-size:13px}
 .homepage-pilot .nav-dropdown>a,.homepage-pilot .nav-dropdown .kicker{color:#275d7d}
-.homepage-pilot .button{min-height:48px;border-radius:9px;padding:13px 23px;font-family:inherit;font-size:13px;font-weight:650;gap:20px;transition:transform .2s,background .2s}
-.homepage-pilot .button.light{color:#f6f3ed;background:#345a72;border-color:#64859a}
-.homepage-pilot .button.light:hover,.homepage-pilot .nav-contact:hover{color:#f6f3ed;background:#416d86;border-color:#86a4b5;transform:translateY(-2px)}
+.homepage-pilot .button{min-height:48px;border-radius:7px;padding:13px 23px;font-family:inherit;font-size:13px;font-weight:650;gap:20px;transition:transform .2s,background .2s}
+.homepage-pilot .button.light{color:#f6f3ed;background:#315f86;border-color:#547593}
+.homepage-pilot .button.light:hover,.homepage-pilot .nav-contact:hover{color:#f6f3ed;background:#3b6e97;border-color:#6c91af;transform:translateY(-2px)}
 .homepage-pilot .text-link{font-size:13px;gap:12px;text-decoration-thickness:1px;text-underline-offset:6px;min-height:44px;color:inherit}
 .homepage-pilot a .icon-arrow{transition:transform .2s}
 .homepage-pilot a:hover .icon-arrow{transform:translate(2px,-2px)}
@@ -112,3 +112,11 @@
 @media(max-width:520px){.homepage-pilot .container{width:calc(100% - 40px)}.homepage-pilot .header-inner>.wordmark{width:min(66vw,240px)}.homepage-pilot .site-header{padding-block:17px}.homepage-pilot .home-hero{padding-top:38px}.homepage-pilot .home-hero h1{font-size:clamp(43px,11.4vw,58px)}.homepage-pilot .hero-line{font-size:clamp(21px,5.6vw,26px);line-height:1.35;margin-top:22px}.homepage-pilot .hero-line>span{white-space:nowrap}.homepage-pilot .home-hero .lede{font-size:15px;line-height:1.75;max-width:100%}.homepage-pilot .home-hero-actions{margin-top:25px;gap:18px}.homepage-pilot .home-hero .hero-art{aspect-ratio:1.25;border-radius:9px}.homepage-pilot .section{padding-block:60px}.homepage-pilot h2{font-size:34px;line-height:1.13}.homepage-pilot .section-heading{margin-bottom:30px}.homepage-pilot .section-heading p:last-child:not(.kicker){font-size:15px}.homepage-pilot #ambition .grid{grid-template-columns:1fr;gap:12px}.homepage-pilot .ambition-card{display:flex;min-height:0;padding:24px;gap:22px;border-radius:10px}.homepage-pilot .ambition-copy h3{font-size:23px;max-width:none;padding-right:15px}.homepage-pilot .ambition-copy p{font-size:14px;line-height:1.7;max-width:32ch}.homepage-pilot .context-photo img{aspect-ratio:1.2;border-radius:10px}.homepage-pilot .editorial>p:not(.kicker){font-size:15px;margin-top:20px}.homepage-pilot .service-art{height:220px}.homepage-pilot .service-copy{padding:25px;gap:18px}.homepage-pilot .service-copy h3{font-size:28px}.homepage-pilot .service-copy p{font-size:14px}.homepage-pilot #enquiry{padding-block:65px}.homepage-pilot #enquiry .lede{font-size:15px}.homepage-pilot #enquiry .actions{gap:18px}.homepage-pilot .footer-top{grid-template-columns:1fr}.homepage-pilot .footer-links{gap:12px 24px}}
 @media(prefers-reduced-motion:reduce){.homepage-pilot *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.homepage-pilot,.homepage-pilot .section{background:#fff;color:#191f24}.homepage-pilot .home-hero,.homepage-pilot #support,.homepage-pilot #enquiry{background:#fff;color:#191f24}.homepage-pilot p{color:#46515a!important}.homepage-pilot .service-art,.homepage-pilot .hero-photo{display:none}.homepage-pilot .ambition-card{break-inside:avoid}}
+
+/* Equal-width mobile actions, centred as a single balanced group. */
+@media(max-width:600px){
+ .homepage-pilot .home-hero-actions,.homepage-pilot #enquiry .actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:min(100%,360px);margin-inline:auto;gap:12px;align-items:stretch}
+ .homepage-pilot .home-hero-actions>a,.homepage-pilot #enquiry .actions>a{display:flex;align-items:center;justify-content:center;min-width:0;min-height:48px;width:100%;margin:0;padding:11px 10px;gap:10px;font-size:12px;line-height:1.4;white-space:nowrap}
+ .homepage-pilot .home-hero-actions .icon-arrow,.homepage-pilot #enquiry .actions .icon-arrow{width:16px;height:16px}
+}
+@media(max-width:360px){.homepage-pilot .home-hero-actions>a,.homepage-pilot #enquiry .actions>a{font-size:11px;gap:8px;padding-inline:8px}}
