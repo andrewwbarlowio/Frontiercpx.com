@@ -7,7 +7,7 @@ Baseline: `f293a945c288b1bcbc274c3250d14031638a65c1` (`build/site-refinements-v5
 
 Apply the visual lessons from the ConnexAI and Revolut reviews to Frontier's existing identity. Keep the navigation architecture, route destinations, homepage section order, headings and core copy. Confine the experiment to the homepage until reviewed.
 
-## Design
+## First pilot (superseded by the editorial refinement below)
 
 - Self-hosted variable Manrope, under the bundled SIL Open Font License; the approved logo remains an image and is unchanged.
 - Navy and subtly tinted blue surfaces, localised cyan light, fine borders, consistent corner radii and refined spacing.
@@ -36,3 +36,11 @@ Apply the visual lessons from the ConnexAI and Revolut reviews to Frontier's exi
 ## Review
 
 Assess typography, overall darkness, image balance, mobile density and whether the visual language is suitable for wider rollout. No production merge or site-wide rollout is part of this pilot. Existing contact forms remain disconnected previews.
+
+## Editorial refinement — current review version
+
+Following mobile review, the numerical imagery felt dated and imposed its blue lighting on the whole page. The current homepage removes all numerical illustrations, retains the bull exclusively in the approved header/footer wordmark, and uses a business-owner conversation as its contextual hero photograph. This is an existing AI-generated illustrative asset, not a client or Frontier staff photograph. Its disclosure is visible.
+
+Ink-charcoal, warm-white and neutral surfaces replace the all-navy treatment. The approved blue remains around the wordmark and closing contact invitation. Funding cards are typography-led with small ordinal labels and generous internal spacing. Service photography remains in natural colour, with a clear division between image and copy. The hero supporting sentence has two intentional lines without a stranded final word.
+
+Navigation, routes, homepage section order and core copy are retained. CSS remains homepage-only. Browser frame checks at 320px, 390px and 768px passed for text bounds, document overflow and aligned hero actions; desktop hero and opportunity cards were visually inspected. Physical-device testing is not claimed.
