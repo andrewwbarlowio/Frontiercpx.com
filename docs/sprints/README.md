@@ -167,3 +167,11 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 ## Definition of completion
 
 Every primary ID is completed with evidence, deferred explicitly or blocked on a named input. Original 22 principal pages, ten briefs and six utility routes remain accounted for; add Services overview, seven services and login/recovery. Preserve old URLs and one process redirect. No statement that a business decision is settled proves that a feature has been implemented.
+
+## Sprint documentation and closure
+
+Each sprint has a **mandatory closeout gate**, detailed in its brief. Write development notes as work proceeds, then commit a closeout under `docs/sprints/closeouts/sprint-NN.md`. Use the [closeout template](closeout-template.md). No closeout records exist yet because implementation has not started.
+
+Completion requires task-by-task status, change/decision record, tested code commit and preview, actual verification evidence, known issues and handover. Record engineering status and Andy's review status separately; neither a planning document nor a green deployment closes a sprint. Production approval remains separate.
+
+[Closeout records](closeouts/README.md)

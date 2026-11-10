@@ -130,3 +130,18 @@ Keep the existing branch and approved brand/assets. Forms, authenticated login, 
 - [Sprint index and task register](README.md)
 - [Complete implementation specification](implementation-specification.md)
 - [Deferred operations](deferred-operations.md)
+
+## Mandatory sprint closeout gate
+
+A sprint must not be marked Complete or Closed until its development write-up is committed and the following checks pass. Keep the record in [closeouts](closeouts/) as `sprint-NN.md`, using the [closeout template](closeout-template.md).
+
+- [ ] Every assigned task has a final status, implementing commit, evidence and any remaining action. Never silently carry incomplete work into the next sprint.
+- [ ] Explain what changed and why, including relevant source files, content schemas, routes, shared components and behaviour. Record material decisions and deviations from the agreed specification.
+- [ ] Record the exact tested code commit, branch, environment and preview URLs. If the closeout is a later documentation-only commit, distinguish it from the tested code commit.
+- [ ] Record checks actually run, their results and evidence. Identify unrun checks, pre-existing failures, browser/device/assistive-technology limits and relevant mobile/desktop screenshots. Do not infer functional success from deployment alone.
+- [ ] Document known defects, deferred work, risks and follow-up task/owner. Any change to agreed scope must have an explicit reason and decision; unrelated deferred integrations remain excluded.
+- [ ] Update the master task register and affected architecture, content, route or operating documentation so the next sprint can continue without this conversation.
+- [ ] Record the checkpoint demonstration and Andy's review status accurately as Not requested, Pending, Accepted or Changes requested. Engineering completion does not imply owner acceptance.
+- [ ] Provide handover notes and rollback/recovery guidance where relevant. No new credentials or customer information in documentation.
+
+**Pass rule:** required current-scope acceptance checks pass and the closeout evidence is complete, or each exception has an explicit recorded disposition and owner. Unresolved blockers mean the sprint remains In progress or Blocked. The next sprint may perform independent preparation, but dependent implementation must not assume an unmet acceptance condition is satisfied. Owner release approval remains a separate gate before merge/production release.
