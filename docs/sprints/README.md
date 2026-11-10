@@ -79,8 +79,8 @@ Total: **132 unique primary task assignments: 131 in five sprints and G11 deferr
 | G12 | 4 | In progress | Maintain canonical routes and redirects |
 | G13 | 4 | Complete | Improve the ten decision briefs |
 | G14 | 4 | Complete | Align privacy and website information |
-| G15 | 5 | Planned | Complete journey and accessibility verification |
-| G16 | 5 | Planned | Establish conversion measurement |
+| G15 | 5 | In progress | Complete journey and accessibility verification |
+| G16 | 5 | Complete | Establish conversion measurement |
 | G17 | 1 | Complete | Add the two navigation routes |
 | G18 | 1 | Complete | Build the advisory content model |
 | G19 | 2 | Complete | Connect services to funding journeys |
@@ -179,10 +179,12 @@ Completion requires task-by-task status, change/decision record, tested code com
 
 ## Current execution evidence
 
-Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprint 2 implementation is complete; Sprint 3 implementation is complete; Sprint 4 implementation is delivered with named verification items open; Sprint 5 remains Planned.
+Sprint 1 code: `c4ffe715058fddd5ea9a83f25eeba9c2aa915b22`. See [closeout and task reconciliation](closeouts/sprint-01.md), [architecture](sprint-01-architecture.md) and [evidence](evidence/sprint-01/). G10 is implemented locally but remains In progress because the Vercel preview requires sign-in unavailable to this session. No production merge. Sprint 2 implementation is complete; Sprint 3 implementation is complete; Sprint 4 implementation is delivered with named verification items open; Sprint 5 verification and release preparation delivered; G15 remains In progress for the named protected-deployment checks.
 
 Sprint 2: all 22 assigned implementation tasks Complete at `14f5d7a71bbf631fab1a844804b4b00a6aec74b4`. [Closeout](closeouts/sprint-02.md), [architecture](sprint-02-architecture.md) and [evidence](evidence/sprint-02/) record local acceptance and the unchanged protected-deployment verification limit under G10/G15. No claim of G10 completion or production approval.
 
 Sprint 3: all 25 assigned implementation tasks Complete at `3e7db9bdb7cc172875dfb950996517c8afe5d9fd`. [Closeout](closeouts/sprint-03.md), [architecture](sprint-03-architecture.md) and [evidence](evidence/sprint-03/) record ten decision aids, forty width checks and the unchanged protected-deployment verification limit under G10/G15. No production merge.
 
 Sprint 4: implementation delivered at `d3975ff565e593c24a327c9c7f4c3c40990bd759`; 58 tasks Complete and G12/U01–U06 In progress for deployed HTTP checks and official statutory particulars. [Closeout](closeouts/sprint-04.md), [architecture](sprint-04-architecture.md), [claims register](../claims-and-scope-register.json) and [evidence](evidence/sprint-04/). No production merge, auth or enquiry activation.
+
+Sprint 5: G16 complete with a disabled synthetic measurement contract; G15 In progress. [Closeout](closeouts/sprint-05.md), [release handover](release-handover.md), [measurement](measurement.md) and [full task audit](evidence/sprint-05/task-audit.json). No merge or production approval.

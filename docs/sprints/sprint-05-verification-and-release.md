@@ -1,6 +1,6 @@
 # Sprint 5 Verification and release readiness
 
-**Status:** Planned. No implementation started by these documents.
+**Status:** In progress. Local regression and G16 delivered; protected-deployment acceptance remains open. See closeouts/sprint-05.md.
 
 **Primary work items:** 2. Owners: development for implementation and evidence; Andy/Roger for business facts and release decisions. No fixed duration or dates are committed.
 
@@ -27,7 +27,7 @@ Each ID has one primary sprint assignment. The full source specification and its
 
 ### G16
 
-- [ ] Establish conversion measurement — M effort  |  Dependencies D08 G14; G11 only for future delivery events Build Define funding/service route selection and email-link clicks for the current release, with synthetic checks or a disabled adapter. Defer form delivery and qualified-lead integration. Exclude credentials, personal details and free text from analytics. Done when Event definitions distinguish a click from an email received or funding secured. Permitted collection and tooling are documented before activation. No conversion-uplift claim or target is invented.
+- [x] Establish conversion measurement — M effort  |  Dependencies D08 G14; G11 only for future delivery events Build Define funding/service route selection and email-link clicks for the current release, with synthetic checks or a disabled adapter. Defer form delivery and qualified-lead integration. Exclude credentials, personal details and free text from analytics. Done when Event definitions distinguish a click from an email received or funding secured. Permitted collection and tooling are documented before activation. No conversion-uplift claim or target is invented.
 
 ## Acceptance criteria
 
@@ -65,3 +65,4 @@ A sprint must not be marked Complete or Closed until its development write-up is
 - [ ] Provide handover notes and rollback/recovery guidance where relevant. No new credentials or customer information in documentation.
 
 **Pass rule:** required current-scope acceptance checks pass and the closeout evidence is complete, or each exception has an explicit recorded disposition and owner. Unresolved blockers mean the sprint remains In progress or Blocked. The next sprint may perform independent preparation, but dependent implementation must not assume an unmet acceptance condition is satisfied. Owner release approval remains a separate gate before merge/production release.
+
