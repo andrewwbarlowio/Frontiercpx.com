@@ -35,3 +35,29 @@
 /* Labelled, illustrative client-output structures share a readable editorial rhythm. */
 .illustrative-output{margin-top:42px;padding:32px;border:1px solid #c7d8e3;background:#f5f8fa}.illustrative-output>h3{font-size:28px}.output-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 36px;margin:28px 0}.output-fields>div{border-top:1px solid #c7d8e3;padding-top:18px;min-width:0}.output-fields dt{font-weight:700;font-size:14px}.output-fields dd{margin:10px 0 0;color:#536477;font-size:15px}.illustrative-output .form-note{margin-bottom:0}
 @media(max-width:600px){.illustrative-output{padding:24px}.output-fields{grid-template-columns:1fr;gap:20px}}
+
+/* Group company pages beneath one primary navigation item. */
+.desktop-nav .nav-about .nav-dropdown{left:0;right:auto;width:260px;padding:22px}.nav-about-links a:last-child{border-bottom:0}
+
+/* Carry the navigation palette through expanded panels on every screen. */
+.site-header .nav-dropdown,.site-header .mobile-nav{background:linear-gradient(135deg,#193f5c 0%,#112c45 55%,#0d233d 100%);color:#fff}.site-header .nav-dropdown .kicker{color:#bed0df}.site-header .nav-dropdown a{border-bottom-color:#ffffff26}.site-header .nav-dropdown>a{color:#c3e8fa}.site-header .nav-dropdown a:focus-visible{outline-color:#b6edff}.site-header .nav-dropdown a:hover,.site-header .mobile-nav a:hover{color:#d5f0ff}.site-header .mobile-nav .subnav{border-left-color:#ffffff40}
+
+/* Darker inset panels distinguish mobile subnavigation from its parent. */
+.site-header .mobile-nav .subnav{background:linear-gradient(135deg,#102d45 0%,#0a1f33 60%,#071827 100%);border:1px solid #ffffff1f;border-left:2px solid #49738f;border-radius:6px;padding:12px 18px;margin:8px 0 18px}.site-header .mobile-nav .subnav .subnav{background:linear-gradient(135deg,#0a2033,#05121f);padding:10px 14px}.mobile-nav summary{touch-action:manipulation}
+
+/* A quieter mobile menu with comfortable touch targets. */
+@media(max-width:1200px){.mobile-nav>.mobile-link,.mobile-nav summary{font-size:23px;line-height:1.35;padding:11px 0;min-height:48px}.mobile-nav>.client-login{font-size:18px;padding:8px 18px!important;min-height:44px;margin-bottom:8px}.mobile-nav summary:after{font-size:22px}.mobile-nav .subnav summary{font-size:19px}.mobile-nav .subnav a{font-size:15px;min-height:44px;padding-block:10px}.mobile-nav>a:last-child{font-size:14px}.hamburger,.hamburger:before,.hamburger:after{width:23px}.menu-toggle{width:48px;height:48px}}
+
+/* Compact mobile call-to-action pills, retaining a 44px touch target. */
+@media(max-width:600px){.button{font-size:12px;line-height:1.4;min-height:44px;padding:8px 16px;gap:18px;border-radius:24px}.button .icon-arrow{width:16px;height:16px}}
+
+/* Contextual people illustrations, with natural framing on every screen. */
+.context-photo{margin:0 0 24px;min-width:0}
+.context-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;border-radius:8px}
+.context-photo figcaption{margin-top:8px;font-size:11px;line-height:1.5;color:#536477}
+.context-intro{margin-bottom:36px}
+.context-intro .context-photo{margin:0}
+.about-context{padding-bottom:0}
+.about-context .context-photo{max-width:900px;margin:0 auto}
+.about-context .context-photo img{max-height:520px;object-fit:contain}
+@media(max-width:850px){.context-intro{gap:24px;margin-bottom:28px}.about-context .context-photo img{max-height:none}.context-photo img{border-radius:6px}}
