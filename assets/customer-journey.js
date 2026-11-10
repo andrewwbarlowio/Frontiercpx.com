@@ -6,7 +6,15 @@ const dropdowns=[...document.querySelectorAll('.desktop-nav details')];
 for(const dropdown of dropdowns){dropdown.addEventListener('toggle',()=>{if(dropdown.open)for(const other of dropdowns)if(other!==dropdown)other.open=false;});}
 document.addEventListener('click',ev=>{for(const dropdown of dropdowns)if(!dropdown.contains(ev.target))dropdown.open=false;});
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){const open=dropdowns.find(x=>x.open);if(open){open.open=false;open.querySelector('summary').focus();}}});
-const legacy=document.querySelector('#legacy-destination');if(legacy){const title=new URLSearchParams(location.search).get('title')||'',clean=title.replace(/^Global /,'').replace(/\s*>\s*$/,'').trim(),match=JSON.parse(legacy.dataset.mapping).find(x=>x.title===clean);if(match)location.replace(match.to+location.hash);}
+const legacy=document.querySelector('#legacy-destination');if(legacy){const title=new URLSearchParams(location.search).get('title')||'',clean=title.replace(/^Global /,'').replace(/\s*>\s*$/,'').trim(),match=JSON.parse(legacy.dataset.mapping).find(x=>x.title===clean);location.replace((match?match.to:'/funding-guide')+location.hash);}
+const moved=document.querySelector('[data-redirect]');if(moved)location.replace(moved.dataset.redirect+location.search+location.hash);
 let printDetails=[];window.addEventListener('beforeprint',()=>{printDetails=[...document.querySelectorAll('.faq details')].map(el=>[el,el.open]);for(const [el] of printDetails)el.open=true;});window.addEventListener('afterprint',()=>{for(const [el,open] of printDetails)el.open=open;});
 document.querySelectorAll('[data-print]').forEach(button=>{button.hidden=false;button.addEventListener('click',()=>window.print())});
 })();
+// Local account controls only: no transmission, storage or credential validation.
+(()=>{for(const form of document.querySelectorAll('.auth-form')){const status=form.querySelector('.auth-status'),password=form.querySelector('input[type="password"]'),toggle=form.querySelector('[data-password-toggle]');
+ const clear=()=>{for(const input of form.querySelectorAll('input'))input.value='';if(password)password.type='password';if(toggle){toggle.setAttribute('aria-pressed','false');toggle.textContent='Show password';}};
+ if(toggle){toggle.hidden=false;toggle.addEventListener('click',()=>{const show=password.type==='password';password.type=show?'text':'password';toggle.setAttribute('aria-pressed',String(show));toggle.textContent=show?'Hide password':'Show password';});}
+ function assist(ev){ev.preventDefault();clear();status.hidden=false;status.textContent='Please contact enquiries@frontiercpx.com for assistance with this request.';status.focus();}
+ form.addEventListener('submit',assist);form.querySelector('[data-auth-action]').addEventListener('click',assist);window.addEventListener('pagehide',clear);window.addEventListener('pageshow',clear);
+}})();

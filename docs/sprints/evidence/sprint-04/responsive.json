@@ -1,0 +1,650 @@
+[
+  {
+    "width": 320,
+    "route": "/our-approach",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/our-expertise",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/funding-network",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/global-presence",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/solutions",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/services",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/about-us",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/for-advisers",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/funding-options",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/funding-guide",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/credit",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/real-estate",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/private-equity",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/ventures",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/special-situations",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/life-sciences",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/tech-opportunities",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/double-impact",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/insurance",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/briefs/crypto",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/contact",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/privacy-policy",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/terms-use",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/client-login",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/forgot-password",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 320,
+    "route": "/destination",
+    "client": 305,
+    "scroll": 305
+  },
+  {
+    "width": 390,
+    "route": "/our-approach",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/our-expertise",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/funding-network",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/global-presence",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/solutions",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/services",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/about-us",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/for-advisers",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/funding-options",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/funding-guide",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/credit",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/real-estate",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/private-equity",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/ventures",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/special-situations",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/life-sciences",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/tech-opportunities",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/double-impact",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/insurance",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/briefs/crypto",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/privacy-policy",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/terms-use",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/client-login",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/forgot-password",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 390,
+    "route": "/destination",
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "width": 768,
+    "route": "/our-approach",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/our-expertise",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/funding-network",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/global-presence",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/solutions",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/services",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/about-us",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/for-advisers",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/funding-options",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/funding-guide",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/credit",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/real-estate",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/private-equity",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/ventures",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/special-situations",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/life-sciences",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/tech-opportunities",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/double-impact",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/insurance",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/briefs/crypto",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/contact",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/privacy-policy",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/terms-use",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/client-login",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/forgot-password",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 768,
+    "route": "/destination",
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "width": 1440,
+    "route": "/our-approach",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/our-expertise",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/funding-network",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/global-presence",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/solutions",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/services",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/about-us",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/for-advisers",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/funding-options",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/funding-guide",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/credit",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/real-estate",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/private-equity",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/ventures",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/special-situations",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/life-sciences",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/tech-opportunities",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/double-impact",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/insurance",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/briefs/crypto",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/privacy-policy",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/terms-use",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/client-login",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/forgot-password",
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "width": 1440,
+    "route": "/destination",
+    "client": 1425,
+    "scroll": 1425
+  }
+]

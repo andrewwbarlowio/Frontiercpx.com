@@ -1,0 +1,1 @@
+{"routes":48,"canonicalProcessStages":5,"guideCombinations":24,"briefs":10,"printSectionsPerBrief":2,"proposedLocations":5,"unsupportedScaleClaims":0,"legacyMappings":10,"authScreens":2,"scopeAndInformationChecks":"pass"}

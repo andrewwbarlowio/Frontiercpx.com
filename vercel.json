@@ -6,6 +6,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/how-it-works",
+      "destination": "/our-approach",
+      "permanent": true
+    },
+    {
       "source": "/ventures",
       "destination": "/solutions/venture-funding",
       "permanent": true
@@ -149,6 +154,11 @@
       ],
       "destination": "/sectors/digital-infrastructure",
       "permanent": true
+    },
+    {
+      "source": "/destination",
+      "destination": "/funding-guide",
+      "permanent": false
     }
   ],
   "headers": [

@@ -1,0 +1,218 @@
+[
+  {
+    "goal": "cash-flow",
+    "help": "understand",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "cash-flow",
+    "help": "prepare",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "cash-flow",
+    "help": "talk",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "growth",
+    "help": "understand",
+    "expected": 2,
+    "cards": 2,
+    "briefActions": 2,
+    "enquiryActions": 2,
+    "visible": true
+  },
+  {
+    "goal": "growth",
+    "help": "prepare",
+    "expected": 2,
+    "cards": 2,
+    "briefActions": 2,
+    "enquiryActions": 2,
+    "visible": true
+  },
+  {
+    "goal": "growth",
+    "help": "talk",
+    "expected": 2,
+    "cards": 2,
+    "briefActions": 2,
+    "enquiryActions": 2,
+    "visible": true
+  },
+  {
+    "goal": "equipment",
+    "help": "understand",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "equipment",
+    "help": "prepare",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "equipment",
+    "help": "talk",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "property",
+    "help": "understand",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "property",
+    "help": "prepare",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "property",
+    "help": "talk",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "startup",
+    "help": "understand",
+    "expected": 2,
+    "cards": 2,
+    "briefActions": 2,
+    "enquiryActions": 2,
+    "visible": true
+  },
+  {
+    "goal": "startup",
+    "help": "prepare",
+    "expected": 2,
+    "cards": 2,
+    "briefActions": 2,
+    "enquiryActions": 2,
+    "visible": true
+  },
+  {
+    "goal": "startup",
+    "help": "talk",
+    "expected": 2,
+    "cards": 2,
+    "briefActions": 2,
+    "enquiryActions": 2,
+    "visible": true
+  },
+  {
+    "goal": "ownership",
+    "help": "understand",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "ownership",
+    "help": "prepare",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "ownership",
+    "help": "talk",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "complex",
+    "help": "understand",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "complex",
+    "help": "prepare",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "complex",
+    "help": "talk",
+    "expected": 1,
+    "cards": 1,
+    "briefActions": 1,
+    "enquiryActions": 1,
+    "visible": true
+  },
+  {
+    "goal": "not-sure",
+    "help": "understand",
+    "expected": 0,
+    "cards": 0,
+    "briefActions": 0,
+    "enquiryActions": 0,
+    "visible": true
+  },
+  {
+    "goal": "not-sure",
+    "help": "prepare",
+    "expected": 0,
+    "cards": 0,
+    "briefActions": 0,
+    "enquiryActions": 0,
+    "visible": true
+  },
+  {
+    "goal": "not-sure",
+    "help": "talk",
+    "expected": 0,
+    "cards": 0,
+    "briefActions": 0,
+    "enquiryActions": 0,
+    "visible": true
+  }
+]

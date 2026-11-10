@@ -5,19 +5,17 @@
  const makeLink=(url,label,cls)=>{const a=text('a',label,cls);a.href=url;a.append(arrow());return a;};
  for(const guide of document.querySelectorAll('.funding-guide')){
   const goals=JSON.parse(guide.dataset.guideGoals),form=guide.querySelector('form'),goal=form.elements.goal,help=form.elements.help,result=guide.querySelector('.guide-result');
-  form.querySelector('button').disabled=false;
-  form.addEventListener('submit',ev=>{
-   ev.preventDefault();const choice=goals.find(x=>x.id===goal.value);if(!choice)return;
-   result.replaceChildren(text('p','Information to explore','kicker'),text('h2','Your starting points'),text('p',choice.explain));
-   for(const route of choice.routes){const card=document.createElement('a');card.href=route.url;card.className='goal-card';card.append(text('h3',route.title),text('p',route.description),arrow());result.append(card);}
-   const next=text('div','','guide-next'),first=choice.routes[0];
-   if(!first){next.append(text('h3','Start with your objective.'),text('p','There is no need to select a funding product yet.'),makeLink('/funding-options','Compare funding questions','text-link'),makeLink('/contact?purpose=not-sure&source=%2Ffunding-guide#enquiry','Discuss the objective','text-link'));result.append(next);result.hidden=false;result.focus();return;}
-   if(help.value==='prepare'){next.append(text('h3','Prepare a useful outline.'),text('p','Write down the objective, broad amount and timing, the evidence available and the commitments you need to understand. Keep confidential details for an agreed later stage.'),makeLink('/briefs/'+first.slug,'Read the decision brief','text-link'));}
-   else if(help.value==='talk'){const topic=choice.id==='not-sure'?'not-sure':first.slug;next.append(text('h3','Start with the requirement.'),text('p','You do not need to have chosen a product. Your enquiry can carry a starting topic, which you can change.'),makeLink('/contact?purpose='+encodeURIComponent(topic)+'&goal='+encodeURIComponent(choice.id)+'&source=%2Ffunding-guide#enquiry','Discuss this requirement','text-link'));}
-   else next.append(text('h3','Understand the wider choices.'),text('p','Cost, cash flow, ownership and timing can matter in different ways. Compare the questions before deciding which conversation to pursue.'),makeLink('/funding-options','Compare funding questions','text-link'));
-   result.append(next,text('p','These links are information, not an eligibility assessment, recommendation or funding offer. Service scope and suitability must be established for the actual requirement.','form-note'));result.hidden=false;result.focus();
-  });
+  const helpValues=['understand','prepare','talk'];form.querySelector('button').disabled=false;
+  function render(){const choice=goals.find(x=>x.id===goal.value);if(!choice)return;result.replaceChildren(text('p','Information to explore','kicker'),text('h2','Your starting points'),text('p',choice.explain));
+   if(!choice.routes.length){result.append(text('h3','Begin without a product choice.'),text('p','You can compare commitments, prepare the business objective or discuss what support would help.'),makeLink('/funding-options','Compare funding questions','text-link'),makeLink('/services/funding-readiness','Explore preparation support','text-link'),makeLink('/contact?purpose=not-sure&goal=not-sure&source=%2Ffunding-guide#enquiry','Discuss the objective','text-link'));}
+   for(const route of choice.routes){const card=document.createElement('article');card.className='goal-card';const h=document.createElement('h3');h.append(makeLink(route.url,route.title,''));card.append(h,text('p',route.description));if(help.value==='prepare'){const ul=document.createElement('ul');ul.className='checklist';for(const item of route.prepare)ul.append(text('li',item));card.append(ul);}const actions=text('div','','actions');actions.append(makeLink('/briefs/'+route.slug,'Prepare with the decision brief','text-link'),makeLink('/contact?purpose='+encodeURIComponent(route.slug)+'&goal='+encodeURIComponent(choice.id)+'&source=%2Ffunding-guide#enquiry','Discuss this requirement','text-link'));card.append(actions);result.append(card);}
+   result.append(makeLink('/funding-options','Compare the commitments','text-link'),text('p','Information only, not an eligibility assessment, personalised recommendation or funding offer.','form-note'));result.hidden=false;
+  }
+  function fromUrl(){const q=new URLSearchParams(location.search),g=goals.find(x=>x.id===q.get('goal')),h=q.get('help');if(g&&helpValues.includes(h)){goal.value=g.id;help.value=h;render();}else result.hidden=true;}
+  form.addEventListener('submit',ev=>{ev.preventDefault();const url=new URL(location.href);url.searchParams.set('goal',goal.value);url.searchParams.set('help',help.value);history.pushState(null,'',url);render();result.focus();});
   form.addEventListener('change',()=>{result.hidden=true;});
+  form.addEventListener('reset',ev=>{ev.preventDefault();goal.value=goals[0].id;help.value='understand';const url=new URL(location.href);url.searchParams.delete('goal');url.searchParams.delete('help');history.pushState(null,'',url);result.hidden=true;goal.focus();});
+  window.addEventListener('popstate',fromUrl);fromUrl();
  }
  for(const form of document.querySelectorAll('.enquiry-form')){
   const method=form.elements['contact-method'],phone=form.elements.phone,phoneField=form.querySelector('[data-phone-field]'),topic=form.elements.topic,status=form.querySelector('.form-status'),errors=form.querySelector('.form-errors'),errorList=errors.querySelector('ul');
