@@ -1,0 +1,7 @@
+# Mobile navigation refinements — 10 November 2026
+
+Branch: build/site-refinements-v4. About Us groups About Us, Our Expertise and Our Approach. Expanded navigation uses the shared blue gradient; mobile submenu cards use a darker inset gradient, with a further darker nested tier.
+
+Native details/summary semantics are preserved. Mobile-only click handling animates measured detail height for 280ms using Web Animations. Mid-animation activation reverses from current rendered height. Nested activation settles containing animation before measurement. Closing panels become inert until collapsed. Normal cleanup clears inline layout/animation state. Prefers-reduced-motion bypasses animation, and changing the preference settles active animations; browsers without animate retain native disclosure behavior. No auth/form/analytics changes.
+
+Local build passes: 48 documents, 4,212 internal links/anchors, 372 asset references; JavaScript syntax checked by build. Browser QA at 390px: keyboard opening/closing, rapid reversal, nested Funding and sectors, settled height cleanup and overflow checked; darker background verified via computed style and screenshot. About Us opened to 244.86px and returned to its closed state; nested panel width/scroll both 288px. No site-origin console errors returned. Reduced-motion guard is source-reviewed, not OS-emulation tested. Main unchanged; deployment protection and existing release-check limitations remain as documented in release handover.
