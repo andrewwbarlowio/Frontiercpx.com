@@ -139,17 +139,10 @@
 @media(max-width:360px){.homepage-pilot .campaign-hero{min-height:760px}.homepage-pilot .campaign-plane{height:350px}.homepage-pilot .campaign-scene{top:330px}.homepage-pilot .campaign-hero .lede{font-size:16px}}
 @media print{.homepage-pilot .campaign-scene,.homepage-pilot .campaign-plane{display:none}.homepage-pilot .campaign-hero{min-height:0;display:block}.homepage-pilot .campaign-hero .home-hero-copy{width:100%;padding:20px 0}.homepage-pilot .campaign-hero h1{color:#191f24}}
 
-/* A transparent portrait window; the photograph continues beyond its outline. */
-.homepage-pilot .campaign-window{position:absolute;top:25%;bottom:9%;left:64%;right:5%;border:1.5px solid #f6f3edb3;border-radius:24px;pointer-events:none;display:flex;align-items:flex-end;padding:28px;z-index:0;background:linear-gradient(0deg,#0d233d5c,transparent 40%)}
+/* Focus frame surrounds the subject, with clear space above the head. */
+.homepage-pilot .campaign-window{position:absolute;top:5%;bottom:5%;left:58%;right:4%;border:1.5px solid #f6f3edb3;border-radius:24px;pointer-events:none;display:flex;align-items:flex-end;padding:28px;z-index:0;background:linear-gradient(0deg,#0d233d5c,transparent 40%)}
 .homepage-pilot .campaign-window>span{font-size:clamp(20px,2.2vw,30px);font-weight:500;line-height:1.2;letter-spacing:-.035em;color:#fff;text-shadow:0 1px 10px #0d233d66}
-@media(max-width:850px){.homepage-pilot .campaign-window{top:51%;bottom:5%;left:8%;right:8%;border-radius:20px;padding:24px}.homepage-pilot .campaign-window>span{font-size:28px}}
-@media(max-width:520px){.homepage-pilot .campaign-window{top:56%;bottom:5%;left:6%;right:6%;padding:22px;border-radius:20px}.homepage-pilot .campaign-window>span{font-size:25px}}
+@media(max-width:850px){.homepage-pilot .campaign-plane{height:390px;clip-path:none}.homepage-pilot .campaign-scene{top:390px}.homepage-pilot .campaign-window{top:410px;bottom:24px;left:6%;right:6%;border-radius:20px;padding:24px}.homepage-pilot .campaign-window>span{font-size:28px}}
+@media(max-width:520px){.homepage-pilot .campaign-plane{height:340px}.homepage-pilot .campaign-scene{top:340px}.homepage-pilot .campaign-window{top:360px;padding:22px}.homepage-pilot .campaign-window>span{font-size:25px}}
+@media(max-width:360px){.homepage-pilot .campaign-plane{height:350px}.homepage-pilot .campaign-scene{top:350px}.homepage-pilot .campaign-window{top:370px}}
 @media print{.homepage-pilot .campaign-window{display:none}}
-
-/* Keep the photographic subject clear of the mobile copy panel. */
-@media(max-width:520px){.homepage-pilot .campaign-plane{height:340px;clip-path:none}}
-@media(max-width:360px){.homepage-pilot .campaign-plane{height:350px}}
-
-/* Frame the ambition without drawing a rule across the face. */
-.homepage-pilot .campaign-window{top:38%}
-@media(max-width:850px){.homepage-pilot .campaign-window{top:62%}}
