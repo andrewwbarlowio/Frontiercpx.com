@@ -1,5 +1,7 @@
 # Frontier Capital Partners — website brand application
 
+Current implementation: see [Site-wide editorial design system](editorial-system.md), applied 11 November 2026. The notes below record the earlier 9 November application. Shared Manrope typography, editorial surfaces, refined actions and natural framed photography now supersede the earlier layout defaults.
+
 Applied 9 November 2026 from the saved 22 October Brand System v1. The approved artwork is used directly, not retyped or redrawn.
 
 ## Sources and implementation
