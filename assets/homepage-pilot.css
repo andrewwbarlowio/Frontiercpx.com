@@ -180,3 +180,11 @@
  .homepage-pilot .frontier-intro-button{width:100%;min-height:52px;height:52px;padding:12px 14px;gap:10px;line-height:1.4;font-size:14px;font-weight:600;box-sizing:border-box}
  .homepage-pilot .frontier-intro-button .intro-wave{width:28px;height:25px}
 }
+/* Lock both hero buttons to identical outer dimensions and typography. */
+.homepage-pilot .campaign-hero .home-hero-actions>a.button,
+.homepage-pilot .campaign-hero .frontier-intro-button{height:52px;min-height:52px;max-height:52px;box-sizing:border-box;border-radius:7px;font-size:15px;font-weight:650;line-height:1.4;padding-block:12px}
+@media(max-width:850px){
+ .homepage-pilot .campaign-hero .home-hero-actions>a.button,
+ .homepage-pilot .campaign-hero .frontier-intro-button{width:100%;padding-inline:14px}
+ .homepage-pilot .campaign-hero .frontier-intro-button>span{font:inherit;line-height:inherit}
+}
