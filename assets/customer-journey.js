@@ -59,3 +59,29 @@ document.querySelectorAll('[data-print]').forEach(button=>{button.hidden=false;b
   window.addEventListener('pagehide',reset);window.addEventListener('pageshow',reset);
  }
 })();
+
+// Browser-native speech; no credentials, microphone or remote assistant.
+(()=>{
+ const opener=document.querySelector('[data-open-intro]'),dialog=document.querySelector('.frontier-intro-dialog');
+ if(!opener||!dialog)return;
+ const play=dialog.querySelector('[data-intro-play]'),stop=dialog.querySelector('[data-intro-stop]'),status=dialog.querySelector('.intro-status');
+ const available='speechSynthesis' in window&&'SpeechSynthesisUtterance' in window;
+ let utterance=null;
+ function reset(){play.disabled=false;play.textContent='Play introduction';stop.hidden=true}
+ function cancel(){if(available)window.speechSynthesis.cancel();utterance=null;reset()}
+ opener.addEventListener('click',()=>{dialog.showModal();status.textContent=available?'Listen to the introduction, or read it below.':'Audio isn’t available in this browser. You can read the introduction below.';play.hidden=!available});
+ dialog.querySelector('[data-close-intro]').addEventListener('click',()=>dialog.close());
+ dialog.addEventListener('close',()=>{cancel();opener.focus()});
+ stop.addEventListener('click',()=>{cancel();status.textContent='Playback stopped.'});
+ play.addEventListener('click',()=>{
+  if(!available||utterance)return;
+  utterance=new SpeechSynthesisUtterance(dialog.querySelector('#intro-transcript').textContent);
+  utterance.lang='en-GB';utterance.rate=1;
+  const voice=window.speechSynthesis.getVoices().find(v=>v.lang==='en-GB');if(voice)utterance.voice=voice;
+  play.disabled=true;play.textContent='Playing…';stop.hidden=false;status.textContent='Playing introduction.';
+  utterance.onend=()=>{utterance=null;reset();status.textContent='Ready to talk about your ambition?'};
+  utterance.onerror=()=>{if(!utterance)return;utterance=null;reset();status.textContent='Playback is unavailable. Read the introduction above.'};
+  window.speechSynthesis.speak(utterance);
+ });
+ window.addEventListener('pagehide',cancel);
+})();
