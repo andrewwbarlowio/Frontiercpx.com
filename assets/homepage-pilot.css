@@ -153,3 +153,15 @@
 .homepage-pilot .campaign-hero .lede{margin-top:20px}
 @media(max-width:850px){.homepage-pilot .campaign-hero{min-height:900px}.homepage-pilot .campaign-plane{height:410px}.homepage-pilot .campaign-scene{top:410px}.homepage-pilot .campaign-window{top:430px}.homepage-pilot .campaign-promise{font-size:25px;margin-top:20px}}
 @media(max-width:520px){.homepage-pilot .campaign-hero{min-height:860px}.homepage-pilot .campaign-promise{font-size:23px;margin-top:20px}.homepage-pilot .campaign-hero .lede{margin-top:18px}.homepage-pilot .campaign-stamp{width:34px}}
+
+/* Spoken introduction: same 52px control height as the hero CTA. */
+.homepage-pilot .home-intro-action{margin-top:16px}
+.homepage-pilot .frontier-intro-button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;gap:12px;padding:12px 18px;border:1px solid #8198b366;border-radius:8px;background:#071426d9;color:#fff;font:inherit;font-size:15px;cursor:pointer}
+.homepage-pilot .frontier-intro-button:hover{background:#10243b;border-color:#88b7ed}
+.homepage-pilot .frontier-intro-button:focus-visible,.frontier-intro-dialog button:focus-visible{outline:3px solid #89d6ff;outline-offset:4px}
+.intro-wave{width:30px;height:26px;flex:none}.intro-play{width:10px;height:12px;flex:none;margin-left:4px}
+.frontier-intro-dialog{width:min(540px,calc(100% - 32px));max-height:calc(100dvh - 32px);padding:0;border:1px solid #45617f;border-radius:16px;background:#081525;color:#f5f7fa;box-shadow:0 24px 100px #0008}
+.frontier-intro-dialog::backdrop{background:#020812cc;backdrop-filter:blur(5px)}
+.intro-dialog-body{padding:40px 30px 30px;position:relative}.intro-dialog-body h2{font-size:32px;margin:12px 0 22px}.intro-dialog-body p{line-height:1.75}.intro-close{position:absolute;right:12px;top:8px;background:none;border:0;color:#fff;font-size:30px;width:44px;height:44px;cursor:pointer}
+.intro-controls{display:flex;align-items:center;gap:18px;margin-top:24px}.intro-stop{background:none;color:#fff;border:0;text-decoration:underline;cursor:pointer;font:inherit}.intro-status{font-size:14px;color:#b8d0e8;min-height:24px}.frontier-intro-dialog .text-link{color:#c5e4ff}
+@media(max-width:600px){.homepage-pilot .home-intro-action{text-align:center}.homepage-pilot .frontier-intro-button{max-width:100%;font-size:14px;gap:10px}.intro-dialog-body{padding:42px 22px 24px}}
