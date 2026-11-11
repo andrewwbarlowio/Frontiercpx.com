@@ -36,10 +36,26 @@ const moved=document.querySelector('[data-redirect]');if(moved)location.replace(
 let printDetails=[];window.addEventListener('beforeprint',()=>{printDetails=[...document.querySelectorAll('.faq details')].map(el=>[el,el.open]);for(const [el] of printDetails)el.open=true;});window.addEventListener('afterprint',()=>{for(const [el,open] of printDetails)el.open=open;});
 document.querySelectorAll('[data-print]').forEach(button=>{button.hidden=false;button.addEventListener('click',()=>window.print())});
 })();
-// Local account controls only: no transmission, storage or credential validation.
-(()=>{for(const form of document.querySelectorAll('.auth-form')){const status=form.querySelector('.auth-status'),password=form.querySelector('input[type="password"]'),toggle=form.querySelector('[data-password-toggle]');
- const clear=()=>{for(const input of form.querySelectorAll('input'))input.value='';if(password)password.type='password';if(toggle){toggle.setAttribute('aria-pressed','false');toggle.textContent='Show password';}};
- if(toggle){toggle.hidden=false;toggle.addEventListener('click',()=>{const show=password.type==='password';password.type=show?'text':'password';toggle.setAttribute('aria-pressed',String(show));toggle.textContent=show?'Hide password':'Show password';});}
- function assist(ev){ev.preventDefault();clear();status.hidden=false;status.textContent='Please contact enquiries@frontiercpx.com for assistance with this request.';status.focus();}
- form.addEventListener('submit',assist);form.querySelector('[data-auth-action]').addEventListener('click',assist);window.addEventListener('pagehide',clear);window.addEventListener('pageshow',clear);
-}})();
+// Local account interaction preview: no requests, storage, sessions or successful sign-in.
+(()=>{
+ for(const form of document.querySelectorAll('.auth-form')){
+  const username=form.elements.username,password=form.elements.password,toggle=form.querySelector('[data-password-toggle]'),button=form.querySelector('.auth-submit'),status=form.querySelector('.auth-status'),progress=form.querySelector('.auth-progress'),caps=form.querySelector('.auth-caps');
+  const recovery=form.dataset.authMode==='recovery',idleLabel=button.textContent;let pending=null;
+  function hidePassword(){if(!password)return;password.type='password';toggle.setAttribute('aria-pressed','false');toggle.setAttribute('aria-label','Show password');toggle.title='Show password';}
+  function clearError(input){input.removeAttribute('aria-invalid');input.removeAttribute('aria-describedby');const error=document.getElementById(input.id+'-error');if(error){error.hidden=true;error.textContent='';}}
+  function fieldError(input,message){const error=document.getElementById(input.id+'-error');error.textContent=message;error.hidden=false;input.setAttribute('aria-invalid','true');input.setAttribute('aria-describedby',error.id);}
+  function reset(){clearTimeout(pending);pending=null;form.removeAttribute('aria-busy');button.disabled=false;button.textContent=idleLabel;progress.textContent='';status.hidden=true;status.textContent='';for(const input of form.querySelectorAll('input')){input.value='';clearError(input);}hidePassword();if(caps)caps.hidden=true;}
+  if(toggle){toggle.hidden=false;toggle.addEventListener('click',()=>{const show=password.type==='password';password.type=show?'text':'password';toggle.setAttribute('aria-pressed',String(show));toggle.setAttribute('aria-label',show?'Hide password':'Show password');toggle.title=show?'Hide password':'Show password';});}
+  if(password){for(const event of ['keydown','keyup'])password.addEventListener(event,e=>{caps.hidden=!e.getModifierState('CapsLock');});password.addEventListener('blur',()=>{caps.hidden=true;});}
+  button.disabled=false;
+  form.addEventListener('input',e=>{if(e.target.matches('input'))clearError(e.target);status.hidden=true;});
+  form.addEventListener('submit',e=>{
+   e.preventDefault();if(pending)return;status.hidden=true;let first=null;
+   for(const input of form.querySelectorAll('input')){clearError(input);if(input===username?!input.value.trim():!input.value){fieldError(input,input===username?'Enter your email or username.':'Enter your password.');first=first||input;}}
+   if(first){first.focus();return;}
+   hidePassword();form.setAttribute('aria-busy','true');button.disabled=true;button.textContent=recovery?'Continuing…':'Signing in…';progress.textContent=recovery?'Preparing account assistance.':'Signing in.';
+   pending=setTimeout(()=>{pending=null;form.removeAttribute('aria-busy');button.disabled=false;button.textContent=idleLabel;progress.textContent='';if(password)password.value='';hidePassword();status.textContent=recovery?'Password recovery is not connected in this preview. Please contact Frontier for account assistance.':'We couldn’t sign you in. Check your details and try again.';status.hidden=false;status.focus();},650);
+  });
+  window.addEventListener('pagehide',reset);window.addEventListener('pageshow',reset);
+ }
+})();
