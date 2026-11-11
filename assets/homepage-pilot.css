@@ -141,8 +141,15 @@
 
 /* Focus frame surrounds the subject, with clear space above the head. */
 .homepage-pilot .campaign-window{position:absolute;top:5%;bottom:5%;left:58%;right:4%;border:1.5px solid #f6f3edb3;border-radius:24px;pointer-events:none;display:flex;align-items:flex-end;padding:28px;z-index:0;background:linear-gradient(0deg,#0d233d5c,transparent 40%)}
-.homepage-pilot .campaign-window>span{font-size:clamp(20px,2.2vw,30px);font-weight:500;line-height:1.2;letter-spacing:-.035em;color:#fff;text-shadow:0 1px 10px #0d233d66}
-@media(max-width:850px){.homepage-pilot .campaign-plane{height:390px;clip-path:none}.homepage-pilot .campaign-scene{top:390px}.homepage-pilot .campaign-window{top:410px;bottom:24px;left:6%;right:6%;border-radius:20px;padding:24px}.homepage-pilot .campaign-window>span{font-size:28px}}
-@media(max-width:520px){.homepage-pilot .campaign-plane{height:340px}.homepage-pilot .campaign-scene{top:340px}.homepage-pilot .campaign-window{top:360px;padding:22px}.homepage-pilot .campaign-window>span{font-size:25px}}
+
+@media(max-width:850px){.homepage-pilot .campaign-plane{height:390px;clip-path:none}.homepage-pilot .campaign-scene{top:390px}.homepage-pilot .campaign-window{top:410px;bottom:24px;left:6%;right:6%;border-radius:20px;padding:24px}}
+@media(max-width:520px){.homepage-pilot .campaign-plane{height:340px}.homepage-pilot .campaign-scene{top:340px}.homepage-pilot .campaign-window{top:360px;padding:22px}}
 @media(max-width:360px){.homepage-pilot .campaign-plane{height:350px}.homepage-pilot .campaign-scene{top:350px}.homepage-pilot .campaign-window{top:370px}}
 @media print{.homepage-pilot .campaign-window{display:none}}
+
+/* Wordmark-derived F is a consistent stamp, anchored inside the focus frame. */
+.homepage-pilot .campaign-stamp{display:block;width:42px;height:auto;color:#f6f3ed;filter:drop-shadow(0 1px 5px #0d233d55)}
+.homepage-pilot .campaign-promise{font-size:clamp(23px,2.25vw,31px);font-weight:500;line-height:1.35;letter-spacing:-.025em;color:#f6f3ed;margin:24px 0 0}
+.homepage-pilot .campaign-hero .lede{margin-top:20px}
+@media(max-width:850px){.homepage-pilot .campaign-hero{min-height:900px}.homepage-pilot .campaign-plane{height:410px}.homepage-pilot .campaign-scene{top:410px}.homepage-pilot .campaign-window{top:430px}.homepage-pilot .campaign-promise{font-size:25px;margin-top:20px}}
+@media(max-width:520px){.homepage-pilot .campaign-hero{min-height:860px}.homepage-pilot .campaign-promise{font-size:23px;margin-top:20px}.homepage-pilot .campaign-hero .lede{margin-top:18px}.homepage-pilot .campaign-stamp{width:34px}}
