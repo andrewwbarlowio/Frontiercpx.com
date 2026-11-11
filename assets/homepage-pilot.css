@@ -123,3 +123,33 @@
  .homepage-pilot .home-hero-actions>a{gap:8px;padding-inline:4px}
  .homepage-pilot #enquiry .actions{grid-template-columns:minmax(0,1fr);max-width:280px;gap:8px}
 }
+/* Campaign hero: photography, a single large plane and live type form one composition. */
+.homepage-pilot .campaign-hero{position:relative;isolation:isolate;padding:0;min-height:740px;display:flex;align-items:center;overflow:hidden;background:#191f24}
+.homepage-pilot .campaign-scene{position:absolute;inset:0;z-index:-3;display:block}
+.homepage-pilot .campaign-scene img{width:100%;height:100%;object-fit:cover;object-position:70% 42%;display:block}
+.homepage-pilot .campaign-plane{position:absolute;inset:0 auto 0 0;width:57%;z-index:-1;background:linear-gradient(110deg,#0d233df0,#193853d9);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);backdrop-filter:blur(2px);pointer-events:none}
+.homepage-pilot .campaign-hero .home-hero-copy{display:block;width:52%;min-width:0;padding:80px 36px 94px 0}
+.homepage-pilot .campaign-hero h1{font-size:clamp(58px,6vw,86px);line-height:1.04;letter-spacing:-.055em;max-width:100%;color:#f8f7f3}
+.homepage-pilot .campaign-hero .lede{font-size:20px;line-height:1.6;max-width:31ch;margin-top:28px;color:#e0e7e9}
+.homepage-pilot .campaign-hero .home-hero-actions{margin-top:32px}
+@media(min-width:1600px){.homepage-pilot .campaign-hero{min-height:820px}.homepage-pilot .campaign-scene img{object-position:70% 40%}}
+@media(max-width:1050px) and (min-width:851px){.homepage-pilot .campaign-hero .home-hero-copy{width:55%;padding-right:24px}.homepage-pilot .campaign-plane{width:60%}.homepage-pilot .campaign-hero h1{font-size:64px}.homepage-pilot .campaign-hero .lede{font-size:18px}}
+@media(max-width:850px){.homepage-pilot .campaign-hero{min-height:840px;align-items:flex-start}.homepage-pilot .campaign-scene{top:280px}.homepage-pilot .campaign-scene img{object-position:80% 28%}.homepage-pilot .campaign-plane{width:100%;height:425px;background:linear-gradient(180deg,#0d233d 55%,#193853eb);clip-path:polygon(0 0,100% 0,100% 88%,90% 88%,90% 100%,0 100%);backdrop-filter:none}.homepage-pilot .campaign-hero .home-hero-copy{width:100%;padding:46px 0 0;max-width:620px}.homepage-pilot .campaign-hero h1{font-size:64px}.homepage-pilot .campaign-hero .lede{font-size:18px;max-width:38ch;margin-top:22px}.homepage-pilot .campaign-hero .home-hero-actions{margin:26px 0 0;max-width:360px}}
+@media(max-width:520px){.homepage-pilot .campaign-hero{min-height:790px}.homepage-pilot .campaign-hero .home-hero-copy{padding-top:38px}.homepage-pilot .campaign-hero h1{font-size:clamp(44px,12.3vw,62px)}.homepage-pilot .campaign-hero .lede{font-size:17px;line-height:1.65;max-width:32ch;margin-top:22px}.homepage-pilot .campaign-hero .home-hero-actions{margin:25px auto 0}.homepage-pilot .campaign-plane{height:340px}.homepage-pilot .campaign-scene{top:310px}.homepage-pilot .campaign-scene img{object-position:79% 25%}}
+@media(max-width:360px){.homepage-pilot .campaign-hero{min-height:760px}.homepage-pilot .campaign-plane{height:350px}.homepage-pilot .campaign-scene{top:330px}.homepage-pilot .campaign-hero .lede{font-size:16px}}
+@media print{.homepage-pilot .campaign-scene,.homepage-pilot .campaign-plane{display:none}.homepage-pilot .campaign-hero{min-height:0;display:block}.homepage-pilot .campaign-hero .home-hero-copy{width:100%;padding:20px 0}.homepage-pilot .campaign-hero h1{color:#191f24}}
+
+/* A transparent portrait window; the photograph continues beyond its outline. */
+.homepage-pilot .campaign-window{position:absolute;top:25%;bottom:9%;left:64%;right:5%;border:1.5px solid #f6f3edb3;border-radius:24px;pointer-events:none;display:flex;align-items:flex-end;padding:28px;z-index:0;background:linear-gradient(0deg,#0d233d5c,transparent 40%)}
+.homepage-pilot .campaign-window>span{font-size:clamp(20px,2.2vw,30px);font-weight:500;line-height:1.2;letter-spacing:-.035em;color:#fff;text-shadow:0 1px 10px #0d233d66}
+@media(max-width:850px){.homepage-pilot .campaign-window{top:51%;bottom:5%;left:8%;right:8%;border-radius:20px;padding:24px}.homepage-pilot .campaign-window>span{font-size:28px}}
+@media(max-width:520px){.homepage-pilot .campaign-window{top:56%;bottom:5%;left:6%;right:6%;padding:22px;border-radius:20px}.homepage-pilot .campaign-window>span{font-size:25px}}
+@media print{.homepage-pilot .campaign-window{display:none}}
+
+/* Keep the photographic subject clear of the mobile copy panel. */
+@media(max-width:520px){.homepage-pilot .campaign-plane{height:340px;clip-path:none}}
+@media(max-width:360px){.homepage-pilot .campaign-plane{height:350px}}
+
+/* Frame the ambition without drawing a rule across the face. */
+.homepage-pilot .campaign-window{top:38%}
+@media(max-width:850px){.homepage-pilot .campaign-window{top:62%}}
