@@ -7,9 +7,10 @@
     "address": "315 Montgomery Street, Suite 900, San Francisco, CA 94104",
     "alt": "Golden Gate Bridge spanning San Francisco Bay",
     "source": "https://pacificworkplaces.com/locations/san-francisco/",
-    "status": "Proposed address \u00b7 agreement pending",
+    "status": "Established office space",
     "verifiedDate": "2026-11-10",
-    "mailingCaveat": "Address format checked against workspace provider; no Frontier occupancy agreement."
+    "statusConfirmedDate": "2026-11-11",
+    "statusSource": "Confirmed by Andy"
   },
   {
     "slug": "new-york",
@@ -19,9 +20,10 @@
     "address": "14 Wall Street, 20th Floor, New York, NY 10005",
     "alt": "Lower Manhattan Financial District skyline across the water",
     "source": "https://www.regus.com/en/us/new-york/virtual-offices",
-    "status": "Proposed address \u00b7 agreement pending",
+    "status": "Established office space",
     "verifiedDate": "2026-11-10",
-    "mailingCaveat": "Address format checked against workspace provider; no Frontier occupancy agreement."
+    "statusConfirmedDate": "2026-11-11",
+    "statusSource": "Confirmed by Andy"
   },
   {
     "slug": "london",
@@ -31,9 +33,10 @@
     "address": "Level 1, One Mayfair Place, London, W1J 8AJ",
     "alt": "Canary Wharf financial district skyline in London",
     "source": "https://www.servcorp.co.uk/en/locations/london/one-mayfair-place/",
-    "status": "Proposed address \u00b7 agreement pending",
+    "status": "Established office space",
     "verifiedDate": "2026-11-10",
-    "mailingCaveat": "Address format checked against workspace provider; no Frontier occupancy agreement."
+    "statusConfirmedDate": "2026-11-11",
+    "statusSource": "Confirmed by Andy"
   },
   {
     "slug": "abu-dhabi",
@@ -43,9 +46,10 @@
     "address": "Al Maqam Tower, ADGM Square, Al Maryah Island, Abu Dhabi, UAE",
     "alt": "Al Maryah Island waterfront and ADGM office buildings in Abu Dhabi",
     "source": "https://www.regus.com/nb/ae/abu-dhabi",
-    "status": "Proposed address \u00b7 agreement pending",
+    "status": "Established office space",
     "verifiedDate": "2026-11-10",
-    "mailingCaveat": "Exact mailing details and floor to be agreed before use."
+    "statusConfirmedDate": "2026-11-11",
+    "statusSource": "Confirmed by Andy"
   },
   {
     "slug": "singapore",
@@ -53,10 +57,11 @@
     "region": "Asia Pacific",
     "provider": "Servcorp",
     "address": "Level 39, Marina Bay Financial Centre Tower 2, 10 Marina Boulevard, Singapore 018983",
-    "alt": "Office towers in Singapore\u2019s central business district",
+    "alt": "Office towers in Singapore’s central business district",
     "source": "https://www.servcorp.com.sg/en/serviced-offices/locations/",
-    "status": "Proposed address \u00b7 agreement pending",
+    "status": "Established office space",
     "verifiedDate": "2026-11-10",
-    "mailingCaveat": "Address format checked against workspace provider; no Frontier occupancy agreement."
+    "statusConfirmedDate": "2026-11-11",
+    "statusSource": "Confirmed by Andy"
   }
 ]

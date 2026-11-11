@@ -1,63 +1,63 @@
 [
   {
     "id": "location-san-francisco",
-    "wording": "315 Montgomery Street, Suite 900, San Francisco, CA 94104 — Proposed address · agreement pending",
+    "wording": "315 Montgomery Street, Suite 900, San Francisco, CA 94104 — Established office space",
     "surfaces": [
       "/global-presence"
     ],
-    "evidence": "https://pacificworkplaces.com/locations/san-francisco/",
+    "evidence": "https://pacificworkplaces.com/locations/san-francisco/; established office status confirmed by Andy on 11 November 2026",
     "owner": "Andy and Roger",
-    "status": "Proposed; address format source-checked, no occupancy agreement",
-    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
-    "review": "2026-11-10"
+    "status": "Established office space; owner-confirmed",
+    "rights": "Office-space status confirmed by Andy; city photograph rights are recorded separately.",
+    "review": "2026-11-11"
   },
   {
     "id": "location-new-york",
-    "wording": "14 Wall Street, 20th Floor, New York, NY 10005 — Proposed address · agreement pending",
+    "wording": "14 Wall Street, 20th Floor, New York, NY 10005 — Established office space",
     "surfaces": [
       "/global-presence"
     ],
-    "evidence": "https://www.regus.com/en/us/new-york/virtual-offices",
+    "evidence": "https://www.regus.com/en/us/new-york/virtual-offices; established office status confirmed by Andy on 11 November 2026",
     "owner": "Andy and Roger",
-    "status": "Proposed; address format source-checked, no occupancy agreement",
-    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
-    "review": "2026-11-10"
+    "status": "Established office space; owner-confirmed",
+    "rights": "Office-space status confirmed by Andy; city photograph rights are recorded separately.",
+    "review": "2026-11-11"
   },
   {
     "id": "location-london",
-    "wording": "Level 1, One Mayfair Place, London, W1J 8AJ — Proposed address · agreement pending",
+    "wording": "Level 1, One Mayfair Place, London, W1J 8AJ — Established office space",
     "surfaces": [
       "/global-presence"
     ],
-    "evidence": "https://www.servcorp.co.uk/en/locations/london/one-mayfair-place/",
+    "evidence": "https://www.servcorp.co.uk/en/locations/london/one-mayfair-place/; established office status confirmed by Andy on 11 November 2026",
     "owner": "Andy and Roger",
-    "status": "Proposed; address format source-checked, no occupancy agreement",
-    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
-    "review": "2026-11-10"
+    "status": "Established office space; owner-confirmed",
+    "rights": "Office-space status confirmed by Andy; city photograph rights are recorded separately.",
+    "review": "2026-11-11"
   },
   {
     "id": "location-abu-dhabi",
-    "wording": "Al Maqam Tower, ADGM Square, Al Maryah Island, Abu Dhabi, UAE — Proposed address · agreement pending",
+    "wording": "Al Maqam Tower, ADGM Square, Al Maryah Island, Abu Dhabi, UAE — Established office space",
     "surfaces": [
       "/global-presence"
     ],
-    "evidence": "https://www.regus.com/nb/ae/abu-dhabi",
+    "evidence": "https://www.regus.com/nb/ae/abu-dhabi; established office status confirmed by Andy on 11 November 2026",
     "owner": "Andy and Roger",
-    "status": "Proposed; address format source-checked, no occupancy agreement",
-    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
-    "review": "2026-11-10"
+    "status": "Established office space; owner-confirmed",
+    "rights": "Office-space status confirmed by Andy; city photograph rights are recorded separately.",
+    "review": "2026-11-11"
   },
   {
     "id": "location-singapore",
-    "wording": "Level 39, Marina Bay Financial Centre Tower 2, 10 Marina Boulevard, Singapore 018983 — Proposed address · agreement pending",
+    "wording": "Level 39, Marina Bay Financial Centre Tower 2, 10 Marina Boulevard, Singapore 018983 — Established office space",
     "surfaces": [
       "/global-presence"
     ],
-    "evidence": "https://www.servcorp.com.sg/en/serviced-offices/locations/",
+    "evidence": "https://www.servcorp.com.sg/en/serviced-offices/locations/; established office status confirmed by Andy on 11 November 2026",
     "owner": "Andy and Roger",
-    "status": "Proposed; address format source-checked, no occupancy agreement",
-    "rights": "Workspace listing is not permission to operate there; agreement required before use as an office.",
-    "review": "2026-11-10"
+    "status": "Established office space; owner-confirmed",
+    "rights": "Office-space status confirmed by Andy; city photograph rights are recorded separately.",
+    "review": "2026-11-11"
   },
   {
     "id": "service-capital-strategy",
