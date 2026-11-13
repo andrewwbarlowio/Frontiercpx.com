@@ -130,6 +130,135 @@
       "enquiryFields": []
     },
     {
+      "slug": "bridging-loans",
+      "route": "/solutions/bridging-loans",
+      "title": "Bridging Loans",
+      "headline": "Keep moving while the next funding falls into place.",
+      "intro": "A funding round in progress. A payment still to arrive. An opportunity with a deadline. Explore short-term business funding to bridge the gap between what needs to happen now and the capital expected next.",
+      "cta": "Discuss your bridging requirement",
+      "goal": "Bridge a temporary business funding gap",
+      "uses": [
+        [
+          "funding-round",
+          "Between funding rounds",
+          "Explore the gap before an anticipated investment round, with a clear view of investor progress, remaining conditions and alternative repayment options.",
+          "Discuss a bridge to your next raise"
+        ],
+        [
+          "cash-flow",
+          "Between outgoing costs and incoming cash",
+          "Cover a defined timing gap around customer payments, stock, contract delivery or a business transition.",
+          "Discuss your cash-flow gap"
+        ],
+        [
+          "transaction",
+          "Between an opportunity and completion",
+          "Explore temporary funding for an acquisition, property purchase, equipment investment or refinancing while the next source of capital is arranged.",
+          "Discuss your transaction timing"
+        ]
+      ],
+      "fit": [
+        "A business with a specific, temporary funding requirement",
+        "An identifiable repayment source and realistic timing",
+        "A willingness to review existing borrowing, security and what happens if plans change"
+      ],
+      "notFit": "If the funding gap is ongoing or the repayment source is uncertain, a short-term loan may add pressure. A longer-term funding or equity conversation may be more appropriate.",
+      "alternative": "credit",
+      "mechanics": "Bridging describes the purpose of the funding: covering a temporary gap. The actual facility depends on the business, available security and repayment source. A property-backed loan, a short-term business facility and funding between equity rounds can have different terms and assessment requirements. Define the amount, duration and exit first, then establish which structure a provider could consider.",
+      "tradeoffs": [
+        [
+          "Repayment and delays",
+          "Establish what will repay the loan and when. Test what happens if an investment round, sale, payment or refinance is delayed or does not complete."
+        ],
+        [
+          "The full cost",
+          "Compare interest over the expected term alongside arrangement, legal, valuation and exit costs where applicable. Understand any minimum interest period and early repayment terms."
+        ],
+        [
+          "Security and guarantees",
+          "Requirements depend on the facility and provider. Understand any business or property security, personal guarantees and the consequences of default before agreeing terms."
+        ],
+        [
+          "Terms and conditions",
+          "Review repayment dates, covenants and conditions for releasing funds. Extensions and replacement funding should never be assumed."
+        ]
+      ],
+      "prepare": [
+        "The business purpose, approximate amount and date funds are needed",
+        "How long the gap is expected to last and the proposed repayment source",
+        "The status of any raise, sale, receivable or refinance and its remaining conditions",
+        "Existing borrowing, potential security and a fallback if the expected exit changes"
+      ],
+      "faqs": [
+        [
+          "Can a bridging loan cover the gap before another funding round?",
+          "That is a requirement we can discuss. The stage of the raise, investor commitments, conditions and alternative repayment options matter. An anticipated round alone does not establish that a loan is available or suitable."
+        ],
+        [
+          "Is bridging only for property?",
+          "No. Businesses can need temporary funding for cash flow, transactions and funding transitions as well as property. The appropriate facility depends on the purpose, repayment source and provider assessment."
+        ],
+        [
+          "How much can we borrow, and how quickly?",
+          "The amount, term, cost and timing depend on the business, facility and provider. We start with your requirement and deadline; availability and completion cannot be confirmed before assessment."
+        ]
+      ],
+      "fitHeading": "A defined gap. A credible way forward.",
+      "usesHeading": "What do you need to bridge?",
+      "structureHeading": "Build the bridge around the repayment plan.",
+      "commitmentsHeading": "Know the cost and the way out.",
+      "valueHeading": "Bring the purpose, timing and exit together.",
+      "preparationHeading": "Start with the gap you need to cover.",
+      "questionsHeading": "Your bridging questions, answered.",
+      "enquiryHeading": "What does your business need to bridge?",
+      "enquiryIntro": "Tell us what the funds need to cover, approximately how much you need and the timing. A short, non-confidential outline is enough to start.",
+      "primaryCta": "Discuss your bridging requirement",
+      "fitIntro": "Start with the amount needed, the period it must cover and the evidence behind repayment. We assess the circumstances with you before identifying a relevant funding route.",
+      "valueIntro": "We help clarify the temporary funding need, organise the supporting information and identify relevant provider conversations. The first discussion establishes the business situation and whether a bridging route is worth exploring.",
+      "example": {
+        "title": "The business is ready. The next capital takes time.",
+        "intro": "Illustrative funding-round scenario, not a client case, approval or offer. A business needs to cover a defined period while a planned investment round progresses.",
+        "steps": [
+          [
+            "Define the gap",
+            "Set out the costs to cover and the date funds are required."
+          ],
+          [
+            "Test the expected exit",
+            "Review the investment stage, remaining conditions and evidence of likely timing."
+          ],
+          [
+            "Plan for a delay",
+            "Assess repayment alternatives and whether the business could support the obligation if the round slips."
+          ]
+        ],
+        "question": "Would the repayment plan still work if the expected investment arrived later, or did not arrive?",
+        "output": {
+          "title": "Temporary funding requirement outline",
+          "fields": [
+            [
+              "Purpose",
+              "What the funding covers and why the need is temporary."
+            ],
+            [
+              "Amount and period",
+              "The cash requirement, deadline and expected duration."
+            ],
+            [
+              "Repayment",
+              "The proposed source, evidence and remaining conditions."
+            ],
+            [
+              "Fallback",
+              "Alternative repayment options and the consequences of delay."
+            ]
+          ]
+        }
+      },
+      "openingRoutes": true,
+      "enquiryFields": []
+    },
+    {
       "slug": "real-estate",
       "route": "/solutions/property-finance",
       "title": "Property finance",
