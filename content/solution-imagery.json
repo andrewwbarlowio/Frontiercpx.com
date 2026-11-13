@@ -88,5 +88,15 @@
     "photo": "/assets/images/home/technology.webp",
     "hero": "/assets/images/solutions/crypto-hero.webp",
     "alt": "Illustrative Crypto concept formed from luminous blue digits and particles"
+  },
+  {
+    "slug": "bridging-loans",
+    "title": "Bridging Loans",
+    "subject": "Business leaders plan the next funding stage",
+    "why": "Temporary capital around a defined business milestone",
+    "hero": "/assets/images/bridging/hero-1536.webp",
+    "photo": "/assets/images/bridging/detail-1536.webp",
+    "alt": "Business leaders reviewing a temporary funding plan",
+    "photoAlt": "Hands reviewing a business cash-flow plan during a funding discussion"
   }
 ]

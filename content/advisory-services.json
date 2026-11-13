@@ -40,7 +40,8 @@
     "relatedFunding": [
       "private-equity",
       "credit",
-      "ventures"
+      "ventures",
+      "bridging-loans"
     ],
     "enquiry": "Assess your capital options",
     "faqs": [
@@ -142,7 +143,8 @@
       "tech-opportunities",
       "double-impact",
       "insurance",
-      "crypto"
+      "crypto",
+      "bridging-loans"
     ],
     "enquiry": "Prepare your funding case",
     "faqs": [
@@ -238,7 +240,8 @@
       "real-estate",
       "credit",
       "ventures",
-      "private-equity"
+      "private-equity",
+      "bridging-loans"
     ],
     "enquiry": "Discuss your financial model",
     "faqs": [
@@ -334,7 +337,8 @@
       "credit",
       "real-estate",
       "tech-opportunities",
-      "special-situations"
+      "special-situations",
+      "bridging-loans"
     ],
     "enquiry": "Discuss your debt requirement",
     "faqs": [
@@ -619,7 +623,8 @@
     "relatedFunding": [
       "credit",
       "private-equity",
-      "special-situations"
+      "special-situations",
+      "bridging-loans"
     ],
     "enquiry": "Review your capital position",
     "faqs": [
