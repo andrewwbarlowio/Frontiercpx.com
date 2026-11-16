@@ -58,7 +58,9 @@
     status.textContent='Your enquiry has been saved.';
     const success=text('section','','enquiry-success');
     success.setAttribute('role','status');success.setAttribute('tabindex','-1');
-    const mark=text('span','✓','enquiry-success-mark');mark.setAttribute('aria-hidden','true');
+    const mark=text('span','','enquiry-success-mark');mark.setAttribute('aria-hidden','true');
+    const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 32 32');svg.setAttribute('fill','none');svg.setAttribute('focusable','false');
+    const tick=document.createElementNS('http://www.w3.org/2000/svg','path');tick.setAttribute('d','M8 16.5 13.5 22 24 10');tick.setAttribute('stroke','currentColor');tick.setAttribute('stroke-width','2.5');tick.setAttribute('stroke-linecap','round');tick.setAttribute('stroke-linejoin','round');tick.setAttribute('pathLength','1');svg.append(tick);mark.append(svg);
     const heading=text('h2','Thank you for getting in touch.');
     const received=text('p','We’ve received your message.','enquiry-success-received');
     const next=text('p','A member of the Frontier team will be in touch soon to discuss your plans and how we can help.','enquiry-success-next');
