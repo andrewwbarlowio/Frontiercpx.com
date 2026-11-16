@@ -19,7 +19,7 @@ Inspected main on 16 November 2026:
 Static form -> POST /api/enquiries (Vercel Node Function) -> managed Postgres transaction.
 The transaction inserts one enquiry plus one pending notification per configured recipient.
 After commit, attempt email delivery immediately, awaiting a bounded attempt. A durable scheduled worker drains pending/retry records independently of browser lifetime. Return success once storage commits; email delivery is a separate status.
-Recommended database: Neon Postgres via Vercel Marketplace. Recommended email candidate: Resend with a verified sending domain. These are proposals, not existing configured services.
+Recommended database: Neon Postgres via Vercel Marketplace. Selected email service: Resend with a verified sending domain. Resend will send enquiry notifications to Andy and Roger's existing Microsoft 365-hosted email addresses. Microsoft 365 remains the mailbox/reply service; Microsoft Graph is not the notification sending route. Resend is also the selected service for future marketing campaigns, which are outside this implementation scope. Database choice remains a proposal; no services are configured by this spike.
 Do not rely on unawaited promises after a serverless response. Do not require CRM availability for capture.
 
 ## Data contract
@@ -43,6 +43,9 @@ notification_deliveries:
 - unique(enquiry_id, recipient, channel).
 Keep delivery tracking separate for Andy and Roger so one success cannot hide the other failing.
 Future CRM integration can use enquiry id as its external unique key without changing the public form.
+
+## Confirmed sending decision
+Resend handles transactional website notifications now and future marketing later. Keep campaign subscriptions, unsubscribe/suppression state and marketing permission records distinct from enquiry records and internal operational alerts. Submitting an enquiry must not automatically enrol someone in marketing. Future campaigns need their own configuration and verification; selecting Resend now does not implement campaigns.
 
 ## Notification content and reliability
 Send a separate internal email to each verified recipient:
