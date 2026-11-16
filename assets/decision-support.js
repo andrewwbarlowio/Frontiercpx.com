@@ -27,8 +27,9 @@
   function resetErrors(){for(const input of form.querySelectorAll('input,textarea')){input.setCustomValidity('');clearField(input);}errorList.replaceChildren();errors.hidden=true;}
   function phoneState(){if(!method)return;const needed=method.value==='callback';phoneField.hidden=!needed;phone.disabled=!needed;phone.required=needed;if(!needed){phone.setCustomValidity('');clearField(phone);}}
   topic?.addEventListener('change',context);form.addEventListener('frontier-context-restored',context);method?.addEventListener('change',phoneState);context();phoneState();form.querySelector('button[type="submit"]').disabled=false;
-  form.addEventListener('submit',ev=>{
-   ev.preventDefault();resetErrors();const invalid=[];
+  let submissionKey=null,lastPayload=null,pending=false;
+  form.addEventListener('submit',async ev=>{
+   ev.preventDefault();if(pending)return;resetErrors();const invalid=[];
    for(const input of form.querySelectorAll('input,textarea')){
     if(input.disabled)continue;
     if(input.required&&!input.value.trim())input.setCustomValidity('Enter a value for this field.');
@@ -36,7 +37,29 @@
     if(!input.checkValidity())invalid.push(input);
    }
    if(invalid.length){status.hidden=true;for(const input of invalid){const id=input.id+'-error',label=form.querySelector('label[for="'+input.id+'"]')?.textContent||'Field',message=input.validationMessage;input.setAttribute('aria-invalid','true');input.setAttribute('aria-errormessage',id);input.setAttribute('aria-describedby',[(input.getAttribute('aria-describedby')||''),id].filter(Boolean).join(' '));const inline=text('p',message,'field-error');inline.id=id;input.after(inline);const li=document.createElement('li'),a=text('a',label+': '+message);a.href='#'+input.id;a.addEventListener('click',ev=>{ev.preventDefault();const options=input.closest('details');if(options)options.open=true;input.focus();});li.append(a);errorList.append(li);}errors.hidden=false;errors.focus();return;}
-   status.hidden=false;status.textContent='Preview checked. Nothing has been sent or stored. You can contact Frontier directly using the email link.';status.focus();
+   const payload={name:form.elements.name.value.trim(),email:form.elements.email.value.trim(),phone:form.elements.phone.value.trim(),requirement:form.elements.requirement.value.trim(),website:form.elements.website.value,sourcePath:location.pathname.replace(/\/$/,'')||'/',formVersion:form.dataset.formVersion};
+   const fingerprint=JSON.stringify(payload);
+   if(fingerprint!==lastPayload){submissionKey=crypto.randomUUID();lastPayload=fingerprint;}
+   payload.submissionKey=submissionKey;
+   const button=form.querySelector('button[type="submit"]'),originalLabel=button.textContent;
+   const inputs=[...form.querySelectorAll('input,textarea')].filter(input=>!input.disabled);
+   pending=true;button.disabled=true;button.textContent='Sending…';form.setAttribute('aria-busy','true');inputs.forEach(input=>input.readOnly=true);
+   status.hidden=false;status.textContent='Saving your enquiry…';
+   try{
+    const response=await fetch('/api/enquiries',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(25000)});
+    const result=await response.json();
+    if(!response.ok||!result.ok||typeof result.reference!=='string'){
+     if(response.status===409){submissionKey=null;lastPayload=null;}
+     if(response.status===429)throw new Error('Please wait before trying again, or email enquiries@frontiercpx.com.');
+     if(result.error==='refresh_form')throw new Error('Please refresh this page before sending your enquiry.');
+     throw new Error('We could not save your enquiry. Your details are still here. Please try again or email enquiries@frontiercpx.com.');
+    }
+    form.reset();submissionKey=null;lastPayload=null;
+    status.textContent='Thank you. Your enquiry has been saved and the Frontier team will be in touch. Reference: '+result.reference;
+   }catch(error){
+    status.textContent=error.name==='TimeoutError'||error.name==='AbortError'?'We could not confirm your enquiry was saved. Your details are still here. Please try again; this will not create a duplicate enquiry.':error.message==='Failed to fetch'?'We could not connect. Your details are still here. Please try again or email enquiries@frontiercpx.com.':error.message;
+   }finally{pending=false;button.disabled=false;button.textContent=originalLabel;form.removeAttribute('aria-busy');inputs.forEach(input=>input.readOnly=false);status.focus();}
+
   });
   form.addEventListener('input',ev=>{const input=ev.target;if(typeof input.setCustomValidity==='function'){input.setCustomValidity('');clearField(input);}status.hidden=true;});
  }

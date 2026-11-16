@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { definitions, permittedRoutes, measure, validateEvent } from './measurement.mjs';
-assert.equal(permittedRoutes.length, 17);
+const journeys=JSON.parse(readFileSync(new URL('../content/customer-journeys.json',import.meta.url)));
+const advisory=JSON.parse(readFileSync(new URL('../content/advisory-services.json',import.meta.url)));
+assert.equal(permittedRoutes.length, journeys.solutions.length+advisory.length);
 let accepted = 0, rejected = 0;
 for (const event of Object.keys(definitions)) for (const route of permittedRoutes) {
   assert.deepEqual(measure({event, route}), {enabled:false, sent:false}); accepted++;
