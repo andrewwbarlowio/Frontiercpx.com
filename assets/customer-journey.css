@@ -96,3 +96,20 @@
 
 /* Bot-only field stays outside the visual and keyboard flow. */
 .enquiry-honeypot{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* Receipt shown only after the server confirms a durable enquiry save. */
+.enquiry-success{padding:12px 0 6px;animation:enquiry-arrive .4s ease-out;color:#0d233d}
+.enquiry-success:focus{outline:none}
+.enquiry-success-mark{display:grid;place-items:center;width:56px;height:56px;margin-bottom:28px;border-radius:50%;background:#e8f2f1;color:#246354;font-size:28px;line-height:1}
+.enquiry-success h2{font-size:clamp(30px,3vw,42px);max-width:16ch;line-height:1.15;margin-bottom:24px}
+.enquiry-success .enquiry-success-received{font-size:19px;font-weight:700;color:#0d233d;margin:0 0 12px}
+.enquiry-success .enquiry-success-next{font-size:17px;line-height:1.7;color:#526477;margin:0;max-width:43ch}
+.enquiry-success .enquiry-success-reference{font-size:12px;line-height:1.6;color:#617286;border-top:1px solid #dce4ea;padding-top:22px;margin:30px 0 22px;overflow-wrap:anywhere}
+.enquiry-success-home{display:inline-block;font-size:14px;text-underline-offset:5px;padding:6px 0}
+@keyframes enquiry-arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.enquiry-success{animation:none}}
+
+.enquiry-success-mark svg{display:block;width:32px;height:32px}
+.enquiry-success-mark path{stroke-dasharray:1;stroke-dashoffset:0;animation:enquiry-tick .55s .12s ease-out both}
+@keyframes enquiry-tick{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.enquiry-success-mark path{animation:none}}
