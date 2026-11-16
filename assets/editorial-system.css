@@ -234,9 +234,9 @@ html{scroll-padding-top:100px}
 }
 @media(max-width:520px){
  .frontier-editorial.frontier-editorial .header-inner{width:calc(100% - 32px);gap:10px}
- .frontier-editorial.frontier-editorial .header-inner>.wordmark{width:150px}
+ .frontier-editorial.frontier-editorial .header-inner>.wordmark{width:165px}
  .header-talk{min-height:36px;padding:6px 16px;font-size:13px;line-height:22px}
  .frontier-editorial .hamburger,.frontier-editorial .hamburger:before,.frontier-editorial .hamburger:after{width:20px}
 }
-@media(max-width:359px){.frontier-editorial.frontier-editorial .header-inner{gap:6px;width:calc(100% - 24px)}.frontier-editorial.frontier-editorial .header-inner>.wordmark{width:126px}.header-talk{padding-inline:10px}}
+@media(max-width:359px){.frontier-editorial.frontier-editorial .header-inner{gap:6px;width:calc(100% - 24px)}.frontier-editorial.frontier-editorial .header-inner>.wordmark{width:138.6px}.header-talk{padding-inline:10px}}
 @media print{.frontier-editorial.frontier-editorial .site-header{display:none!important}}
