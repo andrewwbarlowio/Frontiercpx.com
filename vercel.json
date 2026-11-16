@@ -176,5 +176,11 @@
     "api/*.mjs": {
       "maxDuration": 60
     }
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/enquiry-notifications",
+      "schedule": "*/5 * * * *"
+    }
+  ]
 }
