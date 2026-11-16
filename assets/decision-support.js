@@ -55,10 +55,21 @@
      throw new Error('We could not save your enquiry. Your details are still here. Please try again or email enquiries@frontiercpx.com.');
     }
     form.reset();submissionKey=null;lastPayload=null;
-    status.textContent='Thank you. Your enquiry has been saved and the Frontier team will be in touch. Reference: '+result.reference;
+    status.textContent='Your enquiry has been saved.';
+    const success=text('section','','enquiry-success');
+    success.setAttribute('role','status');success.setAttribute('tabindex','-1');
+    const mark=text('span','✓','enquiry-success-mark');mark.setAttribute('aria-hidden','true');
+    const heading=text('h2','Thank you for getting in touch.');
+    const received=text('p','We’ve received your message.','enquiry-success-received');
+    const next=text('p','A member of the Frontier team will be in touch soon to discuss your plans and how we can help.','enquiry-success-next');
+    const reference=text('p','Your enquiry reference: '+result.reference,'enquiry-success-reference');
+    const home=text('a','Back to home','enquiry-success-home');home.href='/';
+    success.append(mark,heading,received,next,reference,home);
+    form.hidden=true;form.after(success);
+    success.focus();
    }catch(error){
     status.textContent=error.name==='TimeoutError'||error.name==='AbortError'?'We could not confirm your enquiry was saved. Your details are still here. Please try again; this will not create a duplicate enquiry.':error.message==='Failed to fetch'?'We could not connect. Your details are still here. Please try again or email enquiries@frontiercpx.com.':error.message;
-   }finally{pending=false;button.disabled=false;button.textContent=originalLabel;form.removeAttribute('aria-busy');inputs.forEach(input=>input.readOnly=false);status.focus();}
+   }finally{pending=false;button.disabled=false;button.textContent=originalLabel;form.removeAttribute('aria-busy');inputs.forEach(input=>input.readOnly=false);if(!form.hidden)status.focus();}
 
   });
   form.addEventListener('input',ev=>{const input=ev.target;if(typeof input.setCustomValidity==='function'){input.setCustomValidity('');clearField(input);}status.hidden=true;});
