@@ -215,3 +215,27 @@
 @media(max-width:520px){.auth-page .auth-section{padding:32px 20px 20px;align-items:flex-start}.auth-page .auth-wordmark{width:250px;margin-bottom:28px}.auth-page .auth-card{padding:30px 24px;border-radius:14px}.auth-page .auth-card h1{font-size:34px}.auth-page .auth-intro{font-size:14px}.auth-page .auth-label-row a{font-size:12px}}
 @media(max-width:360px){.auth-page .auth-section{padding-inline:16px}.auth-page .auth-card{padding:26px 20px}.auth-page .auth-card h1{font-size:31px}}
 @media(prefers-reduced-motion:reduce){.auth-page [aria-busy=true] .auth-submit:after{animation:none}}
+
+/* Compact persistent navigation: content scrolls beneath the opaque header. */
+html{scroll-padding-top:100px}
+.frontier-editorial .site-header{position:sticky;top:0;z-index:50;padding:14px 0;box-shadow:0 2px 12px #03142515}
+.frontier-editorial .header-inner{min-height:48px;gap:24px}
+.frontier-editorial .header-inner>.wordmark{width:200px;min-width:0}
+.header-talk{display:none}
+.frontier-editorial .desktop-nav .nav-contact{background:#fff;color:#0d233d;border-color:#fff;border-radius:5px;font-weight:700}
+@media(max-width:1200px){
+ .frontier-editorial .site-header{padding:12px 0}
+ .frontier-editorial .header-inner{gap:14px}
+ .frontier-editorial .header-inner>.wordmark{width:210px;margin-right:auto;flex-shrink:1}
+ .header-talk{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 19px;background:#fff;color:#0d233d;border:1px solid #fff;border-radius:5px;font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0}
+ .header-talk:hover{background:#e5eff5}
+ .frontier-editorial .menu-toggle{width:44px;height:44px;flex-shrink:0;padding:10px}
+ .frontier-editorial .mobile-nav{height:calc(100dvh - 72px);max-height:calc(100dvh - 72px);overscroll-behavior:contain}
+}
+@media(max-width:520px){
+ .frontier-editorial .header-inner{width:calc(100% - 32px);gap:10px}
+ .frontier-editorial .header-inner>.wordmark{width:166px}
+ .header-talk{padding:9px 14px;font-size:13px}
+}
+@media(max-width:359px){.frontier-editorial .header-inner{gap:6px;width:calc(100% - 24px)}.frontier-editorial .header-inner>.wordmark{width:140px}.header-talk{padding-inline:10px}}
+@media print{.frontier-editorial .site-header{display:none!important}}
