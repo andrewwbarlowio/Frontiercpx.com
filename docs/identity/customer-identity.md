@@ -33,3 +33,9 @@ The existing durable outbox, recipient tracking, retry leases, provider idempote
 19 automated scenarios pass, including all 26 generated forms, distinct UUIDv4 IDs, repeat-contact grouping, conflicting/shared and changed email, retry identity preservation, immutable IDs, foreign-key restrictions, legacy backfill/rerun, complete notification identity fields, JSON export/import preservation, and no customer identity disclosure in the public API. Embedded Postgres tests do not simulate independent server sessions for advisory locks; deployed Neon checks supplement them.
 
 Before migration, an isolated Neon backup branch preserves the production state. Verify original enquiry count and a hash of the original reference/contact/source fields before and after backfill. Rollback is to compatible old application code; retain the new customer table, IDs and trigger. Do not drop identity data to roll back the application.
+
+## Notification activation preparation
+
+Production has a signed Resend callback registered at `/api/resend-webhook` and its verification secret configured in Vercel. The protected worker's independent authentication secret is configured for Production. This branch adds a five-minute Vercel Cron schedule on the confirmed Pro plan. Neither setting enables sending: `CONTACT_NOTIFICATIONS_ENABLED` remains false until DKIM and real delivery are verified.
+
+A public DNS check found two TXT answers at `resend._domainkey.notifications.frontiercpx.com`: the correct public-key value beginning `p=` and an erroneous second value equal to `resend._domainkey.notifications`. Remove only that malformed TXT record at the DNS provider, retain the public key and Microsoft email records, and rerun Resend verification. No email delivery is claimed while the domain remains pending.
