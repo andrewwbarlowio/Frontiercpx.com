@@ -18,7 +18,7 @@ const good=(sourcePath=routes[0])=>({name:'Synthetic Test',email:'synthetic@exam
 const options={environment:'preview',ipHash:'test-ip',recipients:['synthetic@example.com'],sender:'Frontier <website@notifications.frontiercpx.com>'};
 const env={CONTACT_NOTIFICATIONS_ENABLED:'true',CONTACT_PREVIEW_NOTIFICATIONS_ENABLED:'true',VERCEL_ENV:'preview',RESEND_API_KEY:'synthetic-test-key'};
 async function fixture(){
- const pg=new PGlite();await pg.exec(schema);
+ const pg=new PGlite();await pg.exec(schema);await pg.exec(readFileSync(new URL('../migrations/002-customer-identity.sql',import.meta.url),'utf8'));
  const query=(sql,params=[])=>sql.startsWith('SELECT pg_advisory_xact_lock')?Promise.resolve({rows:[]}):pg.query(sql,params);
  const client={query,release(){}};const pool={query,connect:async()=>client};
  return {pg,pool,async close(){await pg.close();}};
@@ -133,7 +133,7 @@ test('EVERY generated form runs browser submit -> validation -> Postgres -> rend
     const d=await claimDelivery(f.pool,'preview',saved.id);const message=notificationMessage(d);
     const {rows:[stored]}=await f.pool.query('SELECT * FROM frontier_contact.enquiries WHERE id=$1',[saved.id]);
     for(const k of ['name','email','phone','requirement']){assert.equal(stored[k],value[k]);assert(message.text.includes(value[k]));}
-    assert.equal(stored.source_path,route);assert(message.text.includes(route));
+    assert.equal(stored.source_path,route);assert(message.text.includes(route));assert(stored.customer_id);assert.equal(stored.enquiry_id,saved.id);assert(message.text.includes(stored.customer_id));assert(message.html.includes(stored.customer_id));assert(message.text.includes(stored.enquiry_id));
     evidence.push({route,reference:saved.id,storedFields:'pass',notificationFields:'pass'});completed();return response(201,{ok:true,reference:saved.id});
    };
    w.eval(source);const form=w.document.querySelector('.enquiry-form'),value=good(route);
@@ -160,9 +160,54 @@ test('HTTP capture returns success only after storage, retains capture when noti
  const config={...env,ENQUIRY_CAPTURE_ENABLED:'true',CONTACT_RATE_LIMIT_SECRET:'synthetic-secret'};
  try{
   const handler=createEnquiryHandler({getDatabase:()=>f.pool,env:config,send:async()=>{throw Error('synthetic delivery outage');}});
-  const value=good('/contact'),res=responseObject();await handler(request(value),res);assert.equal(res.code,201);assert(res.body.reference);
+  const value=good('/contact'),res=responseObject();await handler(request(value),res);assert.equal(res.code,201);assert(res.body.reference);assert(!res.body.customerId);assert(!res.body.customer_id);
   const retry=responseObject();await handler(request(value),retry);assert.equal(retry.code,200);assert.equal(retry.body.reference,res.body.reference);
   const fail=createEnquiryHandler({getDatabase:()=>{throw Error('synthetic database outage');},env:config});const failed=responseObject();await fail(request(good('/contact')),failed);assert.equal(failed.code,503);assert.equal(failed.body.ok,false);assert(!failed.body.reference);
   const closed=createEnquiryHandler({env:{}}),closedRes=responseObject();await closed(request(good('/contact')),closedRes);assert.equal(closedRes.code,503);
  }finally{await f.close();}
+});
+
+test('first enquiry has distinct UUIDv4 customer and enquiry IDs; retries retain both',async()=>{
+ const f=await fixture();try{
+  const value=validateEnquiry(good(),routes),first=await saveEnquiry(f.pool,value,options),retry=await saveEnquiry(f.pool,value,options);
+  const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+  assert.match(first.id,uuid);assert.match(first.customerId,uuid);assert.notEqual(first.customerId,first.id);assert.equal(retry.customerId,first.customerId);
+  const {rows:[stored]}=await f.pool.query('SELECT id,enquiry_id,customer_id FROM frontier_contact.enquiries WHERE id=$1',[first.id]);assert.equal(stored.enquiry_id,first.id);assert.equal(stored.customer_id,first.customerId);
+  const delivery=await claimDelivery(f.pool,'preview',first.id),message=notificationMessage(delivery);for(const id of [first.id,first.customerId]){assert(message.text.includes(id));assert(message.html.includes(id));}assert(message.subject.includes(first.id));
+ }finally{await f.close();}
+});
+test('exact contact-details repeat reuses unverified customer while genuine enquiries remain distinct',async()=>{
+ const f=await fixture();try{
+  const a=await saveEnquiry(f.pool,validateEnquiry(good(),routes),options);
+  const b=await saveEnquiry(f.pool,validateEnquiry({...good(),name:'  SYNTHETIC   TEST ',email:'SYNTHETIC@EXAMPLE.COM',phone:'+44 (7700) 900-123'},routes),options);
+  assert.equal(a.customerId,b.customerId);assert.notEqual(a.id,b.id);
+  assert.equal((await f.pool.query('SELECT identity_status FROM frontier_contact.customers')).rows[0].identity_status,'unverified');
+ }finally{await f.close();}
+});
+test('shared email with conflicting details creates a separate customer and flags review',async()=>{
+ const f=await fixture();try{
+  const a=await saveEnquiry(f.pool,validateEnquiry(good(),routes),options),b=await saveEnquiry(f.pool,validateEnquiry({...good(),name:'Another Person'},routes),options);
+  assert.notEqual(a.customerId,b.customerId);assert((await f.pool.query('SELECT review_needed FROM frontier_contact.customers')).rows.every(x=>x.review_needed));
+  const c=await saveEnquiry(f.pool,validateEnquiry({...good(),email:'changed@example.com'},routes),options);assert.notEqual(c.customerId,a.customerId);
+  for(const key of ['customer_id','customerId','enquiry_id','enquiryId'])assert.throws(()=>validateEnquiry({...good(),[key]:a.customerId},routes),/server_generated_identity_only/);
+ }finally{await f.close();}
+});
+test('database rejects orphaned and cross-environment links and renumbering; exports preserve both IDs',async()=>{
+ const f=await fixture();try{
+  const a=await saveEnquiry(f.pool,validateEnquiry(good(),routes),options);
+  await assert.rejects(()=>f.pool.query('UPDATE frontier_contact.enquiries SET customer_id=$1 WHERE id=$2',[randomUUID(),a.id]));
+  await assert.rejects(()=>f.pool.query('UPDATE frontier_contact.enquiries SET id=$1 WHERE id=$2',[randomUUID(),a.id]));
+  await assert.rejects(()=>f.pool.query('UPDATE frontier_contact.customers SET customer_id=$1 WHERE customer_id=$2',[randomUUID(),a.customerId]));
+  await assert.rejects(()=>f.pool.query("UPDATE frontier_contact.enquiries SET environment='production' WHERE id=$1",[a.id]));
+  const {rows}=await f.pool.query('SELECT customer_id,enquiry_id FROM frontier_contact.enquiries WHERE id=$1',[a.id]);assert.deepEqual(JSON.parse(JSON.stringify(rows)),[{customer_id:a.customerId,enquiry_id:a.id}]);
+  await assert.rejects(()=>f.pool.query('DELETE FROM frontier_contact.customers WHERE customer_id=$1',[a.customerId]));
+ }finally{await f.close();}
+});
+test('migration backfills legacy enquiries without changing their enquiry IDs and reruns safely',async()=>{
+ const pg=new PGlite();try{
+  await pg.exec(schema);const id=randomUUID();
+  await pg.query("INSERT INTO frontier_contact.enquiries(id,submission_key,payload_hash,name,email,phone,source_path,form_version,environment,privacy_notice_version) VALUES($1,$2,'hash','Legacy Test','legacy@example.com','07700900123','/contact','2026-11-16','preview','2026-11-16')",[id,randomUUID()]);
+  const migration=readFileSync(new URL('../migrations/002-customer-identity.sql',import.meta.url),'utf8');await pg.exec(migration);const first=(await pg.query('SELECT id,enquiry_id,customer_id FROM frontier_contact.enquiries')).rows[0];assert.equal(first.id,id);assert.equal(first.enquiry_id,id);assert(first.customer_id);
+  await pg.exec(migration);assert.deepEqual((await pg.query('SELECT id,enquiry_id,customer_id FROM frontier_contact.enquiries')).rows[0],first);
+ }finally{await pg.close();}
 });
