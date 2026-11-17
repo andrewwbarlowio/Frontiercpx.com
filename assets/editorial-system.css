@@ -280,3 +280,12 @@ html{scroll-padding-top:100px}
 .frontier-editorial .hero .breadcrumb a:hover{text-decoration:underline}
 .frontier-editorial .hero .breadcrumb a:focus-visible{outline:2px solid #b6edff;outline-offset:4px}
 @media(max-width:850px){.frontier-editorial .solution-hero{padding-top:24px}.frontier-editorial .hero .breadcrumb{font-size:11px;margin-bottom:18px}}
+
+/* One hero CTA geometry across the homepage and interior pages. */
+body.frontier-editorial .hero .actions>.button{box-sizing:border-box;min-height:52px;padding:13px 23px;font-size:15px;line-height:1.4;gap:18px;border-radius:7px;justify-content:center}
+@media(max-width:600px){
+ body.frontier-editorial .hero .actions{display:flex;flex-direction:column;align-items:stretch;width:100%;max-width:none;margin-inline:0;gap:16px}
+ body.frontier-editorial .hero .actions>.button{width:100%;min-height:52px;padding:13px 20px;gap:14px;white-space:normal}
+ body.frontier-editorial .hero .actions>.text-link{align-self:center;width:auto;min-height:44px;padding:8px 0;gap:14px;font-size:15px;line-height:1.4;justify-content:center;white-space:normal}
+ body.frontier-editorial .hero .actions .icon-arrow{width:18px;height:18px}
+}
