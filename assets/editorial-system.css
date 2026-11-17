@@ -273,3 +273,10 @@ html{scroll-padding-top:100px}
  .frontier-editorial .product-comparison tbody th{font-size:18px;color:#173a54}
  .frontier-editorial .product-comparison td::before{content:attr(data-label);display:block;font-weight:700;font-size:13px;margin-bottom:3px;color:#536477}
 }
+
+/* Keep location context secondary to the page headline. */
+.frontier-editorial .hero .breadcrumb{font-size:12px;line-height:1.45;letter-spacing:0;margin:0 0 20px;max-width:100%;color:#a9c0d1}
+.frontier-editorial .hero .breadcrumb a{color:inherit;text-decoration:none}
+.frontier-editorial .hero .breadcrumb a:hover{text-decoration:underline}
+.frontier-editorial .hero .breadcrumb a:focus-visible{outline:2px solid #b6edff;outline-offset:4px}
+@media(max-width:850px){.frontier-editorial .solution-hero{padding-top:24px}.frontier-editorial .hero .breadcrumb{font-size:11px;margin-bottom:18px}}
