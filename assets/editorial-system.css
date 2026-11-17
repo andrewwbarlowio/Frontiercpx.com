@@ -263,3 +263,13 @@ html{scroll-padding-top:100px}
 .frontier-editorial .product-comparison thead th{font-weight:700;color:#173a54;border-bottom:2px solid #55788d}
 .frontier-editorial .product-comparison tbody th{font-weight:650}
 @media(max-width:600px){.frontier-editorial .product-definition{font-size:18px}.frontier-editorial .product-comparison{font-size:13px;line-height:1.65}.frontier-editorial .product-comparison th,.frontier-editorial .product-comparison td{padding:14px 10px 14px 0}}
+/* Stack comparison rows on small screens so explanations stay comfortably readable. */
+@media(max-width:600px){
+ .frontier-editorial .product-comparison{font-size:15px}
+ .frontier-editorial .product-comparison thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .frontier-editorial .product-comparison tbody,.frontier-editorial .product-comparison tr{display:block;width:100%}
+ .frontier-editorial .product-comparison tbody tr{padding:18px 0;border-top:1px solid #bdc8ce}
+ .frontier-editorial .product-comparison tbody th,.frontier-editorial .product-comparison td{display:block;width:100%;border:0;padding:8px 0}
+ .frontier-editorial .product-comparison tbody th{font-size:18px;color:#173a54}
+ .frontier-editorial .product-comparison td::before{content:attr(data-label);display:block;font-weight:700;font-size:13px;margin-bottom:3px;color:#536477}
+}
