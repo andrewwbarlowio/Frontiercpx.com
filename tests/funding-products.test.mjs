@@ -31,3 +31,14 @@ test('Funding Guide returns relevant products and valid preparation destinations
  assert(goals.find(x=>x.id==='equipment').routes.some(x=>x.url==='/solutions/asset-finance'));
  for(const goal of goals)for(const r of goal.routes){const [path,anchor]=r.brief.split('#');const page=dom(path).window.document;if(anchor)assert(page.getElementById(anchor));}
 });
+
+test('primary navigation prioritises customer routes and company information stays in the footer',()=>{
+ const d=dom('/solutions').window.document;
+ for(const selector of ['.desktop-nav','#mobile-menu']){
+  const nav=d.querySelector(selector);
+  assert.deepEqual([...nav.querySelectorAll(':scope > details > summary')].map(x=>x.textContent),['Funding Solutions','Advisory Services','Sectors']);
+  assert(!nav.querySelector('a[href="/about-us"]'));assert(!nav.querySelector('a[href="/global-presence"]'));
+  assert(!nav.textContent.includes('All Funding Solutions'));assert(!nav.textContent.includes('All Sectors'));
+ }
+ for(const route of ['/about-us','/global-presence','/solutions','/sectors'])assert(d.querySelector('footer a[href="'+route+'"]'));
+});

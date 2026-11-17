@@ -15,3 +15,7 @@
 - Contextual existing brand imagery reused; no lender logos or unsupported partnership claims added. Commercial product access remains subject to confirming provider terms.
 
 Preview: https://frontiercpx-git-funding-products-restructure-andrewbarlowio.vercel.app/solutions
+
+## Follow-up navigation review
+
+Moved About Us and Global Presence out of the primary menus; both remain linked in the footer. Primary dropdown order is Funding Solutions, Advisory Services, Sectors, followed by Funding Network and contact/account utilities. Removed All Funding Solutions, All Sectors and All Advisory Services entries from dropdowns; their overview pages remain available through the footer and contextual links. Desktop panels now use the mobile navy gradient with light text, subtle dividers and visible hover/focus treatments. Build and four focused navigation/product tests passed after this revision.
