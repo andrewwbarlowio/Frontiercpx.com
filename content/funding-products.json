@@ -72,10 +72,64 @@
       "asset-finance",
       "acquisition-finance"
     ],
-    "image": "industry",
+    "image": "team",
     "valueHeading": "Build the borrowing around the cash flow.",
     "valueIntro": "We help separate a temporary timing gap from a longer-term investment, then organise the figures behind the repayment case. That makes it easier to compare the actual facility rather than a headline rate.",
-    "questionsHeading": "Questions before borrowing."
+    "questionsHeading": "Questions before borrowing.",
+    "definitionHeading": "What is business loans & working capital?",
+    "benefitsHeading": "Why consider business loans & working capital?",
+    "optionsHeading": "One-off borrowing or flexible working capital?",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your requirement.",
+    "definition": "Business borrowing provides capital for an agreed purpose, with repayment and cost determined by the facility. A term loan advances a set amount; revolving credit allows repeated use within a limit; an overdraft supports an eligible business bank account. They should be compared against how the business needs cash, not treated as interchangeable products.",
+    "benefits": [
+      [
+        "Fund a defined investment",
+        "Spread the cost of expansion, recruitment or another business purpose over a repayment period the company can support."
+      ],
+      [
+        "Manage a changing requirement",
+        "Consider a reusable facility where the need rises and falls with contracts, seasonality or customer payment dates."
+      ],
+      [
+        "Keep the wider budget in view",
+        "Compare borrowing with cash reserves, existing debt and the operating headroom the business needs after payments."
+      ]
+    ],
+    "assets": [],
+    "comparison": {
+      "columns": [
+        "Facility",
+        "How you use it",
+        "Repayment and availability"
+      ],
+      "rows": [
+        [
+          "Term loan",
+          "An agreed advance for a defined need",
+          "Scheduled payments over an agreed period"
+        ],
+        [
+          "Revolving credit",
+          "Draw, repay and draw again within the facility",
+          "Subject to limit, term and availability conditions"
+        ],
+        [
+          "Overdraft",
+          "Use an agreed limit linked to a bank account",
+          "Normally reviewed and repayable on demand"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "The right facility follows the shape of the cash gap.",
+      "body": "A business planning a permanent capacity increase has a different need from one paying seasonal supplier costs before customers settle. The first may consider a term loan; the second may need a reusable working-capital arrangement. Each still needs a credible repayment case.",
+      "takeaway": "A temporary facility should not be relied on as permanent capital without understanding renewal, cancellation and demand rights."
+    },
+    "primaryCta": "Discuss business borrowing",
+    "enquiryHeading": "What does the business need to fund?",
+    "enquiryIntro": "Tell us the purpose, broad amount and timing. You can start without selecting a loan type or preparing a full application."
   },
   {
     "slug": "asset-finance",
@@ -154,8 +208,73 @@
     ],
     "image": "industry",
     "valueHeading": "Connect the asset to the operating plan.",
-    "valueIntro": "We bring the purchase, intended use and cash commitment together before exploring provider conversations. A machine, a rental fleet and a software project need different questions, even when they support the same growth plan.",
-    "questionsHeading": "Questions about equipment funding."
+    "valueIntro": "We bring the purchase, intended use and cash commitment together before exploring funding options. A machine, a rental fleet and a software project need different questions, even when they support the same growth plan.",
+    "questionsHeading": "Questions about equipment funding.",
+    "definition": "Asset finance helps a business acquire or use equipment through an agreement linked to the asset. It can also release available equity from equipment already owned. The right starting point is whether you want to buy, lease or refinance.",
+    "benefits": [
+      [
+        "Invest without using all your cash",
+        "Spread eligible equipment expenditure while retaining cash for people, stock and day-to-day costs."
+      ],
+      [
+        "Choose an ownership outcome",
+        "Compare a route to ownership with a rental arrangement based on the period of use you need."
+      ],
+      [
+        "Fund more than the next purchase",
+        "Existing machinery, replacement vehicles and equipment sales can create different funding requirements across the asset lifecycle."
+      ]
+    ],
+    "assets": [
+      "Plant, construction and access equipment",
+      "Production machinery and automation",
+      "Forklifts and materials-handling assets",
+      "Business vehicles and operational fleets",
+      "Eligible technology equipment"
+    ],
+    "comparison": {
+      "columns": [
+        "Your objective",
+        "Route to explore",
+        "Key question"
+      ],
+      "rows": [
+        [
+          "Buy and eventually own",
+          "Hire Purchase",
+          "How do the deposit, payments and final purchase conditions work?"
+        ],
+        [
+          "Use equipment through rentals",
+          "Equipment Leasing",
+          "What happens to the asset at the end?"
+        ],
+        [
+          "Release cash from existing assets",
+          "Asset Refinance",
+          "What is the net cash available after debt and costs?"
+        ],
+        [
+          "Fund stock or customer sales",
+          "Stock or Customer Finance",
+          "Is the business buying for use, holding for resale or selling to a buyer?"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "One equipment business. Different funding needs.",
+      "body": "An equipment company may buy machines for its hire fleet, hold other units for sale and offer buyers a finance introduction. Those activities should be assessed separately: a fleet agreement does not automatically cover sale stock or a customer-finance programme.",
+      "takeaway": "Tell us how each asset will be used. We can start with the business model rather than ask you to select a product first."
+    },
+    "primaryCta": "Discuss equipment finance",
+    "enquiryHeading": "What equipment does your business need next?",
+    "enquiryIntro": "A purchase, a fleet investment or cash tied up in existing machinery: tell us the goal and we will help identify the next conversation.",
+    "definitionHeading": "What is asset & equipment finance?",
+    "benefitsHeading": "Why consider asset & equipment finance?",
+    "optionsHeading": "Start with the outcome you want.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your requirement."
   },
   {
     "slug": "hire-purchase",
@@ -232,8 +351,66 @@
     ],
     "image": "industry",
     "valueHeading": "Make ownership part of a workable plan.",
-    "valueIntro": "We help set out the purchase, deposit and repayment requirement, including any final payment. The aim is a clear provider conversation about the equipment and the business that will use it.",
-    "questionsHeading": "Questions before buying through finance."
+    "valueIntro": "We help set out the purchase, deposit and repayment requirement, including any final payment. The aim is a clear funding discussion about the equipment and the business that will use it.",
+    "questionsHeading": "Questions before buying through finance.",
+    "definition": "Hire purchase spreads the cost of a specific asset over an agreed period. The funding provider owns it during the agreement; your business uses it and makes the payments. Once all sums due and any purchase-option fee are paid, ownership can pass to you.",
+    "benefits": [
+      [
+        "Keep capital available",
+        "Spread a major purchase rather than use the full price from cash reserves, leaving room for the other costs of running the business."
+      ],
+      [
+        "Work towards ownership",
+        "Build a repayment plan around an asset you expect to keep, rather than an agreement designed around returning it."
+      ],
+      [
+        "Plan the payment profile",
+        "Compare the initial contribution, regular instalments and any final balloon together. Smaller monthly payments can leave a larger amount to find later."
+      ]
+    ],
+    "assets": [
+      "Construction plant and lifting equipment",
+      "Manufacturing and materials-handling machinery",
+      "Business vehicles and other identifiable equipment"
+    ],
+    "comparison": {
+      "columns": [
+        "Choice",
+        "Hire purchase",
+        "Equipment lease"
+      ],
+      "rows": [
+        [
+          "Main objective",
+          "Acquire ownership once the agreement is completed",
+          "Pay for use; ownership normally stays with the provider"
+        ],
+        [
+          "During the term",
+          "Business uses the asset; provider retains title",
+          "Business uses the asset under rental terms"
+        ],
+        [
+          "At the end",
+          "Pay all sums and meet purchase conditions",
+          "Return, extend or another agreed contractual option"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "A machine for a new contract",
+      "body": "A manufacturer wins repeat work that needs an additional machine. Instead of committing the full purchase price at once, it explores HP with an initial contribution and payments over time. It budgets for servicing and insurance as well as the finance.",
+      "takeaway": "The term should reflect expected use and repayment capacity. Any balloon needs its own repayment plan."
+    },
+    "primaryCta": "Discuss a purchase",
+    "enquiryHeading": "What equipment are you planning to buy?",
+    "enquiryIntro": "Tell us the asset, approximate price and timing. You do not need a completed application to start.",
+    "definitionHeading": "What is hire purchase?",
+    "benefitsHeading": "Why consider hire purchase?",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "Know the full cost of ownership.",
+    "prepareHeading": "What helps us understand your requirement."
   },
   {
     "slug": "equipment-leasing",
@@ -311,7 +488,70 @@
     "image": "industry",
     "valueHeading": "Compare the use, the cost and the way out.",
     "valueIntro": "We help explain how long you need the equipment and which responsibilities the business can support. That provides a useful basis for comparing lease structures and their end-of-term conditions.",
-    "questionsHeading": "Questions before choosing a lease."
+    "questionsHeading": "Questions before choosing a lease.",
+    "definition": "Equipment leasing lets a business use an asset in return for regular rentals while the provider retains legal ownership. The type of lease determines how the asset’s value, operating responsibilities and end-of-term choices are handled.",
+    "benefits": [
+      [
+        "Access productive equipment",
+        "Put equipment to work without paying its entire purchase price at the outset. Budget for the initial rental and other upfront costs."
+      ],
+      [
+        "Match use to the business",
+        "Compare the rental period with the contract, replacement cycle or operating need the equipment supports."
+      ],
+      [
+        "Choose with the end in mind",
+        "A lower rental is only part of the comparison. The asset’s expected future value and the return or continuation conditions can change the overall commitment."
+      ]
+    ],
+    "assets": [
+      "Production and manufacturing equipment",
+      "Plant, access and materials-handling equipment",
+      "Eligible technology and other business assets"
+    ],
+    "comparison": {
+      "columns": [
+        "Question",
+        "Finance lease",
+        "Residual value / operating structure"
+      ],
+      "rows": [
+        [
+          "Who owns the asset?",
+          "The provider retains legal ownership",
+          "The provider retains legal ownership"
+        ],
+        [
+          "How are rentals shaped?",
+          "Typically recover much of the asset cost over the primary term",
+          "May reflect an agreed estimate of value remaining at the end"
+        ],
+        [
+          "Who carries the obligations?",
+          "Business typically takes substantial operating responsibilities",
+          "Responsibility depends on the actual agreement and permitted use"
+        ],
+        [
+          "What happens at the end?",
+          "Continued hire, return or third-party disposal arrangements may apply",
+          "Return or continued hire may be offered, subject to conditions"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "Equipment for a defined operating period",
+      "body": "A business needs equipment for a multi-year programme but expects its needs to change afterwards. It compares a finance lease with a residual value structure, looking at rentals, usage limits, maintenance and the cost of returning the equipment.",
+      "takeaway": "The label alone does not determine the outcome. Compare the written end-of-term conditions and take accounting advice on the specific agreement."
+    },
+    "primaryCta": "Explore equipment leasing",
+    "enquiryHeading": "What do you need the equipment to do?",
+    "enquiryIntro": "Share the asset, expected use and how long you need it. We can help frame the questions behind the lease choice.",
+    "definitionHeading": "What is equipment leasing?",
+    "benefitsHeading": "Why consider equipment leasing?",
+    "optionsHeading": "Choose the lease around the use.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "Compare more than the monthly rental.",
+    "prepareHeading": "What helps us understand your requirement."
   },
   {
     "slug": "asset-refinance",
@@ -389,7 +629,65 @@
     "image": "industry",
     "valueHeading": "See the cash release and the new commitment.",
     "valueIntro": "We help organise the asset information, existing finance and purpose of the funds. The useful comparison is the net cash available and the future obligation, not the headline valuation alone.",
-    "questionsHeading": "Questions about releasing asset value."
+    "questionsHeading": "Questions about releasing asset value.",
+    "definition": "Asset refinance uses value in machinery, vehicles or equipment to raise business funds while the asset remains in use. The amount available depends on the provider’s valuation, existing finance and transaction costs—not simply what the asset originally cost.",
+    "benefits": [
+      [
+        "Release cash tied up in equipment",
+        "Explore using available asset equity for working capital, an investment or another defined business purpose."
+      ],
+      [
+        "Keep essential equipment working",
+        "Eligible refinance structures allow continued use, although legal ownership may change during the agreement."
+      ],
+      [
+        "Review the whole funding position",
+        "Compare a replacement agreement with existing terms and any settlement cost, not just the amount of new cash offered."
+      ]
+    ],
+    "assets": [
+      "Owned machinery with evidence of title",
+      "Equipment with existing finance to settle",
+      "Eligible vehicles and other identifiable business assets"
+    ],
+    "comparison": {
+      "columns": [
+        "Question",
+        "Sale and HP back",
+        "Sale and leaseback"
+      ],
+      "rows": [
+        [
+          "What happens initially?",
+          "The asset is sold to the provider and hired back",
+          "The asset is sold to the provider and leased back"
+        ],
+        [
+          "How do you keep using it?",
+          "Through HP payments",
+          "Through lease rentals"
+        ],
+        [
+          "What is the ownership outcome?",
+          "A route back to ownership on completion",
+          "Ownership stays with the lessor unless a separate permitted arrangement applies"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "From asset value to usable cash",
+      "body": "A business owns machinery with remaining useful life and needs working capital. The provider assesses the equipment. Any outstanding debt and transaction costs are deducted from the proposed funding, leaving the net amount available to the business.",
+      "takeaway": "Compare that cash release with the new payments, term and ownership arrangements. Refinance should support the business without removing essential operating headroom."
+    },
+    "primaryCta": "Discuss releasing asset value",
+    "enquiryHeading": "Could your existing equipment support your next move?",
+    "enquiryIntro": "Tell us what the business owns, any finance still outstanding and the cash you need. Approximate figures are enough for the first discussion.",
+    "definitionHeading": "What is asset refinance?",
+    "benefitsHeading": "Put existing asset value behind your next move.",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "From asset value to net cash released.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your asset position."
   },
   {
     "slug": "vehicle-finance",
@@ -467,7 +765,65 @@
     "image": "industry",
     "valueHeading": "Match the fleet decision to the business.",
     "valueIntro": "We help bring vehicle specifications, expected use and ownership preferences into one requirement. Compare the finance alongside running costs and replacement plans.",
-    "questionsHeading": "Questions about your next vehicle or fleet."
+    "questionsHeading": "Questions about your next vehicle or fleet.",
+    "definition": "Vehicle finance helps a business buy or hire cars, vans and commercial vehicles. The choice depends on whether you want ownership, a planned replacement cycle or use of a vehicle for an agreed period and mileage.",
+    "benefits": [
+      [
+        "Add the capacity a contract needs",
+        "Explore a single vehicle or a wider fleet requirement without treating the full purchase price as the only payment option."
+      ],
+      [
+        "Plan replacements",
+        "Compare retaining vehicles with replacing them under a lease or hire arrangement, including early-exit and return costs."
+      ],
+      [
+        "See the whole running commitment",
+        "Bring finance, maintenance, mileage, insurance and specialist conversions into the same budget."
+      ]
+    ],
+    "assets": [
+      "Business cars and vans",
+      "Commercial vehicles and eligible trailers",
+      "Specialist vehicle specifications and conversions, subject to assessment"
+    ],
+    "comparison": {
+      "columns": [
+        "Question",
+        "Hire purchase",
+        "Lease / contract hire"
+      ],
+      "rows": [
+        [
+          "Do you want to own it?",
+          "Ownership is the intended outcome after completion",
+          "The main purpose is use; return or continuation terms apply"
+        ],
+        [
+          "What drives the payment?",
+          "Price, contribution, term, charges and any final payment",
+          "Rental structure, term and, for contract hire, mileage and return assumptions"
+        ],
+        [
+          "What needs planning?",
+          "Maintenance, running costs and eventual resale",
+          "Usage, maintenance inclusions, return condition and early termination"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "A growing delivery operation",
+      "body": "A business needs additional vans for a new customer contract. It compares buying through HP with hiring for a defined period. Expected mileage, contract length and the possibility of keeping the vehicles afterwards shape the choice.",
+      "takeaway": "Ordinary fleet finance is different from funding a business that rents vehicles to others. Tell us the use before a provider approach."
+    },
+    "primaryCta": "Discuss your vehicle plans",
+    "enquiryHeading": "One vehicle or a fleet change?",
+    "enquiryIntro": "Tell us what you need, how the vehicles will be used and whether ownership matters. We can help you explore the relevant funding route.",
+    "definitionHeading": "What is vehicle & fleet finance?",
+    "benefitsHeading": "Why consider vehicle & fleet finance?",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your fleet plans."
   },
   {
     "slug": "invoice-finance",
@@ -542,10 +898,68 @@
       "asset-based-lending",
       "trade-import-finance"
     ],
-    "image": "industry",
+    "image": "team",
     "valueHeading": "Start with the quality of the cash coming in.",
     "valueIntro": "We help explain the ledger, customer terms and funding gap before a provider approach. Factoring and discounting should be compared around the business’s collection process as well as the cash they could release.",
-    "questionsHeading": "Questions about funding unpaid invoices."
+    "questionsHeading": "Questions about funding unpaid invoices.",
+    "definition": "Invoice finance provides working capital against eligible unpaid business invoices. Instead of waiting for the customer’s full payment, the business receives an agreed advance; the remaining balance is normally released after collection, less the advance and charges.",
+    "benefits": [
+      [
+        "Reduce the wait for trading cash",
+        "Access part of the value of eligible completed sales while customers pay on agreed credit terms."
+      ],
+      [
+        "Support a growing order book",
+        "A ledger-based facility can change with eligible sales, although customer limits, reserves and other conditions still apply."
+      ],
+      [
+        "Choose how collections are handled",
+        "Compare provider-supported collections with a structure in which the business retains credit control."
+      ]
+    ],
+    "assets": [
+      "Business-to-business sales on credit terms",
+      "Eligible invoices for completed goods or services",
+      "Hire invoices where contract terms and debts meet provider criteria"
+    ],
+    "comparison": {
+      "columns": [
+        "Question",
+        "Factoring",
+        "Invoice discounting"
+      ],
+      "rows": [
+        [
+          "Who usually manages collections?",
+          "The provider supports collections and ledger administration",
+          "The business generally keeps credit control"
+        ],
+        [
+          "Do customers know?",
+          "The arrangement is typically disclosed",
+          "Confidential arrangements may be available"
+        ],
+        [
+          "What supports availability?",
+          "Eligible invoices, agreed advances and reserves",
+          "Eligible receivables and the facility’s reporting and controls"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "An invoice is raised. Wages cannot wait.",
+      "body": "A business delivers work and invoices a customer on credit terms. Under an agreed facility, an eligible invoice supports an advance for operating costs. When the customer pays, the advance and charges are cleared and the remaining balance is accounted for.",
+      "takeaway": "A dispute, retention or customer concentration can affect eligibility and cash available. Invoice finance is not automatically protection against bad debts."
+    },
+    "primaryCta": "Discuss your cash-flow gap",
+    "enquiryHeading": "Are unpaid invoices holding back the business?",
+    "enquiryIntro": "Tell us your normal payment terms, broad sales level and what the cash needs to support. No debtor list is needed at first contact.",
+    "definitionHeading": "What is invoice finance?",
+    "benefitsHeading": "Why consider invoice finance?",
+    "optionsHeading": "Choose how funding and collections work.",
+    "stepsHeading": "From an unpaid invoice to working capital.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your sales ledger."
   },
   {
     "slug": "stock-dealer-finance",
@@ -623,7 +1037,65 @@
     "image": "industry",
     "valueHeading": "Build funding around how stock moves.",
     "valueIntro": "We help distinguish sale stock, demonstrations and hire use, then set out the buying and selling cycle. A stocking conversation needs both unit-level detail and a credible plan for slower-moving inventory.",
-    "questionsHeading": "Questions about funding your stock."
+    "questionsHeading": "Questions about funding your stock.",
+    "definition": "Stock finance, often called floorplan or unit stocking finance, funds eligible equipment held by a dealer for sale or demonstration. Individual units support the borrowing, with repayment linked to sales and other agreed triggers.",
+    "benefits": [
+      [
+        "Preserve purchasing capacity",
+        "Explore funding for sale inventory instead of committing all available cash to stock awaiting a buyer."
+      ],
+      [
+        "Keep the right units available",
+        "A facility can support a buying and selling cycle, with approved asset types and limits rather than unrestricted borrowing."
+      ],
+      [
+        "Separate stock from customer finance",
+        "A dealer’s stocking facility and a buyer’s HP or lease solve different needs and can require separate arrangements."
+      ]
+    ],
+    "assets": [
+      "Eligible new or used equipment held for sale",
+      "Approved demonstration units",
+      "Specialist dealer inventory, with permitted use agreed in advance"
+    ],
+    "comparison": {
+      "columns": [
+        "Activity",
+        "Funding need",
+        "Important distinction"
+      ],
+      "rows": [
+        [
+          "Holding units for resale",
+          "Stock / floorplan finance",
+          "Sales and ageing limits can trigger repayment"
+        ],
+        [
+          "Keeping machines in a rental fleet",
+          "Asset / equipment finance",
+          "Onward hiring must be permitted"
+        ],
+        [
+          "Helping a buyer fund a purchase",
+          "Customer-finance arrangement",
+          "The buyer is separately assessed"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "Buying stock before the next sale",
+      "body": "A machinery dealer buys several units expected to sell over the coming months. Each eligible unit is funded and tracked. On a sale, the related finance is cleared under the agreement; slower-moving units may require staged repayments before they sell.",
+      "takeaway": "Those staged reductions are sometimes called curtailments. The business must be able to meet them even when sales take longer than expected."
+    },
+    "primaryCta": "Discuss stock finance",
+    "enquiryHeading": "Is cash tied up in sale stock?",
+    "enquiryIntro": "Tell us what equipment you sell, typical unit values and how long stock is usually held. We can help distinguish stocking from fleet and customer-finance needs.",
+    "definitionHeading": "What is stock & dealer finance?",
+    "benefitsHeading": "Support the buying and selling cycle.",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "From buying a unit to clearing the finance.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your stock cycle."
   },
   {
     "slug": "trade-import-finance",
@@ -642,8 +1114,8 @@
         "Assess funding alongside shipment evidence, delivery terms and the point at which the business takes control of the goods."
       ],
       [
-        "Trade documentation",
-        "Letters of credit and guarantees can address specific payment or performance risks. They are not interchangeable with a cash loan."
+        "Funding the full trading cycle",
+        "Separate the supplier-payment period from the time spent holding stock and waiting for the customer to pay. Different stages may need different facilities."
       ]
     ],
     "steps": [
@@ -689,8 +1161,8 @@
         "An asset-finance structure may be more appropriate. Deposits and pre-delivery payments need separate assessment."
       ],
       [
-        "Does a letter of credit provide working capital?",
-        "It is a conditional bank payment undertaking, not automatically a cash advance. Any associated funding is agreed separately."
+        "Can supplier deposits or pre-shipment costs be funded?",
+        "That needs specific assessment. A facility supporting documented shipped goods does not automatically cover advance deposits or manufacturing before shipment."
       ]
     ],
     "related": [
@@ -698,10 +1170,68 @@
       "invoice-finance",
       "business-loans"
     ],
-    "image": "industry",
+    "image": "team",
     "valueHeading": "Make the trading cycle clear from the start.",
     "valueIntro": "We help map the transaction, documents and timing before exploring a funding route. That makes the supplier-payment need and the proposed repayment easier to assess together.",
-    "questionsHeading": "Questions about trade and imports."
+    "questionsHeading": "Questions about trade and imports.",
+    "definition": "Trade and import finance can bridge an eligible goods purchase between paying a supplier and receiving customer cash. The facility is assessed around a documented transaction, its counterparties and the way it will be repaid.",
+    "benefits": [
+      [
+        "Fund the timing gap in a trade",
+        "Explore support where supplier payment comes before the cash generated by selling the goods."
+      ],
+      [
+        "Connect funding to the transaction",
+        "Set out the goods, purchase terms, shipment and customer receipts so the facility reflects the actual cycle."
+      ],
+      [
+        "Protect operating cash",
+        "Assess a specific purchase requirement alongside the funds needed to keep the rest of the business trading."
+      ]
+    ],
+    "assets": [
+      "Eligible goods purchased for onward sale",
+      "Documented supplier invoices and shipment stages",
+      "Import cycles with identifiable repayment from trading"
+    ],
+    "comparison": {
+      "columns": [
+        "Requirement",
+        "Route to discuss",
+        "What needs checking"
+      ],
+      "rows": [
+        [
+          "Pay a supplier before customer receipts",
+          "Trade or import funding",
+          "Goods, evidence, payment stage and repayment"
+        ],
+        [
+          "Hold imported equipment for resale",
+          "Trade funding and/or stock finance",
+          "The import stage and subsequent stock period are different needs"
+        ],
+        [
+          "Import machinery for your own use",
+          "Asset finance or business borrowing",
+          "Deposits, pre-delivery payments and asset eligibility"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "Goods in transit. Cash still outstanding.",
+      "body": "An equipment reseller must settle a supplier invoice before the final customer pays. It maps the supplier payment, shipping documents, customs process, delivery and expected receipt. Funding is assessed against those stages, not just the purchase order value.",
+      "takeaway": "Supplier terms, documentation, currency exposure and delivery delays all affect the cash needed. Funding should be assessed around the whole transaction."
+    },
+    "primaryCta": "Discuss a supplier-payment gap",
+    "enquiryHeading": "What transaction do you need to fund?",
+    "enquiryIntro": "Start with the goods, supplier location, amount and timing. We will help establish whether a trade, stock or asset-finance conversation is the relevant next step.",
+    "definitionHeading": "What is trade & import finance?",
+    "benefitsHeading": "Why consider trade & import finance?",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your requirement."
   },
   {
     "slug": "acquisition-finance",
@@ -779,7 +1309,65 @@
     "image": "team",
     "valueHeading": "Bring the transaction and funding work together.",
     "valueIntro": "We help organise the capital requirement and the provider questions around it. Financial models, investment materials or transaction workstreams can be commissioned separately where preparation is needed.",
-    "questionsHeading": "Questions about acquisitions and buyouts."
+    "questionsHeading": "Questions about acquisitions and buyouts.",
+    "definition": "Acquisition finance funds the purchase of a business or an ownership transaction such as a management buyout. It may combine debt, buyer equity and agreed seller funding, with the structure shaped by the business’s earnings, assets and cash needs after completion.",
+    "benefits": [
+      [
+        "Bring a purchase within a funding plan",
+        "Separate the consideration from fees, existing debt settlement and the working capital the acquired business still needs."
+      ],
+      [
+        "Consider more than one source",
+        "Assess cash-flow lending, asset-backed finance and equity against the transaction rather than assume one loan covers everything."
+      ],
+      [
+        "Support the business after completion",
+        "Allow for integration, investment and a slower-than-planned transition as well as the purchase price."
+      ]
+    ],
+    "assets": [
+      "Purchases of established trading businesses",
+      "Management buyouts and ownership succession",
+      "Expansion through complementary acquisitions"
+    ],
+    "comparison": {
+      "columns": [
+        "Funding source",
+        "What supports the case",
+        "Commitment to consider"
+      ],
+      "rows": [
+        [
+          "Cash-flow lending",
+          "Sustainable earnings and repayment capacity",
+          "Debt service, covenants and security"
+        ],
+        [
+          "Asset Based Lending",
+          "Eligible receivables, stock, machinery or property",
+          "Valuation, availability and reporting"
+        ],
+        [
+          "Equity contribution",
+          "Investment case and aligned owners/investors",
+          "Dilution, governance and exit expectations"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "A purchase price is only part of the requirement",
+      "body": "A buyer plans to acquire a complementary operator. The funding plan includes the price, transaction costs, repayment of existing debt and a working-capital allowance. Forecasts test whether the combined business can service the debt while completing the integration.",
+      "takeaway": "Deferred consideration or seller funding only helps if actually agreed and workable alongside the other finance. It should not be treated as assumed capital."
+    },
+    "primaryCta": "Discuss your acquisition",
+    "enquiryHeading": "What business or ownership transaction are you considering?",
+    "enquiryIntro": "Share the broad transaction, funding requirement and stage of discussions. A non-confidential outline is enough to establish how we could help.",
+    "definitionHeading": "What is acquisition & buyout finance?",
+    "benefitsHeading": "Why consider acquisition & buyout finance?",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "Fund completion without starving the business.",
+    "prepareHeading": "What helps us understand your requirement."
   },
   {
     "slug": "asset-based-lending",
@@ -854,10 +1442,69 @@
       "asset-refinance",
       "acquisition-finance"
     ],
-    "image": "industry",
+    "image": "team",
     "valueHeading": "Look across the assets and the existing obligations.",
     "valueIntro": "We help present the business’s asset base, current facilities and funding purpose as one coherent requirement. The structure needs to leave enough operating headroom after the transaction, not simply maximise the initial borrowing.",
-    "questionsHeading": "Questions about a combined asset facility."
+    "questionsHeading": "Questions about a combined asset facility.",
+    "definition": "Asset Based Lending, or ABL, brings eligible business assets into a structured funding package. Receivables and inventory can support changing availability, while equipment or property may support additional term borrowing within the agreed structure.",
+    "benefits": [
+      [
+        "Look beyond one asset",
+        "Assess value across several eligible asset classes instead of treating each purchase or invoice in isolation."
+      ],
+      [
+        "Support growth or a transaction",
+        "Explore a combined facility for working capital, acquisition funding or refinancing where the asset base supports the requirement."
+      ],
+      [
+        "Connect capital with operating headroom",
+        "Compare what can be drawn with what the business needs to trade and service the facility afterwards."
+      ]
+    ],
+    "assets": [
+      "Eligible trade receivables",
+      "Saleable inventory with supporting records",
+      "Machinery and equipment with realisable value",
+      "Property where appropriate to the structure"
+    ],
+    "comparison": {
+      "columns": [
+        "Asset class",
+        "How it may contribute",
+        "What can affect availability"
+      ],
+      "rows": [
+        [
+          "Receivables",
+          "Advances against eligible debts",
+          "Disputes, ageing, customer limits and reserves"
+        ],
+        [
+          "Inventory",
+          "Funding against eligible stock",
+          "Stock type, turnover, valuation and monitoring"
+        ],
+        [
+          "Machinery or property",
+          "Potential term components",
+          "Value, prior charges, useful life and debt service"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "One structure across a business’s assets",
+      "body": "A growing distributor has cash tied up in invoices and stock, as well as owned machinery. An ABL proposal assesses each eligible asset class and existing security. Some availability changes with the trading assets; other borrowing may have scheduled repayments.",
+      "takeaway": "The borrowing base is the agreed calculation of eligible assets and advances, after reserves. Asset book values are not the same as cash a lender will release."
+    },
+    "primaryCta": "Discuss a combined funding requirement",
+    "enquiryHeading": "Could the business’s assets support a wider facility?",
+    "enquiryIntro": "Tell us the funding purpose, the types of assets held and any existing lending. We can start without valuations or a full data room.",
+    "definitionHeading": "What is asset based lending?",
+    "benefitsHeading": "Why consider asset based lending?",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "How the arrangement works in practice.",
+    "commitmentsHeading": "Understand availability, security and ongoing controls.",
+    "prepareHeading": "What helps us understand your requirement."
   },
   {
     "slug": "vendor-finance",
@@ -935,6 +1582,64 @@
     "image": "team",
     "valueHeading": "Create a clear route from enquiry to assessment.",
     "valueIntro": "We help define how a finance introduction could fit your sales process. Any programme needs agreed product access, responsibilities and customer communications before it is presented as an available arrangement.",
-    "questionsHeading": "Questions about offering customer finance."
+    "questionsHeading": "Questions about offering customer finance.",
+    "definition": "Customer finance gives an equipment seller a route to introduce business buyers to external funding. The buyer’s agreement might be HP or leasing; the seller arrangement defines how that introduction fits the sales process.",
+    "benefits": [
+      [
+        "Give buyers another purchase route",
+        "Let customers explore spreading an eligible purchase cost alongside a cash purchase, without presenting finance as guaranteed."
+      ],
+      [
+        "Keep the sales conversation practical",
+        "Connect the equipment specification and price with the customer’s ownership or use requirement."
+      ],
+      [
+        "Establish a repeatable introduction process",
+        "Agree the contact route, information sharing and responsibilities before presenting an ongoing programme."
+      ]
+    ],
+    "assets": [
+      "Machinery and equipment sellers",
+      "Dealers serving business buyers",
+      "Suppliers seeking an agreed repeat-introduction arrangement"
+    ],
+    "comparison": {
+      "columns": [
+        "Party",
+        "Primary role",
+        "What must be clear"
+      ],
+      "rows": [
+        [
+          "Seller",
+          "Quotes and supplies the equipment",
+          "Specification, delivery and acceptance"
+        ],
+        [
+          "Frontier",
+          "Helps frame the enquiry and arrange a relevant introduction",
+          "Agreed scope, customer consent and contact ownership"
+        ],
+        [
+          "Funding provider",
+          "Assesses and documents the buyer’s funding",
+          "Eligibility, offer terms and payout conditions"
+        ]
+      ]
+    },
+    "scenario": {
+      "title": "From an equipment enquiry to a funding assessment",
+      "body": "A buyer is interested in a machine but wants to spread its cost. The seller provides the specification and quote. With the buyer’s agreement, a funding introduction follows. The provider assesses the buyer; a sale only progresses under the agreed documentation, delivery and payment conditions.",
+      "takeaway": "The seller should not describe a pending application as approval or assume payout before acceptance conditions are met."
+    },
+    "primaryCta": "Discuss customer finance",
+    "enquiryHeading": "Would a finance route help your equipment sales conversations?",
+    "enquiryIntro": "Tell us what you sell, who buys it and your typical transaction size. We can discuss the basis for an arrangement before you advertise one.",
+    "definitionHeading": "What is finance for your customers?",
+    "benefitsHeading": "Help buyers move from interest to a funding conversation.",
+    "optionsHeading": "Where this funding can fit.",
+    "stepsHeading": "A clear process for you and your buyer.",
+    "commitmentsHeading": "The details that change the decision.",
+    "prepareHeading": "What helps us understand your sales model."
   }
 ]

@@ -42,3 +42,21 @@ test('primary navigation prioritises customer routes and company information sta
  }
  for(const route of ['/about-us','/global-presence','/solutions','/sectors'])assert(d.querySelector('footer a[href="'+route+'"]'));
 });
+
+test('all funding detail pages explain a decision and lead to a product-context enquiry',()=>{
+ const editorial=JSON.parse(readFileSync(new URL('../content/funding-editorial.json',import.meta.url)));
+ const all=[...products,...editorial];assert.equal(all.length,20);
+ assert.equal(new Set(all.map(x=>x.route)).size,20);
+ for(const x of all){
+  const d=dom(x.route).window.document;
+  assert.equal(d.querySelectorAll('h1').length,1);
+  assert(d.querySelector('#fit').textContent.includes(x.definition));
+  assert.equal(d.querySelectorAll('.product-comparison tbody tr').length,x.comparison.rows.length);
+  assert(d.querySelector('#comparison a[href="#enquiry"]'));
+  assert(d.querySelector('.hero a[href="#enquiry"]').textContent.includes(x.primaryCta));
+  assert(d.querySelector('#enquiry h2').textContent.includes(x.enquiryHeading));
+  assert(!d.querySelector('main').textContent.includes('undefined'));
+ }
+ const trade=dom('/solutions/trade-import-finance').window.document.querySelector('main').textContent;
+ assert(!/letters of credit|Device-as-a-Service|software payment agreements/i.test(trade));
+});

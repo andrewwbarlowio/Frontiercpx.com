@@ -26,3 +26,11 @@ Provider agreements and product schedules, client/asset eligibility, onward-hire
 ## Editorial choices
 
 Ten primary product families follow the agreed likely-demand order; this is not a market usage ranking. Five equipment-hub links follow the agreed order. Sectors and specialist themes are separate. Existing useful routes remain valid. Technology investment is separate from technology-company fundraising. Asset Based Lending has its own page; loan/revolving/overdraft differences are visible; conditional sale and leasing variants are covered within their product family. The same enquiry component and source attribution serve all new pages.
+
+## Conversion-focused editorial revision — 17 November 2026
+
+All 20 funding detail/hub pages and the directory rewritten or substantially revised after the critical audit. Dedicated records in funding-editorial.json replace the long generic page template for the eight retained funding destinations, keeping their URLs. Product definitions, benefits, relevant asset/transaction examples, comparisons, payment/ownership mechanics and labelled illustrative situations now provide the decision support. Product-specific hero, comparison and mid-page invitations lead to the same contextual enquiry form.
+
+Excluded pending confirmed access: Device-as-a-Service, software payment agreements, letters of credit, bank guarantees, standalone FX and insurance services. Existing agreed product families remain educational discussion routes; no new provider partnership, quote, pricing or approval claim is made. Product-specific rate or term promises have not been imported from Lombard. No fictional client case or commercial outcome is presented as evidence.
+
+Primary reference recheck includes British Business Bank business loans/invoice finance/working capital guidance; HSBC import-loan documentation; Shawbrook ABL, acquisition and MBO pages; and Lombard HP, lease, residual value, machinery, refinance and stocking pages. Sources inform explanatory coverage, not a statement that Frontier has those providers' product terms.

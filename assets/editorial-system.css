@@ -252,3 +252,14 @@ html{scroll-padding-top:100px}
 .frontier-editorial .nav-sectors .nav-dropdown{right:-100px;width:480px}
 @media(min-width:1201px){.frontier-editorial .desktop-nav{gap:16px}.frontier-editorial .nav-sectors .nav-dropdown{max-width:calc(100vw - 48px)}}
 @media(max-width:520px){.frontier-editorial .mobile-nav .subnav{padding:14px 18px}.frontier-editorial .mobile-nav .subnav>a{font-size:16px;line-height:1.5;padding:11px 0}}
+
+/* Product detail: readable comparisons and specific decision support. */
+.frontier-editorial .product-definition{font-size:20px;line-height:1.8}
+.frontier-editorial .asset-list-heading{margin-top:28px;margin-bottom:16px}
+.frontier-editorial .comparison-scroll{max-width:100%;overflow-x:auto}
+.frontier-editorial .product-comparison{width:100%;border-collapse:collapse;text-align:left;font-size:15px;line-height:1.7}
+.frontier-editorial .product-comparison caption{text-align:left;font-size:13px;color:#536477;padding:0 0 18px}
+.frontier-editorial .product-comparison th,.frontier-editorial .product-comparison td{padding:20px 24px 20px 0;vertical-align:top;border-bottom:1px solid #bdc8ce;width:33.333%;overflow-wrap:anywhere}
+.frontier-editorial .product-comparison thead th{font-weight:700;color:#173a54;border-bottom:2px solid #55788d}
+.frontier-editorial .product-comparison tbody th{font-weight:650}
+@media(max-width:600px){.frontier-editorial .product-definition{font-size:18px}.frontier-editorial .product-comparison{font-size:13px;line-height:1.65}.frontier-editorial .product-comparison th,.frontier-editorial .product-comparison td{padding:14px 10px 14px 0}}

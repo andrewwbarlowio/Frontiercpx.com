@@ -19,3 +19,11 @@ Preview: https://frontiercpx-git-funding-products-restructure-andrewbarlowio.ver
 ## Follow-up navigation review
 
 Moved About Us and Global Presence out of the primary menus; both remain linked in the footer. Primary dropdown order is Funding Solutions, Advisory Services, Sectors, followed by Funding Network and contact/account utilities. Removed All Funding Solutions, All Sectors and All Advisory Services entries from dropdowns; their overview pages remain available through the footer and contextual links. Desktop panels now use the mobile navy gradient with light text, subtle dividers and visible hover/focus treatments. Build and four focused navigation/product tests passed after this revision.
+
+## Substantive funding copy rewrite
+
+All 21 Funding Solutions destinations reviewed against the audit and revised, including the directory. Twenty detail/hub pages now have clear definitions, tailored benefit explanations and comparison tables, with direct enquiry invitations in the hero and after comparisons. Detailed pages include non-priced illustrative situations; Business Funding and Complex Funding omit redundant long sections. Existing routes, meaningful enquiry source attribution, form behavior and desktop/mobile navigation are retained.
+
+Removed the trade page's letters-of-credit/guarantee option. No Device-as-a-Service or software-payment product is advertised. Technology Finance now focuses on an operating business's investment rather than competing with the technology-company sector page.
+
+Build and 24 tests passed after the substantive renderer change, including every funding page's definition/comparison/CTA and all 40 generated forms through test database storage and notification rendering. No real emails sent and no schema changes made.
