@@ -27,3 +27,10 @@ All 21 Funding Solutions destinations reviewed against the audit and revised, in
 Removed the trade page's letters-of-credit/guarantee option. No Device-as-a-Service or software-payment product is advertised. Technology Finance now focuses on an operating business's investment rather than competing with the technology-company sector page.
 
 Build and 24 tests passed after the substantive renderer change, including every funding page's definition/comparison/CTA and all 40 generated forms through test database storage and notification rendering. No real emails sent and no schema changes made.
+
+### Contextual image improvements
+- Replaced generic hero assignments with fleet, freight, stock dealership, wholesale fulfilment, supplier demonstration and founder prototype scenes.
+- Restored actual property imagery for property finance and bridging.
+- Retained approved contextual manufacturing, sustainability, life sciences and location photographs.
+- Images are illustrative, not evidence of Frontier clients or transactions.
+- Kept existing frame/F treatment and added subject-specific alternative text.
