@@ -180,6 +180,8 @@ Verdict: substantial overlap with Asset & Equipment Finance; still too abstract.
 
 The software/implementation boundary is useful, but the page needs an explicit role centred on technology investment by operating businesses. Repeated equipment language and the detour into startup capital make the proposition fuzzy. Lombard gives technology assets a more recognisable setting and product connections.
 
+The direct comparison also exposes specific omissions: Lombard describes software payment agreements and Device-as-a-Service alongside HP, leases and sale/leaseback, and names end-user devices, infrastructure and major implementation costs. These are research and access questions for Frontier, not confirmed additions to our offering. Our broad eligibility caveats should not substitute for researching the available routes.
+
 Rewrite as Technology Finance (preserve URL initially): hardware, systems and eligible software; cost categories; asset lease versus other business funding; refresh/replacement and implementation timing. Link briefly to the Technology sector for company fundraising. Do not imply subscriptions or every implementation cost can be financed.
 
 ### 21. Sustainability & Impact — /solutions/sustainability-and-impact
