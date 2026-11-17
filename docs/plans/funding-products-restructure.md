@@ -2,7 +2,7 @@
 
 Date: 17 November 2026
 Branch: funding-products-restructure
-Status: implementation plan; no customer-facing changes made
+Status: implemented on preview branch; awaiting Andy’s review before production merge
 Baseline: main at c165b6270fb59a3a294bff1faebca704faafe793
 
 ## Objective

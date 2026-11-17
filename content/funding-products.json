@@ -72,7 +72,10 @@
       "asset-finance",
       "acquisition-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Build the borrowing around the cash flow.",
+    "valueIntro": "We help separate a temporary timing gap from a longer-term investment, then organise the figures behind the repayment case. That makes it easier to compare the actual facility rather than a headline rate.",
+    "questionsHeading": "Questions before borrowing."
   },
   {
     "slug": "asset-finance",
@@ -149,7 +152,10 @@
       "vehicle-finance",
       "vendor-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Connect the asset to the operating plan.",
+    "valueIntro": "We bring the purchase, intended use and cash commitment together before exploring provider conversations. A machine, a rental fleet and a software project need different questions, even when they support the same growth plan.",
+    "questionsHeading": "Questions about equipment funding."
   },
   {
     "slug": "hire-purchase",
@@ -224,7 +230,10 @@
       "asset-refinance",
       "vehicle-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Make ownership part of a workable plan.",
+    "valueIntro": "We help set out the purchase, deposit and repayment requirement, including any final payment. The aim is a clear provider conversation about the equipment and the business that will use it.",
+    "questionsHeading": "Questions before buying through finance."
   },
   {
     "slug": "equipment-leasing",
@@ -299,7 +308,10 @@
       "asset-finance",
       "vehicle-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Compare the use, the cost and the way out.",
+    "valueIntro": "We help explain how long you need the equipment and which responsibilities the business can support. That provides a useful basis for comparing lease structures and their end-of-term conditions.",
+    "questionsHeading": "Questions before choosing a lease."
   },
   {
     "slug": "asset-refinance",
@@ -374,7 +386,10 @@
       "business-loans",
       "hire-purchase"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "See the cash release and the new commitment.",
+    "valueIntro": "We help organise the asset information, existing finance and purpose of the funds. The useful comparison is the net cash available and the future obligation, not the headline valuation alone.",
+    "questionsHeading": "Questions about releasing asset value."
   },
   {
     "slug": "vehicle-finance",
@@ -449,7 +464,10 @@
       "equipment-leasing",
       "asset-refinance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Match the fleet decision to the business.",
+    "valueIntro": "We help bring vehicle specifications, expected use and ownership preferences into one requirement. Compare the finance alongside running costs and replacement plans.",
+    "questionsHeading": "Questions about your next vehicle or fleet."
   },
   {
     "slug": "invoice-finance",
@@ -524,7 +542,10 @@
       "asset-based-lending",
       "trade-import-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Start with the quality of the cash coming in.",
+    "valueIntro": "We help explain the ledger, customer terms and funding gap before a provider approach. Factoring and discounting should be compared around the business’s collection process as well as the cash they could release.",
+    "questionsHeading": "Questions about funding unpaid invoices."
   },
   {
     "slug": "stock-dealer-finance",
@@ -599,7 +620,10 @@
       "trade-import-finance",
       "asset-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Build funding around how stock moves.",
+    "valueIntro": "We help distinguish sale stock, demonstrations and hire use, then set out the buying and selling cycle. A stocking conversation needs both unit-level detail and a credible plan for slower-moving inventory.",
+    "questionsHeading": "Questions about funding your stock."
   },
   {
     "slug": "trade-import-finance",
@@ -674,7 +698,10 @@
       "invoice-finance",
       "business-loans"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Make the trading cycle clear from the start.",
+    "valueIntro": "We help map the transaction, documents and timing before exploring a funding route. That makes the supplier-payment need and the proposed repayment easier to assess together.",
+    "questionsHeading": "Questions about trade and imports."
   },
   {
     "slug": "acquisition-finance",
@@ -749,7 +776,10 @@
       "business-loans",
       "/solutions/growth-and-ownership-capital"
     ],
-    "image": "team"
+    "image": "team",
+    "valueHeading": "Bring the transaction and funding work together.",
+    "valueIntro": "We help organise the capital requirement and the provider questions around it. Financial models, investment materials or transaction workstreams can be commissioned separately where preparation is needed.",
+    "questionsHeading": "Questions about acquisitions and buyouts."
   },
   {
     "slug": "asset-based-lending",
@@ -824,7 +854,10 @@
       "asset-refinance",
       "acquisition-finance"
     ],
-    "image": "industry"
+    "image": "industry",
+    "valueHeading": "Look across the assets and the existing obligations.",
+    "valueIntro": "We help present the business’s asset base, current facilities and funding purpose as one coherent requirement. The structure needs to leave enough operating headroom after the transaction, not simply maximise the initial borrowing.",
+    "questionsHeading": "Questions about a combined asset facility."
   },
   {
     "slug": "vendor-finance",
@@ -899,6 +932,9 @@
       "hire-purchase",
       "equipment-leasing"
     ],
-    "image": "team"
+    "image": "team",
+    "valueHeading": "Create a clear route from enquiry to assessment.",
+    "valueIntro": "We help define how a finance introduction could fit your sales process. Any programme needs agreed product access, responsibilities and customer communications before it is presented as an available arrangement.",
+    "questionsHeading": "Questions about offering customer finance."
   }
 ]
