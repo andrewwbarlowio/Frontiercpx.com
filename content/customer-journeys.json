@@ -4,28 +4,28 @@
     {
       "slug": "credit",
       "route": "/solutions/business-funding",
-      "title": "Business funding",
-      "headline": "Keep your cash flow moving.",
-      "intro": "A new contract. A growth opportunity. A facility coming to an end. Start with the purpose, then understand the borrowing that could fit your cash flow and plans.",
+      "title": "Business Funding",
+      "headline": "Find the funding behind your next move.",
+      "intro": "Cash flow, expansion or a change in ownership: start with the business decision, then explore the products that could support it.",
       "cta": "Discuss your business funding",
-      "goal": "Manage cash flow or fund growth",
+      "goal": "A starting point for working capital, business borrowing and acquisitions.",
       "uses": [
         [
           "working-capital",
-          "Manage working capital",
-          "Bridge the timing between paying suppliers, holding stock and receiving customer payments.",
+          "Keep the cash cycle moving",
+          "Explore invoice finance, loans and revolving facilities around the gap between outgoing costs and incoming payments.",
           "Discuss working capital"
         ],
         [
           "growth",
-          "Fund your next stage of growth",
-          "Frame the funding needed for a new contract, expansion or acquisition around a credible commercial plan.",
+          "Invest in the next stage",
+          "Separate expansion costs from acquisition funding, and test the resulting repayment plan.",
           "Discuss growth funding"
         ],
         [
           "refinance",
-          "Review an existing facility",
-          "Explore the purpose, timing and commitments behind refinancing, rather than comparing headline rates alone.",
+          "Review existing borrowing",
+          "Compare the current commitment with replacement funding, including settlement charges and any changes in security.",
           "Review your facility"
         ]
       ],
@@ -36,7 +36,7 @@
       ],
       "notFit": "A recurring loss without a credible plan needs a different assessment from a temporary cash-flow gap. A pre-revenue company seeking risk capital may need an equity conversation.",
       "alternative": "ventures",
-      "mechanics": "Business borrowing comes in different forms. A term facility, receivables-based funding and asset finance serve different needs. The useful starting point is how the funds will be used, how repayments could be made and which obligations the business can support.",
+      "mechanics": "A term loan provides borrowing over an agreed period. Revolving credit and overdrafts support changing cash requirements under their own conditions. Invoice finance follows eligible receivables; asset finance relates to equipment. An acquisition may combine debt and equity. Explore each product before comparing the cost and commitments of a proposed facility.",
       "tradeoffs": [
         [
           "Total cost",
@@ -75,8 +75,8 @@
         ]
       ],
       "fitHeading": "Can the business support the borrowing?",
-      "usesHeading": "Put the facility to work",
-      "structureHeading": "Match the facility to your cash cycle",
+      "usesHeading": "What does the business need next?",
+      "structureHeading": "Different needs call for different facilities.",
       "commitmentsHeading": "Repayments, security and room to adapt",
       "valueHeading": "Turn the trading plan into a funding case",
       "preparationHeading": "Prepare the repayment picture",
@@ -127,7 +127,16 @@
         }
       },
       "openingRoutes": false,
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "business-loans",
+        "invoice-finance",
+        "asset-finance",
+        "acquisition-finance",
+        "asset-based-lending",
+        "trade-import-finance"
+      ],
+      "productHeading": "Explore business funding products."
     },
     {
       "slug": "bridging-loans",
@@ -256,34 +265,40 @@
         }
       },
       "openingRoutes": true,
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "business-loans",
+        "real-estate",
+        "asset-refinance",
+        "acquisition-finance"
+      ]
     },
     {
       "slug": "real-estate",
       "route": "/solutions/property-finance",
-      "title": "Property finance",
+      "title": "Property Finance",
       "headline": "Build the next project on firmer foundations.",
-      "intro": "Acquisition, development or refinancing: the right conversation starts with the asset, the delivery programme and a realistic exit.",
+      "intro": "Buy premises, refinance a property or fund a development. Build the conversation around the asset, the project stage and how the finance will be repaid.",
       "cta": "Discuss your property project",
       "goal": "Acquire develop or refinance property",
       "uses": [
         [
-          "acquisition",
-          "Acquire a property",
-          "Set out the asset, ownership structure, available equity and acquisition timetable.",
-          "Discuss an acquisition"
+          "purchase",
+          "Buy premises or investment property",
+          "Explore commercial mortgages around the property, intended use, deposit and repayment source.",
+          "Discuss a property purchase"
         ],
         [
           "development",
-          "Deliver a development",
-          "Connect planning, build costs, contingency and staged cash requirements to a credible delivery plan.",
-          "Discuss a development"
+          "Fund a development",
+          "Set out acquisition costs, permissions, build stages, contingency and the proposed sale or refinance.",
+          "Discuss development funding"
         ],
         [
           "refinance",
-          "Refinance or plan your exit",
-          "Review a maturing facility, a completed scheme or capital tied up before sales or a longer-term refinance.",
-          "Discuss refinancing or exit"
+          "Refinance a property",
+          "Review existing borrowing or an equity-release requirement alongside valuation, charges and the replacement terms.",
+          "Discuss property refinance"
         ]
       ],
       "fit": [
@@ -293,7 +308,7 @@
       ],
       "notFit": "A property idea without a worked-through project or exit needs preparation first. This business-capital journey should not be treated as personal residential mortgage advice.",
       "alternative": "credit",
-      "mechanics": "A property facility needs to fit the asset and its stage. Development funding may draw in stages against progress; an acquisition or refinance has different conditions. Valuation, equity, legal work and the proposed exit all influence the assessment.",
+      "mechanics": "A commercial mortgage can support eligible business premises or investment property. Property refinance replaces an existing facility or may release available equity. Development finance is shaped around the site, costs, programme and exit, often with funds released against agreed milestones. A short-term bridge serves a different purpose and needs a credible exit. The asset, borrower and intended use determine which route can be considered.",
       "tradeoffs": [
         [
           "Usable funds and your contribution",
@@ -332,8 +347,8 @@
         ]
       ],
       "fitHeading": "Start with a project that stands up",
-      "usesHeading": "Where is your project today?",
-      "structureHeading": "From acquisition to exit",
+      "usesHeading": "What are your plans for the property?",
+      "structureHeading": "Match the finance to the stage of the project.",
       "commitmentsHeading": "Equity, drawdowns and the exit plan",
       "valueHeading": "Build the funding case around the programme",
       "preparationHeading": "Bring the project into focus",
@@ -384,16 +399,21 @@
         }
       },
       "openingRoutes": false,
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "bridging-loans",
+        "business-loans",
+        "asset-based-lending"
+      ]
     },
     {
       "slug": "private-equity",
       "route": "/solutions/growth-and-ownership-capital",
-      "title": "Growth and ownership capital",
-      "headline": "Fund the growth. Shape the ownership.",
-      "intro": "Put capital into the business, create shareholder liquidity or support a management transaction. Start with where the proceeds should go and what ownership should look like afterwards.",
+      "title": "Equity & Growth Capital",
+      "headline": "Bring the right capital into your next chapter.",
+      "intro": "Fund growth, bring in a capital partner or plan an ownership change. Explore what the investment makes possible and what it asks of the business and its shareholders.",
       "cta": "Discuss your shareholder decision",
-      "goal": "Raise equity or change ownership",
+      "goal": "Equity investment for growth and ownership change.",
       "uses": [
         [
           "growth",
@@ -421,7 +441,7 @@
       ],
       "notFit": "A pre-revenue startup usually needs a stage-led venture conversation. A short cash-flow gap may be better explored through borrowing than a change in ownership.",
       "alternative": "ventures",
-      "mechanics": "Distinguish newly issued equity, where proceeds go into the company, from shares sold by existing owners. A transaction can combine both. The business may receive a different amount from the headline deal value; ownership, governance, incentives and expectations about a later exit need to be considered together.",
+      "mechanics": "New shares can bring capital into the company; a sale of existing shares provides proceeds to selling shareholders. Some transactions combine both. The investment case, valuation, ownership, board rights and future exit expectations need to work together. Established-business growth capital differs from venture investment in an early-stage company, and an acquisition may also use debt.",
       "tradeoffs": [
         [
           "Valuation and dilution",
@@ -461,7 +481,7 @@
       ],
       "fitHeading": "A business ready for an ownership decision",
       "usesHeading": "What should the investment achieve?",
-      "structureHeading": "Where the proceeds go",
+      "structureHeading": "Understand where the investment goes.",
       "commitmentsHeading": "Ownership and decisions after investment",
       "valueHeading": "Prepare for the shareholder conversation",
       "preparationHeading": "Outline the business and its owners",
@@ -512,14 +532,19 @@
           ]
         }
       },
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "acquisition-finance",
+        "business-loans",
+        "ventures"
+      ]
     },
     {
       "slug": "ventures",
       "route": "/solutions/venture-funding",
-      "title": "Venture funding",
+      "title": "Venture Funding",
       "headline": "Fund the milestone that moves you forward.",
-      "intro": "Connect the next evidence point to the round, runway and investor profile it needs. Validation and commercial scaling require different funding cases.",
+      "intro": "Raise capital for a scalable business and its next milestone. Connect the product, market evidence, funding requirement and runway with a credible investment case.",
       "cta": "Discuss your next funding round",
       "goal": "Fund a scalable company",
       "uses": [
@@ -549,7 +574,7 @@
       ],
       "notFit": "Venture capital does not suit every startup. An ordinary working-capital requirement in an established company may be a business-funding conversation.",
       "alternative": "credit",
-      "mechanics": "Venture equity supports risk and growth in return for ownership. Investor stage, sector, geography and ability to lead or follow are important. Venture debt, where relevant, introduces repayment and may include covenants or warrants; it is not an automatic replacement for equity.",
+      "mechanics": "Venture investment typically involves equity or another investment instrument with its own rights and conditions. The case depends on the company’s stage, team, traction, market and use of funds. Model the capital needed to reach the next milestone and the ownership implications. Equipment finance or a business loan serves a different purpose and still requires its own assessment.",
       "tradeoffs": [
         [
           "Stage and investor mandate",
@@ -589,7 +614,7 @@
       ],
       "fitHeading": "Is the company ready for this round?",
       "usesHeading": "Choose the milestone to fund",
-      "structureHeading": "Build the round around the milestone",
+      "structureHeading": "Fund the milestone, with ownership in view.",
       "commitmentsHeading": "Runway, dilution and investor rights",
       "valueHeading": "Prepare a coherent investment case",
       "preparationHeading": "Set out the next evidence point",
@@ -640,14 +665,19 @@
           ]
         }
       },
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "private-equity",
+        "asset-finance",
+        "business-loans"
+      ]
     },
     {
       "slug": "special-situations",
       "route": "/solutions/complex-funding",
-      "title": "Complex funding",
+      "title": "Complex Funding",
       "headline": "Start with the requirement and the real deadline.",
-      "intro": "A maturing facility, a complex transaction or a change in trading: set out what must happen, by when and which decisions or consents stand in the way.",
+      "intro": "An unusual transaction, a facility approaching maturity or a changing business. Establish the requirement, the real deadline and the decisions that need to happen first.",
       "cta": "Discuss the requirement and deadline",
       "goal": "Discuss a complex requirement",
       "uses": [
@@ -775,16 +805,22 @@
           ]
         }
       },
-      "openingRoutes": false
+      "openingRoutes": false,
+      "relatedProducts": [
+        "asset-based-lending",
+        "acquisition-finance",
+        "asset-refinance",
+        "bridging-loans"
+      ]
     },
     {
       "slug": "life-sciences",
       "route": "/sectors/life-sciences",
-      "title": "Life sciences funding",
+      "title": "Life Sciences",
       "headline": "Capital around your next scientific milestone.",
-      "intro": "Connect the scientific or commercial milestone to its evidence, budget and runway. Discovery, development, commercial scale and laboratory investment need different capital conversations.",
+      "intro": "From research milestones to commercial scale, connect the capital requirement with the evidence, timetable and specialist operating needs of the business.",
       "cta": "Discuss your next milestone",
-      "goal": "Fund science and commercial scale",
+      "goal": "Funding conversations for research, equipment and commercial growth.",
       "uses": [
         [
           "development",
@@ -903,16 +939,23 @@
           ]
         }
       },
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "ventures",
+        "private-equity",
+        "asset-finance",
+        "invoice-finance"
+      ],
+      "productHeading": "Connect the milestone to a funding route."
     },
     {
       "slug": "tech-opportunities",
       "route": "/solutions/technology-funding",
-      "title": "Technology and equipment funding",
-      "headline": "Put the next capability into productive use.",
-      "intro": "Equipment, automation or a business technology investment: separate the purchase, installation and adoption costs, then match the funding conversation to when the capability becomes useful.",
+      "title": "Technology & Equipment Finance",
+      "headline": "Turn new technology into working capability.",
+      "intro": "Invest in automation, systems or specialist equipment. Separate the purchase from implementation and recurring costs so the funding case reflects the whole project.",
       "cta": "Discuss your equipment investment",
-      "goal": "Buy equipment or technology",
+      "goal": "Equipment, software and implementation for operating businesses.",
       "uses": [
         [
           "adoption",
@@ -940,7 +983,7 @@
       ],
       "notFit": "A technology label does not establish eligibility. Software, services and integration costs may be treated differently from equipment; an untested investment needs a credible business case.",
       "alternative": "ventures",
-      "mechanics": "Asset and equipment finance is shaped by the asset, eligible expenditure, deposit, term and end-of-term obligations. Software, implementation and ongoing services may need different treatment. Match funding and repayment to delivery, installation and adoption rather than assuming the supplier quote is fully financeable.",
+      "mechanics": "Equipment may be considered for hire purchase or leasing, depending on the asset and provider. Software, integration, installation and training can need different treatment. Separate one-off expenditure from ongoing services, and test repayment against delivery and adoption timing. A technology company raising capital for its own growth should explore venture or growth capital rather than treating the round as an equipment purchase.",
       "tradeoffs": [
         [
           "Eligible expenditure",
@@ -979,8 +1022,8 @@
         ]
       ],
       "fitHeading": "An investment in operating capability",
-      "usesHeading": "What are you putting into productive use?",
-      "structureHeading": "From purchase to productive use",
+      "usesHeading": "What are you investing in?",
+      "structureHeading": "Cost the purchase and the change around it.",
       "commitmentsHeading": "Eligible costs and end of term obligations",
       "valueHeading": "Connect the investment to the operating plan",
       "preparationHeading": "Separate purchase and implementation costs",
@@ -1031,14 +1074,22 @@
           ]
         }
       },
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "asset-finance",
+        "hire-purchase",
+        "equipment-leasing",
+        "business-loans",
+        "ventures"
+      ],
+      "productHeading": "Explore products for the investment."
     },
     {
       "slug": "double-impact",
       "route": "/solutions/sustainability-and-impact",
-      "title": "Sustainability and impact funding",
+      "title": "Sustainability & Impact",
       "headline": "Fund the investment behind the intended impact.",
-      "intro": "Choose the commercial requirement first: improving an operating business or growing a business built around an environmental or social purpose. Then define the intended outcome and the evidence behind it.",
+      "intro": "Invest in cleaner operations or grow an impact-led business. Define the commercial requirement and the outcome you intend to achieve, then assess the appropriate funding structure.",
       "cta": "Discuss your investment or impact plan",
       "goal": "Fund sustainability or impact",
       "uses": [
@@ -1159,16 +1210,23 @@
           ]
         }
       },
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "asset-finance",
+        "vehicle-finance",
+        "business-loans",
+        "private-equity"
+      ],
+      "productHeading": "Fund the investment behind the outcome."
     },
     {
       "slug": "insurance",
       "route": "/sectors/insurance-capital",
-      "title": "Insurance sector capital",
+      "title": "Insurance",
       "headline": "Capital for the business behind the insurance.",
-      "intro": "For brokers, MGAs, insurtechs and risk carriers: frame the capital purpose around the entity, commercial model and transaction. Business funding is distinct from insurance cover or underwriting capacity.",
+      "intro": "Capital for growth, transactions and change in an insurance business starts with its operating model, regulatory context and existing obligations.",
       "cta": "Discuss your insurance-sector capital need",
-      "goal": "Insurance sector capital",
+      "goal": "Capital requirements shaped around the insurance business model.",
       "scopeNote": "Business-capital requirements for brokers, MGAs, insurtechs and risk carriers. The relevant specialist support and provider fit are established for each engagement; this is not a policy, claims or underwriting-capacity service.",
       "uses": [
         [
@@ -1288,16 +1346,22 @@
         }
       },
       "openingRoutes": false,
-      "enquiryFields": []
+      "enquiryFields": [],
+      "relatedProducts": [
+        "private-equity",
+        "acquisition-finance",
+        "business-loans"
+      ],
+      "productHeading": "Explore routes for the actual requirement."
     },
     {
       "slug": "crypto",
       "route": "/sectors/digital-infrastructure",
-      "title": "Digital Asset Business Funding",
+      "title": "Digital Asset Businesses",
       "headline": "Fund the operating business behind the digital assets.",
-      "intro": "For blockchain and digital-asset businesses, begin with what the company does, where it operates and what the capital must achieve. Technology is context; the operating model is the funding case.",
+      "intro": "Describe the business activity, jurisdiction and purpose of the funds. Provider appetite and the applicable requirements depend on what the company actually does.",
       "cta": "Discuss your digital-asset business",
-      "goal": "Digital Asset Business Funding",
+      "goal": "Specialist business funding conversations around activity and jurisdiction.",
       "scopeNote": "Operating-company capital for blockchain and digital-asset businesses. This is not a token sale, retail crypto investment, trading service or physical data-centre, telecoms or cloud-infrastructure offering.",
       "uses": [
         [
@@ -1430,7 +1494,12 @@
           ]
         }
       },
-      "openingRoutes": false
+      "openingRoutes": false,
+      "relatedProducts": [
+        "private-equity",
+        "ventures",
+        "business-loans"
+      ]
     }
   ]
 }

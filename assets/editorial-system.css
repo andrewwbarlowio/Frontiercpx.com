@@ -242,3 +242,11 @@ html{scroll-padding-top:100px}
 }
 @media(max-width:359px){.frontier-editorial.frontier-editorial .header-inner{gap:6px;width:calc(100% - 24px)}.frontier-editorial.frontier-editorial .header-inner>.wordmark{width:138.6px}.header-talk{padding-inline:10px}}
 @media print{.frontier-editorial.frontier-editorial .site-header{display:none!important}}
+
+/* Product and sector journeys use the approved editorial components. */
+.frontier-editorial .product-options{margin-top:44px}
+.frontier-editorial .product-card .number{margin-bottom:0}
+.frontier-editorial .section.dark .section-heading>p:not(.kicker){color:#c6d6e3}
+.frontier-editorial .nav-sectors .nav-dropdown{right:-100px;width:480px}
+@media(min-width:1201px){.frontier-editorial .desktop-nav{gap:16px}.frontier-editorial .nav-sectors .nav-dropdown{max-width:calc(100vw - 48px)}}
+@media(max-width:520px){.frontier-editorial .mobile-nav .subnav{padding:14px 18px}.frontier-editorial .mobile-nav .subnav>a{font-size:16px;line-height:1.5;padding:11px 0}}
