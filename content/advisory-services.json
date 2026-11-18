@@ -76,7 +76,7 @@
     ],
     "example": {
       "title": "One acquisition. More than one capital route.",
-      "intro": "Illustrative options-appraisal structure. Assume an established business considering an acquisition; no lender or investor availability is implied.",
+      "intro": "Illustrative example: an established business is considering how to fund an acquisition.",
       "steps": [
         [
           "Compare borrowing",
@@ -91,9 +91,10 @@
           "Identify which commercial assumptions and shareholder choices must be settled before an approach."
         ]
       ],
-      "takeaway": "The output compares choices and identifies dependencies. It does not assert a preferred structure before the evidence is reviewed."
+      "takeaway": "The roadmap sets out the trade-offs and the decisions to settle before a provider approach."
     },
-    "enquiryIntro": "Outline the business decision, planned use of funds and the constraints that matter to you."
+    "enquiryIntro": "Outline the business decision, planned use of funds and the constraints that matter to you.",
+    "metaDescription": "Compare debt, equity and funding priorities around your business plans, cash flow and ownership goals with Frontier’s capital strategy support."
   },
   {
     "slug": "funding-readiness",
@@ -179,7 +180,7 @@
     ],
     "example": {
       "title": "A readiness review that leads to action.",
-      "intro": "Illustrative checklist structure. Assume a business preparing a funding application; this is not a completed client review.",
+      "intro": "Illustrative example: a business needs to bring its application, forecast and supporting material together.",
       "steps": [
         [
           "Narrative",
@@ -194,9 +195,10 @@
           "List missing records, responsible owners and the order in which gaps should be closed."
         ]
       ],
-      "takeaway": "The handover distinguishes ready material, unresolved assumptions and missing evidence. It does not certify the business or guarantee acceptance."
+      "takeaway": "The handover shows what is ready, what still needs evidence and who owns each outstanding action. The provider then assesses the completed case against its own criteria."
     },
-    "enquiryIntro": "Tell us what you are preparing for, what material exists and any important application deadline."
+    "enquiryIntro": "Tell us what you are preparing for, what material exists and any important application deadline.",
+    "metaDescription": "Prepare your business plan, financial information and supporting evidence for lender or investor conversations with Frontier’s funding readiness support."
   },
   {
     "slug": "financial-modelling",
@@ -217,16 +219,16 @@
     ],
     "process": [
       [
-        "Scope the engagement",
-        "Agree the objective, inputs, deliverables and fee."
+        "Define the decision",
+        "Agree the forecast period, questions to answer, available inputs and fee."
       ],
       [
-        "Develop the work",
-        "Review information and assumptions with the client."
+        "Build and test the model",
+        "Link the trading assumptions to profit, cash and borrowing; compare the agreed scenarios."
       ],
       [
-        "Review and hand over",
-        "Explain outputs, limitations and the next decisions."
+        "Explain and hand over",
+        "Walk through how the model works, the assumptions that matter and the decisions it supports."
       ]
     ],
     "prepare": [
@@ -276,7 +278,7 @@
     ],
     "example": {
       "title": "What changes if customers pay later?",
-      "intro": "Example structure only. Assume customer payment slips while supplier dates stay fixed. No real client figures or forecast outcomes are represented.",
+      "intro": "Illustrative example: customers pay later while supplier payment dates stay the same.",
       "steps": [
         [
           "Change the assumption",
@@ -291,9 +293,10 @@
           "Test available headroom, payment terms and facility commitments before deciding how to cover the gap."
         ]
       ],
-      "takeaway": "The deliverable is the linked model and explanation of its assumptions, not a promise that a lender will fund the gap."
+      "takeaway": "The model shows when a cash gap appears and how sensitive it is to payment delays. Use it to test headroom and the funding requirement; any lender will make its own assessment."
     },
-    "enquiryIntro": "Outline the objective, forecast horizon and any important deadline. We will agree scope and inputs before work starts."
+    "enquiryIntro": "Outline the objective, forecast horizon and any important deadline. We will agree scope and inputs before work starts.",
+    "metaDescription": "Understand your cash requirement, repayment capacity and downside scenarios with a financial model built around the business decision ahead."
   },
   {
     "slug": "debt-advisory",
@@ -310,7 +313,7 @@
     "outputs": [
       "Funding brief",
       "Lender approach plan",
-      "Offer comparison where offers exist"
+      "Funding-offer comparison"
     ],
     "process": [
       [
@@ -359,7 +362,7 @@
     "outputDescriptions": [
       "A structured statement of purpose, amount, timing, repayment case and relevant obligations.",
       "An agreed approach sequence with information requirements and the reasons for provider fit.",
-      "A consistent comparison of offers that exist, including cost, conditions, security and flexibility."
+      "Where offers are available, compare usable funds, total cost, repayment, security and flexibility on consistent assumptions."
     ],
     "headings": [
       "Before the lender approach",
@@ -373,7 +376,7 @@
     ],
     "example": {
       "title": "Compare offers on the same assumptions.",
-      "intro": "Illustrative offer-comparison framework. It contains no live offers, rates or provider commitments.",
+      "intro": "Illustrative comparison of the information needed to assess borrowing offers. No live rates or offers are shown.",
       "steps": [
         [
           "Cash available",
@@ -390,7 +393,8 @@
       ],
       "takeaway": "If assumptions differ, flag them rather than presenting a misleading ranking. An indicative discussion is different from an executable offer."
     },
-    "enquiryIntro": "Outline the funding purpose, repayment source and whether this is new borrowing or a facility review."
+    "enquiryIntro": "Outline the funding purpose, repayment source and whether this is new borrowing or a facility review.",
+    "metaDescription": "Prepare a lender case and compare borrowing costs, repayment, security and flexibility with Frontier’s debt and capital sourcing support."
   },
   {
     "slug": "equity-advisory",
@@ -445,8 +449,8 @@
         "Yes. Agreed scenarios can show the ownership effects of different round assumptions. Rights, preferences and future funding also need attention."
       ],
       [
-        "Do you guarantee investor introductions or a completed round?",
-        "No. Any proposed approach depends on mandate and fit and requires your agreement. Investor interest, diligence and completion remain uncertain."
+        "How do you select investors to approach?",
+        "The proposed approach starts with company stage, sector, round purpose and the type of partner sought. We agree the recipients and information to be shared with you. Investor interest and any completed investment depend on their own assessment."
       ]
     ],
     "headline": "Bring the vision and the investment case together.",
@@ -467,7 +471,7 @@
     ],
     "example": {
       "title": "See beyond the headline valuation.",
-      "intro": "Illustrative ownership-scenario framework. No valuation, investment return or funding outcome is asserted.",
+      "intro": "Illustrative comparison of how different funding assumptions affect shareholder ownership.",
       "steps": [
         [
           "State the assumptions",
@@ -484,7 +488,8 @@
       ],
       "takeaway": "A smaller dilution percentage does not settle the commercial decision. The full terms and shareholder objectives need specific review."
     },
-    "enquiryIntro": "Describe the round, next milestone and the shareholder decisions you need to work through."
+    "enquiryIntro": "Describe the round, next milestone and the shareholder decisions you need to work through.",
+    "metaDescription": "Prepare your capital raise, investor materials and ownership scenarios around your business milestone and shareholder priorities."
   },
   {
     "slug": "transaction-support",
@@ -545,7 +550,7 @@
         "No. Diligence, counterparties, documentation and conditions can change the critical path. The timetable makes dependencies visible rather than removing them."
       ]
     ],
-    "headline": "Keep the transaction moving towards the decision.",
+    "headline": "Keep the transaction moving with the detail in hand.",
     "outputDescriptions": [
       "An agreed record of open questions, dependencies, ownership and escalation points.",
       "A working view of requests, evidence, response status and remaining gaps.",
@@ -562,8 +567,8 @@
       "Where does your transaction need support?"
     ],
     "example": {
-      "title": "Turn a diligence question into an owned action.",
-      "intro": "Illustrative tracker structure. Assume a counterparty requests evidence for a forecast assumption; no actual client information is represented.",
+      "title": "Turn an outstanding question into a clear action.",
+      "intro": "Illustrative example: a counterparty requests evidence supporting a forecast assumption.",
       "steps": [
         [
           "Record the request",
@@ -578,9 +583,10 @@
           "Show whether the unresolved point affects terms, documentation or a completion condition."
         ]
       ],
-      "takeaway": "The tracker records status and responsibility. A closed action is not an audit opinion, legal clearance or a guarantee that the transaction can complete."
+      "takeaway": "The tracker shows what has been answered, what remains open and whether an issue affects the next milestone. Specialist advisers retain responsibility for their conclusions."
     },
-    "enquiryIntro": "Outline the transaction stage, open workstreams and the deadline or dependency that needs attention."
+    "enquiryIntro": "Outline the transaction stage, open workstreams and the deadline or dependency that needs attention.",
+    "metaDescription": "Coordinate information requests, adviser actions and completion conditions with Frontier’s due diligence and transaction support."
   },
   {
     "slug": "ongoing-advisory",
@@ -601,8 +607,8 @@
     ],
     "process": [
       [
-        "Agree the review rhythm",
-        "Define the decisions, inputs, deliverables and engagement cadence."
+        "Agree the review schedule",
+        "Set the review dates, inputs, deliverables and responsibilities around the business’s needs."
       ],
       [
         "Review what has changed",
@@ -634,7 +640,7 @@
       ],
       [
         "How often would we meet?",
-        "Agree the cadence around the business and deliverables. No standard frequency or response-time commitment is assumed."
+        "We agree the review frequency around the decisions approaching, the information available and the support you need. The engagement sets out the deliverables and contact arrangements."
       ],
       [
         "What if the business is under financial pressure?",
@@ -644,7 +650,7 @@
     "headline": "Keep the capital plan ready for what comes next.",
     "outputDescriptions": [
       "A periodic review of facilities, capital requirements and decisions approaching on the horizon.",
-      "Updated agreed forecasts and a view of the assumptions that have changed.",
+      "Refresh the agreed forecasts and explain what changed, why it matters and the effect on cash needs.",
       "A practical action list covering preparation, dependencies and the timing of the next capital conversation."
     ],
     "headings": [
@@ -659,7 +665,7 @@
     ],
     "example": {
       "title": "See the refinancing decision before maturity.",
-      "intro": "Illustrative periodic-review structure. Assume a facility is approaching maturity while investment plans have changed.",
+      "intro": "Illustrative example: a facility is approaching maturity while the business’s investment plans have changed.",
       "steps": [
         [
           "Review the position",
@@ -676,6 +682,7 @@
       ],
       "takeaway": "The review supports preparation and decisions. A renewal, extension or new facility must not be assumed."
     },
-    "enquiryIntro": "Tell us what has changed, which decisions are approaching and the review support you need."
+    "enquiryIntro": "Tell us what has changed, which decisions are approaching and the review support you need.",
+    "metaDescription": "Review facilities, refresh cash forecasts and prepare for refinancing or the next capital decision with Frontier’s ongoing business support."
   }
 ]

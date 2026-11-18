@@ -60,3 +60,26 @@ test('all funding detail pages explain a decision and lead to a product-context 
  const trade=dom('/solutions/trade-import-finance').window.document.querySelector('main').textContent;
  assert(!/letters of credit|Device-as-a-Service|software payment agreements/i.test(trade));
 });
+
+test('funding index uses product-specific summaries and comparison routes match their subject',()=>{
+ const d=dom('/solutions').window.document;
+ for(const [route,subject] of [['property-finance',/commercial premises|property development/i],['growth-and-ownership-capital',/equity investment|ownership/i]]){
+  const card=d.querySelector('#products a[href="/solutions/'+route+'"]');
+  assert(card);assert.match(card.querySelector('p').textContent,subject);
+  assert.doesNotMatch(card.textContent,/Discuss the funding behind your plans|Explore the requirement, structure and next steps/);
+ }
+ const cards=[...dom('/funding-options').window.document.querySelectorAll('.comparison-card')];
+ const equipment=cards.find(x=>x.querySelector('h3').textContent==='Equipment or asset finance');
+ assert.equal(equipment.querySelector('a').getAttribute('href'),'/solutions/asset-finance');
+ const working=cards.find(x=>x.querySelector('h3').textContent==='Working-capital funding');
+ assert.equal(working.querySelector('a').getAttribute('href'),'/solutions/invoice-finance');
+});
+
+test('unavailable account access is explained before requesting credentials',()=>{
+ for(const route of ['/client-login','/forgot-password']){
+  const d=dom(route).window.document;
+  assert.match(d.querySelector('main').textContent,/not currently available/);
+  assert.equal(d.querySelectorAll('input[type="password"],.auth-form').length,0);
+  assert(d.querySelector('main a[href="mailto:enquiries@frontiercpx.com"]'));
+ }
+});

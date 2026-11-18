@@ -139,7 +139,7 @@ test('EVERY generated form runs browser submit -> validation -> Postgres -> rend
    w.eval(source);const form=w.document.querySelector('.enquiry-form'),value=good(route);
    for(const k of ['name','email','phone','requirement'])form.elements[k].value=value[k];
    form.dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await done;await new Promise(resolve=>setImmediate(resolve));
-   assert.match(form.querySelector('.form-status').textContent,/enquiry has been saved/);assert.equal(form.elements.email.value,'');assert(form.hidden);assert.match(form.parentElement.querySelector('.enquiry-success').textContent,/Thank you for getting in touch/);assert.match(form.parentElement.querySelector('.enquiry-success').textContent,/will be in touch soon/);assert(key);dom.window.close();
+   assert.match(form.querySelector('.form-status').textContent,/enquiry has been saved/);assert.equal(form.elements.email.value,'');assert(form.hidden);assert.match(form.parentElement.querySelector('.enquiry-success').textContent,/Thank you for getting in touch/);assert.match(form.parentElement.querySelector('.enquiry-success').textContent,/will contact you to discuss your plans and the next step/);assert(key);dom.window.close();
   }
   assert.equal(evidence.length,routes.length);console.log(JSON.stringify({formRoutesTested:routes.length,storedAndRenderedFields:'pass',browser:'JSDOM',provider:'mocked; no real email sent'}));
  }finally{await f.close();}

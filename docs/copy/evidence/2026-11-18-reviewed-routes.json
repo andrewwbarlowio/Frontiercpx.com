@@ -1,0 +1,457 @@
+[
+  {
+    "route": "/our-approach",
+    "file": "our-approach/index.html",
+    "status": 200,
+    "sha256": "d72b850bcb316c019178ee02f262ae4735fd5807afb257c3db8768d7897939a4",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/our-expertise",
+    "file": "our-expertise/index.html",
+    "status": 200,
+    "sha256": "d5bc2b5d435c8b96cfd19f1b7a5e3ddd33a8d69cb91fd35106f7410f3ae2b3a2",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/funding-network",
+    "file": "funding-network/index.html",
+    "status": 200,
+    "sha256": "a771e24f13d6634925018d9e37022a7e63f9c348ac84aa02852e04977ed7776c",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/global-presence",
+    "file": "global-presence/index.html",
+    "status": 200,
+    "sha256": "2400fbdf81c740f571f232c4b7f8042f915c3ba3b139c8e6c6eb57be08174058",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/",
+    "file": "index.html",
+    "status": 200,
+    "sha256": "29bbf3957c6812da26d1254c6147284ecfe603c123c27dcc122610d85403aac4",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions",
+    "file": "solutions/index.html",
+    "status": 200,
+    "sha256": "a7d7d24cbf62cbe451fef1575446f80771aba76166e29002d31fe54f495e3fc3",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/business-loans",
+    "file": "solutions/business-loans/index.html",
+    "status": 200,
+    "sha256": "5d334f33f101ac40cee6825333e92484a6e3906c455bbbf4ce613fbf239fa9b5",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/asset-finance",
+    "file": "solutions/asset-finance/index.html",
+    "status": 200,
+    "sha256": "3aed870ec4d8dcf7efff12b5594ad0e62b0e7ac4b035ab28a069c9a82ddaead6",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/hire-purchase",
+    "file": "solutions/hire-purchase/index.html",
+    "status": 200,
+    "sha256": "25ff041635f9ef45fe8d126643d80ba3055c9dca8c3027e8f88480cf3b791422",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/equipment-leasing",
+    "file": "solutions/equipment-leasing/index.html",
+    "status": 200,
+    "sha256": "d42f274065df7ac74c812e0abe4f6996860cba2116a4707677c948b0cb18b2ea",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/asset-refinance",
+    "file": "solutions/asset-refinance/index.html",
+    "status": 200,
+    "sha256": "8c4db6d6b4b03725000cd8cf646e97fa5ec16966a5e75077a9ab4dbdfbb6720e",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/vehicle-finance",
+    "file": "solutions/vehicle-finance/index.html",
+    "status": 200,
+    "sha256": "a56a721922ed6ee6c557f4a06cb37954acc8bca984ac0f6d9baa1675d31896d6",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/invoice-finance",
+    "file": "solutions/invoice-finance/index.html",
+    "status": 200,
+    "sha256": "7f34d5224ead17179412587d3bc87fa68fad0cafd2c7f71971859a7c6af98cce",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/stock-dealer-finance",
+    "file": "solutions/stock-dealer-finance/index.html",
+    "status": 200,
+    "sha256": "0939e998dab1988382054d6061d56bc2bc4ee0e3af443aae24f817a961808fef",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/trade-import-finance",
+    "file": "solutions/trade-import-finance/index.html",
+    "status": 200,
+    "sha256": "c26f7fbac7446bce1fdc7b38cb5071a94191a17a37d1b6d4a26d557770b2eadf",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/acquisition-finance",
+    "file": "solutions/acquisition-finance/index.html",
+    "status": 200,
+    "sha256": "7c5354da84e8667cc03d7fdeaf2eb7d89392733da06d2c9220add23bb2211157",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/asset-based-lending",
+    "file": "solutions/asset-based-lending/index.html",
+    "status": 200,
+    "sha256": "5d7541461cc148f7a9eeb425136926c537016f3deedc55e4d78257f333acbbe7",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/vendor-finance",
+    "file": "solutions/vendor-finance/index.html",
+    "status": 200,
+    "sha256": "04762e5b19b88ef0968c846378c89398ba95fd3f1250adfe25223576316701ac",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/business-funding",
+    "file": "solutions/business-funding/index.html",
+    "status": 200,
+    "sha256": "e55361dbf3ebb4e6bbb2d66ae592e0bf0c6a0ead2bb46473fa0c08e9262b2e49",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/bridging-loans",
+    "file": "solutions/bridging-loans/index.html",
+    "status": 200,
+    "sha256": "663871d3713622a31740e4618cd98a41f7430eb5d3415afb60514ab9fc316a23",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/property-finance",
+    "file": "solutions/property-finance/index.html",
+    "status": 200,
+    "sha256": "abc4e22bdecd043b0d6282476d73121552663576e9dd76a20e341f4fb99a5833",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/growth-and-ownership-capital",
+    "file": "solutions/growth-and-ownership-capital/index.html",
+    "status": 200,
+    "sha256": "cbe75c2881c07a52d878ee619646389ea6352f8d886d4f3c23a59e0cffd9667e",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/venture-funding",
+    "file": "solutions/venture-funding/index.html",
+    "status": 200,
+    "sha256": "3817f19300c71aef2e4c34e7515c004a536ae294bccf0f855cf56ded00806363",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/complex-funding",
+    "file": "solutions/complex-funding/index.html",
+    "status": 200,
+    "sha256": "43f4c79e91bec830936531ba0d4d01d603186779e9887a8b99cd568fe4da9baf",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/technology-funding",
+    "file": "solutions/technology-funding/index.html",
+    "status": 200,
+    "sha256": "9681586bbc6c544d9a862a4297f8f16fc9affc201f27ebf1c344419e27f4dc46",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/solutions/sustainability-and-impact",
+    "file": "solutions/sustainability-and-impact/index.html",
+    "status": 200,
+    "sha256": "9da02588aac025b9d7a2f092c19c8dc800415b5a839bc8e5c1617be3e0a3a0f3",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/sectors",
+    "file": "sectors/index.html",
+    "status": 200,
+    "sha256": "482b99eb7cede0d0d4e4fbd4309edf31e50150ad46f8bef665801c5971ded76a",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/sectors/plant-machinery",
+    "file": "sectors/plant-machinery/index.html",
+    "status": 200,
+    "sha256": "af65940b8c1406a6f2bca088fa0b1d49c13fe575780ea1676723e8911eeb8243",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/sectors/technology",
+    "file": "sectors/technology/index.html",
+    "status": 200,
+    "sha256": "2881310662085d938aab71626274b3db3a59062ff61ac321325c01cf5f94e892",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/sectors/life-sciences",
+    "file": "sectors/life-sciences/index.html",
+    "status": 200,
+    "sha256": "659b6f9b882ea67846f43574d480287efe63835758b4ff0ec32225e5067d271f",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/sectors/insurance-capital",
+    "file": "sectors/insurance-capital/index.html",
+    "status": 200,
+    "sha256": "911612fd2a6c2bfbb568effb64d8fbe74bd0a5984e408d654493afaabd7dbc13",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/sectors/digital-infrastructure",
+    "file": "sectors/digital-infrastructure/index.html",
+    "status": 200,
+    "sha256": "a5a00bedaf359c9528bbdd5beed98181af5eea5738a9003f822274f5d531844b",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services",
+    "file": "services/index.html",
+    "status": 200,
+    "sha256": "d55b086d39a073a923effc89540f280703f516fb44e088d322d17cedd40545a7",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/capital-strategy",
+    "file": "services/capital-strategy/index.html",
+    "status": 200,
+    "sha256": "397a158de2676c12d8c5232b4d4d84bb5be3493984226e2b713ac92454a1f754",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/funding-readiness",
+    "file": "services/funding-readiness/index.html",
+    "status": 200,
+    "sha256": "f624bec4f5db2714ac8f313b12333e5b4f04f3612f94b986ac4d9025101ade97",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/financial-modelling",
+    "file": "services/financial-modelling/index.html",
+    "status": 200,
+    "sha256": "ef13d9e15c512785bc81967a7d648a0d5014c7b23501ce40fdda6dbda71f57dc",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/debt-advisory",
+    "file": "services/debt-advisory/index.html",
+    "status": 200,
+    "sha256": "329fd8034f8fcd798792173244ad11e9b0d2f3e65855e8ca13af70ffac78521f",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/equity-advisory",
+    "file": "services/equity-advisory/index.html",
+    "status": 200,
+    "sha256": "ee3fb475a016b9984c60356757f3bf7f6b59d6b04444cd1ab5e326107e370038",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/transaction-support",
+    "file": "services/transaction-support/index.html",
+    "status": 200,
+    "sha256": "c6c7856cf9ce327ff341586a20e34e081aee2ebf4bc9f4aa6838361a518caddb",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/services/ongoing-advisory",
+    "file": "services/ongoing-advisory/index.html",
+    "status": 200,
+    "sha256": "89f351a65170f5a0e555461040c6a1604fcaa9ab1e3ee6d2423a78112429879b",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/about-us",
+    "file": "about-us/index.html",
+    "status": 200,
+    "sha256": "624770ae8d7362dbfca5165c34c5b1eb3739caad429e517e5647bb1caacb8509",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/for-advisers",
+    "file": "for-advisers/index.html",
+    "status": 200,
+    "sha256": "1aec2bc5d3329ca7fa6536890f65026b7437e1c186968485220e855080874173",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/funding-options",
+    "file": "funding-options/index.html",
+    "status": 200,
+    "sha256": "31b832830e20637d16d5808a0b4d5e71db80a09deaec7f62b7792c3a14ef7fb4",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/funding-guide",
+    "file": "funding-guide/index.html",
+    "status": 200,
+    "sha256": "556de6dbe755eacbe9b40f4e66084681edfaf21ae48e60259d0b507a404e1e17",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/credit",
+    "file": "briefs/credit/index.html",
+    "status": 200,
+    "sha256": "daf5bfafa46db25687f54e8a3df947351a49fbf21d83d04ef4cecc304692cbca",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/bridging-loans",
+    "file": "briefs/bridging-loans/index.html",
+    "status": 200,
+    "sha256": "e3ddbe6a8b2efaf477303cbd64b5f745c1800ef5607a0bc847ace8cec2567eee",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/real-estate",
+    "file": "briefs/real-estate/index.html",
+    "status": 200,
+    "sha256": "6efcda2f1af19461435874dbbb4d9293d0636ab923b03321f022d3bf6426c401",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/private-equity",
+    "file": "briefs/private-equity/index.html",
+    "status": 200,
+    "sha256": "547a8f0b6ef0b589f5c3a1b174f38a89b57aef50f7471a118bf5ca8fb44baaaa",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/ventures",
+    "file": "briefs/ventures/index.html",
+    "status": 200,
+    "sha256": "6326456cdfc86fd95fa13fc45975ae2c4381e78180a2ed9ab1f51ee171b8af9b",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/special-situations",
+    "file": "briefs/special-situations/index.html",
+    "status": 200,
+    "sha256": "9df0a4d65926e2a5f8c921b940f6dd350b7d73a3fa6dde6b5a09dfa0af2f0b0b",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/life-sciences",
+    "file": "briefs/life-sciences/index.html",
+    "status": 200,
+    "sha256": "9b835c57ff221efba8f7644b92f91973f20aee3fb6a32092a6aaac1f5f8cf6dd",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/tech-opportunities",
+    "file": "briefs/tech-opportunities/index.html",
+    "status": 200,
+    "sha256": "00a37d5cf9031a9d8a5f0033caf9e6a3352fe955ad6649445134c344f8d93382",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/double-impact",
+    "file": "briefs/double-impact/index.html",
+    "status": 200,
+    "sha256": "7c36102b3ef3a4b8dc0edf3df41397a5322c5aec3e3060ebbc64217f6c02199a",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/insurance",
+    "file": "briefs/insurance/index.html",
+    "status": 200,
+    "sha256": "97acb984a581a64067e261944f8841f950ae60755a8b4c593eedd76b3bdcbe35",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/briefs/crypto",
+    "file": "briefs/crypto/index.html",
+    "status": 200,
+    "sha256": "7dd8bc0efd877bcaf51870f4b6e976278cd53bab1832b7f8c7682cdb0df37877",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/contact",
+    "file": "contact/index.html",
+    "status": 200,
+    "sha256": "5eae4ef0d949c54f02365590512a3faaa4e46b9e59710f30e6dd77435602ebfb",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/privacy-policy",
+    "file": "privacy-policy/index.html",
+    "status": 200,
+    "sha256": "4b44eb99ab87a519560c293de475074d91c7609f00b506941e3ff9bbaddfa03c",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/terms-use",
+    "file": "terms-use/index.html",
+    "status": 200,
+    "sha256": "8456bd05edc72278fef0486cfaf57e0ee46bf1d067d864f05d6a0fd41a40bb7b",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/client-login",
+    "file": "client-login/index.html",
+    "status": 200,
+    "sha256": "0c78c78652240de912740a0c210052b7120a0e12bc835f60561b91d855a698b8",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/forgot-password",
+    "file": "forgot-password/index.html",
+    "status": 200,
+    "sha256": "63bc5f5db9573a7841b783a2715ac0c35e8e53d0d40ff0ccace4da7126b4e392",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/404",
+    "file": "404.html",
+    "status": 404,
+    "sha256": "8ac184e8122f6884c2c2bb636d31bf96044ebb0c23fe2e2ae829815e7075079d",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/ventures",
+    "file": "ventures/index.html",
+    "status": 308,
+    "sha256": "fd930ce1041452b75b7fbea103b79ce9fdfdc43c054a348894d2b374817faa00",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/crypto",
+    "file": "crypto/index.html",
+    "status": 308,
+    "sha256": "3996b3382e054e5f27ff8dd6e3eb6fc1ae4c1ad0f68cafb5265d712d8ec3aaa0",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/how-it-works",
+    "file": "how-it-works/index.html",
+    "status": 308,
+    "sha256": "84652edeaca5e7664e6f6c6370f5f6ddc147e4fffbdd3cc1408a7d6bab323aae",
+    "copy_review": "completed"
+  },
+  {
+    "route": "/destination",
+    "file": "destination/index.html",
+    "status": 200,
+    "sha256": "efddecddb2b2aeadd6176e0df9483109b568b0a4b9d661bb64c6814263c7e9bd",
+    "copy_review": "completed"
+  }
+]

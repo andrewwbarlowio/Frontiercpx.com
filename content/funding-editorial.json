@@ -59,8 +59,8 @@
     ],
     "faqs": [
       [
-        "Can you help if my bank has declined?",
-        "The reason for the decision matters. A different provider or structure may consider a different case, but a decline does not establish that funding will be available elsewhere."
+        "Can you help if our bank has declined?",
+        "We can discuss the reason for the decision and whether a different structure or provider could be relevant. A previous decline does not rule out every route, but further funding still depends on assessment."
       ],
       [
         "Will I need a personal guarantee?",
@@ -68,7 +68,7 @@
       ],
       [
         "Will an enquiry affect my credit file?",
-        "An enquiry is not a credit application. The actual assessment process and any proposed credit searches should be explained before they happen."
+        "Submitting this enquiry form is not a credit application and does not itself request a credit search. Any later provider application and proposed searches should be explained before you proceed."
       ]
     ],
     "related": [
@@ -82,7 +82,7 @@
     "image": "fulfilment",
     "valueHeading": "Start with the plan. We’ll help with the funding route.",
     "valueIntro": "You do not need to arrive with a product name. We help clarify where the money is needed and how it will be repaid, then arrange relevant provider introductions with your agreement.",
-    "questionsHeading": "Borrowing questions worth asking",
+    "questionsHeading": "Questions about finding a funding route.",
     "primaryCta": "Discuss your business funding",
     "enquiryHeading": "What do you want the funding to make possible?",
     "enquiryIntro": "Tell us the goal, the cash requirement and your timing. We will help identify a useful starting point.",
@@ -133,14 +133,14 @@
     "compact": false,
     "optionsHeading": "What does the business need to do?",
     "commitmentsHeading": "Compare the whole borrowing commitment.",
-    "prepareHeading": "A useful first conversation starts here.",
+    "prepareHeading": "Start with what the money needs to do.",
     "useIds": [
       "working-capital",
       "growth",
       "refinance"
     ],
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Tell us the goal, the cash requirement and your timing. We will help identify a useful starting point.",
+    "comparisonHeading": "Match the funding to the business need.",
+    "comparisonPrompt": "",
     "seoTitle": "Business Funding"
   },
   {
@@ -149,7 +149,7 @@
     "title": "Bridging Loans",
     "headline": "Keep the next step in sight.",
     "intro": "An opportunity and the funds to pursue it do not always arrive together. Explore short-term business funding around the gap, the actual deadline and a credible plan to repay it.",
-    "summary": "Short-term funding enquiries for a defined business gap and an evidenced repayment plan.",
+    "summary": "Short-term funding for a defined business gap, assessed around a credible repayment plan.",
     "uses": [
       [
         "Between funding rounds",
@@ -228,7 +228,7 @@
     "questionsHeading": "Your bridging questions, answered.",
     "primaryCta": "Discuss your bridging requirement",
     "enquiryHeading": "What is the gap you need to bridge?",
-    "enquiryIntro": "Tell us the gap, approximate amount, deadline and expected repayment source. We will start with the situation, not ask you to assume a particular structure.",
+    "enquiryIntro": "Tell us the temporary need, approximate amount, deadline and expected repayment source. We’ll help establish which type of funding conversation is relevant.",
     "definition": "Bridging covers a temporary funding gap until a specified repayment event. The actual facility can differ significantly between a property-backed transaction, a short-term trading requirement and a business waiting for further investment. The exit must be assessed, not simply anticipated.",
     "definitionHeading": "A temporary need starts with a credible exit.",
     "benefitsHeading": "Keep a time-sensitive plan moving.",
@@ -280,9 +280,9 @@
     "compact": false,
     "optionsHeading": "What needs to happen before the next funds arrive?",
     "commitmentsHeading": "Understand the cost and the way out.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Tell us the gap, approximate amount, deadline and expected repayment source. We will start with the situation, not ask you to assume a particular structure.",
+    "prepareHeading": "The gap, the deadline and the evidence for repayment.",
+    "comparisonHeading": "Different gaps need different assessments.",
+    "comparisonPrompt": "",
     "seoTitle": "Bridging Loans"
   },
   {
@@ -349,12 +349,12 @@
         "That depends on the asset, available information, valuation, legal work and the provider’s conditions. Share a real deadline early so the critical path can be considered."
       ],
       [
-        "How much equity will I need?",
-        "Requirements depend on the provider, asset and project. A single published lender limit is not a universal rule."
+        "How much of our own money will we need?",
+        "Your contribution depends on the property, project, provider and costs being funded. Allow for the deposit or equity contribution and any fees, works or other costs that must be paid before funds are released."
       ],
       [
-        "Can I refinance a completed development?",
-        "A development exit or other refinance may be a relevant conversation, subject to the property, existing borrowing, timing and a credible exit."
+        "Can we refinance a completed development?",
+        "A refinance may replace the development facility while a completed property is sold or held. The relevant route depends on the property, income or sale plan, existing borrowing and remaining time before repayment is due."
       ]
     ],
     "related": [
@@ -365,7 +365,7 @@
     "image": "architecture",
     "valueHeading": "Connect the property vision with a practical funding case.",
     "valueIntro": "We help bring the property, costs, own contribution and timetable into a clear requirement for relevant providers. Acquisition, development and refinancing each need a different approach, with legal and valuation work handled by the appropriate professionals.",
-    "questionsHeading": "Questions before you break ground",
+    "questionsHeading": "Questions about your property plans.",
     "primaryCta": "Discuss your property project",
     "enquiryHeading": "What are you planning for the property?",
     "enquiryIntro": "Share the property type, broad funding requirement, current stage and any real deadline. An address or confidential pack is not needed to start.",
@@ -409,9 +409,9 @@
           "Sale, refinance or another agreed project exit"
         ],
         [
-          "Property refinance / bridge",
-          "Replace finance or cover a defined timing gap",
-          "A sustainable replacement facility or credible short-term exit"
+          "Property bridging",
+          "Cover a temporary gap before a sale or refinance",
+          "A credible exit with evidence for its timing"
         ]
       ]
     },
@@ -424,16 +424,16 @@
     "compact": false,
     "optionsHeading": "Where are you in the property plan?",
     "commitmentsHeading": "Know the contribution, conditions and exit.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Share the property type, broad funding requirement, current stage and any real deadline. An address or confidential pack is not needed to start.",
+    "prepareHeading": "The property, your contribution and the proposed exit.",
+    "comparisonHeading": "Match the finance to the project stage.",
+    "comparisonPrompt": "",
     "seoTitle": "Property Finance"
   },
   {
     "slug": "private-equity",
     "route": "/solutions/growth-and-ownership-capital",
     "title": "Equity & Growth Capital",
-    "headline": "Capital for your vision. A new chapter for ownership.",
+    "headline": "Capital for growth. A new chapter for ownership.",
     "intro": "Grow the company, make an acquisition or change who owns the business. We help you explore equity investment around the opportunity and what it means for the shareholders involved.",
     "summary": "Equity investment for company growth, acquisitions and changes in ownership.",
     "uses": [
@@ -479,7 +479,7 @@
       ],
       [
         "Process and exit",
-        "Diligence and shareholder agreement take time. Clarify the investor’s horizon and expectations about future liquidity."
+        "Investor assessment and shareholder agreements take time. Clarify how long the investor expects to remain involved and how a future sale or other exit might work."
       ]
     ],
     "prepare": [
@@ -497,8 +497,8 @@
         "The full agreement matters: governance, conditions, incentives, investor fit and exit expectations can change the overall assessment."
       ],
       [
-        "Will my information be circulated to investors?",
-        "The scope of any introduction and information sharing should be agreed. A first conversation does not require sending a shareholder register or confidential pack."
+        "Will you share our information with investors?",
+        "We agree the recipients and scope with you before sharing details with a funding provider. Start with a non-confidential outline; detailed ownership records and investor materials can follow through an agreed process."
       ]
     ],
     "related": [
@@ -509,17 +509,17 @@
     "image": "team",
     "valueHeading": "Bring the growth plan and shareholder goals together.",
     "valueIntro": "We help clarify where the capital should go, the role of an investor and the ownership priorities behind the transaction. Relevant introductions follow that brief. Investor materials and ownership scenarios can be commissioned separately where preparation is needed.",
-    "questionsHeading": "Questions for the ownership decision",
-    "primaryCta": "Discuss your shareholder decision",
+    "questionsHeading": "Questions about growth and ownership.",
+    "primaryCta": "Discuss growth or ownership capital",
     "enquiryHeading": "What should the next investment make possible?",
     "enquiryIntro": "Share the business stage, growth or ownership objective and broad capital need. We can start without a valuation or confidential investor pack.",
     "definition": "Equity funding gives an investor an ownership interest in return for capital. New shares can fund the company; a sale of existing shares can provide liquidity to shareholders. Some transactions combine both, so where the money goes matters as much as the headline valuation.",
-    "definitionHeading": "Understand where the money goes—and what ownership changes.",
+    "definitionHeading": "Where does the money go, and what changes about ownership?",
     "benefitsHeading": "Fund the next chapter with ownership in view.",
     "benefits": [
       [
-        "Back an ambitious growth plan",
-        "Support expansion or acquisition with capital that has a different commitment from scheduled loan repayments."
+        "Back the growth plan",
+        "Equity can support expansion or an acquisition without the same scheduled repayments as a loan. In return, investors receive an ownership interest and agreed rights."
       ],
       [
         "Plan an ownership transition",
@@ -564,9 +564,9 @@
     "compact": false,
     "optionsHeading": "Growth capital, shareholder liquidity or both?",
     "commitmentsHeading": "Look beyond the headline valuation.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Share the business stage, growth or ownership objective and broad capital need. We can start without a valuation or confidential investor pack.",
+    "prepareHeading": "The growth plan and shareholder priorities.",
+    "comparisonHeading": "Where should the investment go?",
+    "comparisonPrompt": "",
     "seoTitle": "Equity & Growth Capital"
   },
   {
@@ -606,12 +606,12 @@
     ],
     "terms": [
       [
-        "Stage and investor mandate",
-        "Evidence appropriate to the round is more useful than a broad list of investors."
+        "Investor fit",
+        "Investors have different preferences for company stage, sector, geography and round size. A focused approach starts with the evidence your company can show."
       ],
       [
         "Ownership and rights",
-        "Compare dilution with preferences, governance, incentives and future rounds."
+        "Consider dilution alongside investor rights, such as board representation, consent over decisions and priority in receiving proceeds. Future rounds can change ownership again."
       ],
       [
         "Runway and milestones",
@@ -633,8 +633,8 @@
         "Some investors consider early-stage risk, but the stage, evidence, opportunity and mandate must fit. Pre-revenue status alone does not establish suitability."
       ],
       [
-        "Can debt avoid dilution?",
-        "Some venture debt includes warrants and other commitments, alongside repayment. Compare the actual terms rather than assuming zero dilution."
+        "How much should we raise?",
+        "Start with the cost of the next meaningful milestone and the cash needed to reach it. Allow for fundraising time, delays and a reserve if progress is slower than planned, then consider the ownership implications."
       ],
       [
         "Do I need to upload a pitch deck immediately?",
@@ -649,7 +649,7 @@
     "image": "founders",
     "valueHeading": "Give the vision a clear investment proposition.",
     "valueIntro": "We help explain what the round needs to achieve and why the company is ready for the conversation. We explore relevant investor introductions; financial models and investor materials can be commissioned separately to support the raise.",
-    "questionsHeading": "Questions before the round",
+    "questionsHeading": "Questions before raising venture capital.",
     "primaryCta": "Discuss your next funding round",
     "enquiryHeading": "What does your next round need to achieve?",
     "enquiryIntro": "Tell us what the company does, its stage and the broad round objective. There is no need to upload a deck for the first conversation.",
@@ -704,9 +704,9 @@
     "compact": false,
     "optionsHeading": "Which milestone will the round fund?",
     "commitmentsHeading": "Protect room for the next stage.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Tell us what the company does, its stage and the broad round objective. There is no need to upload a deck for the first conversation.",
+    "prepareHeading": "Your evidence, milestone and runway.",
+    "comparisonHeading": "What evidence fits the company’s stage?",
+    "comparisonPrompt": "",
     "seoTitle": "Venture Funding"
   },
   {
@@ -714,7 +714,7 @@
     "route": "/solutions/complex-funding",
     "title": "Complex Funding",
     "headline": "A clear way into a complex funding decision.",
-    "intro": "A lender change, acquisition structure or approaching maturity can put several decisions on the same critical path. We help you bring the requirement and dependencies together so a relevant funding conversation can begin.",
+    "intro": "A lender change, an acquisition or an approaching repayment date can bring several decisions together. We help clarify the funding requirement, existing obligations and actions needed to take the case forward.",
     "summary": "A starting point for funding requirements involving unusual structures, deadlines or several stakeholders.",
     "uses": [
       [
@@ -758,8 +758,8 @@
         "New capital can bring significant cost, security and conditions. These require candid assessment."
       ],
       [
-        "Timing and discretion",
-        "Share the real deadline and agree information handling. Do not assume immediate availability or absolute confidentiality."
+        "Timing and information",
+        "Share the deadline and the event behind it. Agree who needs to receive information and how detailed documents will be exchanged before a provider approach."
       ]
     ],
     "prepare": [
@@ -769,8 +769,8 @@
     ],
     "faqs": [
       [
-        "Can funding solve every difficult situation?",
-        "No. Viability, professional advice and stakeholder decisions can matter before a capital route is considered."
+        "What makes a funding requirement complex?",
+        "Several lenders or security interests, a changing ownership structure, an unusual transaction or a tight repayment deadline can all add dependencies. The starting point is a clear account of the situation and a workable business plan."
       ],
       [
         "Should I include detailed creditor information in an enquiry?",
@@ -790,7 +790,7 @@
     "image": "team",
     "valueHeading": "Make the next action clear.",
     "valueIntro": "We help you explain the commercial plan, existing obligations and decisions that must line up before a provider approach. Where legal, restructuring or insolvency questions arise, appropriately qualified advisers need to lead that work.",
-    "questionsHeading": "Questions when time matters",
+    "questionsHeading": "Questions about a complex requirement.",
     "primaryCta": "Discuss the requirement and deadline",
     "enquiryHeading": "What needs resolving, and by when?",
     "enquiryIntro": "Share a short outline and any real deadline. Keep creditor, legal and other confidential documents for an agreed later exchange.",
@@ -841,9 +841,9 @@
     "compact": false,
     "optionsHeading": "What is driving the funding decision?",
     "commitmentsHeading": "Resolve the dependencies that matter.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Share a short outline and any real deadline. Keep creditor, legal and other confidential documents for an agreed later exchange.",
+    "prepareHeading": "What has changed, what is due and who needs to agree.",
+    "comparisonHeading": "Start with the situation you need to resolve.",
+    "comparisonPrompt": "",
     "seoTitle": "Complex Funding"
   },
   {
@@ -863,8 +863,8 @@
         "Separate licences, integration, training and ongoing service costs; eligibility depends on the actual facility."
       ],
       [
-        "Raising capital for a technology company?",
-        "Company fundraising belongs with stage, traction, ownership and runway—not an equipment purchase assessment."
+        "Technology-company growth",
+        "If you are raising capital to build or grow a technology company, start with its stage, customers and next milestone. Venture or growth capital may be the more relevant conversation."
       ]
     ],
     "steps": [
@@ -928,8 +928,8 @@
     "image": "technology",
     "valueHeading": "Move from a technology plan to a clear funding requirement.",
     "valueIntro": "We help separate equipment, software, integration and running costs, then explore relevant provider introductions. The funding case should reflect when the technology becomes useful and when the business can support repayments.",
-    "questionsHeading": "Questions before investing in capability",
-    "primaryCta": "Discuss your equipment investment",
+    "questionsHeading": "Questions about technology investment.",
+    "primaryCta": "Discuss your technology investment",
     "enquiryHeading": "What will the technology help your business do?",
     "enquiryIntro": "Tell us the project, approximate cost and timing. A supplier quote can follow once we have agreed the scope of the discussion.",
     "definition": "Technology finance supports an operating business investing in eligible technology assets. Hardware, software, integration and ongoing services are different cost categories; they should be separated so the appropriate asset-finance or business-borrowing route can be assessed.",
@@ -987,16 +987,16 @@
     "compact": false,
     "optionsHeading": "What capability are you investing in?",
     "commitmentsHeading": "Match the commitment to implementation.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Tell us the project, approximate cost and timing. A supplier quote can follow once we have agreed the scope of the discussion.",
+    "prepareHeading": "The project budget and implementation timetable.",
+    "comparisonHeading": "Equipment, implementation or company growth?",
+    "comparisonPrompt": "",
     "seoTitle": "Technology Finance"
   },
   {
     "slug": "double-impact",
     "route": "/solutions/sustainability-and-impact",
     "title": "Sustainability & Impact",
-    "headline": "Fund the investment in a better way forward.",
+    "headline": "Put capital behind a more sustainable business.",
     "intro": "Cleaner equipment, more efficient operations or an impact-led growth plan: progress needs a commercial case as well as a clear purpose. We help connect the investment with relevant funding options.",
     "summary": "Funding conversations for cleaner operating assets and businesses with an environmental or social purpose.",
     "uses": [
@@ -1041,8 +1041,8 @@
         "Environmental purpose does not guarantee lower cost, a grant or preferential eligibility."
       ],
       [
-        "Delivery of outcomes",
-        "Be explicit about dependencies and uncertainty; avoid claims that the funding alone proves impact."
+        "Measuring results",
+        "Allow for installation, adoption and operating conditions when estimating the benefit. Compare actual results with a defined starting point before making claims about savings or impact."
       ]
     ],
     "prepare": [
@@ -1056,8 +1056,8 @@
         "Not necessarily. Compare the actual product, terms, requirements and total cost rather than assuming a green label changes the price."
       ],
       [
-        "Is grant funding included?",
-        "Availability and support for grants must be confirmed separately. This page does not promise a grant or assume that a project qualifies."
+        "Does this include grants?",
+        "This page covers borrowing and investment, rather than a grant service. If grant support is part of your plan, its availability, conditions and any effect on other funding need separate confirmation."
       ],
       [
         "Do we need formal impact reporting?",
@@ -1073,13 +1073,13 @@
     "image": "sustainability",
     "valueHeading": "Connect the intended improvement with the capital behind it.",
     "valueIntro": "We help distinguish an operating investment from company growth capital, then build a clear requirement for relevant introductions. Project costs, delivery assumptions and evidence of the intended benefit belong together. Technical assessments remain with the appropriate specialists.",
-    "questionsHeading": "Questions behind the impact objective",
+    "questionsHeading": "Questions about sustainability and impact.",
     "primaryCta": "Discuss your investment or impact plan",
     "enquiryHeading": "What improvement do you want to put into action?",
     "enquiryIntro": "Tell us what you want to fund, the approximate cost and the intended improvement. We will start with the practical requirement.",
     "definition": "Sustainable investment and impact-led company funding are different requirements. One may involve equipment or property expenditure; the other may involve equity or business borrowing to grow a company. The funding structure should follow the actual use of money, not the label alone.",
     "definitionHeading": "An operating investment or an impact-led business?",
-    "benefitsHeading": "Make the intended improvement a fundable business plan.",
+    "benefitsHeading": "Connect the purpose with a workable investment plan.",
     "benefits": [
       [
         "Invest in operating assets",
@@ -1131,10 +1131,10 @@
     },
     "compact": false,
     "optionsHeading": "An operational improvement or company growth?",
-    "commitmentsHeading": "Keep the claims and assumptions grounded.",
-    "prepareHeading": "A useful first conversation starts here.",
-    "comparisonHeading": "Compare the choices behind your plan.",
-    "comparisonPrompt": "Tell us what you want to fund, the approximate cost and the intended improvement. We will start with the practical requirement.",
+    "commitmentsHeading": "Test the economics and the intended improvement.",
+    "prepareHeading": "The investment, the baseline and the intended result.",
+    "comparisonHeading": "What are you funding, and how will you measure it?",
+    "comparisonPrompt": "",
     "seoTitle": "Sustainability & Impact"
   }
 ]
