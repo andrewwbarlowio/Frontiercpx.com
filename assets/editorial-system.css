@@ -289,3 +289,26 @@ body.frontier-editorial .hero .actions>.button{box-sizing:border-box;min-height:
  body.frontier-editorial .hero .actions>.text-link{align-self:center;width:auto;min-height:44px;padding:8px 0;gap:14px;font-size:15px;line-height:1.4;justify-content:center;white-space:normal}
  body.frontier-editorial .hero .actions .icon-arrow{width:18px;height:18px}
 }
+
+/* Mobile funding journeys: one gap between related elements, not stacked margins. */
+@media(max-width:600px){
+ .frontier-editorial .funding-product-page .section{padding-block:44px}
+ .frontier-editorial .funding-product-page .solution-hero{padding-block:24px 36px}
+ .frontier-editorial .funding-product-page .hero-grid{gap:24px}
+ .frontier-editorial .funding-product-page .hero .lede{margin-top:20px}
+ .frontier-editorial .funding-product-page .hero .actions{margin-top:24px;gap:8px}
+ .frontier-editorial .funding-product-page .split{gap:24px}
+ .frontier-editorial .funding-product-page .editorial>p:first-child:not(.kicker){margin-top:0}
+ .frontier-editorial .funding-product-page .kicker{margin:0 0 14px}
+ .frontier-editorial .funding-product-page .section-heading{margin-bottom:24px}
+ .frontier-editorial .funding-product-page .grid{row-gap:0}
+ .frontier-editorial .funding-product-page .goal-card{padding-block:20px;gap:12px}
+ .frontier-editorial .funding-product-page .goal-card .number{margin:0}
+ .frontier-editorial .funding-product-page .funding-sequence{gap:0}
+ .frontier-editorial .funding-product-page .funding-sequence>li{padding-block:20px}
+ .frontier-editorial .funding-product-page .funding-sequence .number{margin-bottom:12px}
+ .frontier-editorial .funding-product-page .funding-sequence p{margin-top:12px}
+ .frontier-editorial .funding-product-page .commitment{padding-block:20px}
+ .frontier-editorial .funding-product-page .asset-list-heading{margin:24px 0 12px}
+ .frontier-editorial .funding-product-page .asset-list-heading+.checklist{margin-top:0}
+}
