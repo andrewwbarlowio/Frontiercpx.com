@@ -3,9 +3,9 @@
     "slug": "capital-strategy",
     "route": "/services/capital-strategy",
     "title": "Capital Strategy",
-    "intro": "Growth, acquisition or a change in ownership: compare the funding routes, sequence the decisions and understand what each option asks of you.",
+    "intro": "Growth, acquisition or ownership change: the way you fund it can shape what comes after. We help you compare the routes, understand the trade-offs and turn the capital requirement into an actionable plan.",
     "audience": "Owners, boards and finance teams weighing a growth plan, acquisition, refinancing or ownership decision.",
-    "trigger": "You know what the business wants to achieve, but need to decide how much capital, which structure and in what order.",
+    "trigger": "You have a direction for the business. Now you need to decide how much capital it takes, what form it should take and which decisions come first.",
     "scope": [
       "Review the objectives, current borrowing, ownership and planned use of funds",
       "Compare debt and equity options against cash generation, control and future flexibility",
@@ -35,8 +35,8 @@
       "A high-level view of trading, cash generation and existing borrowing",
       "Current ownership, shareholder priorities and non-negotiable constraints"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "private-equity",
       "credit",
@@ -58,7 +58,7 @@
         "No. It supports a decision. You can engage Frontier for the strategy work independently of a funding introduction."
       ]
     ],
-    "headline": "Choose the capital before it shapes the business.",
+    "headline": "Put the right capital behind the bigger picture.",
     "outputDescriptions": [
       "A sequenced view of the capital requirement, key decisions, dependencies and next actions.",
       "A comparison of relevant structures, their commitments and the assumptions behind the shortlist.",
@@ -67,7 +67,7 @@
     "headings": [
       "Before choosing a structure",
       "Give the decision a commercial starting point.",
-      "A roadmap, with the trade-offs visible.",
+      "A capital plan you can take forward.",
       "Move from options to priorities.",
       "Put the constraints on the table.",
       "Questions before choosing the route.",
@@ -76,7 +76,7 @@
     ],
     "example": {
       "title": "One acquisition. More than one capital route.",
-      "intro": "Illustrative options-appraisal structure. Assume an established business considering an acquisition; no lender or investor availability is implied.",
+      "intro": "Illustrative example: an established business is considering how to fund an acquisition.",
       "steps": [
         [
           "Compare borrowing",
@@ -91,17 +91,18 @@
           "Identify which commercial assumptions and shareholder choices must be settled before an approach."
         ]
       ],
-      "takeaway": "The output compares choices and identifies dependencies. It does not assert a preferred structure before the evidence is reviewed."
+      "takeaway": "The roadmap sets out the trade-offs and the decisions to settle before a provider approach."
     },
-    "enquiryIntro": "Outline the business decision, planned use of funds and the constraints that matter to you."
+    "enquiryIntro": "Outline the business decision, planned use of funds and the constraints that matter to you.",
+    "metaDescription": "Compare debt, equity and funding priorities around your business plans, cash flow and ownership goals with Frontier’s capital strategy support."
   },
   {
     "slug": "funding-readiness",
     "route": "/services/funding-readiness",
     "title": "Funding Readiness",
-    "intro": "Turn the business plan, numbers and supporting evidence into a coherent case before the lender or investor starts asking questions.",
+    "intro": "A strong opportunity needs a clear story, credible numbers and evidence behind it. We help bring those elements together so your business is better prepared for lender or investor questions.",
     "audience": "Owners and management teams preparing an initial application, a refinancing or an investor conversation.",
-    "trigger": "The funding requirement is emerging, but the information is incomplete, inconsistent or spread across several documents.",
+    "trigger": "The plan is taking shape, but the application, forecast and supporting material are not yet telling the same story.",
     "scope": [
       "Assess the proposed funding case and identify evidence gaps",
       "Prepare agreed applications, business plans, presentations or information memoranda",
@@ -131,8 +132,8 @@
       "Existing plans, forecasts, presentations or applications, if any",
       "An outline of the evidence available and the people responsible for it"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "credit",
       "real-estate",
@@ -161,7 +162,7 @@
         "No. A coherent pack helps a provider assess the case; it does not replace its criteria, diligence or decision."
       ]
     ],
-    "headline": "Make your funding case ready for scrutiny.",
+    "headline": "Give your plans a funding case that holds together.",
     "outputDescriptions": [
       "An assessment of the information available, gaps and questions likely to need attention.",
       "A sequenced preparation plan with actions, responsibilities and dependencies.",
@@ -170,7 +171,7 @@
     "headings": [
       "Before the application",
       "Bring the story and the evidence together.",
-      "A preparation plan you can work through.",
+      "A clear case. A practical preparation plan.",
       "From scattered inputs to an agreed pack.",
       "Start with the material you have.",
       "Questions before preparing the case.",
@@ -179,7 +180,7 @@
     ],
     "example": {
       "title": "A readiness review that leads to action.",
-      "intro": "Illustrative checklist structure. Assume a business preparing a funding application; this is not a completed client review.",
+      "intro": "Illustrative example: a business needs to bring its application, forecast and supporting material together.",
       "steps": [
         [
           "Narrative",
@@ -194,17 +195,18 @@
           "List missing records, responsible owners and the order in which gaps should be closed."
         ]
       ],
-      "takeaway": "The handover distinguishes ready material, unresolved assumptions and missing evidence. It does not certify the business or guarantee acceptance."
+      "takeaway": "The handover shows what is ready, what still needs evidence and who owns each outstanding action. The provider then assesses the completed case against its own criteria."
     },
-    "enquiryIntro": "Tell us what you are preparing for, what material exists and any important application deadline."
+    "enquiryIntro": "Tell us what you are preparing for, what material exists and any important application deadline.",
+    "metaDescription": "Prepare your business plan, financial information and supporting evidence for lender or investor conversations with Frontier’s funding readiness support."
   },
   {
     "slug": "financial-modelling",
     "route": "/services/financial-modelling",
     "title": "Financial Modelling",
-    "intro": "See where the plan needs cash—and what changes when assumptions move.",
+    "intro": "When will the business need cash? What can it repay? What changes if growth takes longer? We build the financial model behind those decisions, with the assumptions and their consequences in view.",
     "audience": "Owners, finance directors and management teams assessing a project, funding round, acquisition or working-capital need.",
-    "trigger": "The commercial plan is taking shape, but the cash requirement, repayment capacity or downside case needs testing.",
+    "trigger": "You need to move beyond a headline forecast and understand the cash requirement, repayment capacity and effect of a different outcome.",
     "scope": [
       "Integrated profit and loss, balance sheet and cash-flow forecasts",
       "Working-capital assumptions, debt schedules and funding gaps",
@@ -217,16 +219,16 @@
     ],
     "process": [
       [
-        "Scope the engagement",
-        "Agree the objective, inputs, deliverables and fee."
+        "Define the decision",
+        "Agree the forecast period, questions to answer, available inputs and fee."
       ],
       [
-        "Develop the work",
-        "Review information and assumptions with the client."
+        "Build and test the model",
+        "Link the trading assumptions to profit, cash and borrowing; compare the agreed scenarios."
       ],
       [
-        "Review and hand over",
-        "Explain outputs, limitations and the next decisions."
+        "Explain and hand over",
+        "Walk through how the model works, the assumptions that matter and the decisions it supports."
       ]
     ],
     "prepare": [
@@ -234,8 +236,8 @@
       "Recent accounts, management figures and existing forecasts, if available",
       "Trading assumptions, investment costs and current facility terms"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "real-estate",
       "credit",
@@ -258,11 +260,11 @@
         "No. It is a decision tool based on assumptions, not an audit, valuation assurance or a funding commitment. A provider makes its own assessment."
       ]
     ],
-    "headline": "Put the numbers behind the next move.",
+    "headline": "See what it takes to make the plan work.",
     "headings": [
       "When the plan needs testing",
       "Understand when the cash is needed.",
-      "A working model. A decision you can explain.",
+      "Numbers you can use to make a decision.",
       "Build it together. Know how to use it.",
       "Bring the assumptions, not just the spreadsheet.",
       "Before we open the model.",
@@ -276,7 +278,7 @@
     ],
     "example": {
       "title": "What changes if customers pay later?",
-      "intro": "Example structure only. Assume customer payment slips while supplier dates stay fixed. No real client figures or forecast outcomes are represented.",
+      "intro": "Illustrative example: customers pay later while supplier payment dates stay the same.",
       "steps": [
         [
           "Change the assumption",
@@ -291,17 +293,18 @@
           "Test available headroom, payment terms and facility commitments before deciding how to cover the gap."
         ]
       ],
-      "takeaway": "The deliverable is the linked model and explanation of its assumptions, not a promise that a lender will fund the gap."
+      "takeaway": "The model shows when a cash gap appears and how sensitive it is to payment delays. Use it to test headroom and the funding requirement; any lender will make its own assessment."
     },
-    "enquiryIntro": "Outline the objective, forecast horizon and any important deadline. We will agree scope and inputs before work starts."
+    "enquiryIntro": "Outline the objective, forecast horizon and any important deadline. We will agree scope and inputs before work starts.",
+    "metaDescription": "Understand your cash requirement, repayment capacity and downside scenarios with a financial model built around the business decision ahead."
   },
   {
     "slug": "debt-advisory",
     "route": "/services/debt-advisory",
     "title": "Debt & Capital Sourcing",
-    "intro": "Define the requirement, prepare a lender case and compare the commitments behind any offers—before deciding which facility fits.",
+    "intro": "Prepare a clear lender case and understand the commitments behind any offers. We help connect the funding requirement with repayment capacity, security and the flexibility your plans need.",
     "audience": "Established businesses, property sponsors and finance teams considering borrowing, refinancing or asset-backed funding.",
-    "trigger": "You need more than a headline rate: a view of repayment capacity, security, provider fit and execution dependencies.",
+    "trigger": "You are considering new borrowing or refinancing and want to understand what the business can support before committing to a facility.",
     "scope": [
       "Assess the debt requirement and prepare the agreed financial and commercial lender case",
       "Develop a targeted provider approach based on purpose, repayment and mandate",
@@ -310,7 +313,7 @@
     "outputs": [
       "Funding brief",
       "Lender approach plan",
-      "Offer comparison where offers exist"
+      "Funding-offer comparison"
     ],
     "process": [
       [
@@ -331,8 +334,8 @@
       "Existing borrowing, security, guarantees and maturity dates",
       "Available trading information, forecasts and important deadlines"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "credit",
       "real-estate",
@@ -355,16 +358,16 @@
         "An existing facility can be included in a scoped comparison. Use consistent assumptions and check any consent, early repayment or security implications."
       ]
     ],
-    "headline": "Structure the borrowing around the repayment.",
+    "headline": "Build borrowing around the business ahead.",
     "outputDescriptions": [
       "A structured statement of purpose, amount, timing, repayment case and relevant obligations.",
       "An agreed approach sequence with information requirements and the reasons for provider fit.",
-      "A consistent comparison of offers that exist, including cost, conditions, security and flexibility."
+      "Where offers are available, compare usable funds, total cost, repayment, security and flexibility on consistent assumptions."
     ],
     "headings": [
       "Before the lender approach",
       "Understand what the business can support.",
-      "A lender case with the commitments in view.",
+      "A funding case and a clear basis for comparison.",
       "From requirement to a considered offer comparison.",
       "Bring the repayment picture.",
       "Questions before discussing debt.",
@@ -373,7 +376,7 @@
     ],
     "example": {
       "title": "Compare offers on the same assumptions.",
-      "intro": "Illustrative offer-comparison framework. It contains no live offers, rates or provider commitments.",
+      "intro": "Illustrative comparison of the information needed to assess borrowing offers. No live rates or offers are shown.",
       "steps": [
         [
           "Cash available",
@@ -390,15 +393,16 @@
       ],
       "takeaway": "If assumptions differ, flag them rather than presenting a misleading ranking. An indicative discussion is different from an executable offer."
     },
-    "enquiryIntro": "Outline the funding purpose, repayment source and whether this is new borrowing or a facility review."
+    "enquiryIntro": "Outline the funding purpose, repayment source and whether this is new borrowing or a facility review.",
+    "metaDescription": "Prepare a lender case and compare borrowing costs, repayment, security and flexibility with Frontier’s debt and capital sourcing support."
   },
   {
     "slug": "equity-advisory",
     "route": "/services/equity-advisory",
     "title": "Equity & Strategic Capital",
-    "intro": "Prepare the investment proposition, test dilution scenarios and align the round with the milestone and shareholder decisions ahead.",
+    "intro": "A capital raise changes more than the bank balance. We help you prepare the proposition, explore ownership scenarios and align the round with the milestone and shareholder decisions ahead.",
     "audience": "Founders, boards and shareholders preparing venture, growth or strategic equity conversations.",
-    "trigger": "You are planning a raise or ownership change and need the proposition, financial case and shareholder expectations to line up.",
+    "trigger": "You are preparing an investment round or ownership change and need the commercial case, numbers and shareholder priorities to work together.",
     "scope": [
       "Plan the round, milestone, use of proceeds and target investor profile",
       "Develop the investment proposition and agreed investor materials",
@@ -428,8 +432,8 @@
       "Proposed use of proceeds, runway and future capital needs",
       "High-level ownership position and shareholder priorities"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "ventures",
       "private-equity"
@@ -445,11 +449,11 @@
         "Yes. Agreed scenarios can show the ownership effects of different round assumptions. Rights, preferences and future funding also need attention."
       ],
       [
-        "Do you guarantee investor introductions or a completed round?",
-        "No. Any proposed approach depends on mandate and fit and requires your agreement. Investor interest, diligence and completion remain uncertain."
+        "How do you select investors to approach?",
+        "The proposed approach starts with company stage, sector, round purpose and the type of partner sought. We agree the recipients and information to be shared with you. Investor interest and any completed investment depend on their own assessment."
       ]
     ],
-    "headline": "Build the round around the business you want to own.",
+    "headline": "Bring the vision and the investment case together.",
     "outputDescriptions": [
       "A round plan connecting the capital requirement, milestone, investor profile and process.",
       "Agreed presentation or investment-summary materials supported by a coherent commercial case.",
@@ -458,7 +462,7 @@
     "headings": [
       "Before taking the round to market",
       "Align the milestone and the shareholders.",
-      "A proposition investors can interrogate.",
+      "A proposition with the ownership choices in view.",
       "Prepare the round before opening conversations.",
       "Bring the milestone and ownership context.",
       "Questions before the investor conversation.",
@@ -467,7 +471,7 @@
     ],
     "example": {
       "title": "See beyond the headline valuation.",
-      "intro": "Illustrative ownership-scenario framework. No valuation, investment return or funding outcome is asserted.",
+      "intro": "Illustrative comparison of how different funding assumptions affect shareholder ownership.",
       "steps": [
         [
           "State the assumptions",
@@ -484,15 +488,16 @@
       ],
       "takeaway": "A smaller dilution percentage does not settle the commercial decision. The full terms and shareholder objectives need specific review."
     },
-    "enquiryIntro": "Describe the round, next milestone and the shareholder decisions you need to work through."
+    "enquiryIntro": "Describe the round, next milestone and the shareholder decisions you need to work through.",
+    "metaDescription": "Prepare your capital raise, investor materials and ownership scenarios around your business milestone and shareholder priorities."
   },
   {
     "slug": "transaction-support",
     "route": "/services/transaction-support",
     "title": "Due Diligence & Transactions",
-    "intro": "Bring the information, advisers and open questions into one coordinated process, from diligence requests to completion milestones.",
+    "intro": "As the questions, advisers and conditions multiply, keep a clear view of what needs to happen. We help coordinate the agreed work so issues have owners and dependencies stay visible.",
     "audience": "Owners, finance teams and transaction leads managing a capital raise, acquisition, property transaction or complex funding process.",
-    "trigger": "A transaction has several moving parts, but information requests, adviser actions and completion conditions need a single working view.",
+    "trigger": "A raise, acquisition or funding transaction is under way, but information requests, open issues and adviser actions need to be brought together.",
     "scope": [
       "Review agreed financial and commercial information and identify gaps",
       "Coordinate the data-room structure, questions, responses and adviser inputs",
@@ -522,8 +527,8 @@
       "An outline of the parties, advisers and decision-makers involved",
       "Existing requests, outstanding issues and the information available"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "real-estate",
       "private-equity",
@@ -554,7 +559,7 @@
     "headings": [
       "When the workstreams multiply",
       "Make the critical path visible.",
-      "One working view of issues and actions.",
+      "One clear view of the work that matters.",
       "Coordinate the work without losing accountability.",
       "Bring the current state of the transaction.",
       "Questions before coordinating the process.",
@@ -562,8 +567,8 @@
       "Where does your transaction need support?"
     ],
     "example": {
-      "title": "Turn a diligence question into an owned action.",
-      "intro": "Illustrative tracker structure. Assume a counterparty requests evidence for a forecast assumption; no actual client information is represented.",
+      "title": "Turn an outstanding question into a clear action.",
+      "intro": "Illustrative example: a counterparty requests evidence supporting a forecast assumption.",
       "steps": [
         [
           "Record the request",
@@ -578,17 +583,18 @@
           "Show whether the unresolved point affects terms, documentation or a completion condition."
         ]
       ],
-      "takeaway": "The tracker records status and responsibility. A closed action is not an audit opinion, legal clearance or a guarantee that the transaction can complete."
+      "takeaway": "The tracker shows what has been answered, what remains open and whether an issue affects the next milestone. Specialist advisers retain responsibility for their conclusions."
     },
-    "enquiryIntro": "Outline the transaction stage, open workstreams and the deadline or dependency that needs attention."
+    "enquiryIntro": "Outline the transaction stage, open workstreams and the deadline or dependency that needs attention.",
+    "metaDescription": "Coordinate information requests, adviser actions and completion conditions with Frontier’s due diligence and transaction support."
   },
   {
     "slug": "ongoing-advisory",
     "route": "/services/ongoing-advisory",
     "title": "Ongoing Business Support",
-    "intro": "Review facilities, refresh forecasts and prepare for the next funding decision as trading, investment and ownership plans evolve.",
+    "intro": "The business keeps changing after a funding decision. Review facilities, refresh forecasts and prepare for the next investment, refinancing or ownership milestone with a clear view of the current position.",
     "audience": "Owners, boards and finance teams wanting periodic support with capital planning after a funding event or through a changing business plan.",
-    "trigger": "The business has moved on since the last funding decision and you need to understand the effect on headroom, maturity or future capital needs.",
+    "trigger": "Trading, investment or ownership plans have moved on, and you need to understand what that means for cash headroom, facility maturity and future capital.",
     "scope": [
       "Review facilities, maturity dates and future refinancing requirements",
       "Update agreed forecasts and capital requirements as assumptions change",
@@ -601,8 +607,8 @@
     ],
     "process": [
       [
-        "Agree the review rhythm",
-        "Define the decisions, inputs, deliverables and engagement cadence."
+        "Agree the review schedule",
+        "Set the review dates, inputs, deliverables and responsibilities around the business’s needs."
       ],
       [
         "Review what has changed",
@@ -618,8 +624,8 @@
       "High-level facility terms, maturity dates and relevant obligations",
       "Available management figures, forecasts and planned investment"
     ],
-    "fees": "Standalone advisory work is client-paid, with scope, deliverables and fees agreed before work starts. Funding introductions are paid for by funding providers; Frontier charges no client fee for that funding activity. Provider fees and costs may still apply.",
-    "boundaries": "No assurance of funding, valuation or completion. Legal, tax, audit and other specialist advice requires appropriately qualified providers. Delivery responsibilities are agreed for each engagement.",
+    "fees": "Standalone advisory work is client-paid, with the scope, deliverables and fee agreed before it starts. Frontier charges no client fee for funding introductions and is paid by funding providers. Provider fees and costs may apply.",
+    "boundaries": "Lenders and investors make their own decisions. Legal, tax, audit and other specialist advice remains with appropriately qualified professionals.",
     "relatedFunding": [
       "credit",
       "private-equity",
@@ -634,23 +640,23 @@
       ],
       [
         "How often would we meet?",
-        "Agree the cadence around the business and deliverables. No standard frequency or response-time commitment is assumed."
+        "We agree the review frequency around the decisions approaching, the information available and the support you need. The engagement sets out the deliverables and contact arrangements."
       ],
       [
         "What if the business is under financial pressure?",
         "Review the facts and dependencies promptly. Where restructuring, insolvency or other specialist advice is needed, appropriately qualified providers should lead that work."
       ]
     ],
-    "headline": "Keep the capital plan in step with the business.",
+    "headline": "Keep the capital plan ready for what comes next.",
     "outputDescriptions": [
       "A periodic review of facilities, capital requirements and decisions approaching on the horizon.",
-      "Updated agreed forecasts and a view of the assumptions that have changed.",
+      "Refresh the agreed forecasts and explain what changed, why it matters and the effect on cash needs.",
       "A practical action list covering preparation, dependencies and the timing of the next capital conversation."
     ],
     "headings": [
       "After the last funding decision",
       "Review the plan before the deadline arrives.",
-      "A capital review with practical next actions.",
+      "A current capital picture and prioritised next steps.",
       "A review rhythm shaped by your business.",
       "Bring the changes into view.",
       "Questions about ongoing support.",
@@ -659,7 +665,7 @@
     ],
     "example": {
       "title": "See the refinancing decision before maturity.",
-      "intro": "Illustrative periodic-review structure. Assume a facility is approaching maturity while investment plans have changed.",
+      "intro": "Illustrative example: a facility is approaching maturity while the business’s investment plans have changed.",
       "steps": [
         [
           "Review the position",
@@ -676,6 +682,7 @@
       ],
       "takeaway": "The review supports preparation and decisions. A renewal, extension or new facility must not be assumed."
     },
-    "enquiryIntro": "Tell us what has changed, which decisions are approaching and the review support you need."
+    "enquiryIntro": "Tell us what has changed, which decisions are approaching and the review support you need.",
+    "metaDescription": "Review facilities, refresh cash forecasts and prepare for refinancing or the next capital decision with Frontier’s ongoing business support."
   }
 ]

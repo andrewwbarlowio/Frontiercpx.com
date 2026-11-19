@@ -1,0 +1,1048 @@
+{
+  "desktop": [
+    {
+      "route": "/our-approach",
+      "description": "One process from business objective to a considered capital decision.",
+      "h1": [
+        "From the plan to the next step."
+      ],
+      "mainChars": 3799,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/our-expertise",
+      "description": "Explore Frontier’s capital strategy, financial modelling, funding preparation and transaction support for your next business decision.",
+      "h1": [
+        "Commercial thinking.Practical progress."
+      ],
+      "mainChars": 3437,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/funding-network",
+      "description": "Explore how Frontier’s broad network of varied funders can support conversations about business borrowing, assets, property and growth capital.",
+      "h1": [
+        "A broad network.A focused approach."
+      ],
+      "mainChars": 3334,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/global-presence",
+      "description": "Explore Frontier’s office spaces across five international financial centres.",
+      "h1": [
+        "Connected to the centreswhere business moves."
+      ],
+      "mainChars": 936,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/",
+      "description": "Business funding and expert preparation to help turn your vision into action.",
+      "h1": [
+        "Funding thenext frontier."
+      ],
+      "mainChars": 3649,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions",
+      "description": "Explore business loans, asset finance, invoice finance, property, bridging and growth capital with Frontier.",
+      "h1": [
+        "Put capital behind what comes next."
+      ],
+      "mainChars": 2784,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/business-loans",
+      "description": "Business loans and working-capital facilities for investment, expansion and changing cash needs.",
+      "h1": [
+        "Give your plans room to move."
+      ],
+      "mainChars": 6938,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/asset-finance",
+      "description": "Buy, lease or refinance equipment while planning the cash needed to run the business.",
+      "h1": [
+        "More capacity. Room to grow."
+      ],
+      "mainChars": 7405,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/hire-purchase",
+      "description": "Spread an equipment purchase over time, with ownership following completion of the agreement.",
+      "h1": [
+        "Build capacity. Work towards ownership."
+      ],
+      "mainChars": 6808,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/equipment-leasing",
+      "description": "Use business equipment through regular rentals, with clear responsibilities and end-of-term choices.",
+      "h1": [
+        "Equip the business for what comes next."
+      ],
+      "mainChars": 7273,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/asset-refinance",
+      "description": "Explore releasing available equity from equipment already working in your business.",
+      "h1": [
+        "Put existing assets behind your next move."
+      ],
+      "mainChars": 6962,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/vehicle-finance",
+      "description": "Purchase and hire options for business vehicles, from a single van to an operational fleet.",
+      "h1": [
+        "Put your next opportunity on the road."
+      ],
+      "mainChars": 6703,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/invoice-finance",
+      "description": "Release working capital against eligible unpaid business invoices, with a choice of collection arrangements.",
+      "h1": [
+        "Keep trading while customers take time to pay."
+      ],
+      "mainChars": 7275,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/stock-dealer-finance",
+      "description": "Funding for eligible dealer inventory and demonstrators held for sale.",
+      "h1": [
+        "Have the stock ready for the next sale."
+      ],
+      "mainChars": 6952,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/trade-import-finance",
+      "description": "Funding around eligible supplier payments and the journey from goods purchase to customer receipts.",
+      "h1": [
+        "Pay suppliers. Keep the opportunity moving."
+      ],
+      "mainChars": 7086,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/acquisition-finance",
+      "description": "Funding structures for business acquisitions and management buyouts, including post-completion cash needs.",
+      "h1": [
+        "Fund the acquisition. Think beyond completion."
+      ],
+      "mainChars": 7151,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/asset-based-lending",
+      "description": "Combined funding against eligible receivables, stock, equipment or property.",
+      "h1": [
+        "Put more of your asset base to work."
+      ],
+      "mainChars": 7050,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/vendor-finance",
+      "description": "A route for equipment sellers to introduce business buyers to external purchase or lease finance.",
+      "h1": [
+        "Help customers turn buying plans into orders."
+      ],
+      "mainChars": 6948,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/business-funding",
+      "description": "Explore business funding around cash flow, investment and your next commercial move.",
+      "h1": [
+        "Funding for the plans taking shape."
+      ],
+      "mainChars": 6670,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/bridging-loans",
+      "description": "Short-term funding for a defined business gap, assessed around a credible repayment plan.",
+      "h1": [
+        "Keep the next step in sight."
+      ],
+      "mainChars": 7569,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/property-finance",
+      "description": "Funding for commercial premises, property development and refinancing.",
+      "h1": [
+        "Finance the property. Bring the plan to life."
+      ],
+      "mainChars": 7311,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/growth-and-ownership-capital",
+      "description": "Equity investment for company growth, acquisitions and changes in ownership.",
+      "h1": [
+        "Capital for growth. A new chapter for ownership."
+      ],
+      "mainChars": 7008,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/venture-funding",
+      "description": "Investment for scalable companies, framed around stage, commercial evidence and the next milestone.",
+      "h1": [
+        "Turn the next milestone into a funding case."
+      ],
+      "mainChars": 6988,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/complex-funding",
+      "description": "A starting point for funding requirements involving unusual structures, deadlines or several stakeholders.",
+      "h1": [
+        "A clear way into a complex funding decision."
+      ],
+      "mainChars": 6466,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/technology-funding",
+      "description": "Funding for eligible technology equipment and separately assessed software or implementation expenditure.",
+      "h1": [
+        "Put better technology behind your plans."
+      ],
+      "mainChars": 7512,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/solutions/sustainability-and-impact",
+      "description": "Funding conversations for cleaner operating assets and businesses with an environmental or social purpose.",
+      "h1": [
+        "Put capital behind a more sustainable business."
+      ],
+      "mainChars": 7433,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/sectors",
+      "description": "Explore funding for plant and machinery, technology, life sciences, insurance and digital asset businesses.",
+      "h1": [
+        "Funding in the context of your business."
+      ],
+      "mainChars": 680,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/sectors/plant-machinery",
+      "description": "Explore machinery purchases, plant-hire fleet investment, dealer stock and customer finance around your equipment business.",
+      "h1": [
+        "Put the next machine behind the next opportunity."
+      ],
+      "mainChars": 3020,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/sectors/technology",
+      "description": "Explore capital for technology companies and funding for systems, software and equipment used by established businesses.",
+      "h1": [
+        "Build the technology. Or put it to work."
+      ],
+      "mainChars": 2943,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/sectors/life-sciences",
+      "description": "Connect your next life-sciences milestone with a funding plan, from development programmes to equipment for operating laboratories.",
+      "h1": [
+        "Capital for the milestone that matters."
+      ],
+      "mainChars": 8246,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/sectors/insurance-capital",
+      "description": "Discuss capital for an insurance business, from broker acquisitions and insurtech growth to entity-specific funding requirements.",
+      "h1": [
+        "Capital for the business you are building."
+      ],
+      "mainChars": 8159,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/sectors/digital-infrastructure",
+      "description": "Discuss operating-company capital for a blockchain or digital-asset business, starting with the activity, jurisdiction and commercial evidence.",
+      "h1": [
+        "Capital for the company behind the technology."
+      ],
+      "mainChars": 8273,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services",
+      "description": "Prepare the strategy, evidence and financial case behind your next capital decision.",
+      "h1": [
+        "Turn your vision into a plan you can act on."
+      ],
+      "mainChars": 4591,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/capital-strategy",
+      "description": "Compare debt, equity and funding priorities around your business plans, cash flow and ownership goals with Frontier’s capital strategy support.",
+      "h1": [
+        "Put the right capital behind the bigger picture."
+      ],
+      "mainChars": 4790,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/funding-readiness",
+      "description": "Prepare your business plan, financial information and supporting evidence for lender or investor conversations with Frontier’s funding readiness support.",
+      "h1": [
+        "Give your plans a funding case that holds together."
+      ],
+      "mainChars": 5058,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/financial-modelling",
+      "description": "Understand your cash requirement, repayment capacity and downside scenarios with a financial model built around the business decision ahead.",
+      "h1": [
+        "See what it takes to make the plan work."
+      ],
+      "mainChars": 5007,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/debt-advisory",
+      "description": "Prepare a lender case and compare borrowing costs, repayment, security and flexibility with Frontier’s debt and capital sourcing support.",
+      "h1": [
+        "Build borrowing around the business ahead."
+      ],
+      "mainChars": 5116,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/equity-advisory",
+      "description": "Prepare your capital raise, investor materials and ownership scenarios around your business milestone and shareholder priorities.",
+      "h1": [
+        "Bring the vision and the investment case together."
+      ],
+      "mainChars": 4981,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/transaction-support",
+      "description": "Coordinate information requests, adviser actions and completion conditions with Frontier’s due diligence and transaction support.",
+      "h1": [
+        "Keep the transaction moving with the detail in hand."
+      ],
+      "mainChars": 5102,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/services/ongoing-advisory",
+      "description": "Review facilities, refresh cash forecasts and prepare for refinancing or the next capital decision with Frontier’s ongoing business support.",
+      "h1": [
+        "Keep the capital plan ready for what comes next."
+      ],
+      "mainChars": 5112,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/about-us",
+      "description": "Understand Frontier’s advisory and business funding roles.",
+      "h1": [
+        "Your plans. The capital to take them forward."
+      ],
+      "mainChars": 2681,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/for-advisers",
+      "description": "Coordinate a client requirement with clear authority, ownership and next actions.",
+      "h1": [
+        "Help your client take the next step."
+      ],
+      "mainChars": 2394,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/funding-options",
+      "description": "Compare borrowing, asset finance, equity and property funding by cost, repayment, ownership and flexibility.",
+      "h1": [
+        "Compare the commitment, not just the amount."
+      ],
+      "mainChars": 3577,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/funding-guide",
+      "description": "Find a starting point for business funding based on what you want to achieve and the support you need.",
+      "h1": [
+        "Start with the decision you need to make."
+      ],
+      "mainChars": 3052,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/credit",
+      "description": "Discussion questions and a write-in outline for business funding.",
+      "h1": [
+        "Business Funding"
+      ],
+      "mainChars": 3081,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/bridging-loans",
+      "description": "Discussion questions and a write-in outline for bridging loans.",
+      "h1": [
+        "Bridging Loans"
+      ],
+      "mainChars": 3243,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/real-estate",
+      "description": "Discussion questions and a write-in outline for property finance.",
+      "h1": [
+        "Property Finance"
+      ],
+      "mainChars": 3051,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/private-equity",
+      "description": "Discussion questions and a write-in outline for equity & growth capital.",
+      "h1": [
+        "Equity & Growth Capital"
+      ],
+      "mainChars": 3013,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/ventures",
+      "description": "Discussion questions and a write-in outline for venture funding.",
+      "h1": [
+        "Venture Funding"
+      ],
+      "mainChars": 3072,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/special-situations",
+      "description": "Discussion questions and a write-in outline for complex funding.",
+      "h1": [
+        "Complex Funding"
+      ],
+      "mainChars": 2886,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/life-sciences",
+      "description": "Discussion questions and a write-in outline for life sciences.",
+      "h1": [
+        "Life Sciences"
+      ],
+      "mainChars": 2835,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/tech-opportunities",
+      "description": "Discussion questions and a write-in outline for technology finance.",
+      "h1": [
+        "Technology Finance"
+      ],
+      "mainChars": 3153,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/double-impact",
+      "description": "Discussion questions and a write-in outline for sustainability & impact.",
+      "h1": [
+        "Sustainability & Impact"
+      ],
+      "mainChars": 3024,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/insurance",
+      "description": "Discussion questions and a write-in outline for insurance.",
+      "h1": [
+        "Insurance"
+      ],
+      "mainChars": 3004,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/briefs/crypto",
+      "description": "Discussion questions and a write-in outline for digital asset businesses.",
+      "h1": [
+        "Digital Asset Businesses"
+      ],
+      "mainChars": 3018,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/contact",
+      "description": "Discuss your business plans, funding requirement or advisory support with Frontier.",
+      "h1": [
+        "What’s next for your business?"
+      ],
+      "mainChars": 934,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/privacy-policy",
+      "description": "How Frontier handles website and direct-email enquiries.",
+      "h1": [
+        "Privacy and information handling"
+      ],
+      "mainChars": 2585,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/terms-use",
+      "description": "Frontier operating details, advisory fees and funding-provider remuneration.",
+      "h1": [
+        "Website information"
+      ],
+      "mainChars": 2043,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/client-login",
+      "description": "Contact Frontier for help with an existing enquiry or engagement.",
+      "h1": [
+        "Client access."
+      ],
+      "mainChars": 346,
+      "viewport": 1363,
+      "width": 1363
+    },
+    {
+      "route": "/forgot-password",
+      "description": "Get help from Frontier with an existing enquiry or engagement.",
+      "h1": [
+        "Need help with access?"
+      ],
+      "mainChars": 315,
+      "viewport": 1363,
+      "width": 1394
+    },
+    {
+      "route": "/404",
+      "h1": [],
+      "viewport": 1363,
+      "width": 1363
+    },
+    {
+      "route": "/ventures",
+      "description": "Investment for scalable companies, framed around stage, commercial evidence and the next milestone.",
+      "h1": [
+        "Turn the next milestone into a funding case."
+      ],
+      "mainChars": 6988,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/crypto",
+      "description": "Discuss operating-company capital for a blockchain or digital-asset business, starting with the activity, jurisdiction and commercial evidence.",
+      "h1": [
+        "Capital for the company behind the technology."
+      ],
+      "mainChars": 8273,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/how-it-works",
+      "description": "One process from business objective to a considered capital decision.",
+      "h1": [
+        "From the plan to the next step."
+      ],
+      "mainChars": 3799,
+      "viewport": 1363,
+      "width": 1348
+    },
+    {
+      "route": "/destination",
+      "description": "Find a starting point for business funding based on what you want to achieve and the support you need.",
+      "h1": [
+        "Start with the decision you need to make."
+      ],
+      "mainChars": 3052,
+      "viewport": 1363,
+      "width": 1348
+    }
+  ],
+  "mobile390": [
+    {
+      "route": "/our-approach",
+      "h1": "From the plan to the next step.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/our-expertise",
+      "h1": "Commercial thinking.\nPractical progress.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/funding-network",
+      "h1": "A broad network.\nA focused approach.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/global-presence",
+      "h1": "Connected to the centres\nwhere business moves.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/",
+      "h1": "Funding the\nnext frontier.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions",
+      "h1": "Put capital behind what comes next.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/business-loans",
+      "h1": "Give your plans room to move.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/asset-finance",
+      "h1": "More capacity. Room to grow.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/hire-purchase",
+      "h1": "Build capacity. Work towards ownership.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/equipment-leasing",
+      "h1": "Equip the business for what comes next.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/asset-refinance",
+      "h1": "Put existing assets behind your next move.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/vehicle-finance",
+      "h1": "Put your next opportunity on the road.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/invoice-finance",
+      "h1": "Keep trading while customers take time to pay.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/stock-dealer-finance",
+      "h1": "Have the stock ready for the next sale.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/trade-import-finance",
+      "h1": "Pay suppliers. Keep the opportunity moving.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/acquisition-finance",
+      "h1": "Fund the acquisition. Think beyond completion.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/asset-based-lending",
+      "h1": "Put more of your asset base to work.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/vendor-finance",
+      "h1": "Help customers turn buying plans into orders.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/business-funding",
+      "h1": "Funding for the plans taking shape.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/bridging-loans",
+      "h1": "Keep the next step in sight.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/property-finance",
+      "h1": "Finance the property. Bring the plan to life.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/growth-and-ownership-capital",
+      "h1": "Capital for growth. A new chapter for ownership.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/venture-funding",
+      "h1": "Turn the next milestone into a funding case.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/complex-funding",
+      "h1": "A clear way into a complex funding decision.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/technology-funding",
+      "h1": "Put better technology behind your plans.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/solutions/sustainability-and-impact",
+      "h1": "Put capital behind a more sustainable business.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/sectors",
+      "h1": "Funding in the context of your business.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/sectors/plant-machinery",
+      "h1": "Put the next machine behind the next opportunity.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/sectors/technology",
+      "h1": "Build the technology. Or put it to work.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/sectors/life-sciences",
+      "h1": "Capital for the milestone that matters.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/sectors/insurance-capital",
+      "h1": "Capital for the business you are building.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/sectors/digital-infrastructure",
+      "h1": "Capital for the company behind the technology.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services",
+      "h1": "Turn your vision into a plan you can act on.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/capital-strategy",
+      "h1": "Put the right capital behind the bigger picture.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/funding-readiness",
+      "h1": "Give your plans a funding case that holds together.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/financial-modelling",
+      "h1": "See what it takes to make the plan work.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/debt-advisory",
+      "h1": "Build borrowing around the business ahead.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/equity-advisory",
+      "h1": "Bring the vision and the investment case together.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/transaction-support",
+      "h1": "Keep the transaction moving with the detail in hand.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/services/ongoing-advisory",
+      "h1": "Keep the capital plan ready for what comes next.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/about-us",
+      "h1": "Your plans. The capital to take them forward.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/for-advisers",
+      "h1": "Help your client take the next step.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/funding-options",
+      "h1": "Compare the commitment, not just the amount.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/funding-guide",
+      "h1": "Start with the decision you need to make.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/credit",
+      "h1": "Business Funding",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/bridging-loans",
+      "h1": "Bridging Loans",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/real-estate",
+      "h1": "Property Finance",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/private-equity",
+      "h1": "Equity & Growth Capital",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/ventures",
+      "h1": "Venture Funding",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/special-situations",
+      "h1": "Complex Funding",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/life-sciences",
+      "h1": "Life Sciences",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/tech-opportunities",
+      "h1": "Technology Finance",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/double-impact",
+      "h1": "Sustainability & Impact",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/insurance",
+      "h1": "Insurance",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/briefs/crypto",
+      "h1": "Digital Asset Businesses",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/contact",
+      "h1": "What’s next for your business?",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/privacy-policy",
+      "h1": "Privacy and information handling",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/terms-use",
+      "h1": "Website information",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/client-login",
+      "h1": "Client access.",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "route": "/forgot-password",
+      "h1": "Need help with access?",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "route": "/404",
+      "h1": "Let’s find a useful starting point.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/ventures",
+      "h1": "Turn the next milestone into a funding case.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/crypto",
+      "h1": "Capital for the company behind the technology.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/how-it-works",
+      "h1": "From the plan to the next step.",
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "route": "/destination",
+      "h1": "Start with the decision you need to make.",
+      "viewport": 390,
+      "width": 375
+    }
+  ],
+  "notes": [
+    "The static server serves the error document at /404.html; this document was separately verified.",
+    "An initial password-assistance width measurement occurred before layout settled; a subsequent DOM check and screenshot showed no overflow.",
+    "All 65 routes rendered at 390px without horizontal page overflow.",
+    "Form validation tested with empty fields only; no real enquiry sent."
+  ]
+}

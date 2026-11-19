@@ -6,10 +6,10 @@
  for(const guide of document.querySelectorAll('.funding-guide')){
   const goals=JSON.parse(guide.dataset.guideGoals),form=guide.querySelector('form'),goal=form.elements.goal,help=form.elements.help,result=guide.querySelector('.guide-result');
   const helpValues=['understand','prepare','talk'];form.querySelector('button').disabled=false;
-  function render(){const choice=goals.find(x=>x.id===goal.value);if(!choice)return;result.replaceChildren(text('p','Information to explore','kicker'),text('h2','Your starting points'),text('p',choice.explain));
+  function render(){const choice=goals.find(x=>x.id===goal.value);if(!choice)return;result.replaceChildren(text('p','Your funding guide','kicker'),text('h2','Options to explore'),text('p',choice.explain));
    if(!choice.routes.length){result.append(text('h3','Begin without a product choice.'),text('p','You can compare commitments, prepare the business objective or discuss what support would help.'),makeLink('/funding-options','Compare funding questions','text-link'),makeLink('/services/funding-readiness','Explore preparation support','text-link'),makeLink('/contact?purpose=not-sure&goal=not-sure&source=%2Ffunding-guide#enquiry','Discuss the objective','text-link'));}
    for(const route of choice.routes){const card=document.createElement('article');card.className='goal-card';const h=document.createElement('h3');h.append(makeLink(route.url,route.title,''));card.append(h,text('p',route.description));if(help.value==='prepare'){const ul=document.createElement('ul');ul.className='checklist';for(const item of route.prepare)ul.append(text('li',item));card.append(ul);}const actions=text('div','','actions');actions.append(makeLink(route.brief||'/briefs/'+route.slug,'Understand the commitments','text-link'),makeLink(route.url+'?goal='+encodeURIComponent(choice.id)+'&source=%2Ffunding-guide#enquiry','Discuss this requirement','text-link'));card.append(actions);result.append(card);}
-   result.append(makeLink('/funding-options','Compare the commitments','text-link'),text('p','Information only, not an eligibility assessment, personalised recommendation or funding offer.','form-note'));result.hidden=false;
+   result.append(makeLink('/funding-options','Compare the commitments','text-link'),text('p','These are starting points for a discussion, not an eligibility assessment or funding offer.','form-note'));result.hidden=false;
   }
   function fromUrl(){const q=new URLSearchParams(location.search),g=goals.find(x=>x.id===q.get('goal')),h=q.get('help');if(g&&helpValues.includes(h)){goal.value=g.id;help.value=h;render();}else{goal.value=goals[0].id;help.value='understand';result.hidden=true;}}
   form.addEventListener('submit',ev=>{ev.preventDefault();const url=new URL(location.href);url.searchParams.set('goal',goal.value);url.searchParams.set('help',help.value);history.pushState(null,'',url);render();result.focus();});
@@ -32,7 +32,7 @@
    ev.preventDefault();if(pending)return;resetErrors();const invalid=[];
    for(const input of form.querySelectorAll('input,textarea')){
     if(input.disabled)continue;
-    if(input.required&&!input.value.trim())input.setCustomValidity('Enter a value for this field.');
+    if(input.required&&!input.value.trim())input.setCustomValidity(input.name==='name'?'Enter your name.':input.name==='phone'?'Enter your phone number.':input.name==='email'?'Enter your email address.':'Complete this field.');
     else if(input.type==='email'&&input.validity.typeMismatch)input.setCustomValidity('Enter an email address in the format name@example.com.');
     if(!input.checkValidity())invalid.push(input);
    }
@@ -63,7 +63,7 @@
     const tick=document.createElementNS('http://www.w3.org/2000/svg','path');tick.setAttribute('d','M8 16.5 13.5 22 24 10');tick.setAttribute('stroke','currentColor');tick.setAttribute('stroke-width','2.5');tick.setAttribute('stroke-linecap','round');tick.setAttribute('stroke-linejoin','round');tick.setAttribute('pathLength','1');svg.append(tick);mark.append(svg);
     const heading=text('h2','Thank you for getting in touch.');
     const received=text('p','We’ve received your message.','enquiry-success-received');
-    const next=text('p','A member of the Frontier team will be in touch soon to discuss your plans and how we can help.','enquiry-success-next');
+    const next=text('p','The Frontier team will contact you to discuss your plans and the next step.','enquiry-success-next');
     const reference=text('p','Your enquiry reference: '+result.reference,'enquiry-success-reference');
     const home=text('a','Back to home','enquiry-success-home');home.href='/';
     success.append(mark,heading,received,next,reference,home);
