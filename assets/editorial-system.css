@@ -312,3 +312,13 @@ body.frontier-editorial .hero .actions>.button{box-sizing:border-box;min-height:
  .frontier-editorial .funding-product-page .asset-list-heading{margin:24px 0 12px}
  .frontier-editorial .funding-product-page .asset-list-heading+.checklist{margin-top:0}
 }
+
+/* Keep mobile funding section links in a single compact, swipeable row. */
+@media(max-width:600px){
+ .frontier-editorial .funding-product-page .page-nav{padding-block:6px}
+ .frontier-editorial .funding-product-page .page-nav .container{min-width:0}
+ .frontier-editorial .funding-product-page .page-nav nav{width:100%;max-width:100%;flex-wrap:nowrap;gap:20px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none}
+ .frontier-editorial .funding-product-page .page-nav nav::-webkit-scrollbar{display:none}
+ .frontier-editorial .funding-product-page .page-nav a{flex:0 0 auto;min-height:44px;white-space:nowrap}
+ .frontier-editorial .funding-product-page .page-nav a:focus-visible{outline-offset:-2px}
+}
