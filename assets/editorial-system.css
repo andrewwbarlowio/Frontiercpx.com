@@ -322,3 +322,9 @@ body.frontier-editorial .hero .actions>.button{box-sizing:border-box;min-height:
  .frontier-editorial .funding-product-page .page-nav a{flex:0 0 auto;min-height:44px;white-space:nowrap}
  .frontier-editorial .funding-product-page .page-nav a:focus-visible{outline-offset:-2px}
 }
+
+@media(max-width:600px){
+ .frontier-editorial .funding-product-page .funding-value-actions{margin-top:24px}
+ .frontier-editorial .funding-product-page .funding-value-actions>.button{width:100%;max-width:100%;padding:13px 20px;justify-content:center;text-align:center;white-space:normal}
+ .frontier-editorial .funding-product-page .funding-value-actions .icon-arrow{flex-shrink:0}
+}
